@@ -57,19 +57,19 @@
         <h3>Campfire Stories</h3>
         <ul class="cts">
           <li><a href="sample-blog.html"><figure>
-            <img src="img/cl-onf.jpg" alt="" id="slot1">
+            <img src="img/cl-onf.jpg" alt="">
             <figcaption>Clearwater Lake</figcaption>
             </figure></a></li>
           <li><a href="#"><figure>
-            <img src="img/denali.jpg" alt="" id="slot2">
+            <img src="img/denali.jpg" alt="">
             <figcaption>Denali National Forest</figcaption>
             </figure></a></li>
           <li><a href="#"><figure>
-            <img src="img/arch.jpg" alt="" id="slot3">
+            <img src="img/arch.jpg" alt="">
             <figcaption>Arches National Park</figcaption>
             </figure></a></li>
           <li><a href="#"><figure>
-            <img src="img/yosemite.jpg" alt="" id="slot4">
+            <img src="img/yosemite.jpg" alt="">
             <figcaption>Yosemite National Park</figcaption>
             </figure></a></li>
 <!--          <li id="read_more_camp"><a href="#">...</a></li>-->
@@ -84,12 +84,32 @@
       <a href="http://instagram.com/mountmckiki" target="_blank" class="social" id="instagram-icon"><img src="img/instagram-icon.svg"></a>
     </footer>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-	jQuery(function($){
-    	     $( '.menu-btn' ).click(function(){
-    	       $('.responsive-menu').toggleClass('expand')
-    	     })
-        })
-    </script>
+    <script type="text/javascript">
+    	jQuery(function($){
+        	     $( '.menu-btn' ).click(function(){
+        	       $('.responsive-menu').toggleClass('expand')
+        	     })
+            })
+      jQuery(function($){
+        $("body").append('<div id="overlay"></div>
+              <div id="cfstory-lightbox" class="dialog">
+                <div class="closer"></div>
+                <div class="content panes">
+                  <div class="pane" style="display:block;">
+                    <h3 id="blog-top-h3">Clearwater Lake</h3><br/>
+                    <h3>Ocala National Forest</h3>
+                    <div class="blog-head"></div>
+                    <div class="blog-body" style="max-height:1000px">
+                      <br/>
+                      <p>Getting away from it all is one of the best things you can do sometimes. You come back refreshed and renewed and that is exactly what happened to me this weekend. Some friends and I got away to the Ocala National Forest for a little car camping. </p>
+                      <aside><img src="img/odd-onf.jpg" alt="The most colorful people I have met"></aside>
+                  </div>
+                </div>
+              </div>
+            </div>')});
+       jQuery(function($){
+         $('div.closer').bind('click', function(){document.getElementById("overlay").style.display="none";
+        document.getElementById('cfstory-lightbox').style.display="none"})});
+        </script>
   </body>
 </html>
