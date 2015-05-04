@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Subscribe | Mount McKinney</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Vast+Shadow|Cinzel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="contact-header">
+      <div id="name">
+        <h3>John McKinney</h3>
+        <p>Web Developer</p>
+      </div>
+      <div class="mobile-nav">
+        <div class="menu-btn" id="menu-btn">
+           <div></div>
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
+
+        <div class="responsive-menu">
+            <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="portfolio.html"><li>Portfolio</li></a>
+            <a href="camp-fire.html"><li>Campfire Stories</li></a>
+            <a href="twocents.html"><li>My Two Cents</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="subscribe.html"><li>Subscribe</li></a>
+            </ul>
+        </div>
+      </div>
+
+
+
+      <div id="menu">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="portfolio.html"><li>Portfolio</li></a>
+            <li class="blog">Blog
+              <ul>
+                <a href="camp-fire.html"><li>Campfire Stories</li></a>
+                <a href="twocents.html"><li>My Two Cents</li></a>
+              </ul>
+            </li>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="subscribe.html"><li>Subscribe</li></a>
+        </ul>
+      </div>
+    </header>
+    <div id="wrapper-subscribe">
+      <div class="sub-page">
+        <h4>Subscribe</h4>
+        <div id="sub">
+          <form class="sub-form" id="sub-formpage">
+            <div id="firstname">
+              <label for="name">First Name</label>
+              <input type="text" id="firstname" name="user_name">
+            </div>
+            <div id="email">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="user_email">
+            </div>
+            <div class="contact-button">
+              <button type="submit">Connect</button>
+            </div>
+          </form>
+        </div>
+       </div>
+      </div>
+    <footer class="contact-footer">
+      <p>&copy; 2015 Mount McKinney</p>
+      <a href="http://facebook.com/jmckiki" target="_blank" class="social" id="facebook-icon"><img src="img/facebook-icon.svg"></a>
+      <a href="http://twitter.com/mountmckiki" target="_blank" class="social" id="twitter-icon"><img src="img/twitter-icon.svg"></a>
+      <a href="http://instagram.com/mountmckiki" target="_blank" class="social" id="instagram-icon"><img src="img/instagram-icon.svg"></a>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	  <script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	       $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+    </script>
+  </body>
+</html>

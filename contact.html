@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Contact | Mount McKinney</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Vast+Shadow|Cinzel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="contact-header">
+      <div id="name">
+        <h3>John McKinney</h3>
+        <p>Web Developer</p>
+      </div>
+      <div class="mobile-nav">
+        <div class="menu-btn" id="menu-btn">
+           <div></div>
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
+
+        <div class="responsive-menu">
+            <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="portfolio.html"><li>Portfolio</li></a>
+            <a href="camp-fire.html"><li>Campfire Stories</li></a>
+            <a href="twocents.html"><li>My Two Cents</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="subscribe.html"><li>Subscribe</li></a>
+            </ul>
+        </div>
+      </div>
+
+
+
+      <div id="menu">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="portfolio.html"><li>Portfolio</li></a>
+            <li class="blog">Blog
+              <ul>
+                <a href="camp-fire.html"><li>Campfire Stories</li></a>
+                <a href="twocents.html"><li>My Two Cents</li></a>
+              </ul>
+            </li>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="subscribe.html"><li>Subscribe</li></a>
+        </ul>
+      </div>
+    </header>
+    <div id="wrapper-contact">
+      <div class="about">
+        <h4>About</h4>
+        <div>
+        <img src="img/me.jpg">
+        <p>Hi, my name is John McKinney. I am a web developer, designer, and backcountry hiking enthusiast. If you'd like to read about my trips to some of the most beautiful natural landmarks our country has to offer, head over to the <a href="camp-fire.html">Campfire Stories</a> or read my advice about camping on <a href="twocents.html">My Two Cents</a>. Make sure to <a href="subscribe.html">Subscribe</a> to catch my latest adventure!</p>
+        <p>If you'd like more info on the web development services I offer as well as check out my portfolio of work, head to the <a href="portfolio.html">Portfolio</a> tab. If you need any further info or just want to chat with me, I can be reached via the contact links on this page.</p>
+        <p>The best way to get in touch with me is email. I always love to hear from you, especially if you have ideas for my next trip.</p>
+      </div>
+     </div>
+      <div class="contact-details">
+        <h4>Contact</h4>
+        <div>
+        <ul class="details">
+          <li class="mail"><img src="img/mail.png"><a href="mailto:f.johnmckinney@gmail.com">f.johnmckinney@gmail.com</a></li>
+          <li class="twitter"><img src="img/twitter-icon.svg"><a href="http://twitter.com/intent/tweet?screen_name=mountmckiki" target="_blank" "social" id="twitter-icon">@mountmckiki</a></li>
+          <li class="facebook"><img src="img/facebook-icon.svg"><a href="http://facebook.com/jmckiki" target="_blank" class="social" id="facebook-icon">John McKiki</a></li>
+        </ul>
+       </div>
+      </div>
+      <div class="subscribe">
+        <h4>Subscribe</h4>
+        <div id="sub">
+          <form class="sub-form">
+            <div id="firstname">
+              <label for="name">First Name</label>
+              <input type="text" id="firstname" name="user_name">
+            </div>
+            <div id="email">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="user_email">
+            </div>
+            <div class="contact-button">
+              <button type="submit">Connect</button>
+            </div>
+          </form>
+        </div>
+       </div>
+      </div>
+    <footer class="contact-footer">
+      <p>&copy; 2015 Mount McKinney</p>
+      <a href="http://facebook.com/jmckiki" target="_blank" class="social" id="facebook-icon"><img src="img/facebook-icon.svg"></a>
+      <a href="http://twitter.com/mountmckiki" target="_blank" class="social" id="twitter-icon"><img src="img/twitter-icon.svg"></a>
+      <a href="http://instagram.com/mountmckiki" target="_blank" class="social" id="instagram-icon"><img src="img/instagram-icon.svg"></a>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	       $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+    </script>
+  </body>
+</html>
