@@ -81,6 +81,8 @@ img {
   }
 
 
+
+
 /*---------Body---------*/
 
 body {
@@ -100,7 +102,7 @@ body {
   border-top: 13px solid #09f;
   color: #2e2e2e;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .campfire ul {
@@ -135,6 +137,11 @@ body {
   text-align:center;
 }
 
+.cts figure {
+  height:450px;
+  max-width:330px;
+}
+
 .cts img {
   border-top:5px solid orange;
   border-radius:30px;
@@ -156,7 +163,7 @@ body {
   border-top: 13px solid #09f;
   color: #2e2e2e;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .camping-tips ul {
@@ -250,7 +257,7 @@ footer {
   }
 
 .cts li {
-  max-width:410px;
+  max-width:450px;
   display:inline-block;
   margin: 0 5%;
 
@@ -520,20 +527,16 @@ footer {
 	display: none;
 }
 
-.hidden{
-  display: none;
-}
-
 .expand {
 	display: block;
   margin-top:15px;
   margin-left: 10px;
   width:200px;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.6);
 }
 
 .expand li {
-  padding:12px;
+  padding:15px;
   text-align:left;
   border-bottom:1px solid #09f;
   position:relative;
@@ -592,7 +595,7 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top:130px;
+  margin-top:90px;
 }
 
 .about div {
@@ -601,7 +604,7 @@ footer {
   border-top-right-radius: 30px;
   padding-top:50px;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .about p {
@@ -672,7 +675,7 @@ footer {
   padding-top:10px;
   margin-bottom:100px;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 @media screen and (max-width: 770px) {
@@ -742,7 +745,7 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 130px;
+  margin-top: 90px;
 }
 
 #ps {
@@ -752,7 +755,7 @@ footer {
   padding-top:10px;
   margin-bottom:100px;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 #ps p {
@@ -795,7 +798,7 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 130px;
+  margin-top: 50px;
 }
 
 #wrapper-subscribe {
@@ -867,17 +870,37 @@ form {
 }
 
 
-/*---------PAGE:SAMPLE BLOG---------*/
+/*---------LIGHTBOX:CAMPFIRE STORIES---------*/
 
-.blog-story {
-  text-align:center;
-  font-size:2.25rem;
-  text-transform:uppercase;
+#overlay {
+  position:fixed;
+  top:0;
+  left:0;
   width:100%;
-  padding: 20px 5px;
-  font-family: 'Vast Shadow', cursive;
-  position: relative;
-  z-index: 1;
+  height:100%;
+  background-color:#000;
+  filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity:0.5;
+  opacity:0.5;
+  z-index:1000;
+}
+
+#cfstory-lightbox {
+  position:fixed;
+  top:20%;
+  left:50%;
+  width:1000px;
+  height:auto;
+  background:#fff;
+  box-shadow: 0 2px 10px #333;
+  margin-left: -425px;
+  z-index:1001;
+}
+
+
+.closer {
+
 }
 
 #blog-top-h3 {
@@ -885,6 +908,14 @@ form {
   border-top-right-radius: 30px;
   border-top: 13px solid #09f;
   color: #2e2e2e;
+  text-align:center;
+  font-size:2.25rem;
+  text-transform:uppercase;
+  width:100%;
+  padding: 20px 5px;
+  font-family: 'Vast Shadow', cursive;
+  position: relative;
+  z-index: -1;
 }
 
 
