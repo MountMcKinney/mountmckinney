@@ -100,7 +100,7 @@ body {
   border-top: 13px solid #09f;
   color: #2e2e2e;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .campfire ul {
@@ -156,7 +156,7 @@ body {
   border-top: 13px solid #09f;
   color: #2e2e2e;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .camping-tips ul {
