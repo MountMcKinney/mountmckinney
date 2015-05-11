@@ -378,8 +378,8 @@ footer {
 
 @media screen and (max-width: 770px) {
   #cont-me {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 40%;
+    padding-right: 40%;
   }
 
 /*
@@ -775,7 +775,7 @@ footer {
   border-top:3px solid orange;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  padding-top:10px;
+  padding:10px 10%;
   margin-bottom:100px;
 }
 
@@ -826,7 +826,7 @@ textarea {
   overflow:auto;
 }
 
-.sub-form, #contact-us {
+.sub-form, #contact-us, .ss-form {
   margin: 10px auto;
 }
 
