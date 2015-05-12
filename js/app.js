@@ -55,7 +55,7 @@ $("#sub-formpage").submit(function(event){
     event.preventDefault();
 });
 
-$("#sub-formpage").submit(function(event){
+$("#contact-us").submit(function(event){
 
     // Abort any pending request
     if (request) {
