@@ -101,15 +101,17 @@
                type: "POST",
                dataType: "xml",
                statusCode: {
-                   0: function () {
-                       window.location.replace("camp-fire.html");
-                   },
-                   200: function () {
-                       window.location.replace("camp-fire.html");
-                   }
-               }
-           });
-         }
+                 0: function () {
+                     $('#contact-name').load("contact-thankyou.html");
+                     $('#contact-us').hide();
+                 },
+                //  success: function () {
+                //      $('#sub').load("thankyou.html");
+                //      $('#sub-formpage').hide();
+                //  }
+             }
+         });
+       }
     </script>
   </body>
 </html>

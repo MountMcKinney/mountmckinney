@@ -675,6 +675,25 @@ footer {
   z-index: 1;
 }
 
+#sub section {
+  color: #09f;
+  font-family:"Quicksand";
+  text-align:center;
+}
+
+#sub section h2 {
+  text-transform:uppercase;
+  font-size:2.5rem;
+  line-height:2;
+}
+
+#sub section p {
+  text-transform:capitalize;
+  font-size:1.6rem;
+  color:#09f;
+}
+
+
 @media screen and (max-width: 770px) {
 
 .contact-header {
@@ -769,6 +788,24 @@ footer {
   font-size:2rem;
   text-align:center;
   margin-top: 50px;
+}
+
+#contact-name section {
+  color: #09f;
+  font-family:"Quicksand";
+  text-align:center;
+}
+
+#contact-name section h2 {
+  text-transform:uppercase;
+  font-size:2.5rem;
+  line-height:2;
+}
+
+#contact-name section p {
+  text-transform:capitalize;
+  font-size:1.6rem;
+  color:#09f;
 }
 
 #cont-me {
