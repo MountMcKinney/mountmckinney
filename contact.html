@@ -110,14 +110,14 @@
                  type: "POST",
                  dataType: "xml",
                  statusCode: {
-                    //  0: function () {
-                    //      $('#sub').load("error.html");
-                    //      $('#sub-formpage').hide();
-                    //  },
-                     200: function () {
+                     error: function () {
                          $('#sub').load("thankyou.html");
                          $('#sub-formpage').hide();
-                     }
+                     },
+                    //  success: function () {
+                    //      $('#sub').load("thankyou.html");
+                    //      $('#sub-formpage').hide();
+                    //  }
                  }
              });
            }
