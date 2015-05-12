@@ -74,23 +74,17 @@
       <div class="subscribe">
         <h4>Subscribe</h4>
         <div id="sub">
-          <iframe src="https://docs.google.com/forms/d/1gzeVUb99GZYX4Dy9R0MCfr3kn0_typhQqN0JOZbW9rA/viewform?embedded=true" width="550" height="610" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-          <!-- <form class="sub-form">
-            <div id="firstname">
-              <label for="name">First Name</label>
-              <input type="text" id="firstname" name="user_name">
+            <form class="sub-form" id="sub-formpage">
+                    <label for="name">Name</label>
+                    <input type="text" id="sub_form_name" name="entry.1029484234"/>
+                    <label for="email">Email</label>
+                    <input type="email" id="sub_form_email" name="entry.2088672430"/>
+                    <!-- <input type="submit" name="submit" value="Connect" class="contact-button"/> -->
+                    <button id="ButtonSubmit" onclick="postContactToGoogle()" type="button">Connect</button>
+                </form>
+              </div>
+             </div>
             </div>
-            <div id="email">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="user_email">
-            </div>
-            <div class="contact-button">
-              <button type="submit">Connect</button>
-            </div>
-          </form> -->
-        </div>
-       </div>
-      </div>
     <footer class="contact-footer">
       <p>&copy; 2015 Mount McKinney</p>
       <a href="http://facebook.com/mountmckinney" target="_blank" class="social" id="facebook-icon"><img src="img/facebook-icon.svg"></a>
@@ -104,6 +98,28 @@
     	       $('.responsive-menu').toggleClass('expand')
     	     })
         })
+    </script>
+    <script>
+      function postContactToGoogle() {
+       var email = $('#sub_form_email').val();
+       var first = $('#sub_form_name').val();
+
+           $.ajax({
+               url: "https://docs.google.com/forms/d/1gzeVUb99GZYX4Dy9R0MCfr3kn0_typhQqN0JOZbW9rA/formResponse",
+               data: { "entry.2088672430": email,
+               "entry.1029484234": first},
+               type: "POST",
+               dataType: "xml",
+               statusCode: {
+                   0: function () {
+                       window.location.replace("camp-fire.html");
+                   },
+                   200: function () {
+                       window.location.replace("camp-fire.html");
+                   }
+               }
+           });
+         }
     </script>
   </body>
 </html>
