@@ -76,11 +76,10 @@
         <div id="sub">
             <form class="sub-form" id="sub-formpage">
                     <label for="name">Name</label>
-                    <input type="text" id="sub_form_name" name="entry.1029484234"/>
+                    <input type="text" id="sub_form_name" name="entry.1029484234" class="required"/>
                     <label for="email">Email</label>
-                    <input type="email" id="sub_form_email" name="entry.2088672430"/>
-                    <!-- <input type="submit" name="submit" value="Connect" class="contact-button"/> -->
-                    <button id="ButtonSubmit" onclick="postContactToGoogle()" type="button">Connect</button>
+                    <input type="email" id="sub_form_email" name="entry.2088672430" class="required"/>
+                    <button id="ButtonSubmit" onclick="postContactToGoogle()" type="button" class="submit-button-form">Connect</button>
                 </form>
               </div>
              </div>
@@ -93,13 +92,11 @@
     </footer>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
-	jQuery(function($){
+	   jQuery(function($){
     	     $( '.menu-btn' ).click(function(){
     	       $('.responsive-menu').toggleClass('expand')
     	     })
-        })
-    </script>
-    <script>
+        });
       function postContactToGoogle() {
        var email = $('#sub_form_email').val();
        var first = $('#sub_form_name').val();
@@ -109,17 +106,31 @@
                data: { "entry.2088672430": email,
                "entry.1029484234": first},
                type: "POST",
+               timeout: 3000,
                dataType: "xml",
                statusCode: {
-                   0: function () {
-                       window.location.replace("camp-fire.html");
-                   },
                    200: function () {
-                       window.location.replace("camp-fire.html");
+                       $("#sub-formpage").hide();
+                       $('#divContactFrm').html("<div id='divSuccessMsg'></div>");
+                       $('#divSuccessMsg').html("Thank you! Your message has been sent to us. We'll be getting back to you shortly")
+                       .hide()
+                       .fadeIn(1500, function() { $('#divSuccessMsg'); });
+                      setTimeout(resetAll,3000);
+                   },
+                   error: function() {
+                     $('#divContactFrm').html("<div id='divErrorMsg'></div>");
+                     $('#divErrorMsg').html("Something is going wrong...")
+                     .hide()
+                     .fadeIn(1500, function() { $('#divErrorMsg'); });
                    }
-               }
-           });
-         }
+                 });
+             return false;
+           };
+           function resetAll(){
+              $("#contactForm").show();
+              $('#divSuccessMsg').remove(); // Removing it as with next form submit you will be adding the div again in your code.
+          }
+        }
     </script>
   </body>
 </html>

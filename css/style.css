@@ -845,7 +845,7 @@ label {
 }
 
 
-.jfk-button {
+.submit-button-form {
   border: 1px solid #09f;
   color:white;
   background-color:orange;
@@ -940,41 +940,10 @@ aside {
 }
 
 
-
-
-
-
-
-
-
-
-
-.ss-q-title {
-  font-family: "Quicksand";
-  color: rgb(0,153,255);
-  font-weight: 700;
-  font-size: 1.250rem;
-  font-style: normal;
-}
-
-.ss-q-help {
-  font-family: "Quicksand";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-}
-
 input[type='text'], input:not([type]), textarea {
   font-size: 1.000rem;
 }
 
-/*.jfk-button {
-  background-color: #09f;
-  border-radius: 15px;
-  color:white;
-  font-family:"Quicksand";
-}*/
 
 @media screen and (min-width:900px){
   #cont-me {
