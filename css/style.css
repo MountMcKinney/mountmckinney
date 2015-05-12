@@ -781,11 +781,12 @@ footer {
 
 .contact-button {
   margin-top:20px;
-}
-
-.contact-button button {
   width:200px;
   float:right;
+  background-color:orange;
+  color:white;
+  border:1px #09f solid;
+  border-radius:15px;
 }
 
 
@@ -844,7 +845,7 @@ label {
 }
 
 
-form button {
+.jfk-button {
   border: 1px solid #09f;
   color:white;
   background-color:orange;
@@ -968,9 +969,21 @@ input[type='text'], input:not([type]), textarea {
   font-size: 1.000rem;
 }
 
-.jfk-button {
+/*.jfk-button {
   background-color: #09f;
   border-radius: 15px;
   color:white;
   font-family:"Quicksand";
+}*/
+
+@media screen and (min-width:900px){
+  #cont-me {
+    padding:10px 28%;
+  }
+}
+
+@media screen and (min-width:770px) and (max-width:900px) {
+  #cont-me {
+    padding:10px 20%;
+  }
 }
