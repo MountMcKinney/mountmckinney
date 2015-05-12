@@ -25,7 +25,7 @@ $("#sub-formpage").submit(function(event){
     // Fire off the request to /form.php
     request = $.ajax({
         url: "https://docs.google.com/forms/d/1gzeVUb99GZYX4Dy9R0MCfr3kn0_typhQqN0JOZbW9rA/formResponse",
-        type: "post",
+        type: "POST",
         data: serializedData
     });
 
