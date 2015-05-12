@@ -57,10 +57,10 @@
         <div id="sub">
           <form class="sub-form" id="sub-formpage">
               <label for="name">Name</label>
-              <input type="text" id="sub_form_user_name" name="entry.1029484234"/>
+              <input type="text" id="sub_form_name" name="entry.1029484234"/>
               <label for="email">Email</label>
-              <input type="email" id="sub_form_user_email" name="entry.2088672430"/>
-              <input type="submit" value="Connect" class="contact-button"/>
+              <input type="email" id="sub_form_email" name="entry.2088672430"/>
+              <input type="submit" name="submit" value="Connect" class="contact-button"/>
           </form>
         </div>
        </div>
@@ -73,12 +73,33 @@
     </footer>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	  <script type="text/javascript">
-	jQuery(function($){
+	   jQuery(function($){
     	     $( '.menu-btn' ).click(function(){
     	       $('.responsive-menu').toggleClass('expand')
     	     })
         })
     </script>
-    <script src="/js/app.js" type=text/javascript charset="utf-8"></script>
+    <script>
+      function postContactToGoogle() {
+       var email = $('#sub_form_email').val();
+       var first = $('#sub_form_name').val();
+
+           $.ajax({
+               url: "https://docs.google.com/forms/d/1PTIFxKDZBqKdrkGAgrsa28wus8FyP6XrMTWzabRuC18/formResponse",
+               data: { "entry.2088672430": email,
+               "entry.1029484234": first},
+               type: "POST",
+               dataType: "xml",
+               statusCode: {
+                   0: function () {
+                       window.location.replace("camp-fire.html");
+                   },
+                   200: function () {
+                       window.location.replace("camp-fire.html");
+                   }
+               }
+           });
+         }
+    </script>
   </body>
 </html>
