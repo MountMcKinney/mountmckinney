@@ -108,7 +108,6 @@
                data: { "entry.2088672430": email,
                "entry.1029484234": first},
                type: "POST",
-               timeout: 3000,
                dataType: "xml",
                statusCode: {
                    200: function () {
@@ -119,7 +118,7 @@
                        .fadeIn(1500, function() { $('#divSuccessMsg'); });
                       setTimeout(resetAll,3000);
                    },
-                   error: function() {
+                   0: function() {
                      $('#divContactFrm').html("<div id='divErrorMsg'></div>");
                      $('#divErrorMsg').html("Something is going wrong...")
                      .hide()
