@@ -2,36 +2,36 @@
   function display_campfire_html($cfstoryname,$cfstory){
     //build HTML output here
     $output = "";
-    $output = $output . "<li>";
-    $output = $output .'<a href="campfire-blog.php?php='.$cfstoryname.'">';
-    $output = $output ."<figure>";
-    $output = $output .'<img src="'.$cfstory["img"] .'" alt="'.$cfstory["name"].'">';
-    $output = $output ."<figcaption>".$cfstory["location"]."</figcaption>";
-    $output = $output ."</figure>";
-    $output = $output ."</a>";
-    $output = $output ."</li>";
+    $output .= "<li>";
+    $output .= '<a href="campfire.php?location='.$cfstoryname.'">';
+    $output .= "<figure>";
+    $output .= '<img src="'.$cfstory["img"] .'" alt="'.$cfstory["name"].'">';
+    $output .= "<figcaption>".$cfstory["location"]."</figcaption>";
+    $output .= "</figure>";
+    $output .= "</a>";
+    $output .= "</li>";
 
     return $output;
   }
 
   $cfstories = array();
-  $cfstories["clearwater-lake"] = array(
-    "img" => "../img/cl-onf.jpg",
+  $cfstories["clearwater"] = array(
+    "img" => <?php echo BASE_URL; ?>"img/cl-onf.jpg",
     "name" => "Clearwater Lake, Ocala National Forest",
     "location" => "Clearwater Lake"
   );
   $cfstories["denali"] = array(
-    "img" => "../img/denali.jpg",
+    "img" => <?php echo BASE_URL; ?>"/img/denali.jpg",
     "name" => "Denali National Park, Alaska",
     "location" => "Denali National Park"
   );
   $cfstories["arches"] = array(
-    "img" => "../img/arch.jpg",
-    "name" => "Clearwater Lake, Ocala National Forest",
-    "location" => "Clearwater Lake"
+    "img" => <?php echo BASE_URL; ?>"/img/arch.jpg",
+    "name" => "Arches National Park, Utah",
+    "location" => "Arches"
   );
   $cfstories["yosemite"] = array(
-    "img" => "../img/yosemite.jpg",
+    "img" => <?php echo BASE_URL; ?>"/img/yosemite.jpg",
     "name" => "Yosemite National Park, California",
     "location" => "Yosemite National Park"
   );
