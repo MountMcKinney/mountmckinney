@@ -5,7 +5,7 @@ RewriteRule ^twocents/$ /twocents/tcblog.php
 RewriteRule ^twocents/([a-z]+)/$ /twocents/tcblog.php?location=$1
 RewriteRule ^subscribe.php$ /receipt/ [R=301]
 RewriteRule ^contact.php$ /contact/ [R=301]
-RewriteRule ^portfolio.php$ /shirts/ [R=301]
+RewriteRule ^portfolio.php$ /portfolio/ [R=301]
 RewriteRule ^(campfirestories/[a-z]+)$ /$1/ [R=301]
 RewriteRule ^(twocents/[a-z]+)$ /$1/ [R=301]
 
