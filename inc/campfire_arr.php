@@ -3,9 +3,9 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="campfire.php?location='.$cfstoryname.'">';
+    $output .= '<a href="campfire.php?location='.$cfstoryname.'/">';
     $output .= "<figure>";
-    $output .= '<img src="'.$cfstory["img"] .'" alt="'.$cfstory["name"].'">';
+    $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["name"].'">';
     $output .= "<figcaption>".$cfstory["location"]."</figcaption>";
     $output .= "</figure>";
     $output .= "</a>";
@@ -16,22 +16,22 @@
 
   $cfstories = array();
   $cfstories["clearwater"] = array(
-    "img" => <?php echo BASE_URL; ?>"img/cl-onf.jpg",
+    "img" => "../img/cl-onf.jpg",
     "name" => "Clearwater Lake, Ocala National Forest",
     "location" => "Clearwater Lake"
   );
   $cfstories["denali"] = array(
-    "img" => <?php echo BASE_URL; ?>"/img/denali.jpg",
+    "img" => "../img/denali.jpg",
     "name" => "Denali National Park, Alaska",
     "location" => "Denali National Park"
   );
   $cfstories["arches"] = array(
-    "img" => <?php echo BASE_URL; ?>"/img/arch.jpg",
+    "img" => "../img/arch.jpg",
     "name" => "Arches National Park, Utah",
-    "location" => "Arches"
+    "location" => "Arches National Park"
   );
   $cfstories["yosemite"] = array(
-    "img" => <?php echo BASE_URL; ?>"/img/yosemite.jpg",
+    "img" => "../img/yosemite.jpg",
     "name" => "Yosemite National Park, California",
     "location" => "Yosemite National Park"
   );

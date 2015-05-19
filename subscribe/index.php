@@ -7,8 +7,8 @@ require_once("../inc/config.php");
   $pageTitle="Subscribe";
   include(ROOT_PATH."inc/header.php");
 ?>    <header class="contact-header">
-      <?php include("inc/name_title_header.php");?>
-      <?php include("inc/menu.php");?>
+      <?php include(ROOT_PATH."inc/name_title_header.php");?>
+      <?php include(ROOT_PATH."inc/menu.php");?>
     </header>
     <div id="wrapper-subscribe">
       <div class="sub-page">

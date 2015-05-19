@@ -10,8 +10,8 @@
       <ul>
       <a href="<?php echo BASE_URL; ?>index.php"><li>Home</li></a>
       <a href="<?php echo BASE_URL; ?>portfolio.php"><li>Portfolio</li></a>
-      <a href="<?php echo BASE_URL; ?>campfirestories.php"><li>Campfire Stories</li></a>
-      <a href="<?php echo BASE_URL; ?>twocents.php"><li>My Two Cents</li></a>
+      <a href="<?php echo BASE_URL; ?>campfirestories/campfirestories.php"><li>Campfire Stories</li></a>
+      <a href="<?php echo BASE_URL; ?>twocents/twocents.php"><li>My Two Cents</li></a>
       <a href="<?php echo BASE_URL; ?>contact.php"><li>Contact</li></a>
       <a href="<?php echo BASE_URL; ?>subscribe.php"><li>Subscribe</li></a>
       </ul>
@@ -23,8 +23,8 @@
       <a href="<?php echo BASE_URL; ?>portfolio.php"><li>Portfolio</li></a>
       <li class="blog">Blog
         <ul>
-          <a href="<?php echo BASE_URL; ?>campfirestories.php"><li>Campfire Stories</li></a>
-          <a href="<?php echo BASE_URL; ?>twocents.php"><li>My Two Cents</li></a>
+          <a href="<?php echo BASE_URL; ?>campfirestories/campfirestories.php"><li>Campfire Stories</li></a>
+          <a href="<?php echo BASE_URL; ?>twocents/twocents.php"><li>My Two Cents</li></a>
         </ul>
       </li>
       <a href="<?php echo BASE_URL; ?>contact.php"><li>Contact</li></a>

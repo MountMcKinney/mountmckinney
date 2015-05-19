@@ -1,9 +1,11 @@
-$(function($){
-         $( '.menu-btn' ).click(function(){
-           $('.responsive-menu').toggleClass('expand')
-         })
-      });
+jQuery('.title').hide().fadeIn(3000);
 
+jQuery(function($){
+     $( '.menu-btn').click(function(){
+       $('.responsive-menu').toggleClass('expand');
+       $('.home-header').toggleClass('hidden');
+     })
+})
 
 function postPortfolioToGoogle() {
  var email = $('#connect_email').val();
