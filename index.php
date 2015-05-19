@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 require_once("inc/config.php");
+=======
+require_once("/inc/config.php");
+>>>>>>> origin/Changing-code-to-php
 ?>
 <!DOCTYPE html>
 <html id="homepage">
