@@ -26,8 +26,8 @@ $pageTitle = $cfstory["location"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
+  <!-- <div class="breadcrumb"><a href="campfirestories.php">Campfire Stories</a> &gt; <?php echo $cfstory ["name"]; ?></div> -->
   <div id="wrapper">
-    <!-- <div class="breadcrumb"><a href="camp-fire.php">Campfire Stories</a> &gt; <?php echo $cfstory ["name"]; ?></div> -->
     <div id="main-left">
       <div class="campfire">
         <h3 id="blog-top-h3"> <?php echo $cfstory["location"];?> </h3>

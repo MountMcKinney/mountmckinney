@@ -15,22 +15,27 @@
   }
 
   $cfstories = array();
-  $cfstories["clearwater_lake"] = array(
+  $cfstories[101] = array(
     "img" => "../img/cl-onf.jpg",
     "name" => "Clearwater Lake, Ocala National Forest",
     "location" => "Clearwater Lake"
   );
-  $cfstories["denali"] = array(
+  $cfstories[102] = array(
     "img" => "../img/denali.jpg",
     "name" => "Denali National Park, Alaska",
     "location" => "Denali National Park"
   );
-  $cfstories["arches"] = array(
+  $cfstories[103] = array(
     "img" => "../img/arch.jpg",
     "name" => "Arches National Park, Utah",
     "location" => "Arches National Park"
   );
-  $cfstories["yosemite"] = array(
+  $cfstories[104] = array(
+    "img" => "../img/yosemite.jpg",
+    "name" => "Yosemite National Park, California",
+    "location" => "Yosemite National Park"
+  );
+  $cfstories[105] = array(
     "img" => "../img/yosemite.jpg",
     "name" => "Yosemite National Park, California",
     "location" => "Yosemite National Park"
