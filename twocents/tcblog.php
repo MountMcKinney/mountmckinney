@@ -26,7 +26,7 @@ $pageTitle = $tcpost["location"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
-  <!-- <div class="breadcrumb"><a href="twocents.php">Two Cents</a> &gt; <?php echo $tcpost ["name"]; ?></div> -->
+  <div class="breadcrumb"><a href="twocents.php">Two Cents</a> &gt; <?php echo $tcpost ["name"]; ?></div>
   <div id="wrapper">
     <div id="main-right">
       <div class="camping-tips">
