@@ -25,9 +25,9 @@ require_once("../inc/config.php");
         <h4>Contact</h4>
         <div>
         <ul class="details">
-          <li class="mail"><img src="img/mail.png"><a href="mailto:john@mountmckinney.com">john@mountmckinney.com</a></li>
-          <li class="twitter"><img src="img/twitter-icon.svg"><a href="http://twitter.com/intent/tweet?screen_name=mountmckinney" target="_blank" "social" id="twitter-icon">@mountmckinney</a></li>
-          <li class="facebook"><img src="img/facebook-icon.svg"><a href="http://facebook.com/mountmckinney" target="_blank" class="social" id="facebook-icon">Mount McKinney</a></li>
+          <li class="mail"><img src="<?php echo BASE_URL; ?>img/mail.png"><a href="mailto:john@mountmckinney.com">john@mountmckinney.com</a></li>
+          <li class="twitter"><img src="<?php echo BASE_URL; ?>img/twitter-icon.svg"><a href="http://twitter.com/intent/tweet?screen_name=mountmckinney" target="_blank" "social" id="twitter-icon">@mountmckinney</a></li>
+          <li class="facebook"><img src="<?php echo BASE_URL; ?>img/facebook-icon.svg"><a href="http://facebook.com/mountmckinney" target="_blank" class="social" id="facebook-icon">Mount McKinney</a></li>
         </ul>
        </div>
       </div>

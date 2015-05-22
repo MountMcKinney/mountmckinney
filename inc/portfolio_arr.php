@@ -1,14 +1,14 @@
 <?php
-  function display_campfire_html($websitenum,$website){
+  function display_portfolio_html($websitenum,$website){
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="campfire.php?location='.$websitenum.'/">';
+    // $output .= '<a href="campfire.php?location='.$website["img"].'/">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$website["thumbnail"] .'" alt="'.$website["name"].'">';
     $output .= "<figcaption>".$website["name"]."</figcaption>";
     $output .= "</figure>";
-    $output .= "</a>";
+    // $output .= "</a>";
     $output .= "</li>";
 
     return $output;

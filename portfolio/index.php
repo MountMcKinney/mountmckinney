@@ -1,6 +1,6 @@
 <?php
 require_once("../inc/config.php");
-$pageTitle = "Portfolio"
+// include (ROOT_PATH."inc/portfolio_arr.php");
 ?>
 
 <!DOCTYPE html>
@@ -17,9 +17,15 @@ $pageTitle = "Portfolio"
       <div class="portfolio">
         <h4>Portfolio & Services</h4>
         <div id="ps">
-        <p>I am proficient with HTML, CSS, and Javascript. I am a web developer and designer. Below you can find a couple of my projects. If you are in need of my services, send me a message so we can discuss more details. </p>
+        <p>I am proficient in HTML, CSS, JS & JQuery, and PHP. I am a web developer and designer. Below you can find a couple of my projects. If you are in need of my services, send me a message so we can discuss more details. Look forward to hearing from you! </p>
+        <ul class="portfolio-images">
+          <!-- <?php
+            foreach($websites as $websitenum => $website)
+            echo display_portfolio_html($websitenum, $website);
+            ?> -->
+        </ul>
+        </div>
       </div>
-     </div>
       <div class="contact-me">
         <h4>Contact Me</h4>
         <div id="cont-me">
@@ -36,6 +42,7 @@ $pageTitle = "Portfolio"
             </div>
       </div>
      </div>
+   </div>
     <footer class="contact-footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>

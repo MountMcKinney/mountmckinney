@@ -1,7 +1,7 @@
 <?php
 require_once("../inc/config.php");
 
-include(ROOT_PATH."inc/campfire_arr.php");?>
+require_once(ROOT_PATH."inc/campfire_arr.php");?>
 
 <!DOCTYPE html>
 <html>

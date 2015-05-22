@@ -1,6 +1,5 @@
 <?php
 require_once("inc/config.php");
-require_once("/inc/config.php");
 ?>
 <!DOCTYPE html>
 <html id="homepage">
