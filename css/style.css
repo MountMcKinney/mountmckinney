@@ -1071,7 +1071,7 @@ table {
   margin:0;
   text-align:center;
   width:100%;
-  background: #006312 url('../img/mountains.jpeg') no-repeat center;
+  background: #09f url('../img/background-mountains.jpeg') no-repeat center;
   background-size:cover;
   height:100%;
 }
@@ -1527,7 +1527,7 @@ footer {
 .contact-header {
   margin:0;
   padding-top: 20px;
-  background: #006312 url('../img/mountains.jpeg') no-repeat;
+  background: #09f url('../img/background-mountains.jpeg') no-repeat;
   background-position: center;
   background-size:cover;
   height:150px;

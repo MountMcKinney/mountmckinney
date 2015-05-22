@@ -9,10 +9,10 @@ if (isset($_GET["story"])){
     $tcblog = $tcblogs[$tcblogname];
   }
 }
-// if(!isset($cfstory)){
-//   header("Location:campfirestories.php");
-//   exit();
-// }
+if(!isset($cfstory)){
+  header("Location:campfirestories.php");
+  exit();
+}
 
 $pageTitle = $tcblog["name"];
 ?>

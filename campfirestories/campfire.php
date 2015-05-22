@@ -9,10 +9,10 @@ if (isset($_GET["name"])){
     $cfstory = $cfstories[$cfstoryname];
   }
 }
-// if(!isset($cfstory)){
-//   header("Location:".BASE_URL."campfirestories/);
-//   exit();
-// }
+if(!isset($cfstory)){
+  header("Location:".BASE_URL."campfirestories/");
+  exit();
+}
 
 $pageTitle = $cfstory["name"];
 ?>
