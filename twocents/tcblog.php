@@ -1,12 +1,12 @@
 <?php
 require_once("../inc/config.php");
 
-include(ROOT_PATH."inc/twocents_arr.php");
+require_once(ROOT_PATH."inc/twocents_arr.php");
 
-if (isset($_GET["location"])){
-  $tc_id = $_GET["location"];
-  if (isset($tcblogposts[$tc_id])){
-    $tcpost = $tcblogposts[$tc_id];
+if (isset($_GET["story"])){
+  $tcblogname = $_GET["story"];
+  if (isset($tcblogs[$tcblogname])){
+    $tcblog = $tcblogs[$tcblogname];
   }
 }
 // if(!isset($cfstory)){
@@ -14,8 +14,8 @@ if (isset($_GET["location"])){
 //   exit();
 // }
 
-$pageTitle = $tcpost["location"];
-?>>
+$pageTitle = $tcblog["name"];
+?>
 
 <!DOCTYPE html>
 <html>
@@ -26,12 +26,11 @@ $pageTitle = $tcpost["location"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
-  <div class="breadcrumb"><a href="twocents.php">Two Cents</a> &gt; <?php echo $tcpost ["name"]; ?></div>
+  <div class="breadcrumb"><a href="twocents.php">Two Cents</a> &gt; <?php echo $tcblog ["title"]; ?></div>
   <div id="wrapper">
     <div id="main-right">
       <div class="camping-tips">
-        <h3>My Two Cents</h3>
-        <h3 id="blog-top-h3"> <?php echo $tcpost["location"];?> </h3>
+        <h3 id="blog-top-h3"> <?php echo $tcblog["title"];?> </h3>
 
       </div>
     </div>

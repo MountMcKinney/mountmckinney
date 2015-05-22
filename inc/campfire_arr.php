@@ -16,24 +16,24 @@
 
   $cfstories = array();
   $cfstories["clearwater_lake"] = array(
-    "img" => "img/cl-onf.jpg",
+    "img" => "img/cf-clear-onf-lake.jpg",
     "name" => "Clearwater Lake",
     "location" => "Ocala National Forest, FL"
   );
   $cfstories["grayton_beach"] = array(
-    "img" => "img/denali.jpg",
+    "img" => "img/cf-grayton-beach.jpg",
     "name" => "Grayton Beach",
     "location" => "Santa Rosa Beach, FL"
   );
   $cfstories["juniper_springs"] = array(
-    "img" => "img/arch.jpg",
+    "img" => "img/cf-juniper-swim-hole.jpg",
     "name" => "Juniper Springs",
     "location" => "Ocala National Forest, FL"
   );
   $cfstories["cohutta_mountain"] = array(
-    "img" => "img/yosemite.jpg",
+    "img" => "img/cf-cohutta-mountain.jpg",
     "name" => "Cohutta Mountain Loop",
-    "location" => "Cohutta Mountain, GA"
+    "location" => "Cohutta Wilderness, GA"
   );
 
   // foreach($cfstories as $cstoryname => $cfstory){

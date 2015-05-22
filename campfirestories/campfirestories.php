@@ -1,7 +1,7 @@
 <?php
 require_once("../inc/config.php");
-
-require_once(ROOT_PATH."inc/campfire_arr.php");?>
+require_once(ROOT_PATH."inc/campfire_arr.php");
+?>
 
 <!DOCTYPE html>
 <html>
@@ -10,8 +10,8 @@ require_once(ROOT_PATH."inc/campfire_arr.php");?>
   include(ROOT_PATH."inc/header.php");
 ?>
   <header class="contact-header">
-      <?php include(ROOT_PATH."inc/name_title_header.php");?>
-      <?php include(ROOT_PATH."inc/menu.php");?>
+    <?php include(ROOT_PATH."inc/name_title_header.php");?>
+    <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
     <div id="wrapper">
       <div id="main-left">

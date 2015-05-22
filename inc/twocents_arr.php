@@ -1,12 +1,12 @@
 <?php
-  function display_campfire_html($cfstoryname,$cfstory){
+  function display_twocents_html($tcblogname,$tcblog){
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="tcblog.php?location='.$cfstoryname.'/">';
+    $output .= '<a href="tcblog.php?story='.$tcblogname.'">';
     $output .= "<figure>";
-    $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["name"].'">';
-    $output .= "<figcaption>".$cfstory["location"]."</figcaption>";
+    $output .= '<img src="'.BASE_URL.$tcblog["img"] .'" alt="'.$tcblog["info"].'">';
+    $output .= "<figcaption>".$tcblog["title"]."</figcaption>";
     $output .= "</figure>";
     $output .= "</a>";
     $output .= "</li>";
@@ -14,44 +14,29 @@
     return $output;
   }
 
-  $cfstories = array();
-  $cfstories["backpack"] = array(
-    "img" => "../backpack.png",
+  $tcblogs = array();
+  $tcblogs["backpack"] = array(
+    "img" => "../tc-backpack.png",
     "title" => "Proper Packing Techniques",
-    "info"=> "How to properly pack a backpack"
+    "info" => "How to properly pack a backpack",
+    "name" => "Packing"
   );
-  $cfstories["winter_tent"] = array(
-    "img" => "../img/nl.jpg",
-    "title" => "Proper Packing Techniques",
-    "info"=> "How to properly pack a backpack"
+  $tcblogs["knife"] = array(
+    "img" => "../img/tc-knife.jpg",
+    "title" => "Choosing A Fixed Blade Knife",
+    "info" => "How to choose a fixed blade knife",
+    "name" => "Fixed Blade"
   );
-  $cfstories["firestarter"] = array(
-    "img" => "../img/fire.jpg",
-    "title" => "Proper Packing Techniques",
-    "info"=> "How to properly pack a backpack"
+  $tcblogs["3-day-pack"] = array(
+    "img" => "../img/tc-3-day-pack.jpg",
+    "title" => "3 Day Backpack",
+    "info" => "How to pack a 3 day pack",
+    "name" => "3 Day Pack"
   );
-  $cfstories["chopping_wood"] = array(
-    "img" => "../img/axe.jpg",
-    "title" => "Proper Packing Techniques",
-    "info"=> "How to properly pack a backpack"
+  $tcblogs["sawyer-mini"] = array(
+    "img" => "../img/tc-sawyer-mini.jpg",
+    "title" => "Best Water Filtration",
+    "info" => "The best portable water filtration",
+    "name" => "Sawyer Mini"
   );
 ?>
-
-
-
-      <li><a href=""><figure>
-        <img src="img/nl.jpg" alt="">
-        <figcaption>Pitch a winter tent</figcaption>
-        </figure></a></li>
-      <li><a href=""><figure>
-        <img src="img/fire.jpg" alt="">
-        <figcaption>Start a fire</figcaption>
-        </figure></a></li>
-      <li><a href=""><figure>
-        <img src="img/backpack.png" alt="">
-        <figcaption>Pack your pack</figcaption>
-        </figure></a></li>
-      <li><a href=""><figure>
-        <img src="img/axe.jpg" alt="">
-        <figcaption>Chop wood</figcaption>
-        </figure></a></li>

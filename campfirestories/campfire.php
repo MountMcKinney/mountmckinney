@@ -1,9 +1,8 @@
 <?php
 require_once("../inc/config.php");
 
-require_once(ROOT_PATH."inc/campfire_arr.php");?>
+require_once(ROOT_PATH."inc/campfire_arr.php");
 
-<?php
 if (isset($_GET["name"])){
   $cfstoryname = $_GET["name"];
   if (isset($cfstories[$cfstoryname])){
