@@ -15,8 +15,8 @@ require_once("../inc/config.php");
       <div class="about">
         <h4>About</h4>
         <div>
-        <img src="<?php echo BASE_URL;?>img/me.jpg">
-        <p>Hi, my name is John McKinney. I am a web developer, designer, and backcountry hiking enthusiast. If you'd like to read about my trips to some of the most beautiful natural landmarks our country has to offer, head over to the <a href="<?php echo BASE_URL;?>campfirestories.php">Campfire Stories</a> or read my advice about camping on <a href="<?php echo BASE_URL;?>twocents.php">My Two Cents</a>. Make sure to <a href="<?php echo BASE_URL;?>subscribe.php">Subscribe</a> to catch my latest adventure!</p>
+        <img src="<?php echo BASE_URL;?>img/contact-pic-me.jpg">
+        <p>Hi, my name is John McKinney. I am a web developer, designer, and backcountry hiking enthusiast. If you'd like to read about my trips to some of the most beautiful natural landmarks our country has to offer, head over to the <a href="<?php echo BASE_URL;?>campfirestories/campfirestories.php">Campfire Stories</a> or read my advice about camping on <a href="<?php echo BASE_URL;?>twocents/twocents.php">My Two Cents</a>. Make sure to <a href="<?php echo BASE_URL;?>subscribe.php">Subscribe</a> to catch my latest adventure!</p>
         <p>If you'd like more info on the web development services I offer as well as check out my portfolio of work, head to the <a href="<?php echo BASE_URL;?>portfolio.php">Portfolio</a> tab. If you need any further info or just want to chat with me, I can be reached via the contact links on this page.</p>
         <p>The best way to get in touch with me is email. I always love to hear from you, especially if you have ideas for my next trip.</p>
       </div>
