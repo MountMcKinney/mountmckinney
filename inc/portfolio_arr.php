@@ -26,8 +26,8 @@
       "name" => "superhero-fan-site.com"
     );
     $websites[boats] = array(
-      "img" => "/img/port-boats",
-      "thumbnail" => "/img/port-thumb-boats",
+      "img" => "/img/port-boats.png",
+      "thumbnail" => "/img/port-thumb-boats.png",
       "name" => "boatsboatsboats.com"
     );
     $websites[marriageabbey] = array(
