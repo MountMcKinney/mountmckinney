@@ -36,8 +36,8 @@
       "name" => "marriageabbey.com"
     );
     $websites[rental] = array(
-      "img" => "/img/port-rental",
-      "thumbnail" => "/img/port-thumb-rental",
+      "img" => "/img/port-rental.jpeg",
+      "thumbnail" => "/img/port-thumb-rental.jpeg",
       "name" => "usedrentalequipment.com"
     );
   ?>
