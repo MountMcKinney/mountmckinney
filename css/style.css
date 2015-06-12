@@ -1278,9 +1278,8 @@ body {
   max-width:330px;
 }
 
-.rm {
-  border:2px solid orange;
-
+div #disqus_thread {
+  margin: 4rem;
 }
 
 

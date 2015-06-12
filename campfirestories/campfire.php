@@ -31,7 +31,7 @@ $pageTitle = $cfstory["name"];
     <div id="main-left">
       <div class="campfire">
         <h3 id="blog-top-h3"> <?php echo $cfstory["name"];?> </h3>
-
+        <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
     </div>
   </div>
