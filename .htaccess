@@ -1,15 +1,15 @@
 RewriteEngine On
 RewriteRule ^campfirestories/$ /campfirestories/campfirestories.php
-RewriteRule ^campfirestories/([a-z]+)/$ /campfirestories/campfire.php?location=$1
+RewriteRule ^campfirestories/([A-za-z0-9-]+)/$ /campfirestories/campfire.php?name=$1
 RewriteRule ^twocents/$ /twocents/tcblog.php
-RewriteRule ^twocents/([a-z]+)/$ /twocents/tcblog.php?location=$1
-RewriteRule ^subscribe.php$ /subscribe/ [R=301]
-RewriteRule ^contact.php$ /contact/ [R=301]
-RewriteRule ^portfolio.php$ /portfolio/ [R=301]
-RewriteRule ^(campfirestories/[a-z]+)$ /$1/ [R=301]
-RewriteRule ^(twocents/[a-z]+)$ /$1/ [R=301]
+RewriteRule ^twocents/([A-za-z0-9-]+)/$ /twocents/tcblog.php?story=$1
+RewriteRule ^subscribe.php$ /subscribe/
+RewriteRule ^contact.php$ /contact/
+RewriteRule ^portfolio.php$ /portfolio/
+RewriteRule ^(campfirestories/[A-za-z0-9-]+)$ /$1/
+RewriteRule ^(twocents/[A-za-z0-9-]+)$ /$1/
 
-RewriteCond %{QUERY_STRING} ^id=([a-z]+)$
-RewriteRule ^campfire.php$ /campfirestories/%1/? [R=301]
-RewriteCond %{QUERY_STRING} ^id=([a-z]+)$
-RewriteRule ^tcblog.php$ /twocents/%2/? [R=301]
+RewriteCond %{QUERY_STRING} ^name=([A-za-z0-9-]+)$
+RewriteRule ^campfire.php$ /campfirestories/%1/?
+RewriteCond %{QUERY_STRING} ^story=([A-za-z0-9-]+)$
+RewriteRule ^tcblog.php$ /twocents/%2/?
