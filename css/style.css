@@ -1180,6 +1180,13 @@ body {
   position: relative;
 }
 
+#ps ul {
+  margin-top:0;
+  padding:3% 0 0;
+  text-align:center;
+  position: relative;
+}
+
 #read_more_camp {
   margin-left:10em;
   margin-bottom:4rem;
@@ -1247,6 +1254,24 @@ body {
 }
 
 .cts-right img {
+  border-top:5px solid orange;
+  border-radius:30px;
+  height:330px;
+  width:100%;
+  max-width:330px;
+}
+
+.portfolio-images figcaption {
+  color:#09f;
+  margin-bottom: 15%;
+  font-family:'Quicksand', sans-serif;
+  font-size:1.3em;
+  line-height: 2em;
+  max-width:480px;
+  text-align:center;
+}
+
+.portfolio-images img {
   border-top:5px solid orange;
   border-radius:30px;
   height:330px;
@@ -1331,6 +1356,11 @@ footer {
   clear:both;
 }
 
+.portfolio-images li {
+  max-width:410px;
+  display:inline-block;
+  margin: 0 5%;
+}
 
 .cts-right li {
   max-width:410px;
@@ -1910,6 +1940,9 @@ aside {
   font-size: 1.5rem;
 }
 
+.breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover {
+  color: #09f;
+}
 
 input[type='text'], input:not([type]), textarea {
   font-size: 1.000rem;
