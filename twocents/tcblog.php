@@ -9,8 +9,8 @@ if (isset($_GET["story"])){
     $tcblog = $tcblogs[$tcblogname];
   }
 }
-if(!isset($tcblog)){
-  header("Location:twocents.php");
+if(!isset($cfstory)){
+  header("Location:campfirestories.php");
   exit();
 }
 

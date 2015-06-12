@@ -19,10 +19,10 @@ require_once("../inc/config.php");
         <div id="ps">
         <p>I am proficient in HTML, CSS, JS & JQuery, and PHP. I am a web developer and designer. Below you can find a couple of my projects. If you are in need of my services, send me a message so we can discuss more details. Look forward to hearing from you! </p>
         <ul class="portfolio-images">
-          <?php
+          <!-- <?php
             foreach($websites as $websitenum => $website)
             echo display_portfolio_html($websitenum, $website);
-            ?>
+            ?> -->
         </ul>
         </div>
       </div>
