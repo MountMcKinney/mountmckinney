@@ -26,11 +26,18 @@ $pageTitle = $website["name"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
+<<<<<<< Updated upstream
   <div class="breadcrumb"><a href="portfolio.php">Portfolio</a> &gt; <?php echo $website["name"]; ?></div>
   <div id="wrapper">
     <div>
         <img src="<?php echo $website["img"];?>">
 
+=======
+  <div class="breadcrumb"><a href="portfolio.php">Portfolio</a> &gt; <?php echo $website ["name"]; ?></div>
+  <div id="wrapper">
+    <div id="example">
+        <img src="<?php echo $website["img"];?>">
+>>>>>>> Stashed changes
     </div>
   </div>
   <footer class="contact-footer">
