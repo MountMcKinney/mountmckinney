@@ -15,14 +15,14 @@
   }
 
     $websites = array();
-    $websites["tent"] = array(
-      "img" => "/img/port-tents4sale.png",
-      "thumbnail" => "/img/port-thumb-tents4sale.png",
-      "name" => "tents4sale.com"
+    $websites["backcountrydeals"] = array(
+      "img" => "/img/port-back.jpeg",
+      "thumbnail" => "/img/port-thumb-back.jpg",
+      "name" => "backcountrydeals.com"
     );
     $websites["icecream"] = array(
       "img" => "/img/port-threeflavors.jpeg",
-      "thumbnail" => "/img/port-thumb-threeflavors.jpeg",
+      "thumbnail" => "/img/port-thumb-threeflavors.jpg",
       "name" => "3flavorsshop.com"
     );
     $websites["boats"] = array(
@@ -37,7 +37,7 @@
     );
     $websites["rental"] = array(
       "img" => "/img/port-rental.jpeg",
-      "thumbnail" => "/img/port-thumb-rental.jpeg",
+      "thumbnail" => "/img/port-thumb-rental.jpg",
       "name" => "usedrentalequipment.com"
     );
   ?>
