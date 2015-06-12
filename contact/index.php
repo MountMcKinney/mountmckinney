@@ -33,8 +33,8 @@ require_once("../inc/config.php");
       </div>
       <div class="subscribe">
         <?php include(ROOT_PATH.'inc/subscribe-form.php'); ?>
-             </div>
-            </div>
+      </div>
+    </div>
     <footer class="contact-footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
