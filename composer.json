@@ -1,0 +1,12 @@
+{
+    "name": "root/workspace",
+    "authors": [
+        {
+            "name": "John McKinney",
+            "email": "john@mountmckinney.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.13"
+    }
+}
