@@ -13,6 +13,8 @@ RewriteCond %{QUERY_STRING} ^name=([A-za-z0-9-]+)$
 RewriteRule ^campfire.php$ /campfirestories/%1/?
 RewriteCond %{QUERY_STRING} ^story=([A-za-z0-9-]+)$
 RewriteRule ^tcblog.php$ /twocents/%2/?
+php_flag  display_errors        on
+php_value error_reporting       2039
 
 
 # Some hosts may require you to use the `RewriteBase` directive.

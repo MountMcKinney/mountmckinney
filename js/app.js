@@ -4,6 +4,7 @@ jQuery(function($){
      $( '.menu-btn').click(function(){
        $('.responsive-menu').toggleClass('expand');
        $('.home-header').toggleClass('hidden');
+       $('.breadcrumb').toggleClass('hide-bread')
      })
 })
 

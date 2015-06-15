@@ -1910,15 +1910,9 @@ form {
 }
 
 .blog-head {
-  margin:10px 0;
-  padding-top: 20px;
-  background: #006312 url('../img/cl-onf.jpg') no-repeat;
-  border-top:13px solid #D63E3E;
-  border-radius:30px;
-  background-position: center;
-  background-size:cover;
-  height:500px;
-  width:100%;
+  max-height:800px;
+  max-width:800px;
+  margin: 0 auto 100px;
 }
 
 .blog-body {
@@ -1927,10 +1921,29 @@ form {
   line-height:1.5rem;
 }
 
-aside {
-  height:250px;
-  width:200px;
+.aside1 img {
+  height:300px;
+  width:300px;
+  float: right;
+  margin: 0 1%;
+  border-radius: 30px;
 }
+
+
+.aside2 img {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin: 0 1%;
+  border-radius: 30px;
+}
+
+@media screen and (max-width:435px){
+  .aside2 img, .aside1 img {
+    margin: 0 10%;
+  }
+}
+
 
 .breadcrumb {
   font-family: "Quicksand";
@@ -1938,8 +1951,44 @@ aside {
   font-size: 1.5rem;
 }
 
+.hide-bread{
+  position: relative;
+  z-index: -1;
+}
+
 .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover {
   color: #09f;
+}
+
+.blog-header-img {
+  border-radius: 30px;
+}
+
+.blog-content {
+  font-family: "Quicksand", sans-serif;
+  color: #09f;
+  line-height: 1.4;
+  font-size: 1.1rem;
+}
+
+.blog-content a:link, .blog-content a:hover, .blog-content a:visited {
+  color: orange;
+}
+
+.blog-catch {
+  font-family: "Quicksand", sans-serif;
+  color: #09f;
+  float: left;
+}
+
+.blog-signature{
+  font-family: "Quicksand", sans-serif;
+  color: #09f;
+  float: right;
+}
+
+.campfire {
+  margin: 0 5%;
 }
 
 input[type='text'], input:not([type]), textarea {
