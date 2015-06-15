@@ -20,7 +20,7 @@ function postPortfolioToGoogle() {
          dataType: "xml",
          statusCode: {
            success: function () {
-               $('#contact-name').load(ROOT_PATH."inc/contact-thankyou.php");
+               $('#contact-name').load("inc/contact-thankyou.php");
                $('#contact-us').hide();
            },
        }
@@ -39,7 +39,7 @@ function postPortfolioToGoogle() {
           dataType: "xml",
           statusCode: {
             success: function () {
-                $('#sub').load(ROOT_PATH."inc/subscribe-thankyou.php");
+                $('#sub').load("inc/subscribe-thankyou.php");
                 $('#sub-formpage').hide();
             },
         }

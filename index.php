@@ -20,4 +20,4 @@ require_once("inc/config.php");
     <div id='home-footer'>
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </div>
-    <?php include(ROOT_PATH."inc/js_scripts.php");?>
+      <?php include(ROOT_PATH."inc/js_scripts.php");?>
