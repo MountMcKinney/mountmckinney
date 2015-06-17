@@ -21,11 +21,11 @@
     $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" class="blog-header-img" alt="'.$cfstory["location"].'">';
     $output .= "</div>";
     $output .= '<p class="blog-content">'.$cfstory["p1"].'</p>';
-    $output .= '<p class="blog-content">'.$cfstory["p2"].'</p>';
     $output .= '<aside class="aside1">'.'<img src="'.BASE_URL.$cfstory["aside1"] .'" alt="'.$cfstory["aside1_alt"].'">'.'</aside>';
+    $output .= '<p class="blog-content">'.$cfstory["p2"].'</p>';
     $output .= '<p class="blog-content">'.$cfstory["p3"].'</p>';
-    $output .= '<p class="blog-content">'.$cfstory["p4"].'</p>';
     $output .= '<aside class="aside2">'.'<img src="'.BASE_URL.$cfstory["aside2"] .'" alt="'.$cfstory["aside2_alt"].'">'.'</aside>';
+    $output .= '<p class="blog-content">'.$cfstory["p4"].'</p>';
     $output .= '<p class="blog-content">'.$cfstory["p5"].'</p>';
     $output .= '<p class="blog-content">'.$cfstory["p6"].'</p>';
     $output .= '<p class="blog-content">'.$cfstory["p7"].'</p>';
@@ -33,8 +33,7 @@
     $output .= '<p class="blog-content">'.$cfstory["p9"].'</p>';
     $output .= '<p class="blog-content">'.$cfstory["p10"].'</p>';
     $output .= '<p class="blog-catch">'.$cfstory["catch"].'</p>';
-    $output .= '<p class="blog-signature">'.$cfstory["signature"].'</p>';
-    $output .= '<p class="blog-signature">'.$cfstory["date"].'</p>';
+    $output .= '<p class="blog-signature">'.$cfstory["signature"].'<br>'.'<br>'.$cfstory["date"].'</p>';
     return $output;
   }
 
@@ -153,9 +152,9 @@
     "date" => "February 27, 2015 "
   );
 
-  // foreach($cfstories as $cstoryname => $cfstory){
-  //   $cfstories[$cfstoryname]["name"] = $cfstoryname;
-  // }
-//   return $cfstories;
-// }
+  foreach($cfstories as $cstoryname => $cfstory){
+    $cfstories[$cfstoryname]["name"] = $cfstoryname;
+  }
+  return $cfstories;
+}
 ?>

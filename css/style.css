@@ -1819,7 +1819,13 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 130px;
+  margin-top: 60px;
+}
+
+.sub-page p, .subscribe p {
+  font-family: "Quicksand",sans-serif;
+  text-align: center;
+  margin-top: -20px;
 }
 
 #wrapper-subscribe {
@@ -1973,6 +1979,19 @@ form {
 
 .blog-content a:link, .blog-content a:hover, .blog-content a:visited {
   color: orange;
+}
+
+.tc-blog-list {
+  color: #09f;
+}
+
+.tc-blog-list dt {
+  margin: 1% 0;
+  font-weight: bold;
+}
+
+.tc-blog-list dd {
+  margin: 1% 4%;
 }
 
 .blog-catch {

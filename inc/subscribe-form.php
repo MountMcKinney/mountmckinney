@@ -1,4 +1,5 @@
 <h4>Subscribe</h4>
+<p>(Quickly, Before Sasquatch Gets You)</p>
 <div id="sub">
     <form class="sub-form" id="sub-formpage">
             <label for="name">Name</label>
