@@ -31,6 +31,9 @@ $pageTitle = $tcblog["name"];
     <div id="main-right">
       <div class="camping-tips">
         <h3 id="blog-top-h3"> <?php echo $tcblog["title"];?> </h3>
+        <?php
+          echo display_twocents_blog($tcblogname, $tcblog);
+        ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
     </div>

@@ -28,67 +28,93 @@
     $output .= '<aside class="aside2">'.'<img src="'.BASE_URL.$cfstory["aside2"] .'" alt="'.$cfstory["aside2_alt"].'">'.'</aside>';
     $output .= '<p class="blog-content">'.$cfstory["p5"].'</p>';
     $output .= '<p class="blog-content">'.$cfstory["p6"].'</p>';
+    $output .= '<p class="blog-content">'.$cfstory["p7"].'</p>';
+    $output .= '<p class="blog-content">'.$cfstory["p8"].'</p>';
+    $output .= '<p class="blog-content">'.$cfstory["p9"].'</p>';
+    $output .= '<p class="blog-content">'.$cfstory["p10"].'</p>';
     $output .= '<p class="blog-catch">'.$cfstory["catch"].'</p>';
     $output .= '<p class="blog-signature">'.$cfstory["signature"].'</p>';
     $output .= '<p class="blog-signature">'.$cfstory["date"].'</p>';
     return $output;
   }
 
+// function get_recent_cfstories() {
+//     $recent = array();
+//     $all = get_all_cfstories();
+//
+//     $total_cfstories = count($all);
+//     $position = 0;
+//
+//     foreach($all as $cfstory) {
+//         $position = $position + 1;
+//         if ($total_cfstories - $position < 4) {
+//             $recent[] = $cfstory;
+//         }
+//     }
+//     return $recent;
+// }
 
+
+// function get_cfstories_count() {
+//   return count(get_all_cfstories());
+// }
+
+// function get_all_cfstories() {
   $cfstories = array();
   $cfstories["cohutta_mountain"] = array(
     "img" => "img/cf-cohutta-mountain.jpg",
     "name" => "Cohutta Mountain Loop",
     "location" => "Cohutta Wilderness, GA",
-    "p1" => "",
-    "p2" => "",
-    "aside1" => "img/cf-cl-onf-tent.jpg",
-    "aside1_alt" => "Campground, my tent",
-    "p3" => "",
-    "p4" => "",
-    "aside2" => "img/cf-cl-onf-odd.jpg",
-    "aside2_alt" => "The best party people ever",
-    "p5" => "",
-    "p6" => ".",
+    "p1" => "This past weekend, a friend and I headed up to the Cohutta Mountains in Northwest Georgia to hike the Cohutta Mountain Loop. It was absolutely gorgeous out there. We parked at the Three Forks Trailhead and headed out on the East Cowpen trail. My friend had a running watch to measure our distance traveled as well as elevation changes throughout the trip. We started at an elevation of 3,200 ft. and began to descend into the Cohutta Wilderness.",
+    "p2" => "What we didn’t know when we started off on the trail was the lack of water that would be available on the trail we took. I had read some reviews of the area and some stories from the specific loop we were planning on doing and all the pictures were of people down by a river. What I didn’t realize was that the first time we’d see a river on the trail we took in would be when we got to the Jacks River after hiking just under 8 miles and dropping 2,000 ft. in elevation.",
+    "aside1" => "img/cf-cohutta-tent.jpg",
+    "aside1_alt" => "Our tent near the river",
+    "p3" => "We had some water but I drink a lot and when we got down to the river after those 8 miles, I drank 4 bottles of water immediately and then another 4 when I got to camp. We used the Sawyer Mini for water filtration. It is definitely one of the best purchases I’ve ever made, it’s ultra portable and cleans the water effectively.",
+    "p4" => "We then had to wade our way through the stream a couple of times to get to an open area to make camp. Slipping my feet into the cold water stream water after a good day of hiking was one of the more refreshing feelings I’ve had. The area we found was right on the river bank, just far enough back to have dry, solid ground but still right on the river. We set up the camp, started a fire, and ate dinner. It was so peaceful out there. The sound of the river lulled me to sleep, well that is until 5 mins after closing my eyes when nature called. All that water I guzzled to get rehydrated was ready to be set free. I must have woken up 4-5 times that night.",
+    "aside2" => "img/cf-cohutta-me.jpg",
+    "aside2_alt" => "Me being goofy down by the falls",
+    "p5" => "The next morning, we packed up camp and headed down to see the Jack’s River Falls. The hike down to the Falls was great. As we weaved our way around the river down we started to hear the thundering sound of a waterfall. The falls were beautiful, we just stopped and stared at them for awhile, neither of us wanting to move on. We pushed further to try and get different views of the natural beauty that was before us. After having our fill, who am I kidding I could still be there staring at them, we headed out on the trail back toward our car. We were at an elevation of 1,200 ft. now and were dreading the climb back.",
+    "p6" => "The trail back was definitely painful, 2,000 ft. increase in 8 miles. We would boo out loud whenever the trail dropped in elevation for more than a few steps knowing that we would have to climb it again. The most frustrating thing was not the elevation increases, but that we thought there would be water on this trail. We quickly realized we were wrong and we would need to conserve water as we watched the trail we were on and the river part ways. We did stop for lunch at an area that clearly fed into the river, however, it had been dried up to mostly mud at this time of year.",
+    "p7" => "If I was to do another hike in this area, which I would definitely not be opposed to, I would take the Jack’s River Trail the whole way. The lack of water on the trail we took was definitely a detriment to us staying an extra night out there. If we were take a trail that stayed on or close to the river the whole way we definitely would have stayed longer. Oh well, you live and you learn right? All in all we descended 2,000 ft. and ascended that same amount, as well as hiking a total of 20 miles. Definitely not a bad way to spend a Memorial Day weekend.",
+    "p8" => "We stayed in Atlanta Sunday night so we would be fresh driving home the next day. That post backpacking shower is one of the best things that this life has to offer. After getting cleaned up, we went out for dinner at the Brick Store Pub in Decatur. Their beer selection was exactly what was needed after hiking 20 miles in 2 days. I don’t know if it was the best beer I’ve ever had but it definitely tasted like it.",
     "catch" => "Always remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "March 9th, 2015 "
+    "date" => "May 26th, 2015 "
   );
   $cfstories["juniper_springs"] = array(
     "img" => "img/cf-juniper-swim-hole.jpg",
     "name" => "Juniper Springs",
     "location" => "Ocala National Forest, FL",
-    "p1" => "",
-    "p2" => "",
-    "aside1" => "img/cf-cl-onf-tent.jpg",
-    "aside1_alt" => "Campground, my tent",
-    "p3" => "",
-    "p4" => "",
-    "aside2" => "img/cf-cl-onf-odd.jpg",
-    "aside2_alt" => "The best party people ever",
-    "p5" => "",
-    "p6" => ".",
+    "p1" => "Down here in Florida, it’s already in the 90’s even in early May. Those temperatures can make camping a lot more uncomfortable. Add the daily afternoon thunderstorm and you can see why most don’t camp in Florida in the summer. Despite that my wife and I joined another married couple and headed out for one last camping trip in Florida before it’s unbearable to camp until September. It was an amazing time, the weather wasn’t too hot and the thunderstorms subsided for a sunny weekend.",
+    "p2" => "When we arrived Saturday morning, we set up our 6 person mansion of a tent that we shared for the night. You would never lug this thing into the backcountry, but it was every bit of car camping luxury. It was definitely interesting to be able to actually stand up at all, let alone fully upright while in the tent. My little 2 person tent barely lets me kneel.",
+    "aside1" => "img/cf-juniper-tent.jpg",
+    "aside1_alt" => "Our 6 persion mansion",
+    "p3" => "After setting up our camp and tent we headed out for a short hike. The water around Juniper Springs, is gorgeous and crystal clear. We didn’t venture onto the Florida Trail which goes right near Juniper Spring, due to it not having much shade and it was already high 80s. We stuck to the short nature trails around the campground and the swimming area. While on our short hike, we snapped some shots of a few turtles sunbathing. It was a lazy Saturday for us and for all of nature. We made our way to the springs for a dip in the chilly spring waters. It felt amazing once we got in, but boy that initial descent into the water is painful.",
+    "p4" => "After a late lunch and a game of bocce ball, we headed back to the springs for swimming round 2. The heat had subsided a good bit and that made the jump back into the water that much more freezing. We spent the afternoon relaxing, jumping off the platform into the water, and racing each other in the water. It was a wonderful day to get away from not only the heat but the city as well. Our evening was spent playing card games, sitting around the fire, and chatting.",
+    "aside2" => "img/cf-juniper-turtle.jpg",
+    "aside2_alt" => "Turtles sunbathing",
+    "p5" => "Sunday, my wife and I took another short hike in the morning and even got to see a deer 10 ft ahead of us before she scurried into the woods. I love relaxing weekends like these. The fresh air and sunny skies are exactly what I need. Out in the peace and quiet you can gather your thoughts and let go of the things that seem so important in your daily life. I think that’s the real beauty of the outdoors, they allow you to forget what you deem important and focus on what truly is: your friends, family, and of course having a little fun.",
     "catch" => "Always remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "March 19th, 2015 "
+    "date" => "May 19th, 2015 "
   );
   $cfstories["grayton_beach"] = array(
     "img" => "img/cf-grayton-beach.jpg",
     "name" => "Grayton Beach",
     "location" => "Santa Rosa Beach, FL",
-    "p1" => "",
-    "p2" => "",
-    "aside1" => "img/cf-cl-onf-tent.jpg",
-    "aside1_alt" => "Campground, my tent",
-    "p3" => "",
-    "p4" => "",
-    "aside2" => "img/cf-cl-onf-odd.jpg",
-    "aside2_alt" => "The best party people ever",
-    "p5" => "",
-    "p6" => ".",
+    "p1" => "My wife and I packed up Tuesday night and headed to the beach house a few hours from home, our stuff loaded up in the car and bikes secured on the trunk bike rack. I say secured but what I mean is we thought they were secured. I learned two valuable lessons this past Tuesday, don’t skimp on a bike rack and make sure you’ve double and triple checked that you’ve installed it correctly. We were in such a hurry and it was the first time we had used our bike rack that I didn’t place the side straps in the position they needed to be. It was probably not best to try a new bike rack out for the first time on a multi-hour interstate trip...I guess I learned three valuable lessons then.",
+    "p2" => "Anyway, we were on the interstate for 30 mins and everything seemed to be fine, I had been keeping a constant eye on the bikes to make sure they weren’t wobbling. Then not more than a minute later, we drove over a dip in the road. It was enough of a bounce to cause the lower bar to swing closed and caused the bikes to swing down toward the road. I immediately pulled over to the shoulder and inspected the bikes. Thankfully the only damage was that on my wife’s new bike (when I say new I mean one day old) the front tire had dragged on the asphalt and burned a hole in the tire and tube. It definitely could’ve been worse. We reattached the bikes and drove back the 30 mins home, put the bikes inside and headed out again. That was all the excitement we had this trip.",
+    "aside1" => "img/cf-grayton-sunset.jpg",
+    "aside1_alt" => "Sunsets on the beach",
+    "p3" => "Though I didn’t go camping in Grayton it was still a wonderful trip spent on some of the most beautiful beaches in the world. It was the week leading up to my brother’s wedding, and my family and I spent 5 days in a house 30 ft. from the beginning of the dunes. Being landlocked for the last several years has made me appreciate the time I get on the ocean. Lakes and springs just don’t cut it for me compared to the beach, not sure why maybe it’s because I grew up on the white, sugar sand beaches of the Gulf Coast of Florida.",
+    "p4" => "We had family and friends come in from all over to relax for the week leading up to the wedding with us. Our days were spent lounging on the sand and swimming in the crystal clear water. The sunsets, as you can see, are second to none here on the Emerald Coast.",
+    "aside2" => "img/cf-grayton-water.jpg",
+    "aside2_alt" => "Serene water during the bike ride",
+    "p5" => "My dad rented some beach cruisers for the house, so at least we got to ride bikes even without ours. We rode through a couple of the quaint towns on 30A. Life moves more slowly in these little beach towns but if you were to ask any resident, they would say that’s exactly why they live there.",
+    "p6" => "If you’ve never had the opportunity to check out the Gulf Coast, I highly recommend a vacation there. If you want the best weather, make sure to check out May or September. It’s still plenty warm enough for swimming but not so hot that you feel like a turkey on Thanksgiving. Regardless of when you go, I promise you won’t be disappointed.",
     "catch" => "Always remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "May 7th, 2015 "
+    "date" => "May 10th, 2015"
   );
   $cfstories["clearwater_lake"] = array(
     "img" => "img/cf-clear-onf-lake.jpg",
@@ -128,7 +154,8 @@
   );
 
   // foreach($cfstories as $cstoryname => $cfstory){
-  //   $cfstories[$cfstoryname]["storyname"] = $cfstoryname;
+  //   $cfstories[$cfstoryname]["name"] = $cfstoryname;
   // }
-  // return $cfstories;
+//   return $cfstories;
+// }
 ?>
