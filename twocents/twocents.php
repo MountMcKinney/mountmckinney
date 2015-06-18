@@ -1,6 +1,39 @@
 <?php
 require_once("../inc/config.php");
 require_once(ROOT_PATH."inc/twocents_arr.php");
+
+// retrieve current page number from query string; set to 1 if blank
+if (empty($_GET["pg"])) {
+  $current_page = 1;
+} else {
+  $current_page = $_GET["pg"];
+}
+// set strings like "frog" to 0; remove decimals
+$current_page = intval($current_page);
+
+$total_tcblogs = get_tcblogs_count();
+$tcblogs_per_page = 4;
+$total_pages = ceil($total_tcblogs / $tcblogs_per_page);
+
+// redirect too-large page numbers to the last page
+if ($current_page > $total_pages) {
+  header("Location: ./?pg=" . $total_pages);
+}
+
+// redirect too-small page numbers (or strings converted to 0) to the first page
+if ($current_page < 1) {
+  header("Location: ./");
+}
+
+// determine the start and end shirt for the current page; for example, on
+// page 3 with 8 shirts per page, $start and $end would be 17 and 24
+$start = (($current_page - 1) * $tcblogs_per_page) + 1;
+$end = $current_page * $tcblogs_per_page;
+if ($end > $total_tcblogs) {
+  $end = $total_tcblogs;
+}
+
+$tcblogs = get_tcblogs_subset($start,$end);
 ?>
 
 <!DOCTYPE html>
@@ -18,9 +51,14 @@ require_once(ROOT_PATH."inc/twocents_arr.php");
         <div class="camping-tips">
           <h3>My Two Cents</h3>
           <ul class="cts-right">
-            <?php foreach($tcblogs as $tcblogname => $tcblog)
+            <?php include(ROOT_PATH . "inc/pagination.php"); ?>
+            <?php foreach($tcblogs as $tcblog){
               echo display_twocents_html($tcblogname, $tcblog);
+              // var_dump($tcblogs);
+              var_dump($tcblogname);
+            }
             ?>
+            <?php include(ROOT_PATH . "inc/pagination.php"); ?>
           </ul>
         </div>
       </div>

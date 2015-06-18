@@ -1,18 +1,18 @@
 <?php
 require_once("../inc/config.php");
-
 require_once(ROOT_PATH."inc/campfire_arr.php");
+$cfstories = get_all_cfstories();
 
-if (isset($_GET["name"])){
-  $cfstoryname = $_GET["name"];
+if (isset($_GET["story"])){
+  $cfstoryname = $_GET["story"];
   if (isset($cfstories[$cfstoryname])){
     $cfstory = $cfstories[$cfstoryname];
   }
 }
-if(!isset($cfstory)){
-  header("Location:".BASE_URL."campfirestories/");
-  exit();
-}
+// if(!isset($cfstory)){
+//   header("Location:".BASE_URL."campfirestories/");
+//   exit();
+// }
 
 $pageTitle = $cfstory["name"];
 ?>
@@ -32,7 +32,7 @@ $pageTitle = $cfstory["name"];
       <div class="campfire">
         <h3 id="blog-top-h3"> <?php echo $cfstory["name"];?> </h3>
         <?php
-          echo display_campfire_blog($cfstoryname, $cfstory);
+          echo display_campfire_blog($cfstoryname,$cfstory);
         ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
@@ -41,4 +41,5 @@ $pageTitle = $cfstory["name"];
   <footer class="contact-footer">
     <?php include(ROOT_PATH."inc/footer.php"); ?>
   </footer>
-    <?php include(ROOT_PATH.'inc/js_scripts.php');?>
+    <?php include(ROOT_PATH.'inc/js_scripts.php');
+    ?>

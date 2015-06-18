@@ -1,9 +1,9 @@
 <?php
-  function display_campfire_html($cfstoryname,$cfstory){
+  function display_campfire_html($cfstoryname, $cfstory){
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="campfire.php?name='.$cfstoryname.'">';
+    $output .= '<a href="campfire.php?story='.$cfstoryname.'">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["location"].'">';
     $output .= "<figcaption>".$cfstory["name"]."</figcaption>";
@@ -54,11 +54,25 @@
 // }
 
 
-// function get_cfstories_count() {
-//   return count(get_all_cfstories());
-// }
+function get_cfstories_count() {
+  return count(get_all_cfstories());
+}
 
-// function get_all_cfstories() {
+function get_cfstories_subset($positionStart, $positionEnd) {
+    $subset = array();
+    $all = get_all_cfstories();
+
+    $position = 0;
+    foreach($all as $cfstory) {
+        $position += 1;
+        if ($position >= $positionStart && $position <= $positionEnd) {
+            $subset[] = $cfstory;
+        }
+    }
+    return $subset;
+}
+
+function get_all_cfstories() {
   $cfstories = array();
   $cfstories["cohutta_mountain"] = array(
     "img" => "img/cf-cohutta-mountain.jpg",
@@ -76,7 +90,7 @@
     "p6" => "The trail back was definitely painful, 2,000 ft. increase in 8 miles. We would boo out loud whenever the trail dropped in elevation for more than a few steps knowing that we would have to climb it again. The most frustrating thing was not the elevation increases, but that we thought there would be water on this trail. We quickly realized we were wrong and we would need to conserve water as we watched the trail we were on and the river part ways. We did stop for lunch at an area that clearly fed into the river, however, it had been dried up to mostly mud at this time of year.",
     "p7" => "If I was to do another hike in this area, which I would definitely not be opposed to, I would take the Jack&#39s River Trail the whole way. The lack of water on the trail we took was definitely a detriment to us staying an extra night out there. If we were take a trail that stayed on or close to the river the whole way we definitely would have stayed longer. Oh well, you live and you learn right? All in all we descended 2,000 ft. and ascended that same amount, as well as hiking a total of 20 miles. Definitely not a bad way to spend a Memorial Day weekend.",
     "p8" => "We stayed in Atlanta Sunday night so we would be fresh driving home the next day. That post backpacking shower is one of the best things that this life has to offer. After getting cleaned up, we went out for dinner at the Brick Store Pub in Decatur. Their beer selection was exactly what was needed after hiking 20 miles in 2 days. I don&#39t know if it was the best beer I&#39ve ever had but it definitely tasted like it.",
-    "catch" => "Always remember, Adventure is Calling!",
+    "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "May 26th, 2015 "
   );
@@ -93,7 +107,7 @@
     "aside2" => "img/cf-juniper-turtle.jpg",
     "aside2_alt" => "Turtles sunbathing",
     "p5" => "Sunday, my wife and I took another short hike in the morning and even got to see a deer 10 ft ahead of us before she scurried into the woods. I love relaxing weekends like these. The fresh air and sunny skies are exactly what I need. Out in the peace and quiet you can gather your thoughts and let go of the things that seem so important in your daily life. I think that&#39s the real beauty of the outdoors, they allow you to forget what you deem important and focus on what truly is: your friends, family, and of course having a little fun.",
-    "catch" => "Always remember, Adventure is Calling!",
+    "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "May 19th, 2015 "
   );
@@ -111,7 +125,7 @@
     "aside2_alt" => "Serene water during the bike ride",
     "p5" => "My dad rented some beach cruisers for the house, so at least we got to ride bikes even without ours. We rode through a couple of the quaint towns on 30A. Life moves more slowly in these little beach towns but if you were to ask any resident, they would say that&#39s exactly why they live there.",
     "p6" => "If you&#39ve never had the opportunity to check out the Gulf Coast, I highly recommend a vacation there. If you want the best weather, make sure to check out May or September. It&#39s still plenty warm enough for swimming but not so hot that you feel like a turkey on Thanksgiving. Regardless of when you go, I promise you won&#39t be disappointed.",
-    "catch" => "Always remember, Adventure is Calling!",
+    "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "May 10th, 2015"
   );
@@ -129,7 +143,7 @@
     "aside2_alt" => "The best party people ever",
     "p5" => "In speaking with them, they had met when they worked for their city to build a haunted house. They had done that for years and collected a large amount of haunted props throughout the years. They told me about how Halloween at their homes consists of house hopping between the 4 of them and checking out their incredibly elaborate displays. One guy had a &#34rain room&#34, in which he set up pipes to create fake rain as you walked across a bridge that would move due to hydraulics. Needless to say, they take Halloween to another level. I want to visit them in October and see these amazing houses.",
     "p6" => "Thankfully, I had ear plugs Saturday night. I slept like a rock and think I only woke up once. Sunday was our clean up and head out day. It put an end to an amazing weekend. It was unbelievable how quickly the time went by, I can&#39t wait to go again though. I hope if you haven&#39t been camping, you get out there and try it. Start with car camping and maybe you&#39ll eventually move into some more backcountry type through-hiking. Even if you don&#39t, just go be outdoors. There is so much outside our wifi and paved city streets. Also, become friends with the weird people at your campsite, they often provide the most memorable moments.",
-    "catch" => "Always remember, Adventure is Calling!",
+    "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "March 9th, 2015 "
   );
@@ -147,14 +161,10 @@
     "aside2_alt" => "Lake Tahoe with Banks",
     "p5" => "As for the tips I&#39ll be giving you in the How To section, I am by no means an expert and if you disagree with any of my recommendations, then I would love to hear your opinion on what you think. I love learning and researching, if I&#39m passionate about a topic I will spend hours upon hours reading articles on that subject. If I am going to purchase something to use in the backcountry, I will read expert advice so that I know I have the best product for the money. This is what I promise you, that when I give you a recommendation on what fixed blade knife to buy, how to survive a bear attack, or what food to eat on the trail know that it comes after a large amount of research on a topic. You can think of my articles as a summary of opinions. Instead of you taking time to read all about what product, say a sleeping bag, to buy, I have done that for you.",
     "p6" => "Sound good? Great, I hope you enjoy my articles!",
-    "catch" => "Always remember, Adventure is Calling!",
+    "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "February 27, 2015 "
   );
-
-//   foreach($cfstories as $cstoryname => $cfstory){
-//     $cfstories[$cfstoryname]["name"] = $cfstoryname;
-//   }
-//   return $cfstories;
-// }
+  return $cfstories;
+}
 ?>

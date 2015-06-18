@@ -1270,6 +1270,23 @@ body {
   text-align:center;
 }
 
+.pagination {
+  font-family: "Quicksand", sans-serif;
+  margin: 20px 0 50px;
+}
+
+.pagination a:hover, .pagination a:visited, .pagination a:link {
+  background-color: slategrey;
+  color: white;
+  padding: 1rem;
+}
+
+.pagination span {
+  background-color: #09f;
+  color: white;
+  padding: 1rem;
+}
+
 .portfolio-images img {
   border-top:5px solid orange;
   border-radius:30px;

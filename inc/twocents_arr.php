@@ -3,7 +3,7 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="tcblog.php?story='.$tcblogname.'">';
+    $output .= '<a href="tcblog.php?name='.$tcblog["story"].'">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$tcblog["img"] .'" alt="'.$tcblog["info"].'">';
     $output .= "<figcaption>".$tcblog["title"]."</figcaption>";
@@ -14,7 +14,7 @@
     return $output;
   }
 
-  function display_twocents_blog($tcblogname,$tcblog){
+  function display_twocents_blog($tcblog){
     //build HTML output here
     $output = "";
     $output .= "<div class='blog-head'>";
@@ -36,7 +36,42 @@
     return $output;
   }
 
+  function get_recent_tcblogs() {
+      $recent = array();
+      $all = get_all_tcblogs();
 
+      $total_tcblogs = count($all);
+      $position = 0;
+
+      foreach($all as $tcblog) {
+          $position = $position + 1;
+          if ($total_tcblogs - $position < 4) {
+              $recent[] = $tcblog;
+          }
+      }
+      return $recent;
+  }
+
+
+  function get_tcblogs_count() {
+    return count(get_all_tcblogs());
+  }
+
+  function get_tcblogs_subset($positionStart, $positionEnd) {
+      $subset = array();
+      $all = get_all_tcblogs();
+
+      $position = 0;
+      foreach($all as $product) {
+          $position += 1;
+          if ($position >= $positionStart && $position <= $positionEnd) {
+              $subset[] = $product;
+          }
+      }
+      return $subset;
+  }
+
+function get_all_tcblogs() {
   $tcblogs = array();
   // $tcblogs["backpack"] = array(
   //   "img" => "img/tc-backpack.png",
@@ -195,6 +230,12 @@
     "signature" => "John McKinney",
     "date" => "April 17th, 2015 "
   );
+
+  foreach($tcblogs as $tcblogname => $tcblog){
+    $tcblogs[$tcblogname]["story"] = $tcblogname;
+  }
+  return $tcblogs;
+}
 ?>
 
 
