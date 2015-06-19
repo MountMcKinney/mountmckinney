@@ -1,9 +1,9 @@
 <?php
-  function display_campfire_html($cfstoryname, $cfstory){
+  function display_campfire_html($cfstory){
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="campfire.php?story='.$cfstoryname.'">';
+    $output .= '<a href="campfire.php?story='.$cfstory["story"].'">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["location"].'">';
     $output .= "<figcaption>".$cfstory["name"]."</figcaption>";
@@ -14,7 +14,7 @@
     return $output;
   }
 
-  function display_campfire_blog($cfstoryname,$cfstory){
+  function display_campfire_blog($cfstory){
     //build HTML output here
     $output = "";
     $output .= "<div class='blog-head'>";
@@ -165,6 +165,10 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "February 27, 2015 "
   );
-  return $cfstories;
+  foreach ($cfstories as $cfstoryname => $cfstory) {
+    $cfstories[$cfstoryname]["story"] = $cfstoryname;
+}
+
+return $cfstories;
 }
 ?>

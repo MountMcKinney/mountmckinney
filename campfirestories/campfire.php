@@ -31,9 +31,7 @@ $pageTitle = $cfstory["name"];
     <div id="main-left">
       <div class="campfire">
         <h3 id="blog-top-h3"> <?php echo $cfstory["name"];?> </h3>
-        <?php
-          echo display_campfire_blog($cfstoryname,$cfstory);
-        ?>
+        <?php echo display_campfire_blog($cfstory); ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
     </div>
@@ -41,5 +39,4 @@ $pageTitle = $cfstory["name"];
   <footer class="contact-footer">
     <?php include(ROOT_PATH."inc/footer.php"); ?>
   </footer>
-    <?php include(ROOT_PATH.'inc/js_scripts.php');
-    ?>
+    <?php include(ROOT_PATH.'inc/js_scripts.php');?>

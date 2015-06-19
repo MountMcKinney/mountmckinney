@@ -8,7 +8,7 @@ if (empty($_GET["pg"])) {
 } else {
   $current_page = $_GET["pg"];
 }
-// set strings like "frog" to 0; remove decimals
+// set strings to 0; remove decimals
 $current_page = intval($current_page);
 
 $total_tcblogs = get_tcblogs_count();
@@ -25,8 +25,8 @@ if ($current_page < 1) {
   header("Location: ./");
 }
 
-// determine the start and end shirt for the current page; for example, on
-// page 3 with 8 shirts per page, $start and $end would be 17 and 24
+// determine the start and end story for the current page; for example, on
+// page 2 with 4 stories per page, $start and $end would be 5 and 8
 $start = (($current_page - 1) * $tcblogs_per_page) + 1;
 $end = $current_page * $tcblogs_per_page;
 if ($end > $total_tcblogs) {
@@ -51,14 +51,12 @@ $tcblogs = get_tcblogs_subset($start,$end);
         <div class="camping-tips">
           <h3>My Two Cents</h3>
           <ul class="cts-right">
-            <?php include(ROOT_PATH . "inc/pagination.php"); ?>
+            <?php include (ROOT_PATH."inc/pagination.php"); ?>
             <?php foreach($tcblogs as $tcblog){
-              echo display_twocents_html($tcblogname, $tcblog);
-              // var_dump($tcblogs);
-              var_dump($tcblogname);
+              echo display_twocents_html($tcblog);
             }
             ?>
-            <?php include(ROOT_PATH . "inc/pagination.php"); ?>
+            <?php include (ROOT_PATH."inc/pagination.php"); ?>
           </ul>
         </div>
       </div>
@@ -66,4 +64,4 @@ $tcblogs = get_tcblogs_subset($start,$end);
     <footer class="contact-footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
-      <?php include(ROOT_PATH."inc/js_scripts.php");?>
+    <?php include(ROOT_PATH."inc/js_scripts.php");?>

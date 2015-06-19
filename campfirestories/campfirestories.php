@@ -8,8 +8,8 @@ if (empty($_GET["pg"])) {
 } else {
   $current_page = $_GET["pg"];
 }
-// set strings like "frog" to 0; remove decimals
-// $current_page = intval($current_page);
+// set strings to 0; remove decimals
+$current_page = intval($current_page);
 
 $total_cfstories = get_cfstories_count();
 $cfstories_per_page = 4;
@@ -25,8 +25,8 @@ if ($current_page < 1) {
   header("Location: ./");
 }
 
-// determine the start and end shirt for the current page; for example, on
-// page 3 with 4 stories per page, $start and $end would be 5 and 8
+// determine the start and end story for the current page; for example, on
+// page 2 with 4 stories per page, $start and $end would be 5 and 8
 $start = (($current_page - 1) * $cfstories_per_page) + 1;
 $end = $current_page * $cfstories_per_page;
 if ($end > $total_cfstories) {
@@ -52,12 +52,12 @@ $cfstories = get_cfstories_subset($start,$end);
         <div class="campfire">
           <h3>Campfire Stories</h3>
           <ul class="cts">
-            <?php include(ROOT_PATH . "inc/pagination.php"); ?>
-            <?php foreach($cfstories as $cfstoryname => $cfstory) {
-              echo display_campfire_html($cfstoryname, $cfstory);
+            <?php include (ROOT_PATH."inc/pagination.php");?>
+            <?php foreach($cfstories as $cfstory) {
+              echo display_campfire_html($cfstory);
             }
             ?>
-          <?php include(ROOT_PATH . "inc/pagination.php"); ?>
+            <?php include (ROOT_PATH."inc/pagination.php");?>
           </ul>
         </div>
       </div>

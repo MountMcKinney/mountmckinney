@@ -1,10 +1,10 @@
 <?php
 require_once("../inc/config.php");
-
 require_once(ROOT_PATH."inc/twocents_arr.php");
+$tcblogs = get_all_tcblogs();
 
-if (isset($_GET["name"])){
-  $tcblogname = $_GET["name"];
+if (isset($_GET["story"])){
+  $tcblogname = $_GET["story"];
   if (isset($tcblogs[$tcblogname])){
     $tcblog = $tcblogs[$tcblogname];
   }
@@ -31,12 +31,7 @@ $pageTitle = $tcblog["name"];
     <div id="main-right">
       <div class="camping-tips">
         <h3 id="blog-top-h3"> <?php echo $tcblog["title"];?> </h3>
-        <?php
-          echo display_twocents_blog($tcblog);
-          var_dump($tcblogs);
-          var_dump($tcblog);
-          var_dump($tcblogname);
-        ?>
+        <?php echo display_twocents_blog($tcblog); ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
     </div>
