@@ -1105,7 +1105,7 @@ header {
 }
 
 .home-header h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-shadow: 5px 5px 10px rgba(0,0,0,1);
 /*  margin-top: 3em;*/
   align-content:center;
@@ -1114,7 +1114,7 @@ header {
 }
 
 .home-header p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   text-shadow: 2px 2px 10px rgba(0,0,0,1);
   line-height:50px;
 }
