@@ -20,8 +20,8 @@ function postPortfolioToGoogle() {
          type: "POST",
          dataType: "xml",
          statusCode: {
-           success: function () {
-               $('#contact-name').load("inc/contact-thankyou.php");
+           0: function () {
+               $('#contact-name').load("../inc/contact-thankyou.php");
                $('#contact-us').hide();
            },
        }
@@ -39,8 +39,8 @@ function postPortfolioToGoogle() {
           type: "POST",
           dataType: "xml",
           statusCode: {
-            success: function () {
-                $('#sub').load("inc/subscribe-thankyou.php");
+            0: function () {
+                $('#sub').load("../inc/subscribe-thankyou.php");
                 $('#sub-formpage').hide();
             },
         }
