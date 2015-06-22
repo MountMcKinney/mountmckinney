@@ -1,0 +1,31 @@
+{% extends "main.twig" %}
+
+{% block head %}
+<script src="{{ baseUrl }}js/campfire_arr.js"></script>
+
+{% endblock head %}
+
+{% block title %}Campfire Stories{% endblock title %}
+
+{% block content %}
+
+<div id="wrapper">
+  <div id="main-left">
+    <div class="campfire">
+      <h3>Campfire Stories</h3>
+      <div class="pagination">
+        <script src="{{ baseUrl }}js/pagination.js"></script>
+      </div>
+
+      <ul id="cts">
+        <script src="{{ baseUrl }}js/cfstories.js"></script>
+      </ul>
+
+      <div class="pagination">
+        <script src="{{ baseUrl }}js/pagination.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
