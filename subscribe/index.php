@@ -13,7 +13,7 @@ require_once("../inc/config.php");
   </header>
   <div id="wrapper-subscribe">
     <div class="sub-page">
-      <?php include(ROOT_PATH."inc/subscribe-form.php"); ?>
+      <?php include(ROOT_PATH."inc/subscribe-form.php");?>
     </div>
   </div>
   <footer class="contact-footer">
