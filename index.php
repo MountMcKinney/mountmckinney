@@ -19,7 +19,7 @@
       );
 
       $app->get('/', function() use($app){
-        $app->render('main.twig');
+        $app->render('home.twig');
       })->name('home');
 
       $app->get('/contact', function() use($app){

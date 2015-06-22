@@ -1,32 +1,39 @@
-{% extends main.twig %}
+{% extends "main.twig" %}
 
+{% block title %}Contact{% endblock title %}
 {% block content %}
-
-<?php $pageTitle="Contact"; ?>
-
-<div id="wrapper-contact">
-  <div class="about">
-    <h4>About</h4>
-    <div>
-    <img src="<?php echo BASE_URL;?>img/contact-pic-me.jpg">
-    <p>Hi, my name is John McKinney. I am a web developer, designer, and backcountry hiking enthusiast. If you'd like to read about my trips to some of the most beautiful natural landmarks our country has to offer, head over to the <a href="<?php echo BASE_URL;?>campfirestories/campfirestories.php">Campfire Stories</a> or read my advice about camping on <a href="<?php echo BASE_URL;?>twocents/twocents.php">My Two Cents</a>. Make sure to <a href="<?php echo BASE_URL;?>subscribe.php">Subscribe</a> to catch my latest adventure!</p>
-    <p>If you'd like more info on the web development services I offer as well as check out my portfolio of work, head to the <a href="<?php echo BASE_URL;?>portfolio.php">Portfolio</a> tab. If you need any further info or just want to chat with me, I can be reached via the contact links on this page.</p>
-    <p>The best way to get in touch with me is email. I always love to hear from you, especially if you have ideas for my next trip.</p>
-  </div>
- </div>
-  <div class="contact-details">
-    <h4>Contact</h4>
-    <div>
-    <ul class="details">
-      <li class="mail"><img src="<?php echo BASE_URL; ?>img/mail.png"><a href="mailto:john@mountmckinney.com">john@mountmckinney.com</a></li>
-      <li class="twitter"><img src="<?php echo BASE_URL; ?>img/twitter-icon.svg"><a href="http://twitter.com/intent/tweet?screen_name=mountmckinney" target="_blank" "social" id="twitter-icon">@mountmckinney</a></li>
-      <li class="facebook"><img src="<?php echo BASE_URL; ?>img/facebook-icon.svg"><a href="http://facebook.com/mountmckinney" target="_blank" class="social" id="facebook-icon">Mount McKinney</a></li>
-    </ul>
+  <div id="wrapper-contact">
+    <div class="about">
+      <h4>About</h4>
+      <div>
+      <img src="{{ baseUrl }}img/contact-pic-me.jpg">
+      <p>Hi, my name is John McKinney. I am a web developer, designer, and backcountry hiking enthusiast. If you'd like to read about my trips to some of the most beautiful natural landmarks our country has to offer, head over to the <a href="<?php echo BASE_URL;?>campfirestories/campfirestories.php">Campfire Stories</a> or read my advice about camping on <a href="<?php echo BASE_URL;?>twocents/twocents.php">My Two Cents</a>. Make sure to <a href="<?php echo BASE_URL;?>subscribe.php">Subscribe</a> to catch my latest adventure!</p>
+      <p>If you'd like more info on the web development services I offer as well as check out my portfolio of work, head to the <a href="<?php echo BASE_URL;?>portfolio.php">Portfolio</a> tab. If you need any further info or just want to chat with me, I can be reached via the contact links on this page.</p>
+      <p>The best way to get in touch with me is email. I always love to hear from you, especially if you have ideas for my next trip.</p>
+    </div>
    </div>
+    <div class="contact-details">
+      <h4>Contact</h4>
+      <div>
+      <ul class="details">
+        <li class="mail"><img src="{{ baseUrl }}img/mail.png"><a href="mailto:john@mountmckinney.com">john@mountmckinney.com</a></li>
+        <li class="twitter"><img src="{{ baseUrl }}img/twitter-icon.svg"><a href="http://twitter.com/intent/tweet?screen_name=mountmckinney" target="_blank" "social" id="twitter-icon">@mountmckinney</a></li>
+        <li class="facebook"><img src="{{ baseUrl }}img/facebook-icon.svg"><a href="http://facebook.com/mountmckinney" target="_blank" class="social" id="facebook-icon">Mount McKinney</a></li>
+      </ul>
+     </div>
+    </div>
+    <div class="subscribe">
+      <h4>Subscribe</h4>
+      <p>(Quickly, Before Sasquatch Gets You)</p>
+      <div id="sub">
+          <form class="sub-form" id="sub-formpage">
+                  <label for="name">Name</label>
+                  <input type="text" id="sub_form_name" name="entry.1029484234" class="required"/>
+                  <label for="email">Email</label>
+                  <input type="email" id="sub_form_email" name="entry.2088672430" class="required"/>
+                  <button id="ButtonSubmit" class="submit-button-form" onclick="postContactToGoogle()" type="button">Connect</button>
+          </form>
+      </div>
+    </div>
   </div>
-  <div class="subscribe">
-    <?php include(ROOT_PATH.'inc/subscribe-form.php'); ?>
-  </div>
-</div>
-
 {% endblock content %}

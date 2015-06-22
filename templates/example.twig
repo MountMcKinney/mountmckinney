@@ -1,15 +1,16 @@
-{% extends 'main.twig' %}
+{% extends "main.twig" %}
+
+{% block title %}Portfolio{% endblock title %}
 
 {% block content %}
 
-  <?php require_once (ROOT_PATH."inc/portfolio_arr.php");
-  $pageTitle="Portfolio";
-  ?>
-  <div class="breadcrumb"><a href="portfolio.php">Portfolio</a> &gt; <?php echo $website["name"]; ?></div>
+  <?php require_once (ROOT_PATH."inc/portfolio_arr.php");?>
+  <div class="breadcrumb"><a href="{{ siteUrl }}/portfolio">Portfolio</a> &gt;
+    <?php echo $website["name"]; ?>
+  </div>
   <div id="wrapper">
     <div>
         <img src="<?php echo $website["img"];?>">
-
     </div>
   </div>
 

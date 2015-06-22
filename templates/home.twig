@@ -1,23 +1,67 @@
-<?php
-require_once("inc/config.php");
-?>
-<!DOCTYPE html>
-<html id="homepage">
-<?php
-  $pageTitle="Home";
-  include(ROOT_PATH."inc/header.php");
-?>
+{% extends "main.twig" %}
+
+{% block html %}<html lang="en" id="homepage">{% endblock html %}
+
+{% block title %}Home{% endblock title%}
+
+{% block header %}
     <header>
-      <?php include(ROOT_PATH."inc/name_title_header.php");?>
-      </header>
-    <nav>
-      <?php include(ROOT_PATH."inc/menu.php");?>
-    </nav>
-    <div class="home-header">
-        <h1 class='title'>Mount McKinney</h1>
-        <p class='title'>Adventure is calling</p>
+      <div id="name">
+        <h3>John McKinney</h3>
+        <p>Web Developer</p>
       </div>
-    <div id='home-footer'>
-      <?php include(ROOT_PATH."inc/footer.php"); ?>
+    </header>
+{% endblock header %}
+
+{% block menu %}
+  <nav>
+    <div class="mobile-nav">
+      <div class="menu-btn" id="menu-btn">
+         <div></div>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+
+      <div class="responsive-menu">
+          <ul>
+          <a href="{{ baseUrl }}"><li>Home</li></a>
+          <a href="{{ siteUrl('/portfolio')}}"><li>Portfolio</li></a>
+          <a href="{{ siteUrl('/campfirestories')}}"><li>Campfire Stories</li></a>
+          <a href="{{ siteUrl('/twocents')}}"><li>My Two Cents</li></a>
+          <a href="{{ siteUrl('/contact')}}"><li>Contact</li></a>
+          <a href="{{ siteUrl('/subscribe')}}"><li>Subscribe</li></a>
+          </ul>
+      </div>
     </div>
-      <?php include(ROOT_PATH."inc/js_scripts.php");?>
+    <div id="menu">
+      <ul>
+          <a href="{{ baseUrl }}"><li>Home</li></a>
+          <a href="{{ siteUrl('/portfolio')}}"><li>Portfolio</li></a>
+          <li class="blog">Blog
+            <ul>
+              <a href="{{ siteUrl('/campfirestories')}}"><li>Campfire Stories</li></a>
+              <a href="{{ siteUrl('/twocents')}}"><li>My Two Cents</li></a>
+            </ul>
+          </li>
+          <a href="{{ siteUrl('/contact')}}"><li>Contact</li></a>
+          <a href="{{ siteUrl('/subscribe')}}"><li>Subscribe</li></a>
+      </ul>
+    </div>
+    </nav>
+  {% endblock menu %}
+
+  {% block content %}
+      <div class="home-header">
+        <h1 class="title">Mount McKinney</h1>
+        <p class="title">Adventure is calling</p>
+  {% endblock content %}
+
+  {% block footer %}
+      <div id="home-footer">
+          <p>&copy; 2015 Mount McKinney</p>
+          <a href="http://facebook.com/mountmckinney" class="social" id="facebook-icon"><img src="{{ baseUrl }}img/facebook-icon.svg"></a>
+          <a href="http://twitter.com/mountmckinney" class="social" id="twitter-icon"><img src="{{ baseUrl }}img/twitter-icon.svg"></a>
+          <a href="http://instagram.com/mountmckinney" class="social" id="instagram-icon"><img src="{{ baseUrl }}img/instagram-icon.svg"></a>
+      </div>
+    {% endblock footer %}

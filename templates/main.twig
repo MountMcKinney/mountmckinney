@@ -1,23 +1,24 @@
 <!doctype html>
 
-<html lang="en">
+{% block html %}<html lang="en">{% endblock html %}
 <head>
+
   {% block head %}
-    <link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/favicon.ico">
-    <title> {% block title %} Mount McKinney {% endblock title %}</title>
+    <link rel="shortcut icon" href="{{ baseUrl }}img/favicon.ico">
+    <title> {% block title %}{% endblock title %} | Mount McKinney</title>
     <link href='http://fonts.googleapis.com/css?family=Quicksand|Vast+Shadow|Cinzel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ baseUrl }}css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% endblock head %}
 </head>
 <body>
+  {% block header %}
   <header class="contact-header">
-    {% block name %}
       <div id="name">
         <h3>John McKinney</h3>
         <p>Web Developer</p>
       </div>
-    {% endblock name %}
+    {% endblock header %}
     {% block menu %}
       <div class="mobile-nav">
         <div class="menu-btn" id="menu-btn">
@@ -29,27 +30,27 @@
 
         <div class="responsive-menu">
             <ul>
-            <a href="<?php echo BASE_URL; ?>index.php"><li>Home</li></a>
-            <a href="<?php echo BASE_URL; ?>portfolio/portfolio.php"><li>Portfolio</li></a>
-            <a href="<?php echo BASE_URL; ?>campfirestories/campfirestories.php"><li>Campfire Stories</li></a>
-            <a href="<?php echo BASE_URL; ?>twocents/twocents.php"><li>My Two Cents</li></a>
-            <a href="<?php echo BASE_URL; ?>contact.php"><li>Contact</li></a>
-            <a href="<?php echo BASE_URL; ?>subscribe.php"><li>Subscribe</li></a>
+            <a href="{{ baseUrl }}"><li>Home</li></a>
+            <a href="{{ siteUrl('/portfolio')}}"><li>Portfolio</li></a>
+            <a href="{{ siteUrl('/campfirestories')}}"><li>Campfire Stories</li></a>
+            <a href="{{ siteUrl('/twocents')}}"><li>My Two Cents</li></a>
+            <a href="{{ siteUrl('/contact')}}"><li>Contact</li></a>
+            <a href="{{ siteUrl('/subscribe')}}"><li>Subscribe</li></a>
             </ul>
         </div>
       </div>
       <div id="menu">
         <ul>
-            <a href="<?php echo BASE_URL; ?>index.php"><li>Home</li></a>
-            <a href="<?php echo BASE_URL; ?>portfolio/portfolio.php"><li>Portfolio</li></a>
+            <a href="{{ baseUrl }}"><li>Home</li></a>
+            <a href="{{ siteUrl('/portfolio')}}"><li>Portfolio</li></a>
             <li class="blog">Blog
               <ul>
-                <a href="<?php echo BASE_URL; ?>campfirestories/campfirestories.php"><li>Campfire Stories</li></a>
-                <a href="<?php echo BASE_URL; ?>twocents/twocents.php"><li>My Two Cents</li></a>
+                <a href="{{ siteUrl('/campfirestories')}}"><li>Campfire Stories</li></a>
+                <a href="{{ siteUrl('/twocents')}}"><li>My Two Cents</li></a>
               </ul>
             </li>
-            <a href="<?php echo BASE_URL; ?>contact.php"><li>Contact</li></a>
-            <a href="<?php echo BASE_URL; ?>subscribe.php"><li>Subscribe</li></a>
+            <a href="{{ siteUrl('/contact')}}"><li>Contact</li></a>
+            <a href="{{ siteUrl('/subscribe')}}"><li>Subscribe</li></a>
         </ul>
       </div>
     {% endblock menu %}
@@ -58,17 +59,17 @@
     {% block content %}
     {% endblock content %}
   </main>
+  {% block footer %}
   <footer class="contact-footer">
-    {% block footer %}
       <p>&copy; <?php echo date('Y'); ?> Mount McKinney</p>
-      <a href="http://facebook.com/mountmckinney" class="social" id="facebook-icon"><img src="<?php echo BASE_URL; ?>img/facebook-icon.svg"></a>
-      <a href="http://twitter.com/mountmckinney" class="social" id="twitter-icon"><img src="<?php echo BASE_URL; ?>img/twitter-icon.svg"></a>
-      <a href="http://instagram.com/mountmckinney" class="social" id="instagram-icon"><img src="<?php echo BASE_URL; ?>img/instagram-icon.svg"></a>
-    {% endblock footer %}
+      <a href="http://facebook.com/mountmckinney" class="social" id="facebook-icon"><img src="{{ baseUrl }}img/facebook-icon.svg"></a>
+      <a href="http://twitter.com/mountmckinney" class="social" id="twitter-icon"><img src="{{ baseUrl }}img/twitter-icon.svg"></a>
+      <a href="http://instagram.com/mountmckinney" class="social" id="instagram-icon"><img src="{{ baseUrl }}img/instagram-icon.svg"></a>
   </footer>
-    {% block js_scripts %}
-      <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-      <script src="<?php echo BASE_URL;?>js/app.js"></script>
-    {% endblock js_scripts %}
+  {% endblock footer %}
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="{{ baseUrl }}js/app.js"></script>
+    {% block disqus %}
+    {% endblock disqus %}
   </body>
   </html>
