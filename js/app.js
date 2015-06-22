@@ -1,6 +1,6 @@
-jQuery('.title').hide().fadeIn(3000);
+$('.title').hide().fadeIn(3000);
 
-jQuery(function($){
+$(function(){
      $( '.menu-btn').click(function(){
        $('.responsive-menu').toggleClass('expand');
        $('.home-header').toggleClass('hidden');

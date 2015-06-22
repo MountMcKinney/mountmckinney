@@ -1,7 +1,3 @@
-{% extends "main.twig" %}
-
-{% block content %}
-
 <?php
 require_once(ROOT_PATH."inc/campfire_arr.php");
 
@@ -40,21 +36,3 @@ $cfstories = get_cfstories_subset($start,$end);
 $pageTitle="Campfire Stories";
 
 ?>
-
-<div id="wrapper">
-  <div id="main-left">
-    <div class="campfire">
-      <h3>Campfire Stories</h3>
-      <ul class="cts">
-        <?php include (ROOT_PATH."inc/pagination.php");?>
-        <?php foreach($cfstories as $cfstory) {
-          echo display_campfire_html($cfstory);
-        }
-        ?>
-        <?php include (ROOT_PATH."inc/pagination.php");?>
-      </ul>
-    </div>
-  </div>
-</div>
-
-{% endblock content %}

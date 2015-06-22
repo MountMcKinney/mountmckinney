@@ -22,6 +22,10 @@
         $app->render('home.twig');
       })->name('home');
 
+      $app->get('/home', function() use($app){
+        $app->render('home.twig');
+      })->name('home');
+
       $app->get('/contact', function() use($app){
         $app->render('contact.twig');
       })->name('contact');
