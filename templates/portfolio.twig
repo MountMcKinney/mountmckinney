@@ -1,0 +1,37 @@
+{% extends 'main.twig' %}
+
+{% block content %}
+  <?php require_once (ROOT_PATH."inc/portfolio_arr.php");
+  $pageTitle="Portfolio";
+  ?>
+  
+  <div id="wrapper-portfolio">
+    <div class="portfolio">
+      <h4>Portfolio & Services</h4>
+      <div id="ps">
+      <p>I am a code ninja with HTML, CSS, JS & JQuery, PHP, and MySQL. Below you can find a couple of my projects, they're always being updated so be sure to check back from time to time. If you are in need of my services, send me a message so we can discuss more details. I look forward to hearing from you! </p>
+      <ul class="portfolio-images">
+        <?php foreach($websites as $websiteSKU => $website)
+            echo display_portfolio_html($websiteSKU, $website);
+          ?>
+      </ul>
+      </div>
+    </div>
+    <div class="contact-me">
+      <h4>Contact Me</h4>
+      <div id="cont-me">
+          <div id="contact-name">
+            <form id="contact-us">
+                <label for="name">Name</label>
+                <input type="text" id="connect_name" name="entry.528305603"/>
+                <label for="email">Email</label>
+                <input type="email" id="connect_email" name="entry.307489032"/>
+                <label for="info">Comments</label>
+                <textarea id="connect_comments" name="entry.1946196515"></textarea>
+                <button id="ButtonSubmit" onclick="postPortfolioToGoogle()" type="button" class="submit-button-form">Connect</button>
+            </form>
+          </div>
+    </div>
+   </div>
+  </div>
+{% endblock content %}

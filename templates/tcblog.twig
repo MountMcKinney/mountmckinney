@@ -1,0 +1,35 @@
+{% extends main.twig %}
+
+{% block content %}
+
+  <?php
+
+  require_once("inc/twocents_arr.php");
+  $tcblogs = get_all_tcblogs();
+
+  if (isset($_GET["story"])){
+    $tcblogname = $_GET["story"];
+    if (isset($tcblogs[$tcblogname])){
+      $tcblog = $tcblogs[$tcblogname];
+    }
+  }
+  // if(!isset($tcblog)){
+  //   header("Location:twocents.php");
+  //   exit();
+  // }
+
+  $pageTitle = $tcblog["name"];
+  ?>
+
+  <div class="breadcrumb"><a href="twocents.php">Two Cents</a> &gt; <?php echo $tcblog ["title"]; ?></div>
+  <div id="wrapper">
+    <div id="main-right">
+      <div class="camping-tips">
+        <h3 id="blog-top-h3"> <?php echo $tcblog["title"];?> </h3>
+        <?php echo display_twocents_blog($tcblog); ?>
+        <?php include(ROOT_PATH."inc/disqus.php"); ?>
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}
