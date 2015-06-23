@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // if the email is sent successfully, redirect to a thank you page;
         // otherwise, set a new error message
         if($mail->Send()) {
-            header("Location: " . BASE_URL . "subscribe/?status=thanks");
+            header("Location: ./?status=thanks");
             exit;
         } else {
           $error_message = "There was a problem sending the email: " . $mail->ErrorInfo;
