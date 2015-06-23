@@ -1,6 +1,7 @@
 <?php
 require_once("../inc/config.php");
 ?>
+<?php include (ROOT_PATH."inc/contactFormSubmission.php"); ?>
 <!DOCTYPE html>
 <html>
 <?php

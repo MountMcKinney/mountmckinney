@@ -1877,6 +1877,12 @@ textarea {
   margin: 10px auto;
 }
 
+.message {
+  font-family: "Quicksand", sans-serif;
+  color: orange;
+  text-align: center;
+}
+
 .sub-form {
   padding-left: 10%;
   padding-right: 10%;
@@ -1890,16 +1896,30 @@ label {
   font-family:'Quicksand', sans-serif;
 }
 
+.thanks h2, .thanks p{
+  color:#09f;
+  text-align: center;
+  font-family: "Quicksand",sans-serif;
+  text-transform: capitalize;
+}
+
+.thanks h2 {
+  font-size: 3rem;
+}
+
+.thanks p {
+  font-size: 1.32rem;
+}
 
 .submit-button-form {
   border: 1px solid #09f;
-  color:white;
-  background-color:orange;
-  border-radius:30px;
-  font-family:'Quicksand', sans-serif;
-  font-size: 1.1rem;
-  font-weight:bold;
-  margin: 5px auto;
+  color: orange;
+  background-color: white;
+  border-radius: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  float: right;
 }
 
 form {
