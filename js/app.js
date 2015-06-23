@@ -6,7 +6,7 @@ jQuery(function($){
        $('.home-header').toggleClass('hidden');
        $('.breadcrumb').toggleClass('hide-bread')
      })
-})
+});
 
 function postPortfolioToGoogle() {
  var email = $('#connect_email').val();
@@ -16,7 +16,7 @@ function postPortfolioToGoogle() {
      $.ajax({
          url: "https://docs.google.com/forms/d/1lsJSZEwwBVjwWbBbI4Yj9gAiOt_Q_boZ_kV7HXR0jA0/formResponse",
          data: { "entry.307489032": email,
-         "entry.528305603": first, "entry.1946196515": comment},
+         "entry.528305603": first, "entry.1946196515": comment },
          type: "POST",
          dataType: "xml",
          statusCode: {
@@ -28,7 +28,7 @@ function postPortfolioToGoogle() {
    });
  };
 
- function postContactToGoogle() {
+ function postSubscribe() {
   var email = $('#sub_form_email').val();
   var first = $('#sub_form_name').val();
 
