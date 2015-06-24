@@ -2020,11 +2020,13 @@ form {
 
 .tc-blog-list {
   color: #09f;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
 }
 
 .tc-blog-list dt {
   margin: 1% 0;
-  font-weight: bold;
+  color: orange;
 }
 
 .tc-blog-list dd {
