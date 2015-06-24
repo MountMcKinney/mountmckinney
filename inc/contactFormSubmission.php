@@ -50,17 +50,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_body = "";
         $email_body .= "Name: " . $name . "<br>";
         $email_body .= "Email: " . $email . "<br>";
+        $email_body .= "Comments: ".$comments."<br>";
 
         $mail->SetFrom($email, $name);
         $address = $email;
-        $mail->AddAddress($address, "john@mountmckinney.com");
-        $mail->Subject    = "I'll Reach Out Shortly," . $name;
+        $mail->AddAddress("jmckinney448@gmail.com", "john@mountmckinney.com");
+        $mail->Subject = "New Contact Us Request From " . $name;
         $mail->MsgHTML($email_body);
 
         // if the email is sent successfully, redirect to a thank you page;
         // otherwise, set a new error message
         if($mail->Send()) {
-            header("Location: " . BASE_URL . "portfolio/portfolio.php?status=thanks");
+            header("Location:?status=thanks");
             exit;
         } else {
           $error_message = "There was a problem sending the email: " . $mail->ErrorInfo;

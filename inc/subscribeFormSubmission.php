@@ -47,19 +47,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // have a valid form submission; let's send the email
     if (!isset($error_message)) {
         $email_body = "";
-        $email_body .= "Name: " . $name . "<br>";
-        $email_body .= "Email: " . $email . "<br>";
+        $email_body .= '<h1>
+                          <span style="font-size:25px">
+                          <span style="font-family:verdana,geneva,sans-serif">
+                          <span style="color:#0099ff">
+                          <span style="line-height:1.6em">Thank You For Subscribing '.$name.'!</span></span></span></span>
+                        </h1>';
+        $email_body .= '<p>
+                          <span style="font-family:verdana,geneva,sans-serif">You&#39;re now a member of the &nbsp;Mount McKinney mailing list. It&#39;s an exclusive club, I&#39;m sure you&#39;re quite pleased to be a part of it. If you haven&#39;t had a chance to read all my
+                          <span style="color:#FF8C00"></span><a href="http://mountmckinney.com/twocents/twocents.php" style="text-decoration:none" target="_blank">
+                          <span style="color:#FF8C00">Two Cents</span></a> and <a href="http://mountmckinney.com/campfirestories/campfirestories.php" style="text-decoration:none" target="_blank">
+                          <span style="color:#FF8C00">Campfire Stories</span></a> I highly recommend you go do so.<br /><br />I heard something about a prize for the first 10 people to read all the stories</span>. Regardless, you&#39;re now all set up to receive all my new content.
+                        </p>';
 
         $mail->SetFrom($email, $name);
         $address = $email;
         $mail->AddAddress($address, "john@mountmckinney.com");
-        $mail->Subject = "Don't Worry," . $name . "I told Sasquatch to Leave You Alone";
+        $mail->Subject = "Don't Worry, " . $name . " I told Sasquatch to Leave You Alone";
         $mail->MsgHTML($email_body);
 
         // if the email is sent successfully, redirect to a thank you page;
         // otherwise, set a new error message
         if($mail->Send()) {
-            header("Location: ./?status=thanks");
+            header("Location:?status=thanks");
             exit;
         } else {
           $error_message = "There was a problem sending the email: " . $mail->ErrorInfo;
