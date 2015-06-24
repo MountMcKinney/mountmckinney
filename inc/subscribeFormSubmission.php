@@ -60,9 +60,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                           <span style="color:#FF8C00">Campfire Stories</span></a> I highly recommend you go do so.<br /><br />I heard something about a prize for the first 10 people to read all the stories</span>. Regardless, you&#39;re now all set up to receive all my new content.
                         </p>';
 
-        $mail->SetFrom($email, $name);
+        $mail->SetFrom("john@mountmckinney.com", "Mount McKinney");
         $address = $email;
         $mail->AddAddress($address, "john@mountmckinney.com");
+        $mail->AddReplyTo("john@mountmckinney.com");
         $mail->Subject = "Don't Worry, " . $name . " I told Sasquatch to Leave You Alone";
         $mail->MsgHTML($email_body);
 
