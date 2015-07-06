@@ -1,5 +1,5 @@
 <?php
-require_once("../inc/config.php");
+require_once("../../inc/config.php");
 
 require_once(ROOT_PATH."inc/portfolio_arr.php");
 
@@ -26,7 +26,7 @@ $pageTitle = $website["name"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
-  <div class="breadcrumb"><a href="portfolio.php">Portfolio</a> &gt; <?php echo $website["name"]; ?></div>
+  <div class="breadcrumb"><a href="<?php echo BASE_URL; ?>portfolio/">Portfolio</a> &gt; <?php echo $website["name"]; ?></div>
   <div id="wrapper">
     <div>
         <img src="<?php echo $website["img"];?>">

@@ -8,10 +8,10 @@
 
   <div class="responsive-menu">
       <ul>
-      <a href="<?php echo BASE_URL; ?>index.php"><li>Home</li></a>
-      <a href="<?php echo BASE_URL; ?>portfolio/portfolio.php"><li>Portfolio</li></a>
-      <a href="<?php echo BASE_URL; ?>campfirestories/campfirestories.php"><li>Campfire Stories</li></a>
-      <a href="<?php echo BASE_URL; ?>twocents/twocents.php"><li>My Two Cents</li></a>
+      <a href="<?php echo BASE_URL; ?>"><li>Home</li></a>
+      <a href="<?php echo BASE_URL; ?>portfolio/"><li>Portfolio</li></a>
+      <a href="<?php echo BASE_URL; ?>campfirestories/"><li>Campfire Stories</li></a>
+      <a href="<?php echo BASE_URL; ?>twocents/"><li>My Two Cents</li></a>
       <a href="<?php echo BASE_URL; ?>contact/"><li>Contact</li></a>
       <a href="<?php echo BASE_URL; ?>subscribe/"><li>Subscribe</li></a>
       </ul>
@@ -19,12 +19,12 @@
 </div>
 <div id="menu">
   <ul>
-      <a href="<?php echo BASE_URL; ?>index.php"><li>Home</li></a>
-      <a href="<?php echo BASE_URL; ?>portfolio/portfolio.php"><li>Portfolio</li></a>
+      <a href="<?php echo BASE_URL; ?>"><li>Home</li></a>
+      <a href="<?php echo BASE_URL; ?>portfolio/"><li>Portfolio</li></a>
       <li class="blog">Blog
         <ul>
-          <a href="<?php echo BASE_URL; ?>campfirestories/campfirestories.php"><li>Campfire Stories</li></a>
-          <a href="<?php echo BASE_URL; ?>twocents/twocents.php"><li>My Two Cents</li></a>
+          <a href="<?php echo BASE_URL; ?>campfirestories/"><li>Campfire Stories</li></a>
+          <a href="<?php echo BASE_URL; ?>twocents/"><li>My Two Cents</li></a>
         </ul>
       </li>
       <a href="<?php echo BASE_URL; ?>contact/"><li>Contact</li></a>

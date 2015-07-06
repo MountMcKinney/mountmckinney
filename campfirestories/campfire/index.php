@@ -1,5 +1,5 @@
 <?php
-require_once("../inc/config.php");
+require_once("../../inc/config.php");
 require_once(ROOT_PATH."inc/campfire_arr.php");
 $cfstories = get_all_cfstories();
 
@@ -9,10 +9,10 @@ if (isset($_GET["story"])){
     $cfstory = $cfstories[$cfstoryname];
   }
 }
-// if(!isset($cfstory)){
-//   header("Location:".BASE_URL."campfirestories/");
-//   exit();
-// }
+if(!isset($cfstory)){
+  header("Location:".BASE_URL."campfirestories/");
+  exit();
+}
 
 $pageTitle = $cfstory["name"];
 ?>
@@ -26,7 +26,7 @@ $pageTitle = $cfstory["name"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
-  <div class="breadcrumb"><a href="campfirestories.php">Campfire Stories</a> &gt; <?php echo $cfstory ["name"]; ?></div>
+  <div class="breadcrumb"><a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["name"]; ?></div>
   <div id="wrapper">
     <div id="main-left">
       <div class="campfire">
