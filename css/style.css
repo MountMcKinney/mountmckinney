@@ -2063,3 +2063,58 @@ input[type='text'], input:not([type]), textarea {
     padding:10px 20%;
   }
 }
+
+/*---------PAGE: PRICING---------*/
+
+
+#wrapper-pricing {
+  max-width:1100px;
+  margin: 0 auto;
+}
+
+ .pricing h4 {
+  font-family:'Quicksand', sans-serif;
+  font-size:2rem;
+  text-align:center;
+  margin-top: 130px;
+}
+
+#price {
+  border-top:3px solid orange;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top:10px;
+  margin-bottom:100px;
+  position: relative;
+  z-index: 1;
+}
+
+#price p {
+  font-family:'Quicksand', sans-serif;
+  font-size:1.1rem;
+  color:#09f;
+  text-align:justify;
+  margin:20px 30px;
+  line-height:1.5rem;
+}
+
+.pricing-options {
+  border: 1px solid orange;
+  width: 300px;
+  border-radius: 30px;
+  margin: auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #09f;
+  background-color: aliceblue;
+}
+
+#head-cost {
+  font-size: 1.5rem;
+}
+
+#cost {
+  font-size: 5rem;
+  color: orange;
+  margin: 4.5rem 0;
+}

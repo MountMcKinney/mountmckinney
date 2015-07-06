@@ -1,5 +1,5 @@
 <?php
-require_once("../inc/config.php");
+require_once("../../inc/config.php");
 require_once(ROOT_PATH."inc/twocents_arr.php");
 $tcblogs = get_all_tcblogs();
 
@@ -9,10 +9,10 @@ if (isset($_GET["story"])){
     $tcblog = $tcblogs[$tcblogname];
   }
 }
-// if(!isset($tcblog)){
-//   header("Location:twocents.php");
-//   exit();
-// }
+if(!isset($tcblog)){
+  header("Location:".BASE_URL."twocents/");
+  exit();
+}
 
 $pageTitle = $tcblog["name"];
 ?>
@@ -26,7 +26,7 @@ $pageTitle = $tcblog["name"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
-  <div class="breadcrumb"><a href="twocents.php">Two Cents</a> &gt; <?php echo $tcblog ["title"]; ?></div>
+  <div class="breadcrumb"><a href="<?php echo BASE_URL; ?>twocents/">Two Cents</a> &gt; <?php echo $tcblog ["title"]; ?></div>
   <div id="wrapper">
     <div id="main-right">
       <div class="camping-tips">
