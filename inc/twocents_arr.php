@@ -88,8 +88,8 @@ function get_all_tcblogs() {
                   <dd>Always be sure to have things like shelter, food, water (or a way of getting water), and emergency supplies</dd>
                 <dt>Don&#39;t go overboard:</dt>
                   <dd>To me, it&#39;s not worth it to spend an extra $50 to save 1oz. There are definitely times the cost justifies the weight saved. Just make sure to scrutinize your decisions to make sure it really is worth it.</dd>
-                <dt>This one is the maybe the most important thing ever:</dt>
-                  <dd>For the sake of everyone around you, always wear clothes. I know that it would save you weight to just wear a birthday suit, but please don&#39;t.</dd>
+                <dt>This is maybe the most important thing I&#39;ll ever say:</dt>
+                  <dd>Always wear clothes. I know that it would save you weight to just wear a birthday suit. However, for the sake of everyone around you, please don&#39;t.</dd>
                   <dd>This isn&#39;t a French beach.</dd>
                   <dd>Plus, think of all the bug bites you&#39;d get.</dd>
               </dl>",
