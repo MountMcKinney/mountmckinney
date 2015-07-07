@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteRule ^campfirestories/$ /campfirestories/
-RewriteRule ^twocents/$ /twocents/
+RewriteRule ^campfirestories.php$ /campfirestories/
+RewriteRule ^twocents.php$ /twocents/
 RewriteRule ^subscribe.php$ /subscribe/
 RewriteRule ^contact.php$ /contact/
 RewriteRule ^portfolio.php$ /portfolio/
