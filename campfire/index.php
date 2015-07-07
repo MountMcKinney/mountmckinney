@@ -1,5 +1,5 @@
 <?php
-require_once("../../inc/config.php");
+require_once("../inc/config.php");
 require_once(ROOT_PATH."inc/campfire_arr.php");
 $cfstories = get_all_cfstories();
 
