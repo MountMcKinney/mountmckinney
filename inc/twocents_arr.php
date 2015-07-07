@@ -78,7 +78,7 @@ function get_all_tcblogs() {
     "title" => "Dropping Weight Quickly",
     "info" => "How to drop weight off your pack, safely",
     "name" => "Losing Weight",
-    "p1" => "I&#39;m in a constant quest to lose weight, most of us are. We try anything and everything to shed a few pounds. It&#39;s almost an obsession really, constantly scrutinizing every purchase, asking, “Will this get me to my target weight?” No, I&#39;m not talking about dropping my body weight. I&#39;m talking about dropping pounds from my pack.",
+    "p1" => "I&#39;m in a constant quest to lose weight, most of us are. We try anything and everything to shed a few pounds. It&#39;s almost an obsession really, constantly scrutinizing every purchase, asking, &#34;Will this get me to my target weight?&#34; No, I&#39;m not talking about dropping my body weight. I&#39;m talking about dropping pounds from my pack.",
     "p2" => "I keep a detailed spreadsheet of all my camping gear. This sheet helps me to scrutinize everything I own and decide if it&#39;s worth the weight to have on my back. Creating this sheet has helped me shed a few pounds off my back. I&#39;ve found things that I thought I would need but now realize I don&#39;t and alternatives to things that were a little too heavy. Though, my pack was not particularly heavy to begin with. I&#39;ve always looked for low cost/low weight functional products. This made dropping the weight more difficult. Regardless, it was a project worth the time.",
     "aside1" => "img/tc-mountains-weight.jpg",
     "aside1_alt" => "Here&#39;s a pretty picture of mountains...I couldn&#39;t think of anything else to put here",
