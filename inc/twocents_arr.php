@@ -3,7 +3,7 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="'.BASE_URL.'story/?'.$tcblog["story"].'">';
+    $output .= '<a href="'.BASE_URL.'twocent/?story='.$tcblog["story"].'">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$tcblog["img"] .'" alt="'.$tcblog["info"].'">';
     $output .= "<figcaption>".$tcblog["title"]."</figcaption>";

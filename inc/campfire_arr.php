@@ -3,7 +3,7 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="'.BASE_URL.'story/?'.$cfstory["story"].'">';
+    $output .= '<a href="'.BASE_URL.'campfire/?story='.$cfstory["story"].'">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["location"].'">';
     $output .= "<figcaption>".$cfstory["name"]."</figcaption>";
