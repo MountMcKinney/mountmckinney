@@ -153,8 +153,8 @@ function get_all_tcblogs() {
                   <dd>The single edge blade allows you to use the knife for batoning, this would be much more difficult with a double edge blade</dd>
               </dl>",
     "p4" => "All the knives I looked into were full-tang. I did a large amount of looking around before deciding upon the SCHF26. I originally thought I would go with the KA-BAR US Marine Corp, the Ontario 499 Air Force, or the SOG Seal Pup Elite. All are great knives, however, when I held them in my hand they just didn&#39t find feel quite right. I have large hands, so it is important to me to have a handle that is long enough. The KA-BAR and the Seal Pup just felt a little short in my hand for comfort. The Ontario had similar specs as the KA-BAR but was difficult to find locally so I ended up passing on it.",
-    "p5" => "After passing on those, I began a new search. My new selections brought me to the KA-BAR BK-22 and the Schrade SCHF9. I thought I would go with the BK-22, I had it in my shopping cart and everything. It was an excellent knife, highly rated, and not a bad price at about $80 on Amazon. The BK-22 has a thick spine at ¼&#34 and can take a beating. It&#39s made from 1095 Cro-Van steel Solid. I was about to purchase it, when someone suggested I look at the SCHF26. As I looked into it I began to like it more and more. I watched videos and articles comparing the BK-22 and the SCHF26 and most people agreed that the SCHF26 is just a better value.",
-    "p6" => "I pulled the trigger and ordered the SCHF26. I love it. The grip has a rubbery feel, it feels like it wouldn&#39t slip out of my hand even if I was doing something in the rain. It has a spine that is ¼&#34 thick and flat. It has a sharp point and is a single edge blade. The weight distribution just felt right in my hands. It was a length I liked by staying just under 11&#34 and had a large handle at 5.4&#34. I&#39m very happy with my purchase, needless to say.",
+    "p5" => "After passing on those, I began a new search. My new selections brought me to the KA-BAR BK-22 and the Schrade SCHF9. I thought I would go with the BK-22, I had it in my shopping cart and everything. It was an excellent knife, highly rated, and not a bad price at about $80 on Amazon. The BK-22 has a thick spine at a quarter inch and can take a beating. It&#39s made from 1095 Cro-Van steel Solid. I was about to purchase it, when someone suggested I look at the SCHF26. As I looked into it I began to like it more and more. I watched videos and articles comparing the BK-22 and the SCHF26 and most people agreed that the SCHF26 is just a better value.",
+    "p6" => "I pulled the trigger and ordered the SCHF26. I love it. The grip has a rubbery feel, it feels like it wouldn&#39t slip out of my hand even if I was doing something in the rain. It has a spine that is a quarter inch thick and flat. It has a sharp point and is a single edge blade. The weight distribution just felt right in my hands. It was a length I liked by staying just under 11&#34 and had a large handle at 5.4&#34. I&#39m very happy with my purchase, needless to say.",
     "p7" => "For selecting your own knife, there are many that will work. I was splitting hairs comparing many knives, many of which I didn&#39t list. People get very opinionated about which knife is best, and that&#39s fine, we are all passionate about different things. I just think that as long as it is a knife that is full-tang, the right size, the right shape, and made of a good material you will be fine. Often, picking a knife is best done by placing it in your hand and determining if it passes the initial gut test. Good luck picking out a knife and if you have questions or comments, feel free to leave them below!",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
@@ -167,7 +167,7 @@ function get_all_tcblogs() {
     "name" => "3 Day Spring Pack",
     "p1" => "I always have my bag packed, when it&#39s time to go I don&#39t spend time thinking about what I need. I take things out to wash and clean after a trip and then immediately place them back in the pack. I carry a 30 liter pack, I&#39m always looking for ways to lower the weight and hopefully get down to a 20 liter pack. It&#39s a backpack from Overboard that is rated to survive quick submersions. It&#39s definitely not the traditional backpacker&#39s pack but it works well for me.",
     "p2" => "Today, I thought I would give you a glimpse into my 3 season pack. I would take this pack for a trip that was up to 5 days long. I look for things that pack down small and are lightweight but still provide the necessary protection. I look for deals on gear and equipment so I can get the most for my money. Most of the things I&#39ve bought were from Sierra Trading Post, Moosejaw, and Amazon.",
-    "aside1" => "pick of all my stuff laid out",
+    "aside1" => "img/tc-trad-back-overboard.jpg",
     "aside1_alt" => "Contents of my bag, laid out",
     "p3" => "<dl class='tc-blog-list'>
               <dt>Sleeping bag: Kelty 20F Cosmic Down 550 Fill - Long</dt>
@@ -190,7 +190,7 @@ function get_all_tcblogs() {
                 <dd>Floss</dd>
                 <dd>Sun screen</dd>
                 <dd>Mouthwash</dd>
-                <dd>Deodorant (Just because I/'m in the woods doesn/'t mean I want to smell bad)</dd>
+                <dd>Deodorant (Just because I&#39m in the woods doesn&#39t mean I want to smell bad)</dd>
                 <dd>Earplugs</dd>
               <dt>Babywipes</dt>
               <dt>Adventure Medical Kit Dayhiker First Aid Kit</dt>
@@ -226,7 +226,7 @@ function get_all_tcblogs() {
                 <dd>Icebreaker Multisport Light Micro Socks</dd>
                 <dd>Nike Free Trainer (Definitely not traditional hiking shoe/boot but because my pack is light I can wear more comfortable shoes and not worry about the need for ankle support)</dd>
               <dt>When it&#39s cooler out I include:</dt>
-                <dd>Columbia Omni-heat ½ zip pullover</dd>
+                <dd>Columbia Omni-heat half-zip pullover</dd>
                 <dd>Beanie</dd>
                 <dd>Long underwear</dd>
                 <dd>Gore Bike Wear Soft Shell Windstopper Gloves</dd>

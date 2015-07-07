@@ -2022,12 +2022,20 @@ form {
 
 .tc-blog-list {
   color: #09f;
+<<<<<<< HEAD
   font-weight: 'Quicksand', sans-serif;
+=======
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+>>>>>>> origin/master
 }
 
 .tc-blog-list dt {
   margin: 1% 0;
+<<<<<<< HEAD
   font-weight: bold;
+=======
+>>>>>>> origin/master
   color: orange;
 }
 

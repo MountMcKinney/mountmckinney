@@ -92,7 +92,7 @@ function get_all_cfstories() {
     "p8" => "We stayed in Atlanta Sunday night so we would be fresh driving home the next day. That post backpacking shower is one of the best things that this life has to offer. After getting cleaned up, we went out for dinner at the Brick Store Pub in Decatur. Their beer selection was exactly what was needed after hiking 20 miles in 2 days. I don&#39t know if it was the best beer I&#39ve ever had but it definitely tasted like it.",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "May 26th, 2015 "
+    "date" => "May 26th, 2015"
   );
   $cfstories["juniper_springs"] = array(
     "img" => "img/cf-juniper-swim-hole.jpg",
@@ -109,7 +109,7 @@ function get_all_cfstories() {
     "p5" => "Sunday, my wife and I took another short hike in the morning and even got to see a deer 10 ft ahead of us before she scurried into the woods. I love relaxing weekends like these. The fresh air and sunny skies are exactly what I need. Out in the peace and quiet you can gather your thoughts and let go of the things that seem so important in your daily life. I think that&#39s the real beauty of the outdoors, they allow you to forget what you deem important and focus on what truly is: your friends, family, and of course having a little fun.",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "May 19th, 2015 "
+    "date" => "May 19th, 2015"
   );
   $cfstories["grayton_beach"] = array(
     "img" => "img/cf-grayton-beach.jpg",
@@ -145,7 +145,7 @@ function get_all_cfstories() {
     "p6" => "Thankfully, I had ear plugs Saturday night. I slept like a rock and think I only woke up once. Sunday was our clean up and head out day. It put an end to an amazing weekend. It was unbelievable how quickly the time went by, I can&#39t wait to go again though. I hope if you haven&#39t been camping, you get out there and try it. Start with car camping and maybe you&#39ll eventually move into some more backcountry type through-hiking. Even if you don&#39t, just go be outdoors. There is so much outside our wifi and paved city streets. Also, become friends with the weird people at your campsite, they often provide the most memorable moments.",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "March 9th, 2015 "
+    "date" => "March 9th, 2015"
   );
   $cfstories["about-me"] = array(
     "img" => "img/contact-pic-me.jpg",
@@ -163,7 +163,7 @@ function get_all_cfstories() {
     "p6" => "Sound good? Great, I hope you enjoy my articles!",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
-    "date" => "February 27, 2015 "
+    "date" => "February 27, 2015"
   );
   foreach ($cfstories as $cfstoryname => $cfstory) {
     $cfstories[$cfstoryname]["story"] = $cfstoryname;
