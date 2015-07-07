@@ -1353,7 +1353,7 @@ footer {
   #wrapper {
     max-width:1100px;
     margin:auto;
-    padding-top:5%;
+    padding:5%;
   }
 
 .cts li {
@@ -1567,6 +1567,7 @@ footer {
 #wrapper-contact {
   max-width:1100px;
   margin: 0 auto;
+  padding: 5%;
 }
 
 .contact-header {
@@ -1758,6 +1759,7 @@ footer {
 #wrapper-portfolio {
   max-width:1100px;
   margin: 0 auto;
+  padding: 5%;
 }
 
  .portfolio h4 {
@@ -1848,7 +1850,7 @@ footer {
 #wrapper-subscribe {
   max-width:1100px;
   margin:auto;
-  padding-top:5%;
+  padding: 5%;
 }
 
 
@@ -2020,11 +2022,13 @@ form {
 
 .tc-blog-list {
   color: #09f;
+  font-weight: 'Quicksand', sans-serif;
 }
 
 .tc-blog-list dt {
   margin: 1% 0;
   font-weight: bold;
+  color: orange;
 }
 
 .tc-blog-list dd {
@@ -2070,6 +2074,7 @@ input[type='text'], input:not([type]), textarea {
 #wrapper-pricing {
   max-width:1100px;
   margin: 0 auto;
+  padding: 5%;
 }
 
  .pricing h4 {

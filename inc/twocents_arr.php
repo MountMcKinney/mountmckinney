@@ -73,25 +73,31 @@
 
 function get_all_tcblogs() {
   $tcblogs = array();
-  // $tcblogs["backpack"] = array(
-  //   "img" => "img/tc-backpack.png",
-  //   "title" => "Proper Packing Techniques",
-  //   "info" => "How to properly pack a backpack",
-  //   "name" => "Packing",
-  //   "p1" => "",
-  //   "p2" => "",
-  //   "p3" => "",
-  //   "aside1" => "",
-  //   "aside1_alt" => "",
-  //   "p4" => "",
-  //   "p5" => "",
-  //   "p6" => "",
-  //   "p7" => "",
-  //   "p8" => "",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "May 26th, 2015 "
-  // );
+  $tcblogs["losing_weight"] = array(
+    "img" => "img/tc-scale.jpg",
+    "title" => "Dropping Weight Quickly",
+    "info" => "How to drop weight off your pack, safely",
+    "name" => "Losing Weight",
+    "p1" => "I&#39;m in a constant quest to lose weight, most of us are. We try anything and everything to shed a few pounds. It&#39;s almost an obsession really, constantly scrutinizing every purchase, asking, “Will this get me to my target weight?” No, I&#39;m not talking about dropping my body weight. I&#39;m talking about dropping pounds from my pack.",
+    "p2" => "I keep a detailed spreadsheet of all my camping gear. This sheet helps me to scrutinize everything I own and decide if it&#39;s worth the weight to have on my back. Creating this sheet has helped me shed a few pounds off my back. I&#39;ve found things that I thought I would need but now realize I don&#39;t and alternatives to things that were a little too heavy. Though, my pack was not particularly heavy to begin with. I&#39;ve always looked for low cost/low weight functional products. This made dropping the weight more difficult. Regardless, it was a project worth the time.",
+    "aside1" => "img/tc-mountains-weight.jpg",
+    "aside1_alt" => "Here&#39;s a pretty picture of mountains...I couldn&#39;t think of anything else to put here",
+    "p3" => "I&#39;m sure there are things in your pack that could be a little lighter. As I have done, I recommend creating a spreadsheet of your belongings so you can see the things that aren&#39;t worth the weight. As you begin scrutinizing your pack, please remember 3 very important things:
+              <dl class='tc-blog-list'>
+                <dt>Never sacrifice safety for weight:</dt>
+                  <dd>Always be sure to have things like shelter, food, water (or a way of getting water), and emergency supplies</dd>
+                <dt>Don&#39;t go overboard:</dt>
+                  <dd>To me, it&#39;s not worth it to spend an extra $50 to save 1oz. There are definitely times the cost justifies the weight saved. Just make sure to scrutinize your decisions to make sure it really is worth it.</dd>
+                <dt>This one is the maybe the most important thing ever:</dt>
+                  <dd>For the sake of everyone around you, always wear clothes. I know that it would save you weight to just wear a birthday suit, but please don&#39;t.</dd>
+                  <dd>This isn&#39;t a French beach.</dd>
+                  <dd>Plus, think of all the bug bites you&#39;d get.</dd>
+              </dl>",
+    "p4" => "I suppose if I did want to shed pounds off my body, then I should keep my pack heavy so I&#39;d work harder out in the woods.",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "July 6th, 2015 "
+  );
 
   $tcblogs["sawyer-mini"] = array(
     "img" => "img/tc-sawyer-mini.jpg",
