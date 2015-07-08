@@ -4,6 +4,7 @@ RewriteRule ^twocents.php$ /twocents/
 RewriteRule ^subscribe.php$ /subscribe/
 RewriteRule ^contact.php$ /contact/
 RewriteRule ^portfolio.php$ /portfolio/
+RewriteRule ^services.php$ /services/
 
 php_flag  display_errors        on
 php_value error_reporting       2039

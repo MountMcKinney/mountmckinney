@@ -16,7 +16,7 @@ require_once (ROOT_PATH."inc/portfolio_arr.php");
     </header>
     <div id="wrapper-portfolio">
       <div class="portfolio">
-        <h4>Portfolio & Services</h4>
+        <h4>Portfolio</h4>
         <div id="ps">
         <p>I am a code ninja with HTML, CSS, JS & JQuery, PHP, and MySQL. Below you can find a couple of my projects, they're always being updated so be sure to check back from time to time. If you are in need of my services, send me a message so we can discuss more details. I look forward to hearing from you! </p>
         <ul class="portfolio-images">

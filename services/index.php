@@ -6,29 +6,29 @@ require_once("../inc/config.php");
 <!DOCTYPE html>
 <html>
 <?php
-  $pageTitle="Pricing";
+  $pageTitle="Services";
   include(ROOT_PATH."inc/header.php");
 ?>
     <header class="contact-header">
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
     </header>
-    <div id="wrapper-pricing">
-      <div class="pricing">
-        <h4>Pricing</h4>
-        <div id="price">
+    <div id="wrapper-services">
+      <div class="services">
+        <h4>Services</h4>
+        <div id="services">
           <p>
-            I provide a wide range of technology related services. So, whether you need a website built, social media rebranded, or you are just having general issues with your technology just call on me.
+            I provide a wide range of technology related services. So, whether you need a website built, social media rebranded, or you are just having general issues with your technology just call on me. I've been my family's technological advisor for many years and now I'd like to be yours.
           </p>
           <p>
-            Think of me as your go-to technology guru.
+            From now on, think of me as your go-to technology guru.
           </p>
-        <ul class="pricing-options">
-          <li class="cost">
-            <h5 id="head-cost">Hourly Rate</h5>
-            <h6 id="cost">$50/hr</h6>
-          </li>
-        </ul>
+          <p>
+            To get in touch with me about my services, simply fill out the Contact Me form below and I'll be in touch within a few hours. I look forward to hearing from you.
+          </p>
+          <p>
+            For a more detailed list of my skills, specifically in regard to development of websites, check out my <a href="<?php echo BASE_URL;?>portfolio.php">Portfolio</a>.
+          </p>
         </div>
       </div>
       <div class="contact-me">

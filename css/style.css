@@ -1097,7 +1097,7 @@ header {
   padding:0 10px;
 }
 
-@media screen and (min-width:652px) and (max-width:840px) {
+@media screen and (min-width:652px) and (max-width:905px) {
 
   .home-header{
     margin-top: 10em;
@@ -1214,6 +1214,11 @@ body {
   height:330px;
   width:100%;
   max-width:330px;
+}
+
+.camping-tips{
+  margin: 0 auto;
+  padding: 5%;
 }
 
 .camping-tips h3 {
@@ -1351,7 +1356,7 @@ footer {
 @media screen and (min-width: 410px) {
 
   #wrapper {
-    max-width:1100px;
+    max-width:1300px;
     margin:auto;
     padding:5%;
   }
@@ -1385,7 +1390,7 @@ footer {
 }
 
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 905px) {
 
   #name {
     float:left;
@@ -1495,7 +1500,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 905px) {
 
 .menu-btn div {
 	position: relative;
@@ -1565,7 +1570,7 @@ footer {
 /*---------PAGE:CONTACT---------*/
 
 #wrapper-contact {
-  max-width:1100px;
+  max-width:1300px;
   margin: 0 auto;
   padding: 5%;
 }
@@ -1596,7 +1601,7 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top:130px;
+  margin-top: 5.5rem;
 }
 
 .about div {
@@ -1698,14 +1703,14 @@ footer {
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 905px) {
 
 .contact-header {
   height:170px;
   }
 }
 
-@media screen and (min-width:840px) {
+@media screen and (min-width:905px) {
 
   .about p {
     font-family:'Quicksand', sans-serif;
@@ -1757,7 +1762,7 @@ footer {
 /*---------PAGE:PORTFOLIO---------*/
 
 #wrapper-portfolio {
-  max-width:1100px;
+  max-width:1300px;
   margin: 0 auto;
   padding: 5%;
 }
@@ -1766,7 +1771,7 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 130px;
+  margin-top: 5.5rem;
 }
 
 #ps {
@@ -1838,7 +1843,7 @@ footer {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 60px;
+  margin-top: 5.5rem;
 }
 
 .sub-page p, .subscribe p {
@@ -1848,7 +1853,7 @@ footer {
 }
 
 #wrapper-subscribe {
-  max-width:1100px;
+  max-width:1300px;
   margin:auto;
   padding: 5%;
 }
@@ -2049,7 +2054,8 @@ form {
 }
 
 .campfire {
-  margin: 0 5%;
+  margin: 0 auto;
+  padding: 5%;
 }
 
 input[type='text'], input:not([type]), textarea {
@@ -2057,35 +2063,35 @@ input[type='text'], input:not([type]), textarea {
 }
 
 
-@media screen and (min-width:900px){
+@media screen and (min-width:905px){
   #cont-me {
     padding:10px 28%;
   }
 }
 
-@media screen and (min-width:770px) and (max-width:900px) {
+@media screen and (min-width:770px) and (max-width:905px) {
   #cont-me {
     padding:10px 20%;
   }
 }
 
-/*---------PAGE: PRICING---------*/
+/*---------PAGE: SERVICES---------*/
 
 
-#wrapper-pricing {
-  max-width:1100px;
+#wrapper-services {
+  max-width:1300px;
   margin: 0 auto;
   padding: 5%;
 }
 
- .pricing h4 {
+ .services h4 {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 130px;
+  margin-top: 5.5rem;
 }
 
-#price {
+#services {
   border-top:3px solid orange;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -2095,7 +2101,7 @@ input[type='text'], input:not([type]), textarea {
   z-index: 1;
 }
 
-#price p {
+#services p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
   color:#09f;
@@ -2104,23 +2110,12 @@ input[type='text'], input:not([type]), textarea {
   line-height:1.5rem;
 }
 
-.pricing-options {
-  border: 1px solid orange;
-  width: 300px;
-  border-radius: 30px;
-  margin: auto;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  color: #09f;
-  background-color: aliceblue;
-}
-
-#head-cost {
-  font-size: 1.5rem;
-}
-
-#cost {
-  font-size: 5rem;
+#services a:link, #services a:visited, #services a:hover {
   color: orange;
-  margin: 4.5rem 0;
+}
+
+@media (min-width:905px) {
+  .portfolio h4, .sub-page h4, .about h4, .services h4 {
+    margin-top:initial;
+  }
 }
