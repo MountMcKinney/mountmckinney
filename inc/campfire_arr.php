@@ -74,6 +74,34 @@ function get_cfstories_subset($positionStart, $positionEnd) {
 
 function get_all_cfstories() {
   $cfstories = array();
+  $cfstories["slideball"] = array(
+    "img" => "img/cf-slideball.jpg",
+    "name" => "Slip &#39;n Slide Kickball",
+    "location" => "Gainesville, FL",
+    "p1" => "One of the most amazing ways to spend an afternoon.",
+    "p2" => "Thursday, a friend told me about slip &#39;n slide kickball, by Sunday we were playing our first game. Today, I&#39;ll be detailing our game and the supplies you&#39;ll need to make this happen at your next get together. Our supplies:",
+    "aside1" => "img/cf-slideball-setup.jpg",
+    "aside1_alt" => "Set up of the field prior to the game",
+    "p3" => "<dl class='tc-blog-list'>
+              <dt>4 4ft. inflatable kiddie pools for bases</dt>
+              <dt>4 10x25ft. heavy duty plastic painting sheets</dt>
+              <dt>Baby soap (don't want stinging in your eyes)</dt>
+              <dt>A ball (we used a flat soccerball)</dt>
+              <dt>Something to keep the sheets down (tent stakes work great)</dt>
+              <dt>Hose</dt>
+              <dt>Water</dt>
+            </dl>",
+    "p4" => "We blew up the kiddie pools, laid out the plastic sheets, and put water and soap on everything. It was a high-scoring affair, I believe one game was around 19-17 and the other shorter game was 16-8. The score was obviously less important than the fun (though my team won both games...just saying). We made the rules up as we went. Cutting outs from 3 to an inning to 2, requiring slides at every base (even on a home run), and deciding whether you could steal bases or not halfway through the game. It felt a lot like when you&#39;re young, creating games with the neighborhood kids. It was a blast.",
+    "aside2" => "img/cf-slideball-after.jpg",
+    "aside2_alt" => "After the game is over, we just spent a good 10 mins running around sliding",
+    "p5" => "There were mishaps for sure, people knocking over the pools (due to the sheer speed a slip &#39;n slide launches you), slipping in the outfield, and kicks that somehow went backwards. For example: we, being adults now (sort of), were a little weary of our initial slide. However, after you learn the oh so important, NEVER SLIDE ON YOUR STOMACH AS AN ADULT, you&#39;re fine.",
+    "p6" => "About 30 mins into the game, it started to pour, it was great! Our sliding went further and the mistakes increased greatly, all increasing the laughter. There are few activities where you hope it will rain on you, this is one.",
+    "p7" => "Following the game, we spent time just running between each of the bases sliding. I haven’t felt that much like a kid in a long time. It was a great feeling, one I plan to try and recreate this coming weekend when we play slip &#39;n slide kickball. Let the good times roll...or slide in this case.",
+    "p8" => "If you have the time, I highly recommend giving this a try. It&#39;s a great way to get outside and have some fun.",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "July 27th, 2015"
+  );
   $cfstories["cohutta_mountain"] = array(
     "img" => "img/cf-cohutta-mountain.jpg",
     "name" => "Cohutta Mountain Loop",
