@@ -96,7 +96,7 @@ function get_all_cfstories() {
     "aside2_alt" => "After the game is over, we just spent a good 10 mins running around sliding",
     "p5" => "There were mishaps for sure, people knocking over the pools (due to the sheer speed a slip &#39;n slide launches you), slipping in the outfield, and kicks that somehow went backwards. For example: we, being adults now (sort of), were a little weary of our initial slide. However, after you learn the oh so important, NEVER SLIDE ON YOUR STOMACH AS AN ADULT, you&#39;re fine.",
     "p6" => "About 30 mins into the game, it started to pour, it was great! Our sliding went further and the mistakes increased greatly, all increasing the laughter. There are few activities where you hope it will rain on you, this is one.",
-    "p7" => "Following the game, we spent time just running between each of the bases sliding. I haven’t felt that much like a kid in a long time. It was a great feeling, one I plan to try and recreate this coming weekend when we play slip &#39;n slide kickball. Let the good times roll...or slide in this case.",
+    "p7" => "Following the game, we spent time just running between each of the bases sliding. I haven&#39;t felt that much like a kid in a long time. It was a great feeling, one I plan to try and recreate this coming weekend when we play slip &#39;n slide kickball. Let the good times roll...or slide in this case.",
     "p8" => "If you have the time, I highly recommend giving this a try. It&#39;s a great way to get outside and have some fun.",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
