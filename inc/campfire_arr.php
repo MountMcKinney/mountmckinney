@@ -74,6 +74,113 @@ function get_cfstories_subset($positionStart, $positionEnd) {
 
 function get_all_cfstories() {
   $cfstories = array();
+  $cfstories["nm-sandia"] = array(
+    "img" => "img/cf-nm-peak.jpg",
+    "name" => "Sandia Peak",
+    "location" => "Sandia Peak, NM",
+    "p1" => "",
+    "p2" => "",
+    "aside1" => "img/cf-nm-peak-aside1.jpg",
+    "aside1_alt" => "",
+    "p3" => "",
+    "p4" => "",
+    "aside2" => "img/cf-nm-peak-aside2.jpg",
+    "aside2_alt" => "",
+    "p5" => "",
+    "p6" => "",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "August 23rd, 2015"
+  );
+  $cfstories["nm-bandelier"] = array(
+    "img" => "img/cf-nm-band.jpg",
+    "name" => "Bandelier National Monument",
+    "location" => "Bandelier National Monument, NM",
+    "p1" => "After eating lunch at Jemez Falls and checking out the Valles Caldera we headed over to the Bandelier National Monument near Los Alamos. As we rolled in, so did the storms. We were worried this would keep us from getting to see this interesting piece of history. The Rangers, informed us that the storms looked like they would be staying up on the plateau and the canyon should be fine. We waited a few minutes and then headed out in the light rain.",
+    "p2" => "Thankfully, after a few more minutes, the rain subsided. After a short stroll, slightly damp, we arrived at the monument. It was definitely an impressive sight. We saw the cave dwellings, built into the side of the canyon walls. Below, there was remnants of a rather large village.",
+    "aside1" => "img/cf-nm-band-aside.jpg",
+    "aside1_alt" => "The village below the cave dwellings",
+    "p3" => "We walked along the nicely laid out steps, with railings up to the entrance of the first dwelling that we could enter via ladder. There was already someone in that one and a family with two small children waiting to get in. We decided that we would just skip this one and enter the next one. Following the path a little further along we saw a few <a href='https://en.wikipedia.org/wiki/Petroglyph'>petroglyphs</a> on the walls inside and outside the dwellings.",
+    "p4" => "There were clearly multiple “floors” of dwellings, as well as having multi-level houses down below. We came across the next ladder and climbed up, as a tall person I can say that I would not have fared well in those back then. In reading the guide from the ranger station, the average male was 5 foot 6 and the average female was 5 foot. I&#39;m not sure how someone even that size could stay in those very long. I was hunched over my entire time in the dwelling.",
+    "aside2" => "img/cf-nm-band-aside2.jpg",
+    "aside2_alt" => "Me and my wife, cramped in the cave dwellings",
+    "p5" => "We exited that dwelling and moved along to the last dwelling that you could enter in that area, I enjoyed this one much more. It was tall enough for me to stand upright and move around. I could definitely enjoy an amazing night&#39;s sleep in that dark cave.",
+    "p6" => "In reading the guide book more to find out about this interesting people, I learned that life was difficult and the average lifespan was only 35 years. So maybe my dark cave would not have provided me that good night&#39;s sleep after all, at least not back then. It&#39;s always important to remember how good we have it in this day and age. I enjoyed my experience learning more about the people who once inhabited the walls of the Frijoles Canyon.",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "August 18th, 2015"
+  );
+  $cfstories["nm-jemez"] = array(
+    "img" => "img/cf-nm-jemez-falls.jpg",
+    "name" => "Jemez Falls and Valles Caldera",
+    "location" => "Jemez Falls, NM",
+    "p1" => "",
+    "p2" => "",
+    "aside1" => "img/cf-nm-jemez-aside.jpg",
+    "aside1_alt" => "",
+    "p3" => "",
+    "p4" => "",
+    "aside2" => "img/cf-nm-valles.jpg",
+    "aside2_alt" => "",
+    "p5" => "",
+    "p6" => "",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "August 18th, 2015"
+  );
+  $cfstories["nm-home"] = array(
+    "img" => "img/cf-nm-home.jpg",
+    "name" => "Finding Beauty Close to Home",
+    "location" => "Albuquerque, NM",
+    "p1" => "We stayed in the foothills of the Sandia Mountains on historic Route 66. It was my first time on Route 66, unfortunately, we didn&#39;t spend much time exploring it. We did play the classic Chuck Berry song while on it though. It&#39;s amazing the wildlife that grows regardless of climate. Every time we left the house we saw rabbits and while leaving the house one evening we even got to see a bobcat. I was thankful to be in a house that was surrounded by so much nature.",
+    "p2" => "There were a number of beautiful trails into the foothills near our house. One evening, my wife and I ventured out onto one before dinner. We began down the path and came upon a couple of large boulders stacked on top of each other. We, of course, climbed them. After taking a couple goofy pictures, we climbed down and continued on our path.",
+    "aside1" => "img/cf-nm-home-aside.jpg",
+    "aside1_alt" => "Goofy picture on a rock near the house",
+    "p3" => "We came to a fork in the path and opted to take the more rugged, primitive trail. We followed it along and made a few wrong turns here and there trying to stay on the path. Finally after walking on that path a good ways, we decided we didn&#39;t think it was prudent to continue on the trail. There were too many points that we could easily lose the trail on the way back. So we headed back before we got ourselves lost.",
+    "p4" => "We came back to that fork and headed onto the other trail that is much more defined. Though even this trail had plenty of cacti protruding into the trail. You had to be watchful of where you stepped in some areas. At one point the road sloped downward pushing me to speed up my walk. At the bottom there to greet me was a cacti about chest high. Thankfully, I stopped prior to getting stuck.",
+    "aside2" => "img/cf-nm-home-aside2.jpg",
+    "aside2_alt" => "My wife flexing like a strong man",
+    "p5" => "At the crest of the hill we stopped and just admired the late afternoon Sun painting its golden rays on the foothills. This sun soaked horizon provided a beautiful scene for our evening hike.",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "August 15th, 2015"
+  );
+  $cfstories["nm-kasha-katuwe"] = array(
+    "img" => "img/cf-nm-kasha-katuwe.jpg",
+    "name" => "Kasha-Katuwe Tent Rocks National Monument",
+    "location" => "Kasha-Katuwe, NM",
+    "p1" => "The first hike of the trip was to go to the Kasha Katuwe Tent Rocks National Monument (say that 5x fast). This is a slot canyon west of Santa Fe, definitely worth the hike. This was my first experience in a slot canyon.",
+    "p2" => "As we walked up to the entrance, the canyon walls felt more and more ominous. We traversed through narrow points where the canyon floor was smaller than the width of my shoes. At one point, we had to crouch walk under a boulder easily large enough to squash us. Thankfully, it was firmly wedged between the canyon walls. We twisted and turned our way and finally came to a point where the trail turned toward the top of the canyon.",
+    "aside1" => "img/cf-nm-kk.jpg",
+    "aside1_alt" => "Hiking through the slot canyon",
+    "p3" => "As interesting as it was being inside the slot canyon, it wasn&#39;t until we rose high above the canyon floor that the sights became breathtaking. We climbed the makeshift rock stairs. I kept thinking, what was the first person to do this thinking. There were points that would certainly have been extremely difficult if not for the railroad ties added to the trail to help create better steps.",
+    "p4" => "We climbed higher and higher, each time we turned around we were rewarded with an increasingly beautiful view. We turned around and saw the iconic tent rock formations this site is known for. We ascended more of the path and turned around again, this time seeing more of the canyon, more of the tent rocks, and this time mountains off in the distance. Now I knew there was something truly worth it to climb to the top for. I pushed harder and hiked faster, I wanted to see the vista at the peak.",
+    "aside2" => "img/cf-nm-kk-vista.jpg",
+    "aside2_alt" => "The view was truly something incredible.",
+    "p5" => "Reaching that peak was well worth the hike. What a gorgeous site, the land stretched on for miles and miles. Off in the distance in nearly every direction there were mountains. Down below you could see the tent rocks and the people traversing their way in and out of the canyon. The view compelled us to be speechless (which if you&#39;ve ever met me is not my natural state).",
+    "p6" => "It was difficult to want to trek down to the car from such awe inspiring beauty. Eventually, we had to make that journey though. As we reached the car, my wife had to make her customary statement whenever we do any sort of climb like that, “Can you believe we were just at the top of that?!” Truly, it&#39;s not really a trip for me unless I hear her say that.",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "August 13th, 2015"
+  );
+  $cfstories["nm-diversity"] = array(
+    "img" => "img/cf-nm-dive-main.jpg",
+    "name" => "American Southwest Diversity",
+    "location" => "Albuquerque, NM",
+    "p1" => "This was my first trip to the American Southwest for a hiking trip. I have to admit, I was not expecting it to be nearly as beautiful as it was. I expected New Mexico to be a vast desert with little diversity in the landscape. I always kind of wondered why people would live in what I viewed as such as a harsh climate. I was never so happy to be wrong.",
+    "p2" => "I&#39;ll be going into more detail about a couple of the places we hiked in subsequent posts. This is just a small post about my overall experience in NM.",
+    "aside1" => "img/cf-nm-dive-aside1.jpg",
+    "aside1_alt" => "Red rock beauty",
+    "p3" => "We spent a week in and around the Albuquerque area (still can&#39;t spell that right without spellcheck). Our house for the week nestled in the Sandia Mountains. As we ventured out into the wilderness, the true beauty of the state became apparent. We saw red rock deserts, pine tree covered mountains, Native American cave dwellings, the Rio Grande, white limestone mountains, and plains resembling those in Wyoming. I was amazed that on one particular driving day, we saw most of that list in just a few hours.",
+    "p4" => "The climate was also comfortable, this being August and the weather while warm was nothing compared to Florida&#39;s 90&#39;s and humid summer days. Personally, I&#39;m just more partial to hiking in cooler weather and like to save my multi-hour hikes for the cooler months.",
+    "aside2" => "img/cf-nm-jemez.jpg",
+    "aside2_alt" => "Me at the edge of a cliff near a waterfall",
+    "p5" => "Overall I was very impressed with the New Mexico. I always love diverse landscapes. Mountains are majestic to me, most likely due to the fact that the highest natural point in Florida is Britton Hill. This hill is a towering 312 feet. Even foothills are wonderful to someone who grew up 50 ft or less above sea level. I think my next trip to the Southwest will be to finally check out the Big Five in Utah or to see the Grand Canyon from up close, as opposed to just flying over it. ",
+    "p6" => "However, as gorgeous as the Southwest was, I&#39;m happy to be living in the Southeast. I have never been so thirsty for a week straight, my throat was constantly dry. I&#39;m sure I&#39;d get use to it, I&#39;m just not sure I would want to. I don&#39;t mind the heat and humidity of Florida and the non-summer months are incredible weather-wise.",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "August 10th, 2015"
+  );
   $cfstories["slideball"] = array(
     "img" => "img/cf-slideball.jpg",
     "name" => "Slip &#39;n Slide Kickball",
@@ -85,7 +192,7 @@ function get_all_cfstories() {
     "p3" => "<dl class='tc-blog-list'>
               <dt>4 4ft. inflatable kiddie pools for bases</dt>
               <dt>4 10x25ft. heavy duty plastic painting sheets</dt>
-              <dt>Baby soap (don't want stinging in your eyes)</dt>
+              <dt>Baby soap (don&#39;t want stinging in your eyes)</dt>
               <dt>A ball (we used a flat soccerball)</dt>
               <dt>Something to keep the sheets down (tent stakes work great)</dt>
               <dt>Hose</dt>
