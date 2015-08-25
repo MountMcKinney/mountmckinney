@@ -74,60 +74,60 @@ function get_cfstories_subset($positionStart, $positionEnd) {
 
 function get_all_cfstories() {
   $cfstories = array();
-  $cfstories["nm-sandia"] = array(
-    "img" => "img/cf-nm-peak.jpg",
-    "name" => "Sandia Peak",
-    "location" => "Sandia Peak, NM",
-    "p1" => "",
-    "p2" => "",
-    "aside1" => "img/cf-nm-peak-aside1.jpg",
-    "aside1_alt" => "",
-    "p3" => "",
-    "p4" => "",
-    "aside2" => "img/cf-nm-peak-aside2.jpg",
-    "aside2_alt" => "",
-    "p5" => "",
-    "p6" => "",
-    "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
-    "date" => "August 23rd, 2015"
-  );
-  $cfstories["nm-bandelier"] = array(
-    "img" => "img/cf-nm-band.jpg",
-    "name" => "Bandelier National Monument",
-    "location" => "Bandelier National Monument, NM",
-    "p1" => "After eating lunch at Jemez Falls and checking out the Valles Caldera we headed over to the Bandelier National Monument near Los Alamos. As we rolled in, so did the storms. We were worried this would keep us from getting to see this interesting piece of history. The Rangers, informed us that the storms looked like they would be staying up on the plateau and the canyon should be fine. We waited a few minutes and then headed out in the light rain.",
-    "p2" => "Thankfully, after a few more minutes, the rain subsided. After a short stroll, slightly damp, we arrived at the monument. It was definitely an impressive sight. We saw the cave dwellings, built into the side of the canyon walls. Below, there was remnants of a rather large village.",
-    "aside1" => "img/cf-nm-band-aside.jpg",
-    "aside1_alt" => "The village below the cave dwellings",
-    "p3" => "We walked along the nicely laid out steps, with railings up to the entrance of the first dwelling that we could enter via ladder. There was already someone in that one and a family with two small children waiting to get in. We decided that we would just skip this one and enter the next one. Following the path a little further along we saw a few <a href='https://en.wikipedia.org/wiki/Petroglyph'>petroglyphs</a> on the walls inside and outside the dwellings.",
-    "p4" => "There were clearly multiple “floors” of dwellings, as well as having multi-level houses down below. We came across the next ladder and climbed up, as a tall person I can say that I would not have fared well in those back then. In reading the guide from the ranger station, the average male was 5 foot 6 and the average female was 5 foot. I&#39;m not sure how someone even that size could stay in those very long. I was hunched over my entire time in the dwelling.",
-    "aside2" => "img/cf-nm-band-aside2.jpg",
-    "aside2_alt" => "Me and my wife, cramped in the cave dwellings",
-    "p5" => "We exited that dwelling and moved along to the last dwelling that you could enter in that area, I enjoyed this one much more. It was tall enough for me to stand upright and move around. I could definitely enjoy an amazing night&#39;s sleep in that dark cave.",
-    "p6" => "In reading the guide book more to find out about this interesting people, I learned that life was difficult and the average lifespan was only 35 years. So maybe my dark cave would not have provided me that good night&#39;s sleep after all, at least not back then. It&#39;s always important to remember how good we have it in this day and age. I enjoyed my experience learning more about the people who once inhabited the walls of the Frijoles Canyon.",
-    "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
-    "date" => "August 18th, 2015"
-  );
-  $cfstories["nm-jemez"] = array(
-    "img" => "img/cf-nm-jemez-falls.jpg",
-    "name" => "Jemez Falls and Valles Caldera",
-    "location" => "Jemez Falls, NM",
-    "p1" => "",
-    "p2" => "",
-    "aside1" => "img/cf-nm-jemez-aside.jpg",
-    "aside1_alt" => "",
-    "p3" => "",
-    "p4" => "",
-    "aside2" => "img/cf-nm-valles.jpg",
-    "aside2_alt" => "",
-    "p5" => "",
-    "p6" => "",
-    "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
-    "date" => "August 18th, 2015"
-  );
+  // $cfstories["nm-sandia"] = array(
+  //   "img" => "img/cf-nm-peak.jpg",
+  //   "name" => "Sandia Peak",
+  //   "location" => "Sandia Peak, NM",
+  //   "p1" => "",
+  //   "p2" => "",
+  //   "aside1" => "img/cf-nm-peak-aside1.jpg",
+  //   "aside1_alt" => "",
+  //   "p3" => "",
+  //   "p4" => "",
+  //   "aside2" => "img/cf-nm-peak-aside2.jpg",
+  //   "aside2_alt" => "",
+  //   "p5" => "",
+  //   "p6" => "",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "August 23rd, 2015"
+  // );
+  // $cfstories["nm-bandelier"] = array(
+  //   "img" => "img/cf-nm-band.jpg",
+  //   "name" => "Bandelier National Monument",
+  //   "location" => "Bandelier National Monument, NM",
+  //   "p1" => "After eating lunch at Jemez Falls and checking out the Valles Caldera we headed over to the Bandelier National Monument near Los Alamos. As we rolled in, so did the storms. We were worried this would keep us from getting to see this interesting piece of history. The Rangers, informed us that the storms looked like they would be staying up on the plateau and the canyon should be fine. We waited a few minutes and then headed out in the light rain.",
+  //   "p2" => "Thankfully, after a few more minutes, the rain subsided. After a short stroll, slightly damp, we arrived at the monument. It was definitely an impressive sight. We saw the cave dwellings, built into the side of the canyon walls. Below, there was remnants of a rather large village.",
+  //   "aside1" => "img/cf-nm-band-aside.jpg",
+  //   "aside1_alt" => "The village below the cave dwellings",
+  //   "p3" => "We walked along the nicely laid out steps, with railings up to the entrance of the first dwelling that we could enter via ladder. There was already someone in that one and a family with two small children waiting to get in. We decided that we would just skip this one and enter the next one. Following the path a little further along we saw a few <a href='https://en.wikipedia.org/wiki/Petroglyph'>petroglyphs</a> on the walls inside and outside the dwellings.",
+  //   "p4" => "There were clearly multiple “floors” of dwellings, as well as having multi-level houses down below. We came across the next ladder and climbed up, as a tall person I can say that I would not have fared well in those back then. In reading the guide from the ranger station, the average male was 5 foot 6 and the average female was 5 foot. I&#39;m not sure how someone even that size could stay in those very long. I was hunched over my entire time in the dwelling.",
+  //   "aside2" => "img/cf-nm-band-aside2.jpg",
+  //   "aside2_alt" => "Me and my wife, cramped in the cave dwellings",
+  //   "p5" => "We exited that dwelling and moved along to the last dwelling that you could enter in that area, I enjoyed this one much more. It was tall enough for me to stand upright and move around. I could definitely enjoy an amazing night&#39;s sleep in that dark cave.",
+  //   "p6" => "In reading the guide book more to find out about this interesting people, I learned that life was difficult and the average lifespan was only 35 years. So maybe my dark cave would not have provided me that good night&#39;s sleep after all, at least not back then. It&#39;s always important to remember how good we have it in this day and age. I enjoyed my experience learning more about the people who once inhabited the walls of the Frijoles Canyon.",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "August 18th, 2015"
+  // );
+  // $cfstories["nm-jemez"] = array(
+  //   "img" => "img/cf-nm-jemez-falls.jpg",
+  //   "name" => "Jemez Falls and Valles Caldera",
+  //   "location" => "Jemez Falls, NM",
+  //   "p1" => "",
+  //   "p2" => "",
+  //   "aside1" => "img/cf-nm-jemez-aside.jpg",
+  //   "aside1_alt" => "",
+  //   "p3" => "",
+  //   "p4" => "",
+  //   "aside2" => "img/cf-nm-valles.jpg",
+  //   "aside2_alt" => "",
+  //   "p5" => "",
+  //   "p6" => "",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "August 18th, 2015"
+  // );
   $cfstories["nm-home"] = array(
     "img" => "img/cf-nm-home.jpg",
     "name" => "Finding Beauty Close to Home",
