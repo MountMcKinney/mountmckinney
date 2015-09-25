@@ -1489,7 +1489,7 @@ footer {
   }
 
   #menu ul li ul a:hover {
-    color:orange;
+    color:#09f;
   }
 }
 
@@ -1616,14 +1616,14 @@ footer {
 .about p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color:#09f;
+  color:#2e2e2e;
   text-align:justify;
   margin:20px 20px;
   line-height:1.5rem;
 }
 
 .about a:link, .about a:visited {
-  color:orange;
+  color:#09f;
 }
 
 .contact-details h4 {
@@ -1685,7 +1685,7 @@ footer {
 }
 
 #sub section {
-  color: #09f;
+  color: #2e2e2e;
   font-family:"Quicksand";
   text-align:center;
 }
@@ -1699,7 +1699,7 @@ footer {
 #sub section p {
   text-transform:capitalize;
   font-size:1.6rem;
-  color:#09f;
+  color:#2e2e2e;
 }
 
 
@@ -1715,7 +1715,7 @@ footer {
   .about p {
     font-family:'Quicksand', sans-serif;
     font-size:1.35rem;
-    color:#09f;
+    color: #2e2e2e;
 }
   .about img {
     float:left;
@@ -1787,7 +1787,7 @@ footer {
 #ps p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color:#09f;
+  color: #2e2e2e;
   text-align:justify;
   margin:20px 30px;
   line-height:1.5rem;
@@ -1801,7 +1801,7 @@ footer {
 }
 
 #contact-name section {
-  color: #09f;
+  color: #2e2e2e;
   font-family:"Quicksand";
   text-align:center;
 }
@@ -1815,7 +1815,7 @@ footer {
 #contact-name section p {
   text-transform:capitalize;
   font-size:1.6rem;
-  color:#09f;
+  color: #2e2e2e;
 }
 
 #cont-me {
@@ -1876,7 +1876,7 @@ textarea {
   border: 1px solid orange;
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color:#09f;
+  color: #2e2e2e;
   overflow:auto;
 }
 
@@ -1886,7 +1886,7 @@ textarea {
 
 .message {
   font-family: "Quicksand", sans-serif;
-  color: orange;
+  color: #09f;
   text-align: center;
 }
 
@@ -1898,13 +1898,13 @@ textarea {
 label {
   display: block;
   margin-bottom: 8px;
-  color: #09f;
+  color: #2e2e2e;
   font-size:1.3em;
   font-family:'Quicksand', sans-serif;
 }
 
 .thanks h2, .thanks p{
-  color:#09f;
+  color: #2e2e2e;
   text-align: center;
   font-family: "Quicksand",sans-serif;
   text-transform: capitalize;
@@ -1920,7 +1920,7 @@ label {
 
 .submit-button-form {
   border: 1px solid #09f;
-  color: orange;
+  color: #09f;
   background-color: white;
   border-radius: 30px;
   font-family: 'Quicksand', sans-serif;
@@ -2016,17 +2016,17 @@ form {
 
 .blog-content {
   font-family: "Quicksand", sans-serif;
-  color: #09f;
+  color: #2e2e2e;
   line-height: 1.4;
   font-size: 1.1rem;
 }
 
 .blog-content a:link, .blog-content a:hover, .blog-content a:visited {
-  color: orange;
+  color: #09f;
 }
 
 .tc-blog-list {
-  color: #09f;
+  color: #2e2e2e;
   font-family: "Quicksand", sans-serif;
   font-size: 1.1rem;
 }
@@ -2034,7 +2034,7 @@ form {
 .tc-blog-list dt {
   margin: 1% 0;
   font-weight: bold;
-  color: orange;
+  color: #09f;
 }
 
 .tc-blog-list dd {
@@ -2104,7 +2104,7 @@ input[type='text'], input:not([type]), textarea {
 #services p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color:#09f;
+  color:#2e2e2e;
   text-align:justify;
   margin:20px 30px;
   line-height:1.5rem;
