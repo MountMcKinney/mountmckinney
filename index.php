@@ -15,7 +15,7 @@ require_once("inc/config.php");
     </nav>
     <div class="home-header">
         <h1 class='title'>Mount McKinney</h1>
-        <p class='title'>Adventure is Calling</p>
+        <p class='title'>WEBSITES DESIGNED TO HELP YOU REACH YOUR PEAK</p>
         <!-- <p class='title'>Web development and website creation as beautiful as the great outdoors</p> -->
       </div>
     <div id='home-footer'>
