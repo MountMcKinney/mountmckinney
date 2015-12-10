@@ -74,6 +74,43 @@ function get_cfstories_subset($positionStart, $positionEnd) {
 
 function get_all_cfstories() {
   $cfstories = array();
+  // $cfstories["nc-fall-foliage-stikes-back"] = array(
+  //   "img" => "img/cf-nc-foliage-strikes-back-main.jpg",
+  //   "name" => "Fall Foliage Pt. Duex!",
+  //   "location" => "Maggie Valley, NC",
+  //   "p1" => ""
+  //   "p2" => "",
+  //   "aside1" => "img/cf-nc-fall-foliage-aside1.jpg",
+  //   "aside1_alt" => "",
+  //   "p3" => "",
+  //   "p4" => "",
+  //   "aside2" => "img/cf-nm-fall-foliage-aside2.jpg",
+  //   "aside2_alt" => "",
+  //   "p5" => "",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "December 10th, 2015"
+  // );
+  $cfstories["nc-fall-foliage"] = array(
+    "img" => "img/cf-nc-fall-foliage-main.jpg",
+    "name" => "Fall Foliage",
+    "location" => "Maggie Valley, NC",
+    "p1" => "This is my long overdue post about our trip to North Carolina. I tell ya, sometimes it&#39;s way too easy to let things get away from you. I think my new resolution is to write these while I&#39;m on the trip, that and to make blogging a much more regular thing. Expect to see a new blog post every other Monday afternoon. Ya I think that&#39;s a good goal to have, not too overwhelming right? Perfect! ...we&#39;ll see how this goes. Wish me luck I guess?"
+    "p2" => "Now where was I? Oh right! I was about to tell you about my trip to Maggie Valley, NC just outside of Asheville. The last week of October, my wife and I, joined by another married couple friend of ours loaded up the car and headed north for a trip to see the Fall foliage. This has become an annual trip for me over the past few years with friends but now as a newly married man I was able to make it a couples weekend.",
+    "aside1" => "img/cf-nc-fall-foliage-aside1.jpg",
+    "aside1_alt" => "The steep climb up the Chimney Tops",
+    "p3" => "It turns out we came at the perfect time for our multi-day trip. The leaves were amazing! They had only started to change at the elevation our cabin was at. The picture above is from our back patio of the cabin. No camping for me this time, our friends and my wife prefer the comforts a cabin provide. Anyway, the trees just outside cabin started as mostly yellow and by the end of our trip were a conglomeration of yellow, orange, and red. It always amazes me how beautiful it is to look at trees.",
+    "p4" => "Our first day trip for hiking was to the beautiful Great Smoky Mountain National Park. Nestled between Cherokee, NC and Gatlinburg, TN (two rather touristy towns) is this gorgeous piece of protected national land. It was a place I had road tripped to the past couple years with friends but this was a different experience than previous trips. The Sun was out most of the day and it was on the warmer side that day so our climb up the Chimney Tops was actually painful on the hands. You can see the rocks that we climbed in the picture to the right. The rocks burned our hands as we ascended, but boy is that view ever worth it.",
+    "aside2" => "img/cf-nm-fall-foliage-aside2.jpg",
+    "aside2_alt" => "The cool waterfall water crashing down on us",
+    "p5" => "After burning the hands we headed down the mountain and headed to our next destination, a waterfall not far from our cabin. Not sure why but I always love sticking my head under waterfalls (especially when the water is ice cold). It certainly was cold, but well worth the dunk. That night was spent relaxing in the hot tub at the cabin. After a long day of hiking it was exactly what we needed.",
+    "p6" => "The next day was a day off from hiking. In the morning we headed over to Hendersonville to Grandad&#39;s Apple Farm. Surprisingly warm out and definitely late in the season our dreams of picking an apple straight from the tree were kind of dashed. I was able to find one good apple to pluck but it took longer than we&#39;d like to admit to find that good one. While there we had a nice picnic lunch and made sure to grab some delicious apple snacks to go with our food. If you go there I highly recommend the apple cider smoothie and the apple dumpling a la mode, quite delicious."
+    "p7" => "Next up was Burntshirt Vineyards, a lovely vineyard that served some surprisingly good wine. Reminding me slightly of the vineyards I toured in Napa Valley, though those were a good bit larger. It was well worth the trip especially because it was right down the road from Grandad&#39;s Farm."
+    "p8" => "Lastly, I have a big announcement! Well...I will in my next post! Be sure to check out Fall Foliage 2: The Foliage Strikes Back on Monday to find out what it is!"
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "December 10th, 2015"
+  );
   $cfstories["nm-sandia"] = array(
     "img" => "img/cf-nm-peak.jpg",
     "name" => "Sandia Peak",
