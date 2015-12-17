@@ -93,6 +93,26 @@ function get_all_cfstories() {
   //   "signature" => "John McKinney",
   //   "date" => "December 10th, 2015"
   // );
+  $cfstories["nc-fall-foliage-stikes-back"] = array(
+    "img" => "img/cf-nc-foliage-strikes-main.jpg",
+    "name" => "Fall Foliage, Pt. Duex!",
+    "location" => "Maggie Valley, NC",
+    "p1" => "I love the mountains, nothing else causes me to say &#34;wow!&#34;, &#34;woah!&#34;, and &#34;that&#39;s beautiful!&#34; so often...other than when I&#39;m with my wife, of course. This was our final full day and we spent it exploring the Blue Ridge Parkway, an amazing way to finish up the trip. As we drove down the winding roads, we found ourselves constantly wanting to pull over to take pictures, each vista seemingly more beautiful than the last. The best stop we made was at Waterrock Knob.",
+    "p2" => "An awe-inspiring place, Waterrock Knob boasts one of the highest peaks along the Blue Ridge. The parking lot has incredible views for sure, allowing you to see above the whole horizon. The best views are at the top of the trail of the peak at the back of the parking lot. We set out on the walking path that turned into a trail shortly. Most of the leaves on the trees along the trail had already fallen due to the high altitude. This ended up being a blessing as it allowed us to see the incredible views along the hike without being obstructed. The peak offered even better views and was well worth the effort it took to climb. The most interesting thing was seeing the road winding through the mountains. From our vantage, cars resembled toys and people were mere ants.",
+    "aside1" => "img/cf-nc-foliage-strikes-aside1.jpg",
+    "aside1_alt" => "The wife and I hiking up the mountains",
+    "p3" => "We continued the winding road through the mountains. I love driving these type of roads, they&#39;re just plain fun and when you add the fall foliage it&#39;s even better. The trailhead of our next hike had a picnic table and we used the opportunity to have a surface to eat on. The weather had gotten windy and cold due to the altitude so it wasn&#39;t as pleasant as we had hoped when we initially packed our picnic lunch. As we looked up from our table to the cliff high above us, I noticed some people on top of it. I remember thinking how high up they were and that it was going to hurt to make that climb.",
+    "p4" => "The trail was steep but paved for the beginning, definitely a good thigh workout! Hiking is one of those things that&#39;s always worth it when you reach your destination, no matter how painful it was at the time. This was no exception. Knowing the hike ends with a waterfall or a mountain summit always help me push further than I think I can at the bottom. Saying this makes me realize I&#39;m essentially a donkey chasing after a carrot.",
+    "aside2" => "img/cf-nc-foliage-strikes-aside2.jpg",
+    "aside2_alt" => "The whole group looking over our last vista",
+    "p5" => "The trees along the trail were dense, which made the point where it finally opened up at the summit, even more, amazing. The view seemed to stretch on forever. I can still see the mountain peaks in the distance rising above the valleys. Various collections of oranges, reds, yellows, greens, and browns littered the horizon. Some areas looked like a fire was ablaze on the mountain, while other areas almost glowed with their golden leaves.",
+    "p6" => "Every view we saw was incredible, I loved our time in the Blue Ridge Mountains. I can&#39;t wait until next year when I get to make the trek up to see foliage once again. Until next year fall foliage!",
+    "p7" => "I almost forgot my announcement that I spoke of in the last post! I&#39;d like to officially welcome the newest addition to the Mount McKinney family! ...my beard! ...what? Were you expecting different news? Sorry, maybe I should&#39;ve worded that different. Oh well, live and learn. Regardless, thought I should say something about it since it&#39;s in most of the pictures from this post and the previous one.",
+    "p8" => "Much to my wife&#39;s chagrin, I love having it and plan on keeping it at least until the Florida summer starts up again (which can honestly be as early as March). For any guys out there debating whether or not to don the crumb catcher, I recommend giving it a try. It&#39;s an exercise in patience to make it past the itching and ridicule you&#39;ll undoubtedly receive the first week or so (well unless you&#39;re a Greek man whose facial grows at an unnatural rate, you know who you are).",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "December 15th, 2015"
+  );
   $cfstories["nc-fall-foliage"] = array(
     "img" => "img/cf-nc-fall-foliage-main.jpg",
     "name" => "Fall Foliage",
@@ -107,8 +127,8 @@ function get_all_cfstories() {
     "aside2_alt" => "The cool waterfall water crashing down on us",
     "p5" => "After burning our hands, we headed down the mountain and headed to our next destination, a waterfall not far from our cabin. Not sure why but I always love sticking my head under waterfalls (especially when the water is ice cold). It certainly was cold, but well worth the dunk. That night was spent relaxing in the hot tub at the cabin. After a long day of hiking, it was exactly what we needed.",
     "p6" => "The next day was a day off from hiking. In the morning, we headed over to Hendersonville to Grandad&#39;s Apple Farm. Surprisingly warm out and definitely late in the season our dreams of picking an apple straight from the tree were kind of dashed. I was able to find one good apple to pluck, but it took longer than we&#39;d like to admit to find that good one. While there we had a nice picnic lunch and made sure to grab some delicious apple snacks to go with our food. If you go there I highly recommend the apple cider smoothie and the apple dumpling a la mode, quite delicious.",
-    "p7" => "Next up was Burntshirt Vineyards, a lovely vineyard that served some surprisingly good wine. Reminding me slightly of the vineyards I toured in Napa Valley, though those were a good bit larger. It was well worth the trip especially because it was right down the road from Grandad&#39;s Farm.",
-    "p8" => "Lastly, I have a big announcement! Well...I will in my next post! Be sure to check out Fall Foliage 2: The Foliage Strikes Back on Monday to find out what it is!",
+    "p7" => "Next up was Burntshirt Vineyards, a lovely vineyard that served some surprisingly good wine. Reminding me slightly of the vineyards I toured in Napa Valley, though those were a good bit larger. It was well worth the trip especially because it was right down the road from Grandad&#39;s Farm. We had a tour of the vineyards and received lots of great info on how they make the wine. It was a tranquil and quaint place, I think just relaxing on the rocking chairs was my favorite part. Although a close second was the wine tasting.",
+    "p8" => "Lastly, I have a big announcement! Well...I will in my next post! Be sure to check out <a href='http://mountmckinney.com/campfire/?story=nc-fall-foliage-stikes-back'>Fall Foliage 2: The Foliage Strikes Back</a> on Monday to find out what it is!",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "December 10th, 2015"
