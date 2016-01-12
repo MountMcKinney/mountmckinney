@@ -293,9 +293,9 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "July 6th, 2015 "
   );
-  $tcblogs["trad-backpack"] = array(
+  $cfstories["trad-backpack"] = array(
     "img" => "img/tc-trad-back-overboard.jpg",
-    "title" => "Why I Don't Use A Traditional Pack",
+    "title" => "It Isn&#39;t The Size Of Your Pack",
     "info" => "Why I don't use a tradtional backpack in the woods",
     "p1" => "A few years ago, I was walking to class and got caught in a torrential downpour. I had an important project in my backpack as well as my laptop. I sprinted into the nearest building and waited out the storm. Thankfully, my project wasn&#39t ruined and my laptop was ok. However, the experience was enough for me to spend money to ensure the safety of my belongings. I went home, got on Amazon, and bought a waterproof backpack from Overboard. Now, almost 4 years later, it&#39s still my go to backpack. I ride my bike to work a large amount of the time. It is not uncommon to get stuck in a downpour and my Overboard pack protects my belongings. What does this have to do with camping deep in the woods?",
     "p2" => "Well, the Overboard pack is still my choice of backpack, even when hiking. I know that it doesn&#39t have the internal frame that traditional packs have and doesn&#39t have all the bells and whistles that other packs have. For me though, it&#39s exactly what I need. When I&#39m out hiking in the woods, the last thing I want to think about is if my sleeping bag, tent, and clothes are going to get soaked if a thunderstorm rolls in. I know they have rain covers for regular packs but why buy something extra on top of an already expensive pack?",
@@ -362,7 +362,7 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "May 19th, 2015"
   );
-  $tcblogs["fixed-blade"] = array(
+  $cfstories["fixed-blade"] = array(
     "img" => "img/tc-fixed-blade.jpg",
     "title" => "Choosing A Fixed Blade Knife",
     "info" => "How to choose a fixed blade knife",
@@ -411,7 +411,7 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "May 10th, 2015"
   );
-  $tcblogs["3-day-spring-pack"] = array(
+  $cfstories["3-day-spring-pack"] = array(
     "img" => "img/tc-three-day-spring.jpg",
     "title" => "The 3 Day Spring Backpack",
     "info" => "How to pack a 3 day pack for Spring",

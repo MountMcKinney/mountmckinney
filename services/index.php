@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 require_once("../inc/config.php");
 ?>
 <?php include (ROOT_PATH."inc/contactFormSubmission.php"); ?>
@@ -18,7 +18,7 @@ require_once("../inc/config.php");
         <h4>Services</h4>
         <div id="services">
           <p>
-            I provide a wide range of technology related services. So, whether you need a website built, social media rebranded, or you are just having general issues with your technology just call on me. I've been my family's technological advisor for many years and now I'd like to be yours.
+            I provide a wide range of technology related services. So, whether you need a website or app built, social media rebranded, or you are just having general issues with your technology just call on me. I've been my family's technological advisor for many years and now I'd like to be yours.
           </p>
           <p>
             From now on, think of me as your go-to technology guru.
@@ -77,4 +77,4 @@ require_once("../inc/config.php");
     <footer class="contact-footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
-    <?php include(ROOT_PATH.'inc/js_scripts.php');?>
+    <?php include(ROOT_PATH.'inc/js_scripts.php');?> -->

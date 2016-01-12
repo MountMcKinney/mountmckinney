@@ -14,7 +14,7 @@ if(!isset($cfstory)){
   exit();
 }
 
-$pageTitle = $cfstory["name"];
+$pageTitle = $cfstory["title"];
 ?>
 
 <!DOCTYPE html>
@@ -26,11 +26,11 @@ $pageTitle = $cfstory["name"];
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
-  <div class="breadcrumb"><a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["name"]; ?></div>
+  <div class="breadcrumb"><a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["title"]; ?></div>
   <div id="wrapper">
     <div id="main-left">
       <div class="campfire">
-        <h3 id="blog-top-h3"> <?php echo $cfstory["name"];?> </h3>
+        <h3 id="blog-top-h3"> <?php echo $cfstory["title"];?> </h3>
         <?php echo display_campfire_blog($cfstory); ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>

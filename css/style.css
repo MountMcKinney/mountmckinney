@@ -1390,7 +1390,7 @@ footer {
 }
 
 
-@media screen and (min-width: 905px) {
+@media screen and (min-width: 1005px) {
 
   #name {
     float:left;
@@ -1500,7 +1500,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 905px) {
+@media screen and (max-width: 1005px) {
 
 .menu-btn div {
 	position: relative;
@@ -1711,7 +1711,6 @@ footer {
 }
 
 @media screen and (min-width:905px) {
-
   .about p {
     font-family:'Quicksand', sans-serif;
     font-size:1.35rem;
@@ -1744,6 +1743,9 @@ footer {
   #sub-formpage {
     max-width:800px;
   }
+}
+
+@media screen and (min-width:1005px) {
 
   #menu-button {
     display:none;
@@ -1756,8 +1758,7 @@ footer {
   .responsive-menu ul {
     display:none;
   }
-
-  }
+}
 
 /*---------PAGE:PORTFOLIO---------*/
 
