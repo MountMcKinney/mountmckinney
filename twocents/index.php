@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 require_once("../inc/config.php");
 require_once(ROOT_PATH."inc/twocents_arr.php");
 
@@ -64,4 +64,4 @@ $tcblogs = get_tcblogs_subset($start,$end);
     <footer class="contact-footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
-    <?php include(ROOT_PATH."inc/js_scripts.php");?>
+    <?php include(ROOT_PATH."inc/js_scripts.php");?> -->

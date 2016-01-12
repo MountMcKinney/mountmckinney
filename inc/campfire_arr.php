@@ -5,8 +5,8 @@
     $output .= "<li>";
     $output .= '<a href="'.BASE_URL.'campfire/?story='.$cfstory["story"].'">';
     $output .= "<figure>";
-    $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["location"].'">';
-    $output .= "<figcaption>".$cfstory["name"]."</figcaption>";
+    $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" alt="'.$cfstory["info"].'">';
+    $output .= "<figcaption>".$cfstory["title"]."</figcaption>";
     $output .= "</figure>";
     $output .= "</a>";
     $output .= "</li>";
@@ -18,7 +18,7 @@
     //build HTML output here
     $output = "";
     $output .= "<div class='blog-head'>";
-    $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" class="blog-header-img" alt="'.$cfstory["location"].'">';
+    $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" class="blog-header-img" alt="'.$cfstory["info"].'">';
     $output .= "</div>";
     $output .= '<p class="blog-content">'.$cfstory["p1"].'</p>';
     $output .= '<aside class="aside1">'.'<img src="'.BASE_URL.$cfstory["aside1"] .'" alt="'.$cfstory["aside1_alt"].'">'.'</aside>';
@@ -76,8 +76,8 @@ function get_all_cfstories() {
   $cfstories = array();
   // $cfstories["nc-fall-foliage-stikes-back"] = array(
   //   "img" => "img/cf-nc-foliage-strikes-main.jpg",
-  //   "name" => "Fall Foliage Pt. Duex!",
-  //   "location" => "Maggie Valley, NC",
+  //   "title" => "Fall Foliage Pt. Duex!",
+  //   "info" => "Maggie Valley, NC",
   //   "p1" => ""
   //   "p2" => "",
   //   "aside1" => "img/cf-nc-foliage-strikes-aside1.jpg",
@@ -95,8 +95,8 @@ function get_all_cfstories() {
   // );
   $cfstories["nc-fall-foliage-stikes-back"] = array(
     "img" => "img/cf-nc-foliage-strikes-main.jpg",
-    "name" => "Fall Foliage, Pt. Duex!",
-    "location" => "Maggie Valley, NC",
+    "title" => "Fall Foliage, Pt. Duex!",
+    "info" => "Maggie Valley, NC",
     "p1" => "I love the mountains, nothing else causes me to say &#34;wow!&#34;, &#34;woah!&#34;, and &#34;that&#39;s beautiful!&#34; so often...other than when I&#39;m with my wife, of course. This was our final full day and we spent it exploring the Blue Ridge Parkway, an amazing way to finish up the trip. As we drove down the winding roads, we found ourselves constantly wanting to pull over to take pictures, each vista seemingly more beautiful than the last. The best stop we made was at Waterrock Knob.",
     "p2" => "An awe-inspiring place, Waterrock Knob boasts one of the highest peaks along the Blue Ridge. The parking lot has incredible views for sure, allowing you to see above the whole horizon. The best views are at the top of the trail of the peak at the back of the parking lot. We set out on the walking path that turned into a trail shortly. Most of the leaves on the trees along the trail had already fallen due to the high altitude. This ended up being a blessing as it allowed us to see the incredible views along the hike without being obstructed. The peak offered even better views and was well worth the effort it took to climb. The most interesting thing was seeing the road winding through the mountains. From our vantage, cars resembled toys and people were mere ants.",
     "aside1" => "img/cf-nc-foliage-strikes-aside1.jpg",
@@ -115,8 +115,8 @@ function get_all_cfstories() {
   );
   $cfstories["nc-fall-foliage"] = array(
     "img" => "img/cf-nc-fall-foliage-main.jpg",
-    "name" => "Fall Foliage",
-    "location" => "Maggie Valley, NC",
+    "title" => "Fall Foliage",
+    "info" => "Maggie Valley, NC",
     "p1" => "This is my long overdue post about our trip to North Carolina. I tell ya, sometimes it&#39;s way too easy to let things get away from you. I think my New Years resolution is to write these while I&#39;m on the trip, that and to make blogging a much more regular thing. Expect to see a new blog post every other Monday afternoon. Ya, I think that&#39;s a good goal to have, not too overwhelming right? Better than buying a gym membership that doesn&#39;t get used after the first few weeks of the year. Definitely never done that before... We&#39;ll see how this goes. Wish me luck I guess?",
     "p2" => "Now, where was I? Oh right! I was about to tell you about my trip to Maggie Valley, NC just outside of Asheville. The last week of October, my wife and I, joined by another married couple friend of ours loaded up the car and headed north for a trip to see the Fall foliage. This has become an annual trip for me over the past few years with friends but now as a newly married man, I was able to make it a couples weekend.",
     "aside1" => "img/cf-nc-fall-foliage-aside1.jpg",
@@ -135,8 +135,8 @@ function get_all_cfstories() {
   );
   $cfstories["nm-sandia"] = array(
     "img" => "img/cf-nm-peak.jpg",
-    "name" => "Sandia Peak",
-    "location" => "Sandia Peak, NM",
+    "title" => "Sandia Peak",
+    "info" => "Sandia Peak, NM",
     "p1" => "Sadly, this is the end of our trip. Thank you New Mexico for an incredible trip. The last trip for us was to the Sandia Peak. Seated atop one of the Sandia Mountain peaks is Sandia Peak, a ski area and restaurant. Apparently, High Finance is the highest full service restaurant in the US. To get up to the peak you take a tramway, the longest aerial tram ride in the US.",
     "p2" => "We rode our gondola up to the top. Looking out from the windows you could get some incredible views of Albuquerque and the Sandia Mountains. Thankfully, I&#39;m not afraid of heights or else I might have had a rougher trip up to the peak. However, even if you aren&#39;t afraid of heights you may still feel woozy if you happen to look through the slits in the air grate on the floor.",
     "aside1" => "img/cf-nm-peak-aside1.jpg",
@@ -152,8 +152,8 @@ function get_all_cfstories() {
   );
   $cfstories["nm-bandelier"] = array(
     "img" => "img/cf-nm-band.jpg",
-    "name" => "Bandelier National Monument",
-    "location" => "Bandelier National Monument, NM",
+    "title" => "Bandelier National Monument",
+    "info" => "Bandelier National Monument, NM",
     "p1" => "After eating lunch at Jemez Falls and checking out the Valles Caldera we headed over to the Bandelier National Monument near Los Alamos. As we rolled in, so did the storms. We were worried this would keep us from getting to see this interesting piece of history. The Rangers, informed us that the storms looked like they would be staying up on the plateau and the canyon should be fine. We waited a few minutes and then headed out in the light rain.",
     "p2" => "Thankfully, after a few more minutes, the rain subsided. After a short stroll, slightly damp, we arrived at the monument. It was definitely an impressive sight. We saw the cave dwellings, built into the side of the canyon walls. Below, there was remnants of a rather large village.",
     "aside1" => "img/cf-nm-band-aside.jpg",
@@ -170,8 +170,8 @@ function get_all_cfstories() {
   );
   $cfstories["nm-jemez"] = array(
     "img" => "img/cf-nm-jemez-falls.jpg",
-    "name" => "Jemez Falls and Valles Caldera",
-    "location" => "Jemez Falls, NM",
+    "title" => "Jemez Falls and Valles Caldera",
+    "info" => "Jemez Falls, NM",
     "p1" => "This was the most diverse day of the trip. We headed out from the Sandia foothills near Albuquerque and made our way to the red rock deserts on the way to the Soda Dam near Jemez Springs. The red rock deserts were beautiful, a vibrant red like I had never seen. It felt like I was on Mars. From there we headed to the Soda Dam.",
     "p2" => "The Soda Dam, an interesting sight to say the least, is a dam formed by the collection of minerals. It looked a lot like something out of a science fiction movie. It was definitely not your typical waterfall, but was worth the stop on our way. After that brief stop, we followed the road into the mountains. We winded our way through the sprawling pine tree lined paths.",
     "aside1" => "img/cf-nm-jemez-aside.jpg",
@@ -188,8 +188,8 @@ function get_all_cfstories() {
   );
   $cfstories["nm-home"] = array(
     "img" => "img/cf-nm-home.jpg",
-    "name" => "Finding Beauty Close to Home",
-    "location" => "Albuquerque, NM",
+    "title" => "Finding Beauty Close to Home",
+    "info" => "Albuquerque, NM",
     "p1" => "We stayed in the foothills of the Sandia Mountains on historic Route 66. It was my first time on Route 66, unfortunately, we didn&#39;t spend much time exploring it. We did play the classic Chuck Berry song while on it though. It&#39;s amazing the wildlife that grows regardless of climate. Every time we left the house we saw rabbits and while leaving the house one evening we even got to see a bobcat. I was thankful to be in a house that was surrounded by so much nature.",
     "p2" => "There were a number of beautiful trails into the foothills near our house. One evening, my wife and I ventured out onto one before dinner. We began down the path and came upon a couple of large boulders stacked on top of each other. We, of course, climbed them. After taking a couple goofy pictures, we climbed down and continued on our path.",
     "aside1" => "img/cf-nm-home-aside.jpg",
@@ -205,8 +205,8 @@ function get_all_cfstories() {
   );
   $cfstories["nm-kasha-katuwe"] = array(
     "img" => "img/cf-nm-kasha-katuwe.jpg",
-    "name" => "Kasha-Katuwe Tent Rocks",
-    "location" => "Kasha-Katuwe, NM",
+    "title" => "Kasha-Katuwe Tent Rocks",
+    "info" => "Kasha-Katuwe, NM",
     "p1" => "The first hike of the trip was to go to the Kasha Katuwe Tent Rocks National Monument (say that 5x fast). This is a slot canyon west of Santa Fe, definitely worth the hike. This was my first experience in a slot canyon.",
     "p2" => "As we walked up to the entrance, the canyon walls felt more and more ominous. We traversed through narrow points where the canyon floor was smaller than the width of my shoes. At one point, we had to crouch walk under a boulder easily large enough to squash us. Thankfully, it was firmly wedged between the canyon walls. We twisted and turned our way and finally came to a point where the trail turned toward the top of the canyon.",
     "aside1" => "img/cf-nm-kk.jpg",
@@ -223,8 +223,8 @@ function get_all_cfstories() {
   );
   $cfstories["nm-diversity"] = array(
     "img" => "img/cf-nm-dive-main.jpg",
-    "name" => "American Southwest Diversity",
-    "location" => "Albuquerque, NM",
+    "title" => "American Southwest Diversity",
+    "info" => "Albuquerque, NM",
     "p1" => "This was my first trip to the American Southwest for a hiking trip. I have to admit, I was not expecting it to be nearly as beautiful as it was. I expected New Mexico to be a vast desert with little diversity in the landscape. I always kind of wondered why people would live in what I viewed as such as a harsh climate. I was never so happy to be wrong.",
     "p2" => "I&#39;ll be going into more detail about a couple of the places we hiked in subsequent posts. This is just a small post about my overall experience in NM.",
     "aside1" => "img/cf-nm-dive-aside1.jpg",
@@ -241,8 +241,8 @@ function get_all_cfstories() {
   );
   $cfstories["slideball"] = array(
     "img" => "img/cf-slideball.jpg",
-    "name" => "Slip &#39;n Slide Kickball",
-    "location" => "Gainesville, FL",
+    "title" => "Slip &#39;n Slide Kickball",
+    "info" => "Gainesville, FL",
     "p1" => "One of the most amazing ways to spend an afternoon.",
     "p2" => "Thursday, a friend told me about slip &#39;n slide kickball, by Sunday we were playing our first game. Today, I&#39;ll be detailing our game and the supplies you&#39;ll need to make this happen at your next get together. Our supplies:",
     "aside1" => "img/cf-slideball-setup.jpg",
@@ -267,10 +267,68 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "July 27th, 2015"
   );
+  $cfstories["losing_weight"] = array(
+    "img" => "img/tc-scale.jpg",
+    "title" => "Dropping Weight Quickly",
+    "info" => "How to drop weight off your pack, safely",
+    "p1" => "I&#39;m in a constant quest to lose weight, most of us are. We try anything and everything to shed a few pounds. It&#39;s almost an obsession really, constantly scrutinizing every purchase, asking, &#34;Will this get me to my target weight?&#34; No, I&#39;m not talking about dropping my body weight. I&#39;m talking about dropping pounds from my pack.",
+    "p2" => "I keep a detailed spreadsheet of all my camping gear. This sheet helps me to scrutinize everything I own and decide if it&#39;s worth the weight to have on my back. Creating this sheet has helped me shed a few pounds off my back. I&#39;ve found things that I thought I would need but now realize I don&#39;t and alternatives to things that were a little too heavy. Though, my pack was not particularly heavy to begin with. I&#39;ve always looked for low cost/low weight functional products. This made dropping the weight more difficult. Regardless, it was a project worth the time.",
+    "aside1" => "img/tc-mountains-weight.jpg",
+    "aside1_alt" => "Here&#39;s a pretty picture of mountains...I couldn&#39;t think of anything else to put here",
+    "p3" => "I&#39;m sure there are things in your pack that could be a little lighter. As I have done, I recommend creating a spreadsheet of your belongings so you can see the things that aren&#39;t worth the weight. As you begin scrutinizing your pack, please remember 3 very important things:
+              <dl class='tc-blog-list'>
+                <dt>Never sacrifice safety for weight:</dt>
+                  <dd>Always be sure to have things like shelter, food, water (or a way of getting water), and emergency supplies</dd>
+                <dt>Don&#39;t go overboard:</dt>
+                  <dd>To me, it&#39;s not worth it to spend an extra $50 to save 1oz. There are definitely times the cost justifies the weight saved. Just make sure to scrutinize your decisions to make sure it really is worth it.</dd>
+                <dt>This is maybe the most important thing I&#39;ll ever say:</dt>
+                  <dd>Always wear clothes. I know that it would save you weight to just wear a birthday suit. However, for the sake of everyone around you, please don&#39;t.</dd>
+                  <dd>This isn&#39;t a French beach.</dd>
+                  <dd>Plus, think of all the bug bites you&#39;d get.</dd>
+              </dl>",
+    "p4" => "I suppose if I did want to shed pounds off my body, then I should keep my pack heavy so I&#39;d work harder out in the woods.",
+    "aside2" => "img/tc-mountains-weight.jpg",
+    "aside2_alt" => "Here&#39;s a pretty picture of mountains...I couldn&#39;t think of anything else to put here",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "July 6th, 2015 "
+  );
+  $tcblogs["trad-backpack"] = array(
+    "img" => "img/tc-trad-back-overboard.jpg",
+    "title" => "Why I Don't Use A Traditional Pack",
+    "info" => "Why I don't use a tradtional backpack in the woods",
+    "p1" => "A few years ago, I was walking to class and got caught in a torrential downpour. I had an important project in my backpack as well as my laptop. I sprinted into the nearest building and waited out the storm. Thankfully, my project wasn&#39t ruined and my laptop was ok. However, the experience was enough for me to spend money to ensure the safety of my belongings. I went home, got on Amazon, and bought a waterproof backpack from Overboard. Now, almost 4 years later, it&#39s still my go to backpack. I ride my bike to work a large amount of the time. It is not uncommon to get stuck in a downpour and my Overboard pack protects my belongings. What does this have to do with camping deep in the woods?",
+    "p2" => "Well, the Overboard pack is still my choice of backpack, even when hiking. I know that it doesn&#39t have the internal frame that traditional packs have and doesn&#39t have all the bells and whistles that other packs have. For me though, it&#39s exactly what I need. When I&#39m out hiking in the woods, the last thing I want to think about is if my sleeping bag, tent, and clothes are going to get soaked if a thunderstorm rolls in. I know they have rain covers for regular packs but why buy something extra on top of an already expensive pack?",
+    "aside1" => "img/tc-storm.jpg",
+    "aside1_alt" => "Now I'm prepared no matter what",
+    "p3" => "I know that other packs are made of lighter weight materials but it&#39s not like my bag is heavy, at just about 3 lbs. For far less than a typical pack I get IP66 protection and while that means it&#39s not completely waterproof it performs more than satisfactory. It has a pocket on each side as well as an internal pocket and has various loops to clip items to it on the outside. I am always looking for an upgraded pack that is extremely light and waterproof at the same time, but I rarely find any that offer what I&#39m looking for. If they do, they are often quite expensive and don&#39t offer a large enough improvement to justify the cost.",
+    "p4" => "For awhile, I really wanted the 35L Sea to Summit Hydraulic Pack. I thought it would be my new go to pack. It has 5L more than my current pack and is completely waterproof. There was a great sale so I picked it up. I tried packing all the things I had packed in my 30L pack and found it to be more difficult. Maybe it&#39s the way space is used in the Sea to Summit versus the Overboard. Possibly it was because of the difference in shape, the rectangular Overboard versus the cylindrical Sea to Summit. I&#39m not sure why it didn&#39t fit as much. This was the bag I had wanted for a few months and when I got it I was disappointed. So for now I will continue to use my Overboard pack.",
+    "aside2" => "img/tc-storm.jpg",
+    "aside2_alt" => "Now I'm prepared no matter what",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "June 16th, 2015 "
+  );
+  $cfstories["sawyer-mini"] = array(
+    "img" => "img/tc-sawyer-mini.jpg",
+    "title" => "Best Water Filtration",
+    "info" => "The best portable water filtration",
+    "p1" => "The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking. I suppose you could fill your bottles and sip from them, but this seems ineffective as now your bottles are contaminated. The other option, is water filtration tablets. I&#39ve tried these before and while they&#39re effective, they can leave the water tasting...less than ideal.",
+    "p2" => "Then there is the Sawyer Mini. The compact water filtration system that cleans water effectively and doesn&#39t leave the water tasting terrible. It comes with a foldable water pouch so you can collect water from the stream. From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.",
+    "aside1" => "img/tc-river.jpg",
+    "aside1_alt" => "When in the backcountry, clean water is essential",
+    "p3" => "The Sawyer being the right choice for me became cemented the first time I used it while on a weekend hike in the mountains of Georgia. I was extremely thirsty and instead of having to lean down near the stream and drink while holding myself up from not falling in the stream. I was able to simply lean down fill up a water pouch and drink. It was a simple affair, it left me impressed with the Sawyer.",
+    "p4" => "Having clean drinking water while camping is paramount, and to do so without adding extra weight is especially useful. Water is adds a large amount of weight to your pack but an obvious necessity. Having a way to not have to cut down on the amount you will need to carry without having to boil the water to make it safe is always worth the cost. At around $20 it&#39s not a painful cost for a large benefit. The Sawyer is my go to for having filtered water on my hikes. Stay hydrated, not thirsty my friends.",
+    "aside2" => "img/tc-river.jpg",
+    "aside2_alt" => "When in the backcountry, clean water is essential",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "June 4th, 2015 "
+  );
   $cfstories["cohutta_mountain"] = array(
     "img" => "img/cf-cohutta-mountain.jpg",
-    "name" => "Cohutta Mountain Loop",
-    "location" => "Cohutta Wilderness, GA",
+    "title" => "Cohutta Mountain Loop",
+    "info" => "Cohutta Wilderness, GA",
     "p1" => "This past weekend, a friend and I headed up to the Cohutta Mountains in Northwest Georgia to hike the Cohutta Mountain Loop. It was absolutely gorgeous out there. We parked at the Three Forks Trailhead and headed out on the East Cowpen trail. My friend had a running watch to measure our distance traveled as well as elevation changes throughout the trip. We started at an elevation of 3,200 ft. and began to descend into the Cohutta Wilderness.",
     "p2" => "What we didn&#39t know when we started off on the trail was the lack of water that would be available on the trail we took. I had read some reviews of the area and some stories from the specific loop we were planning on doing and all the pictures were of people down by a river. What I didn&#39t realize was that the first time we&#39d see a river on the trail we took in would be when we got to the Jacks River after hiking just under 8 miles and dropping 2,000 ft. in elevation.",
     "aside1" => "img/cf-cohutta-tent.jpg",
@@ -289,8 +347,8 @@ function get_all_cfstories() {
   );
   $cfstories["juniper_springs"] = array(
     "img" => "img/cf-juniper-swim-hole.jpg",
-    "name" => "Juniper Springs",
-    "location" => "Ocala National Forest, FL",
+    "title" => "Juniper Springs",
+    "info" => "Ocala National Forest, FL",
     "p1" => "Down here in Florida, it&#39s already in the 90&#39s even in early May. Those temperatures can make camping a lot more uncomfortable. Add the daily afternoon thunderstorm and you can see why most don&#39t camp in Florida in the summer. Despite that my wife and I joined another married couple and headed out for one last camping trip in Florida before it&#39s unbearable to camp until September. It was an amazing time, the weather wasn&#39t too hot and the thunderstorms subsided for a sunny weekend.",
     "p2" => "When we arrived Saturday morning, we set up our 6 person mansion of a tent that we shared for the night. You would never lug this thing into the backcountry, but it was every bit of car camping luxury. It was definitely interesting to be able to actually stand up at all, let alone fully upright while in the tent. My little 2 person tent barely lets me kneel.",
     "aside1" => "img/cf-juniper-tent.jpg",
@@ -304,10 +362,41 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "May 19th, 2015"
   );
+  $tcblogs["fixed-blade"] = array(
+    "img" => "img/tc-fixed-blade.jpg",
+    "title" => "Choosing A Fixed Blade Knife",
+    "info" => "How to choose a fixed blade knife",
+    "p1" => "There are so many fixed blade knives out there. I know there are as many opinions about which knife is best than there is knives in the world. However, in my opinion I think the one that makes the most sense for the money is the Schrade SCHF26. I wanted something that was quality and would last but wouldn&#39t break the bank. At only $34 on Amazon, the price is excellent and the quality is wonderful as well.",
+    "p2" => "First, I would like to suggest the types of things you should look for in a knife:",
+    "aside1" => "img/tc-knife-rambo.jpg",
+    "aside1_alt" => "Rambo's ridiculously large knife",
+    "p3" => "<dl class='tc-blog-list'>
+                <dt>Full-tang:</dt>
+                  <dd>You don&#39t want it breaking when you are doing strenuous tasks, as that can be very dangerous</dd>
+                <dt>9-11&#34 overall length for the knife, with about a 5&#34 blade:</dt>
+                  <dd>This is the sweetspot for allowing you to do things that require more detail such as carving or skinning, while still allowing you to have the strength of a blade that can be used to baton wood</dd>
+                  <dd>You&#39re not Rambo, you don&#39t really need the giant knife</dd>
+                <dt>Sharp pointed tip:</dt>
+                  <dd>There are many different styles of knives out there. However, I like the sharp pointed tip as it is the most versatile</dd>
+                  <dd>The sharp point allows the best defense against animals, can be used as a screwdriver, and can even pry difficult cans</dd>
+                <dt>Flat ground spine and a single edge blade:</dt>
+                  <dd>The flat spine allows the knife to more easily be used as a fire starter</dd>
+                  <dd>The single edge blade allows you to use the knife for batoning, this would be much more difficult with a double edge blade</dd>
+              </dl>",
+    "p4" => "All the knives I looked into were full-tang. I did a large amount of looking around before deciding upon the SCHF26. I originally thought I would go with the KA-BAR US Marine Corp, the Ontario 499 Air Force, or the SOG Seal Pup Elite. All are great knives, however, when I held them in my hand they just didn&#39t find feel quite right. I have large hands, so it is important to me to have a handle that is long enough. The KA-BAR and the Seal Pup just felt a little short in my hand for comfort. The Ontario had similar specs as the KA-BAR but was difficult to find locally so I ended up passing on it.",
+    "aside2" => "img/tc-storm.jpg",
+    "aside2_alt" => "Now I'm prepared no matter what",
+    "p5" => "After passing on those, I began a new search. My new selections brought me to the KA-BAR BK-22 and the Schrade SCHF9. I thought I would go with the BK-22, I had it in my shopping cart and everything. It was an excellent knife, highly rated, and not a bad price at about $80 on Amazon. The BK-22 has a thick spine at a quarter inch and can take a beating. It&#39s made from 1095 Cro-Van steel Solid. I was about to purchase it, when someone suggested I look at the SCHF26. As I looked into it I began to like it more and more. I watched videos and articles comparing the BK-22 and the SCHF26 and most people agreed that the SCHF26 is just a better value.",
+    "p6" => "I pulled the trigger and ordered the SCHF26. I love it. The grip has a rubbery feel, it feels like it wouldn&#39t slip out of my hand even if I was doing something in the rain. It has a spine that is a quarter inch thick and flat. It has a sharp point and is a single edge blade. The weight distribution just felt right in my hands. It was a length I liked by staying just under 11&#34 and had a large handle at 5.4&#34. I&#39m very happy with my purchase, needless to say.",
+    "p7" => "For selecting your own knife, there are many that will work. I was splitting hairs comparing many knives, many of which I didn&#39t list. People get very opinionated about which knife is best, and that&#39s fine, we are all passionate about different things. I just think that as long as it is a knife that is full-tang, the right size, the right shape, and made of a good material you will be fine. Often, picking a knife is best done by placing it in your hand and determining if it passes the initial gut test. Good luck picking out a knife and if you have questions or comments, feel free to leave them below!",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "May 12th, 2015 "
+  );
   $cfstories["grayton_beach"] = array(
     "img" => "img/cf-grayton-beach.jpg",
-    "name" => "Grayton Beach",
-    "location" => "Santa Rosa Beach, FL",
+    "title" => "Grayton Beach",
+    "info" => "Santa Rosa Beach, FL",
     "p1" => "My wife and I packed up Tuesday night and headed to the beach house a few hours from home, our stuff loaded up in the car and bikes secured on the trunk bike rack. I say secured but what I mean is we thought they were secured. I learned two valuable lessons this past Tuesday, don&#39t skimp on a bike rack and make sure you&#39ve double and triple checked that you&#39ve installed it correctly. We were in such a hurry and it was the first time we had used our bike rack that I didn&#39t place the side straps in the position they needed to be. It was probably not best to try a new bike rack out for the first time on a multi-hour interstate trip...I guess I learned three valuable lessons then.",
     "p2" => "Anyway, we were on the interstate for 30 mins and everything seemed to be fine, I had been keeping a constant eye on the bikes to make sure they weren&#39t wobbling. Then not more than a minute later, we drove over a dip in the road. It was enough of a bounce to cause the lower bar to swing closed and caused the bikes to swing down toward the road. I immediately pulled over to the shoulder and inspected the bikes. Thankfully the only damage was that on my wife&#39s new bike (when I say new I mean one day old) the front tire had dragged on the asphalt and burned a hole in the tire and tube. It definitely could&#39ve been worse. We reattached the bikes and drove back the 30 mins home, put the bikes inside and headed out again. That was all the excitement we had this trip.",
     "aside1" => "img/cf-grayton-sunset.jpg",
@@ -322,10 +411,87 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "May 10th, 2015"
   );
+  $tcblogs["3-day-spring-pack"] = array(
+    "img" => "img/tc-three-day-spring.jpg",
+    "title" => "The 3 Day Spring Backpack",
+    "info" => "How to pack a 3 day pack for Spring",
+    "p1" => "I always have my bag packed, when it&#39s time to go I don&#39t spend time thinking about what I need. I take things out to wash and clean after a trip and then immediately place them back in the pack. I carry a 30 liter pack, I&#39m always looking for ways to lower the weight and hopefully get down to a 20 liter pack. It&#39s a backpack from Overboard that is rated to survive quick submersions. It&#39s definitely not the traditional backpacker&#39s pack but it works well for me.",
+    "p2" => "Today, I thought I would give you a glimpse into my 3 season pack. I would take this pack for a trip that was up to 5 days long. I look for things that pack down small and are lightweight but still provide the necessary protection. I look for deals on gear and equipment so I can get the most for my money. Most of the things I&#39ve bought were from Sierra Trading Post, Moosejaw, and Amazon.",
+    "aside1" => "img/tc-trad-back-overboard.jpg",
+    "aside1_alt" => "Contents of my bag, laid out",
+    "p3" => "<dl class='tc-blog-list'>
+              <dt>Sleeping bag: Kelty 20F Cosmic Down 550 Fill - Long</dt>
+              <dt>Eagle Creek Pack-It Specter Compression Cube, inside:</dt>
+                <dd>T-shirts (quick drying and lightweight)</dd>
+                <dd>Athletic shorts (quick drying and lightweight)</dd>
+                <dd>A pair of Adidas athletic boxers (light and quick drying)</dd>
+                <dd>Smartwool Outdoor Sport Mini Socks</dd>
+              <dt>Klymit Insulated Static V Sleeping Pad</dt>
+              <dt>REI Half Dome 2 Plus Tent</dt>
+              <dt>REI Half Dome 2 Plus Footprint</dt>
+              <dt>50&#39 Paracord</dt>
+              <dt>UCO Stormproof Match Kit</dt>
+              <dt>Magnesium/Flint Fire Starter (for emergencies)</dt>
+              <Sawyer SP128 Mini Water Filtration System</dt>
+                <dd>This has a 16 oz reusable water pouch</dd>
+              <dt>Timbuk2 Clear Flexito Toiletry Kit - Small, inside (all travel sizes):</dt>
+                <dd>3 oz bottle of camp soap</dd>
+                <dd>Toothpaste/toothbrush</dd>
+                <dd>Floss</dd>
+                <dd>Sun screen</dd>
+                <dd>Mouthwash</dd>
+                <dd>Deodorant (Just because I&#39m in the woods doesn&#39t mean I want to smell bad)</dd>
+                <dd>Earplugs</dd>
+              <dt>Babywipes</dt>
+              <dt>Adventure Medical Kit Dayhiker First Aid Kit</dt>
+              <dt>2 9x11 Loksaks</dt>
+              <dt>Food: (varies)</dt>
+                <dd>Peanut Butter</dd>
+                <dd>Jelly Packets</dd>
+                <dd>Sandwich thins</dd>
+                <dd>Jerky (I like Trader Joe&#39s Turkey the best)</dd>
+                <dd>Fruit strips</dd>
+                <dd>Hard Cheese (like parmesan)</dd>
+                <dd>Dehydrated fruit</dd>
+                <dd>Oranges (worth the weight to me)</dd>
+                <dd>Almonds/Trail mix</dd>
+              <dt>Black Diamond Spot Headlamp</dt>
+              <dt>Emergency Rain Poncho</dt>
+              <dt>The North Face Quince Down Jacket (packs into it&#39s own pocket and doubles as a pillow)</dt>
+              <dt>Keffiyeh (a lightweight head covering similar to a bandana but larger, great for protecting from the sun)</dt>
+              <dt>Attached to the outside of my pack:</dt>
+                <dd>Emergency whistle (attached to my shoulder strap of my bag)</dd>
+                <dd>Compass and Map (outside pocket)</dd>
+                <dd>Lightweight Nike running hat</dd>
+                <dd>The Deuce of Spades and a bag of tp (Lightweight Trowel. Hey, nature calls out in the wild)</dd>
+                <dd>2 24 oz reusable water bottles</dd>
+              <dt>Things on my person but not in my pack:</dt>
+                <dd>Schrade SCHF26 Fixed Blade Knife</dd>
+                <dd>Wallet</dd>
+                <dd>Phone</dd>
+                <dd>Nikon D40 Camera (not the top of the line but gets the job done)</dd>
+                <dd>Ex Officio boxers</dd>
+                <dd>Dri-fit shirt</dd>
+                <dd>Shorts</dd>
+                <dd>Icebreaker Multisport Light Micro Socks</dd>
+                <dd>Nike Free Trainer (Definitely not traditional hiking shoe/boot but because my pack is light I can wear more comfortable shoes and not worry about the need for ankle support)</dd>
+              <dt>When it&#39s cooler out I include:</dt>
+                <dd>Columbia Omni-heat half-zip pullover</dd>
+                <dd>Beanie</dd>
+                <dd>Long underwear</dd>
+                <dd>Gore Bike Wear Soft Shell Windstopper Gloves</dd>
+            </dl>",
+    "p4" => "I hope by seeing what&#39s in my pack you have a better understanding of things you need to pack and things you can leave at home. I&#39m always looking for ways to leave more at home so I can carry less weight. If you have any suggestions, make sure to leave a comment.",
+    "aside2" => "img/tc-storm.jpg",
+    "aside2_alt" => "Now I'm prepared no matter what",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "April 17th, 2015 "
+  );
   $cfstories["clearwater_lake"] = array(
     "img" => "img/cf-clear-onf-lake.jpg",
-    "name" => "Clearwater Lake",
-    "location" => "Ocala National Forest, FL",
+    "title" => "Clearwater Lake",
+    "info" => "Ocala National Forest, FL",
     "p1" => "Getting away from it all is one of the best things you can do sometimes. When the stresses of modern day life become too much, sometimes getting out into the wilderness can be just what the doctor ordered. You come back refreshed and renewed and that&#39s exactly what happened to me this past weekend. Some friends and I got away to the Ocala National Forest for a little car camping.",
     "p2" => "When we arrived Friday evening it was already dark (which is always frustrating to set up a tent in) and rain was threatening. Thankfully the rain held off and we were able to get our tents up and fire going. We reheated some baked ziti that one of the friends had made and froze for our dinner. This turned out to be one of the nastiest meals I&#39ve had. Thankfully, when you&#39re hungry you just don&#39t care. The wood was a little wet and smoked a large amount because of that. This caused the ziti to have a smoked flavor that did not complement it. Between the four of us, we emptied about ⅓ of a container of parmesan on to the pasta (it was the only thing that seemed to neutralize the smoky flavor). The next few hours were us sitting around the fire sharing stories, cracking open a few beers, and of course, poking fun at the friend&#39s terribly executed dinner. We headed to bed but didn&#39t realize that we had a snorer amongst us. How I wish I would&#39ve grabbed ear plugs before bed. A night of tossing and turning attempting to block the noise was ahead of me.",
     "aside1" => "img/cf-cl-onf-tent.jpg",
@@ -342,8 +508,8 @@ function get_all_cfstories() {
   );
   $cfstories["about-me"] = array(
     "img" => "img/contact-pic-me.jpg",
-    "name" => "Who Am I?",
-    "location" => "This is a story all about yours truly",
+    "title" => "Who Am I?",
+    "info" => "This is a story all about yours truly",
     "p1" => "Welcome to the very first Campfire Story here at Mount McKinney! This is an exciting time for me. I figured in my first post I should share a little about myself and explain why you should take any of the advice I give in my How To section, called <a href='http://mountmckinney.com/twocents/'>Two Cents</a>.",
     "p2" => "First off we&#39ll get the introductions out of the way, my name is John and I am a web developer. I love creating web sites and would love to be the web developer for your next project. I have lots of great info on what I provide on both the <a href='http://mountmckinney.com/services'>Services</a> and the <a href='http://mountmckinney.com/portfolio/'>Portfolio</a> pages. If you'd like to discuss a possible project in detail, feel free to shoot me an <a href='mailto:john@mountmckinney.com'>email</a>.",
     "aside1" => "img/cf-destin-beach.jpg",

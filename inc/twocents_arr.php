@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
   function display_twocents_html($tcblog){
     //build HTML output here
     $output = "";
@@ -260,4 +260,4 @@ function get_all_tcblogs() {
   <dt>Magnesium/Flint Fire Starter (for emergencies)</dt>
   <Sawyer SP128 Mini Water Filtration System</dt>
     <dd>This has a 16 oz reusable water pouch</dd>
-</dl> -->
+</dl> --> -->
