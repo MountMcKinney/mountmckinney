@@ -287,8 +287,8 @@ function get_all_cfstories() {
                   <dd>Plus, think of all the bug bites you&#39;d get.</dd>
               </dl>",
     "p4" => "I suppose if I did want to shed pounds off my body, then I should keep my pack heavy so I&#39;d work harder out in the woods.",
-    "aside2" => "img/tc-mountains-weight.jpg",
-    "aside2_alt" => "Here&#39;s a pretty picture of mountains...I couldn&#39;t think of anything else to put here",
+    "aside2" => "img/tc-scale-aside2.jpg",
+    "aside2_alt" => "Squeezing to get our weight!",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "July 6th, 2015 "
@@ -303,8 +303,8 @@ function get_all_cfstories() {
     "aside1_alt" => "Now I'm prepared no matter what",
     "p3" => "I know that other packs are made of lighter weight materials but it&#39s not like my bag is heavy, at just about 3 lbs. For far less than a typical pack I get IP66 protection and while that means it&#39s not completely waterproof it performs more than satisfactory. It has a pocket on each side as well as an internal pocket and has various loops to clip items to it on the outside. I am always looking for an upgraded pack that is extremely light and waterproof at the same time, but I rarely find any that offer what I&#39m looking for. If they do, they are often quite expensive and don&#39t offer a large enough improvement to justify the cost.",
     "p4" => "For awhile, I really wanted the 35L Sea to Summit Hydraulic Pack. I thought it would be my new go to pack. It has 5L more than my current pack and is completely waterproof. There was a great sale so I picked it up. I tried packing all the things I had packed in my 30L pack and found it to be more difficult. Maybe it&#39s the way space is used in the Sea to Summit versus the Overboard. Possibly it was because of the difference in shape, the rectangular Overboard versus the cylindrical Sea to Summit. I&#39m not sure why it didn&#39t fit as much. This was the bag I had wanted for a few months and when I got it I was disappointed. So for now I will continue to use my Overboard pack.",
-    "aside2" => "img/tc-storm.jpg",
-    "aside2_alt" => "Now I'm prepared no matter what",
+    "aside2" => "img/tc-trad-aside2.jpg",
+    "aside2_alt" => "Even as the storms roll in, I'm covered",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "June 16th, 2015 "
@@ -319,8 +319,8 @@ function get_all_cfstories() {
     "aside1_alt" => "When in the backcountry, clean water is essential",
     "p3" => "The Sawyer being the right choice for me became cemented the first time I used it while on a weekend hike in the mountains of Georgia. I was extremely thirsty and instead of having to lean down near the stream and drink while holding myself up from not falling in the stream. I was able to simply lean down fill up a water pouch and drink. It was a simple affair, it left me impressed with the Sawyer.",
     "p4" => "Having clean drinking water while camping is paramount, and to do so without adding extra weight is especially useful. Water is adds a large amount of weight to your pack but an obvious necessity. Having a way to not have to cut down on the amount you will need to carry without having to boil the water to make it safe is always worth the cost. At around $20 it&#39s not a painful cost for a large benefit. The Sawyer is my go to for having filtered water on my hikes. Stay hydrated, not thirsty my friends.",
-    "aside2" => "img/tc-river.jpg",
-    "aside2_alt" => "When in the backcountry, clean water is essential",
+    "aside2" => "img/tc-sawyer-dirty.jpg",
+    "aside2_alt" => "Cleaning dirty water will keep you alive",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "June 4th, 2015 "
@@ -384,8 +384,8 @@ function get_all_cfstories() {
                   <dd>The single edge blade allows you to use the knife for batoning, this would be much more difficult with a double edge blade</dd>
               </dl>",
     "p4" => "All the knives I looked into were full-tang. I did a large amount of looking around before deciding upon the SCHF26. I originally thought I would go with the KA-BAR US Marine Corp, the Ontario 499 Air Force, or the SOG Seal Pup Elite. All are great knives, however, when I held them in my hand they just didn&#39t find feel quite right. I have large hands, so it is important to me to have a handle that is long enough. The KA-BAR and the Seal Pup just felt a little short in my hand for comfort. The Ontario had similar specs as the KA-BAR but was difficult to find locally so I ended up passing on it.",
-    "aside2" => "img/tc-storm.jpg",
-    "aside2_alt" => "Now I'm prepared no matter what",
+    "aside2" => "img/tc-blade.jpg",
+    "aside2_alt" => "Some of your choices",
     "p5" => "After passing on those, I began a new search. My new selections brought me to the KA-BAR BK-22 and the Schrade SCHF9. I thought I would go with the BK-22, I had it in my shopping cart and everything. It was an excellent knife, highly rated, and not a bad price at about $80 on Amazon. The BK-22 has a thick spine at a quarter inch and can take a beating. It&#39s made from 1095 Cro-Van steel Solid. I was about to purchase it, when someone suggested I look at the SCHF26. As I looked into it I began to like it more and more. I watched videos and articles comparing the BK-22 and the SCHF26 and most people agreed that the SCHF26 is just a better value.",
     "p6" => "I pulled the trigger and ordered the SCHF26. I love it. The grip has a rubbery feel, it feels like it wouldn&#39t slip out of my hand even if I was doing something in the rain. It has a spine that is a quarter inch thick and flat. It has a sharp point and is a single edge blade. The weight distribution just felt right in my hands. It was a length I liked by staying just under 11&#34 and had a large handle at 5.4&#34. I&#39m very happy with my purchase, needless to say.",
     "p7" => "For selecting your own knife, there are many that will work. I was splitting hairs comparing many knives, many of which I didn&#39t list. People get very opinionated about which knife is best, and that&#39s fine, we are all passionate about different things. I just think that as long as it is a knife that is full-tang, the right size, the right shape, and made of a good material you will be fine. Often, picking a knife is best done by placing it in your hand and determining if it passes the initial gut test. Good luck picking out a knife and if you have questions or comments, feel free to leave them below!",
