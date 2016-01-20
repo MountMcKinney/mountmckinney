@@ -2013,6 +2013,7 @@ form {
 
 .blog-header-img {
   border-radius: 30px;
+  max-height: 550px;
 }
 
 .blog-content {

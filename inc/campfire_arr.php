@@ -267,59 +267,38 @@ function get_all_cfstories() {
     "signature" => "John McKinney",
     "date" => "July 27th, 2015"
   );
-  $cfstories["losing_weight"] = array(
-    "img" => "img/tc-scale.jpg",
-    "title" => "Dropping Weight Quickly",
-    "info" => "How to drop weight off your pack, safely",
-    "p1" => "I&#39;m in a constant quest to lose weight, most of us are. We try anything and everything to shed a few pounds. It&#39;s almost an obsession really, constantly scrutinizing every purchase, asking, &#34;Will this get me to my target weight?&#34; No, I&#39;m not talking about dropping my body weight. I&#39;m talking about dropping pounds from my pack.",
-    "p2" => "I keep a detailed spreadsheet of all my camping gear. This sheet helps me to scrutinize everything I own and decide if it&#39;s worth the weight to have on my back. Creating this sheet has helped me shed a few pounds off my back. I&#39;ve found things that I thought I would need but now realize I don&#39;t and alternatives to things that were a little too heavy. Though, my pack was not particularly heavy to begin with. I&#39;ve always looked for low cost/low weight functional products. This made dropping the weight more difficult. Regardless, it was a project worth the time.",
-    "aside1" => "img/tc-mountains-weight.jpg",
-    "aside1_alt" => "Here&#39;s a pretty picture of mountains...I couldn&#39;t think of anything else to put here",
-    "p3" => "I&#39;m sure there are things in your pack that could be a little lighter. As I have done, I recommend creating a spreadsheet of your belongings so you can see the things that aren&#39;t worth the weight. As you begin scrutinizing your pack, please remember 3 very important things:
-              <dl class='tc-blog-list'>
-                <dt>Never sacrifice safety for weight:</dt>
-                  <dd>Always be sure to have things like shelter, food, water (or a way of getting water), and emergency supplies</dd>
-                <dt>Don&#39;t go overboard:</dt>
-                  <dd>To me, it&#39;s not worth it to spend an extra $50 to save 1oz. There are definitely times the cost justifies the weight saved. Just make sure to scrutinize your decisions to make sure it really is worth it.</dd>
-                <dt>This is maybe the most important thing I&#39;ll ever say:</dt>
-                  <dd>Always wear clothes. I know that it would save you weight to just wear a birthday suit. However, for the sake of everyone around you, please don&#39;t.</dd>
-                  <dd>This isn&#39;t a French beach.</dd>
-                  <dd>Plus, think of all the bug bites you&#39;d get.</dd>
-              </dl>",
-    "p4" => "I suppose if I did want to shed pounds off my body, then I should keep my pack heavy so I&#39;d work harder out in the woods.",
-    "aside2" => "img/tc-scale-aside2.jpg",
-    "aside2_alt" => "Squeezing to get our weight!",
-    "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
-    "date" => "July 6th, 2015 "
-  );
   $cfstories["trad-backpack"] = array(
-    "img" => "img/tc-trad-back-overboard.jpg",
+    "img" => "img/tc-trad-aside2.jpg",
     "title" => "It Isn&#39;t The Size Of Your Pack",
     "info" => "Why I don't use a tradtional backpack in the woods",
-    "p1" => "A few years ago, I was walking to class and got caught in a torrential downpour. I had an important project in my backpack as well as my laptop. I sprinted into the nearest building and waited out the storm. Thankfully, my project wasn&#39t ruined and my laptop was ok. However, the experience was enough for me to spend money to ensure the safety of my belongings. I went home, got on Amazon, and bought a waterproof backpack from Overboard. Now, almost 4 years later, it&#39s still my go to backpack. I ride my bike to work a large amount of the time. It is not uncommon to get stuck in a downpour and my Overboard pack protects my belongings. What does this have to do with camping deep in the woods?",
-    "p2" => "Well, the Overboard pack is still my choice of backpack, even when hiking. I know that it doesn&#39t have the internal frame that traditional packs have and doesn&#39t have all the bells and whistles that other packs have. For me though, it&#39s exactly what I need. When I&#39m out hiking in the woods, the last thing I want to think about is if my sleeping bag, tent, and clothes are going to get soaked if a thunderstorm rolls in. I know they have rain covers for regular packs but why buy something extra on top of an already expensive pack?",
-    "aside1" => "img/tc-storm.jpg",
+    "p1" => "A few years ago, I was walking to class and got caught in a torrential downpour. I had an important project in my backpack as well as my laptop. I sprinted into the nearest building and waited out the storm. Thankfully, my project wasn&#39t ruined and my laptop was ok. However, the experience was enough for me to spend money to ensure the safety of my belongings.",
+    "p2" => "I went home, got on Amazon, and bought a waterproof backpack from Overboard. Now, almost 4 years later, it&#39s still my go to backpack. I ride my bike to work a large amount of the time. It is not uncommon to get stuck in a downpour and my Overboard pack protects my belongings. What does this have to do with camping deep in the woods?",
+    "p3" => "Well, the Overboard pack is still my choice of backpack, even when hiking. I know that it doesn&#39t have the internal frame that traditional packs have and doesn&#39t have all the bells and whistles that other packs have. For me though, it&#39s exactly what I need.",
+    "aside1" => "img/tc-mountains-weight.jpg",
     "aside1_alt" => "Now I'm prepared no matter what",
-    "p3" => "I know that other packs are made of lighter weight materials but it&#39s not like my bag is heavy, at just about 3 lbs. For far less than a typical pack I get IP66 protection and while that means it&#39s not completely waterproof it performs more than satisfactory. It has a pocket on each side as well as an internal pocket and has various loops to clip items to it on the outside. I am always looking for an upgraded pack that is extremely light and waterproof at the same time, but I rarely find any that offer what I&#39m looking for. If they do, they are often quite expensive and don&#39t offer a large enough improvement to justify the cost.",
-    "p4" => "For awhile, I really wanted the 35L Sea to Summit Hydraulic Pack. I thought it would be my new go to pack. It has 5L more than my current pack and is completely waterproof. There was a great sale so I picked it up. I tried packing all the things I had packed in my 30L pack and found it to be more difficult. Maybe it&#39s the way space is used in the Sea to Summit versus the Overboard. Possibly it was because of the difference in shape, the rectangular Overboard versus the cylindrical Sea to Summit. I&#39m not sure why it didn&#39t fit as much. This was the bag I had wanted for a few months and when I got it I was disappointed. So for now I will continue to use my Overboard pack.",
-    "aside2" => "img/tc-trad-aside2.jpg",
+    "p4" => "When I&#39m out hiking in the woods, the last thing I want to think about is if my sleeping bag, tent, and clothes are going to get soaked if a thunderstorm rolls in. I know they have rain covers for regular packs but why buy something extra on top of an already expensive pack?",
+    "p5" => "I know that other packs are made of lighter weight materials but it&#39s not like my bag is heavy, at just about 3 lbs. For far less than a typical pack I get IP66 protection and while that means it&#39s not completely waterproof it performs more than satisfactory. It has a pocket on each side as well as an internal pocket and has various loops to clip items to it on the outside. I am always looking for an upgraded pack that is extremely light and waterproof at the same time, but I rarely find any that offer what I&#39m looking for. If they do, they are often quite expensive and don&#39t offer a large enough improvement to justify the cost.",
+    "p6" => "For awhile, I really wanted the 35L Sea to Summit Hydraulic Pack. I thought it would be my new go to pack. It has 5L more than my current pack and is completely waterproof. There was a great sale so I picked it up. I tried packing all the things I had packed in my 30L pack and found it to be more difficult. Maybe it&#39s the way space is used in the Sea to Summit versus the Overboard. Possibly it was because of the difference in shape, the rectangular Overboard versus the cylindrical Sea to Summit. I&#39m not sure why it didn&#39t fit as much. This was the bag I had wanted for a few months and when I got it I was disappointed. So for now I will continue to use my Overboard pack.",
+    "aside2" => "img/tc-trad-back-overboard.jpg",
     "aside2_alt" => "Even as the storms roll in, I'm covered",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
     "date" => "June 16th, 2015 "
   );
   $cfstories["sawyer-mini"] = array(
-    "img" => "img/tc-sawyer-mini.jpg",
+    "img" => "img/tc-sawyer-dirty.jpg",
     "title" => "Best Water Filtration",
     "info" => "The best portable water filtration",
-    "p1" => "The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking. I suppose you could fill your bottles and sip from them, but this seems ineffective as now your bottles are contaminated. The other option, is water filtration tablets. I&#39ve tried these before and while they&#39re effective, they can leave the water tasting...less than ideal.",
-    "p2" => "Then there is the Sawyer Mini. The compact water filtration system that cleans water effectively and doesn&#39t leave the water tasting terrible. It comes with a foldable water pouch so you can collect water from the stream. From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.",
+    "p1" => "The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking.",
+    "p2" => "I suppose you could fill your bottles and sip from them, but this seems ineffective as now your bottles are contaminated. The other option, is water filtration tablets. I&#39ve tried these before and while they&#39re effective, they can leave the water tasting...less than ideal.",
+    "p3" => "Then there is the Sawyer Mini. The compact water filtration system that cleans water effectively and doesn&#39t leave the water tasting terrible. It comes with a foldable water pouch so you can collect water from the stream.",
     "aside1" => "img/tc-river.jpg",
     "aside1_alt" => "When in the backcountry, clean water is essential",
-    "p3" => "The Sawyer being the right choice for me became cemented the first time I used it while on a weekend hike in the mountains of Georgia. I was extremely thirsty and instead of having to lean down near the stream and drink while holding myself up from not falling in the stream. I was able to simply lean down fill up a water pouch and drink. It was a simple affair, it left me impressed with the Sawyer.",
-    "p4" => "Having clean drinking water while camping is paramount, and to do so without adding extra weight is especially useful. Water is adds a large amount of weight to your pack but an obvious necessity. Having a way to not have to cut down on the amount you will need to carry without having to boil the water to make it safe is always worth the cost. At around $20 it&#39s not a painful cost for a large benefit. The Sawyer is my go to for having filtered water on my hikes. Stay hydrated, not thirsty my friends.",
-    "aside2" => "img/tc-sawyer-dirty.jpg",
+    "p4" => "From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.",
+    "p5" => "The Sawyer being the right choice for me became cemented the first time I used it while on a weekend hike in the mountains of Georgia. I was extremely thirsty and instead of having to lean down near the stream and drink while holding myself up from not falling in the stream. I was able to simply lean down fill up a water pouch and drink. It was a simple affair, it left me impressed with the Sawyer.",
+    "p6" => "Having clean drinking water while camping is paramount, and to do so without adding extra weight is especially useful. Water is adds a large amount of weight to your pack but an obvious necessity.",
+    "p7" => "Having a way to not have to cut down on the amount you will need to carry without having to boil the water to make it safe is always worth the cost. At around $20 it&#39s not a painful cost for a large benefit. The Sawyer is my go to for having filtered water on my hikes. Stay hydrated, not thirsty my friends.",
+    "aside2" => "img/tc-sawyer-mini.jpg",
     "aside2_alt" => "Cleaning dirty water will keep you alive",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
@@ -384,7 +363,7 @@ function get_all_cfstories() {
                   <dd>The single edge blade allows you to use the knife for batoning, this would be much more difficult with a double edge blade</dd>
               </dl>",
     "p4" => "All the knives I looked into were full-tang. I did a large amount of looking around before deciding upon the SCHF26. I originally thought I would go with the KA-BAR US Marine Corp, the Ontario 499 Air Force, or the SOG Seal Pup Elite. All are great knives, however, when I held them in my hand they just didn&#39t find feel quite right. I have large hands, so it is important to me to have a handle that is long enough. The KA-BAR and the Seal Pup just felt a little short in my hand for comfort. The Ontario had similar specs as the KA-BAR but was difficult to find locally so I ended up passing on it.",
-    "aside2" => "img/tc-blade.jpg",
+    "aside2" => "img/blades.jpg",
     "aside2_alt" => "Some of your choices",
     "p5" => "After passing on those, I began a new search. My new selections brought me to the KA-BAR BK-22 and the Schrade SCHF9. I thought I would go with the BK-22, I had it in my shopping cart and everything. It was an excellent knife, highly rated, and not a bad price at about $80 on Amazon. The BK-22 has a thick spine at a quarter inch and can take a beating. It&#39s made from 1095 Cro-Van steel Solid. I was about to purchase it, when someone suggested I look at the SCHF26. As I looked into it I began to like it more and more. I watched videos and articles comparing the BK-22 and the SCHF26 and most people agreed that the SCHF26 is just a better value.",
     "p6" => "I pulled the trigger and ordered the SCHF26. I love it. The grip has a rubbery feel, it feels like it wouldn&#39t slip out of my hand even if I was doing something in the rain. It has a spine that is a quarter inch thick and flat. It has a sharp point and is a single edge blade. The weight distribution just felt right in my hands. It was a length I liked by staying just under 11&#34 and had a large handle at 5.4&#34. I&#39m very happy with my purchase, needless to say.",
@@ -412,14 +391,17 @@ function get_all_cfstories() {
     "date" => "May 10th, 2015"
   );
   $cfstories["3-day-spring-pack"] = array(
-    "img" => "img/tc-three-day-spring.jpg",
+    "img" => "img/tc-scale.jpg",
     "title" => "The 3 Day Spring Backpack",
     "info" => "How to pack a 3 day pack for Spring",
-    "p1" => "I always have my bag packed, when it&#39s time to go I don&#39t spend time thinking about what I need. I take things out to wash and clean after a trip and then immediately place them back in the pack. I carry a 30 liter pack, I&#39m always looking for ways to lower the weight and hopefully get down to a 20 liter pack. It&#39s a backpack from Overboard that is rated to survive quick submersions. It&#39s definitely not the traditional backpacker&#39s pack but it works well for me.",
-    "p2" => "Today, I thought I would give you a glimpse into my 3 season pack. I would take this pack for a trip that was up to 5 days long. I look for things that pack down small and are lightweight but still provide the necessary protection. I look for deals on gear and equipment so I can get the most for my money. Most of the things I&#39ve bought were from Sierra Trading Post, Moosejaw, and Amazon.",
+    "p1" => "I always have my bag packed, when it&#39s time to go I don&#39t spend time thinking about what I need. I take things out to wash and clean after a trip and then immediately place them back in the pack. I carry a 30 liter pack, I&#39m always looking for ways to lower the weight and hopefully get down to a 20 liter pack.",
+    "p2" => "I currently use an Overboard 30L that is rated to survive quick submersions. It&#39s definitely not the traditional backpacker&#39s pack but it works well for me.",
+    "p3" => "Today, I thought I would give you a glimpse into my 3 season pack. I would take this pack for a trip that was up to 5 days long. I look for things that pack down small and are lightweight but still provide the necessary protection.",
     "aside1" => "img/tc-trad-back-overboard.jpg",
     "aside1_alt" => "Contents of my bag, laid out",
-    "p3" => "<dl class='tc-blog-list'>
+    "p4" => "I typically look for deals on gear and equipment so I can get the most for my money. Most of the things I&#39ve bought were from Sierra Trading Post, Moosejaw, and Amazon. Though I&#39m always looking for a deal I&#39m not afraid to spend the extra money on quality products that will last a long time.",
+    "p5" => "Frugality is not the same as being cheap. People who are cheap want to spend the least amount possible on that purchase. The problem is the product often breaks down quicker and needs to be replaced causing you to spend more in the long run. Frugal people want to spend the least amount for the best quality for a product that will last the longest.",
+    "p6" => "<dl class='tc-blog-list'>
               <dt>Sleeping bag: Kelty 20F Cosmic Down 550 Fill - Long</dt>
               <dt>Eagle Creek Pack-It Specter Compression Cube, inside:</dt>
                 <dd>T-shirts (quick drying and lightweight)</dd>
@@ -481,8 +463,8 @@ function get_all_cfstories() {
                 <dd>Long underwear</dd>
                 <dd>Gore Bike Wear Soft Shell Windstopper Gloves</dd>
             </dl>",
-    "p4" => "I hope by seeing what&#39s in my pack you have a better understanding of things you need to pack and things you can leave at home. I&#39m always looking for ways to leave more at home so I can carry less weight. If you have any suggestions, make sure to leave a comment.",
-    "aside2" => "img/tc-storm.jpg",
+    "p7" => "I hope by seeing what&#39s in my pack you have a better understanding of things you need to pack and things you can leave at home. I&#39m always looking for ways to leave more at home so I can carry less weight. If you have any suggestions, make sure to leave a comment.",
+    "aside2" => "img/tc-three-day-spring.jpg",
     "aside2_alt" => "Now I'm prepared no matter what",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
