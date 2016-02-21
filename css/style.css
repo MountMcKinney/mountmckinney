@@ -2116,7 +2116,7 @@ input[type='text'], input:not([type]), textarea {
   color: orange;
 }
 
-@media (min-width:905px) {
+@media screen and (min-width:905px) {
   .portfolio h4, .sub-page h4, .about h4, .services h4 {
     margin-top:initial;
   }
