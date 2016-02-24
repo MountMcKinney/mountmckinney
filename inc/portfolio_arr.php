@@ -3,7 +3,7 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="http://'.$website["site"].'">';
+    $output .= '<a href="http://'.$website["site"].'" target="_blank">';
     $output .= "<figure>";
     $output .= '<img src="'.$website["thumbnail"] .'" alt="'.$website["name"].'">';
     $output .= '<figcaption>'.$website["name"].'</figcaption>';
