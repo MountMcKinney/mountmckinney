@@ -1885,6 +1885,15 @@ textarea {
   margin: 10px auto;
 }
 
+.cognito form {
+    margin: 0 auto;
+}
+
+#c-submit-button {
+  position: relative;
+  font-family: 'Quicksand';
+}
+
 .message {
   font-family: "Quicksand", sans-serif;
   color: #09f;
