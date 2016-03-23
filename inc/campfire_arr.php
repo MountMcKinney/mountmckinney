@@ -74,25 +74,27 @@ function get_cfstories_subset($positionStart, $positionEnd) {
 
 function get_all_cfstories() {
   $cfstories = array();
-  // $cfstories["nc-fall-foliage-stikes-back"] = array(
-  //   "img" => "img/cf-nc-foliage-strikes-main.jpg",
-  //   "title" => "Fall Foliage Pt. Duex!",
-  //   "info" => "Maggie Valley, NC",
-  //   "p1" => ""
-  //   "p2" => "",
-  //   "aside1" => "img/cf-nc-foliage-strikes-aside1.jpg",
-  //   "aside1_alt" => "",
-  //   "p3" => "",
-  //   "p4" => "",
-  //   "aside2" => "img/cf-nc-foliage-strikes-aside2.jpg",
-  //   "aside2_alt" => "",
-  //   "p5" => "",
-  //   "p6" => "I almost forgot my announcement that I spoke of last post! I&#39;d like to officially welcome the newest addition to the Mount McKinney family! ...my beard! ...what? Were you expecting different news? Sorry, maybe I should&#39;ve worded that different. Oh well, live and learn. Regardless, thought I&#39;d say something about it since it&#39;s in most of the pictures from this post and the previous one.",
-  //   "p7" => "Much to my wife&#39;s chagrin, I love having it and plan on keeping it at least until the Florida summer starts up again (which can honestly be as early as March). For any guys out there debating whether or not to don the crumb catcher, I recommend giving it a try. It&#39;s an exercise in patience to make it past the itching and ridicule you&#39;ll undoubtedly receive the first week or so (well unless you&#39;re a Greek man whose facial grows at an unnatural rate, you know who you are).",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "December 10th, 2015"
-  // );
+  $cfstories["world-is-your-oyster"] = array(
+    "img" => "img/cf-canadian-rockies.jpg",
+    "title" => "The World Is Your Oyster",
+    "info" => "Get Out And Live!",
+    "p1" => "I invite you to try an exercise with me. Close your eyes and picture a place you&#39;ve always wanted to go. Picture what this place looks like. Is it a majestic mountain, a waterfall crashing upon the rocks below, or a city in some distant land? Next, think of what this place would smell like. Do hints of primrose and pine fill the air? Maybe it&#39;s homemade Italian pasta and a bottle of old wine that saturate your senses. Lastly, what do you hear? Is French music playing? How about birds singing their happy songs as they go about their day? Or maybe the only sound for miles is your footsteps and the wind. Go ahead, close your eyes now, I&#39;ll wait.",
+    "p2" => "Have you done it yet? No? Why not? It&#39;s not going to hurt, well unless you&#39;re driving and reading this. In that case, why are you looking at your phone while driving?!",
+    "aside1" => "img/cf-paris.jpg",
+    "aside1_alt" => "A Paris Sunset",
+    "p3" => "Whatever it is you picture, whether it&#39;s the Italian countryside, the American Southwest, Paris, or the Canadian Rockies I want you to do something for me. I want you to go there! I want you to take the trip you&#39;ve been dreaming about day in and day out.",
+    "p4" => "I hope your day already has a large amount of adventure. I hope it doesn&#39;t seem to drag on from one day to the next. I hope it doesn&#39;t consist of you waking up, sitting at a desk constantly checking the clock, sitting in traffic, and finally crawling into bed all to do it over again the next day. However, if it does then it&#39;s time to get out there and change that. First, you probably want to find a different job, one that fulfills you more. Second, it&#39;s time for you to get out and experience the great adventure that is life.",
+    "aside2" => "img/cf-italian-countryside-aside2.jpg",
+    "aside2_alt" => "The Italian Countryside",
+    "p5" => "I&#39;m not saying you should quit your job and travel the world until you&#39;re flat broke. We all have responsibilities to family and you need to have money in order to travel. However, that doesn&#39;t mean we can&#39;t still do the things we want to do and go to the places we&#39;ve always wanted to see. I believe we find ways to fund and find time for the things we make a true priority in our lives.",
+    "p6" => "What&#39;s holding you back from getting out there? Do you feel like you can&#39;t get away from the office? I understand that feeling. It&#39;s very common to feel like you can&#39;t leave due to fears of how your clients or colleagues could focus without you there. The truth is, though, they&#39;ll get along just fine without you. I know that can make some people sad or feel unimportant. I don&#39;t mean to get you down. I tell you that to free you from putting so much stock in your job that you forget to ever truly live.",
+    "p7" => "Is money the issue that&#39;s keeping you from traveling? If so, I have a couple recommendations for you. First, set up a dedicated travel account. Then, set up automatic transfers to that travel account. Next step, don&#39;t look at the balance very often and you&#39;ll be amazed at quickly the money accumulates. Another tip, would be to cut out things that are less important than traveling to you and then take the money you&#39;ve saved and put it in the account. Go out to eat all the time? Cook more at home. Drink Starbucks every day? Brew your own coffee. Other suggestions are to cut the cable. Cable is expensive and if you really want to watch TV, the <a href='http://www.gomohu.com/'>Mohu</a> Leaf and <a href='http://www.hulu.com/'>Hulu</a> are much more affordable options.",
+    "p8" => "I read an <a href='http://www.huffingtonpost.com/2013/08/03/top-5-regrets-of-the-dying_n_3640593.html'>article</a> recently that talked about the top 5 regrets of those who were about to die. I think 3 of the 5 are especially poignant. &#34;I wish I&#39;d had the courage to live a life true to myself, not the life others expected of me.&#34; &#34;I wish I hadn&#39;t worked so hard.&#34; &#34;I wish that I had let myself be happier.&#34 Don&#39;t get to the end of your days and wonder what you did with your life and wish you could&#39;ve lived differently. Live this life out as the grand adventure that it is.",
+    "p9" => "So what&#39;s next? Well...get out! Go! Why are you reading this when there is a wonderful world to explore?! There is only one thing in this life that you&#39;ve been given that is never able to be replenished...time. Make the most of your time. Whatever you do, just keep in mind these words of wisdom &#34;We weren&#39;t meant to be born, pay bills, and die.&#34; Get out and live!",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "March 23rd, 2015"
+   );
   $cfstories["nc-fall-foliage-stikes-back"] = array(
     "img" => "img/cf-nc-foliage-strikes-main.jpg",
     "title" => "Fall Foliage, Pt. Duex!",
