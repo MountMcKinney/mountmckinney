@@ -70,7 +70,7 @@ require_once (ROOT_PATH."inc/portfolio_arr.php");
         <?php } ?>
       </div>
      </div>
-   </div>
+    </div>
     <footer class="contact-footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>

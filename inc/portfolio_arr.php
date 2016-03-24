@@ -3,7 +3,7 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="'.BASE_URL.'example/?name='.$websiteSKU.'">';
+    $output .= '<a href="http://'.$website["site"].'" target="_blank">';
     $output .= "<figure>";
     $output .= '<img src="'.$website["thumbnail"] .'" alt="'.$website["name"].'">';
     $output .= '<figcaption>'.$website["name"].'</figcaption>';
@@ -15,29 +15,34 @@
   }
 
     $websites = array();
-    $websites["backcountrydeals"] = array(
-      "img" => "/img/port-back.jpeg",
-      "thumbnail" => "/img/port-thumb-back.jpg",
-      "name" => "backcountrydeals.com"
-    );
     $websites["icecream"] = array(
-      "img" => "/img/port-threeflavors.jpeg",
-      "thumbnail" => "/img/port-thumb-threeflavors.jpg",
-      "name" => "3flavorsshop.com"
+      "thumbnail" => "/img/3flavorsshop.png",
+      "name" => "The 3 Flavors Shop",
+      "site" => "3flavorsshop.com"
     );
-    $websites["boats"] = array(
-      "img" => "/img/port-boats.png",
-      "thumbnail" => "/img/port-thumb-boats.png",
-      "name" => "boatsboatsboats.com"
+    $websites["burger"] = array(
+      "thumbnail" => "/img/ketchupwithyalater.png",
+      "name" => "Ketchup With Ya Later",
+      "site" => "ketchuplater.com"
     );
-    $websites["marriageabbey"] = array(
-      "img" => "/img/port-marriage.jpeg",
-      "thumbnail" => "/img/port-thumb-marriage.jpg",
-      "name" => "marriageabbey.com"
-    );
-    $websites["rental"] = array(
-      "img" => "/img/port-rental.jpeg",
-      "thumbnail" => "/img/port-thumb-rental.jpg",
-      "name" => "usedrentalequipment.com"
-    );
+    // $websites["backcountrydeals"] = array(
+    //   "img" => "/img/port-back.jpeg",
+    //   "thumbnail" => "/img/port-thumb-back.jpg",
+    //   "name" => "backcountrydeals.com"
+    // );
+    // $websites["boats"] = array(
+    //   "img" => "/img/port-boats.png",
+    //   "thumbnail" => "/img/port-thumb-boats.png",
+    //   "name" => "boatsboatsboats.com"
+    // );
+    // $websites["marriageabbey"] = array(
+    //   "img" => "/img/port-marriage.jpeg",
+    //   "thumbnail" => "/img/port-thumb-marriage.jpg",
+    //   "name" => "marriageabbey.com"
+    // );
+    // $websites["rental"] = array(
+    //   "img" => "/img/port-rental.jpeg",
+    //   "thumbnail" => "/img/port-thumb-rental.jpg",
+    //   "name" => "usedrentalequipment.com"
+    // );
   ?>
