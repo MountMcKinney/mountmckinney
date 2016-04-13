@@ -28,7 +28,7 @@ require_once (ROOT_PATH."inc/portfolio_arr.php");
         </ul>
         </div>
       </div>
-      <div class="contact-me">
+      <div class="contact-me" id="contact">
         <h4>Contact Me</h4>
         <div id="cont-me">
                       <!-- // if status=thanks in the query string, display an thank you message instead of the form -->
