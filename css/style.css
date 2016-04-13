@@ -1209,11 +1209,10 @@ body {
 }
 
 .cts img {
-  border-top:5px solid orange;
+  border-top:5px solid #D63E3E;
   border-radius:30px;
-  height:330px;
-  width:100%;
-  max-width:330px;
+  height: 216px;
+  width: 384px;
 }
 
 .camping-tips{
@@ -1247,24 +1246,6 @@ body {
   position: relative;
 }
 
-.cts-right figcaption {
-  color:#09f;
-  margin-bottom: 15%;
-  font-family:'Quicksand', sans-serif;
-  font-size:1.3em;
-  line-height: 2em;
-  max-width:480px;
-  text-align:center;
-}
-
-.cts-right img {
-  border-top:5px solid orange;
-  border-radius:30px;
-  height:330px;
-  width:100%;
-  max-width:330px;
-}
-
 .portfolio-images figcaption {
   color:#09f;
   margin-bottom: 15%;
@@ -1295,9 +1276,8 @@ body {
 .portfolio-images img {
   border-top:5px solid orange;
   border-radius:30px;
-  height:330px;
-  width:100%;
-  max-width:330px;
+  height:216px;
+  width:384px;
 }
 
 div #disqus_thread {
@@ -1361,31 +1341,25 @@ footer {
     padding:5%;
   }
 
-.cts li {
-  max-width:410px;
-  display:inline-block;
-  margin: 0 5%;
+  .cts li {
+    max-width:410px;
+    display:inline-block;
+    margin: 0 5%;
 
-}
+  }
 
-.main-left {
-  clear:both;
-}
+  .main-left {
+    clear:both;
+  }
 
-.main-right {
-  clear:both;
-}
+  .main-right {
+    clear:both;
+  }
 
-.portfolio-images li {
-  max-width:410px;
-  display:inline-block;
-  margin: 0 5%;
-}
-
-.cts-right li {
-  max-width:410px;
-  display:inline-block;
-  margin: 0 5%;
+  .portfolio-images li {
+    max-width:410px;
+    display:inline-block;
+    margin: 2% 5%;
   }
 }
 
@@ -1973,8 +1947,8 @@ form {
 }
 
 .aside1 img {
-  height:300px;
-  width:300px;
+  height: 189px;
+  width: 336px;
   float: right;
   margin: 0 1%;
   border-radius: 30px;
@@ -1982,8 +1956,8 @@ form {
 
 
 .aside2 img {
-  height: 300px;
-  width: 300px;
+  height: 198px;
+  width: 352px;
   float: left;
   margin: 0 1%;
   border-radius: 30px;
@@ -1992,6 +1966,10 @@ form {
 @media screen and (max-width:435px){
   .aside2 img, .aside1 img {
     margin: 0 10%;
+  }
+  .portfolio-images img {
+    height:200px;
+    max-width:300px;
   }
 }
 

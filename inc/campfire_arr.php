@@ -212,11 +212,11 @@ function get_all_cfstories() {
     "info" => "Albuquerque, NM",
     "p1" => "This was my first trip to the American Southwest for a hiking trip. I have to admit, I was not expecting it to be nearly as beautiful as it was. I expected New Mexico to be a vast desert with little diversity in the landscape. I always kind of wondered why people would live in what I viewed as such as a harsh climate. I was never so happy to be wrong.",
     "p2" => "I&#39;ll be going into more detail about a couple of the places we hiked in subsequent posts. This is just a small post about my overall experience in NM.",
-    "aside1" => "img/cf-nm-dive-aside1.jpg",
+    "aside1" => "img/cf-nm-jemez.jpg",
     "aside1_alt" => "Red rock beauty",
     "p3" => "We spent a week in and around the Albuquerque area (still can&#39;t spell that right without spellcheck). Our house for the week nestled in the Sandia Mountains. As we ventured out into the wilderness, the true beauty of the state became apparent. We saw red rock deserts, pine tree covered mountains, Native American cave dwellings, the Rio Grande, white limestone mountains, and plains resembling those in Wyoming. I was amazed that on one particular driving day, we saw most of that list in just a few hours.",
     "p4" => "The climate was also comfortable, this being August and the weather while warm was nothing compared to Florida&#39;s 90&#39;s and humid summer days. Personally, I&#39;m just more partial to hiking in cooler weather and like to save my multi-hour hikes for the cooler months.",
-    "aside2" => "img/cf-nm-jemez.jpg",
+    "aside2" => "img/cf-nm-dive-aside1.jpg",
     "aside2_alt" => "Me at the edge of a cliff near a waterfall",
     "p5" => "Overall I was very impressed with the New Mexico. I always love diverse landscapes. Mountains are majestic to me, most likely due to the fact that the highest natural point in Florida is Britton Hill. This hill is a towering 312 feet. Even foothills are wonderful to someone who grew up 50 feet or less above sea level. I think my next trip to the Southwest will be to finally check out the Big Five in Utah or to see the Grand Canyon from up close, as opposed to just flying over it. ",
     "p6" => "However, as gorgeous as the Southwest was, I&#39;m happy to be living in the Southeast. I have never been so thirsty for a week straight, my throat was constantly dry. I&#39;m sure I&#39;d get use to it, I&#39;m just not sure I would want to. I don&#39;t mind the heat and humidity of Florida and the non-summer months are incredible weather-wise.",
@@ -271,13 +271,13 @@ function get_all_cfstories() {
     "date" => "June 16th, 2015 "
   );
   $cfstories["sawyer-mini"] = array(
-    "img" => "img/tc-sawyer-dirty.jpg",
+    "img" => "img/tc-river.jpg",
     "title" => "Best Water Filtration",
     "info" => "The best portable water filtration",
     "p1" => "The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking.",
     "p2" => "I suppose you could fill your bottles and sip from them, but this seems ineffective as now your bottles are contaminated. The other option, is water filtration tablets. I&#39ve tried these before and while they&#39re effective, they can leave the water tasting...less than ideal.",
     "p3" => "Then there is the Sawyer Mini. The compact water filtration system that cleans water effectively and doesn&#39t leave the water tasting terrible. It comes with a foldable water pouch so you can collect water from the stream.",
-    "aside1" => "img/tc-river.jpg",
+    "aside1" => "img/tc-sawyer-dirty.jpg",
     "aside1_alt" => "When in the backcountry, clean water is essential",
     "p4" => "From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.",
     "p5" => "The Sawyer being the right choice for me became cemented the first time I used it while on a weekend hike in the mountains of Georgia. I was extremely thirsty and instead of having to lean down near the stream and drink while holding myself up from not falling in the stream. I was able to simply lean down fill up a water pouch and drink. It was a simple affair, it left me impressed with the Sawyer.",
@@ -474,7 +474,7 @@ function get_all_cfstories() {
     "date" => "March 9th, 2015"
   );
   $cfstories["about-me"] = array(
-    "img" => "img/contact-pic-me.jpg",
+    "img" => "img/cf-nc-foliage-strikes-main.jpg",
     "title" => "Who Am I?",
     "info" => "This is a story all about yours truly",
     "p1" => "Welcome to the very first Campfire Story here at Mount McKinney! This is an exciting time for me. I figured in my first post I should share a little about myself and explain why you should take any of the advice I give in my How To section, called <a href='http://mountmckinney.com/twocents/'>Two Cents</a>.",
