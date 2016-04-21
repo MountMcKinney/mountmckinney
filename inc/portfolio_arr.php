@@ -15,6 +15,11 @@
   }
 
     $websites = array();
+    $websites["wwb"] = array(
+      "thumbnail" => "/img/wwb.png",
+      "name" => "White, Wyne, and Bree",
+      "site" => "wwandb.website"
+    );
     $websites["icecream"] = array(
       "thumbnail" => "/img/3flavorsshop.png",
       "name" => "The 3 Flavors Shop",
