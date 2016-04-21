@@ -15,11 +15,14 @@ require_once("inc/config.php");
     </nav>
     <div class="home-header">
         <h1 class='title'>Mount McKinney</h1>
-        <p class='title'>WEBSITES DESIGNED TO HELP YOU REACH YOUR PEAK</p>
+        <p class='title'>Websites Designed to Help You Reach Your Peak</p>
     </div>
-    <div class="popupButton">
-      <!-- This button creates a pop up that displays the Contact Us Form -->
+    <!-- <div class="popupButton">
+      This button creates a pop up that displays the Contact Us Form
       <a href="#" id="contactPopUp">Contact Us</a>
+    </div> -->
+    <div class="popupForm">
+
     </div>
     <div id='home-footer'>
       <?php include(ROOT_PATH."inc/footer.php"); ?>
