@@ -2,8 +2,6 @@
 require_once("../inc/config.php");
 require_once (ROOT_PATH."inc/portfolio_arr.php");
 ?>
-<?php include (ROOT_PATH."inc/contactFormSubmission.php"); ?>
-
 <!DOCTYPE html>
 <html>
 <?php
