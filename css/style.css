@@ -78,6 +78,15 @@ a.contactPopUp, a.contactPopUp:hover {
   display: none;
 }
 
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  display: none;
+  height: 100%;
+  z-index: 300;
+}
+
 .displayPopup {
   position: fixed;
   top: 20%;

@@ -15,9 +15,15 @@ $(function(){
 //This is for creating a pop up form upon clicking a Contact Us button on the home page
 $('.contactPopUp').click(function(){
   $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
+  $('.overlay').css("display", "block");
 });
 
-// For after submission of the form, fadeout
+// This is for after submission of the form, fadeout
 $('#c-submit-button').click(function() {
   $('.displayPopup').delay(3000).fadeOut(1000);
+});
+
+// This function is if they want to leave the form without filling it outline
+$('.overlay').click(function(){
+  $('.displayPopup').hide();
 });

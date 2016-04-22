@@ -7,6 +7,7 @@ require_once("inc/config.php");
   $pageTitle="Home";
   include(ROOT_PATH."inc/header.php");
 ?>
+<!-- <div class="overlay"> -->
     <header>
       <?php include(ROOT_PATH."inc/name_title_header.php");?>
       </header>
@@ -28,4 +29,5 @@ require_once("inc/config.php");
     <div id='home-footer'>
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </div>
+  <!-- </div> -->
       <?php include(ROOT_PATH."inc/js_scripts.php");?>
