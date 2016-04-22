@@ -29,8 +29,10 @@
       "thumbnail" => "/img/ketchupwithyalater.png",
       "name" => "Ketchup With Ya Later",
       "site" => "ketchuplater.com"
+    );
     $websites["neurofit"] = array(
       "thumbnail" => "/img/neurofit.png",
       "name" => "NeuroFit",
       "site" => "neurofit.website"
+    );
   ?>
