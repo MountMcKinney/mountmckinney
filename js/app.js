@@ -1,32 +1,23 @@
-jQuery('.title').hide().fadeIn(3000);
+// This causes the Mount McKinney name and text to fade in
+$('.title').hide().delay(100).fadeIn(2500);
 
-jQuery(function($){
-     $( '.menu-btn').click(function(){
+// This controls the mobile menu
+// It also overwrites some of the current classes to accomodate
+  // being able to see the menu easier due to its opacity
+$(function(){
+     $('.menu-btn').click(function(){
        $('.responsive-menu').toggleClass('expand');
        $('.home-header').toggleClass('hidden');
        $('.breadcrumb').toggleClass('hide-bread')
-     })
+     });
 });
 
-$(document).ready(function () {
-    $('.menuBtn').on('click', function(event){
-    	event.preventDefault();
-    	// create menu variables
-    	var slideoutMenu = $('.mobileMenu');
-    	var slideoutMenuWidth = $('.mobileMenu').width();
+//This is for creating a pop up form upon clicking a Contact Us button on the home page
+$('.contactPopUp').click(function(){
+  $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
+});
 
-    	// toggle open class
-    	slideoutMenu.toggleClass("open");
-
-    	// slide menu
-    	if (slideoutMenu.hasClass("open")) {
-	    	slideoutMenu.animate({
-		    	left: "0px"
-	    	});
-    	} else {
-	    	slideoutMenu.animate({
-		    	left: -slideoutMenuWidth
-	    	}, 250);
-    	}
-    });
+// For after submission of the form, fadeout
+$('#c-submit-button').click(function() {
+  $('.displayPopup').delay(3000).fadeOut(1000);
 });

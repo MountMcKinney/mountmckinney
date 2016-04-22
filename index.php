@@ -17,12 +17,13 @@ require_once("inc/config.php");
         <h1 class='title'>Mount McKinney</h1>
         <p class='title'>Websites Designed to Help You Reach Your Peak</p>
     </div>
-    <!-- <div class="popupButton">
-      This button creates a pop up that displays the Contact Us Form
-      <a href="#" id="contactPopUp">Contact Us</a>
-    </div> -->
+    <!-- This button creates a pop up that displays the Contact Us Form -->
+    <div class="popupButton">
+      <a href="#" class="contactPopUp">Contact Us</a>
+    </div>
     <div class="popupForm">
-
+      <h4>Contact Us</h4>
+      <?php include(ROOT_PATH."inc/contact-form.php"); ?>
     </div>
     <div id='home-footer'>
       <?php include(ROOT_PATH."inc/footer.php"); ?>
