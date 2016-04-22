@@ -20,10 +20,20 @@ $('.contactPopUp').click(function(){
 
 // This is for after submission of the form, fadeout
 $('#c-submit-button').click(function() {
-  $('.displayPopup').delay(3000).fadeOut(1000);
+  $('.displayPopup').fadeOut(10000);
+  $('.displayPopup').addClass('popupForm');
 });
 
 // This function is if they want to leave the form without filling it outline
-$('.overlay').click(function(){
-  $('.displayPopup').hide();
+$('.popupExit').click(function(){
+    $('.displayPopup').fadeOut(2000);
+    $('.displayPopup').addClass('popupForm');
 });
+
+// I need to do the same thing for the subscribe form but make it appear as a list item when you click subscribe. Should be much easier.
+
+
+// $('.overlay').click(function(){
+//   $('.displayPopup').fadeOut(1000).addClass('popupForm').removeClass('displayPopup');
+//   $('.overlay').hide();
+// });
