@@ -15,6 +15,11 @@
   }
 
     $websites = array();
+    $websites["wwb"] = array(
+      "thumbnail" => "/img/wwb.png",
+      "name" => "White, Wyne, and Bree",
+      "site" => "wwandb.website"
+    );
     $websites["icecream"] = array(
       "thumbnail" => "/img/3flavorsshop.png",
       "name" => "The 3 Flavors Shop",
@@ -24,25 +29,8 @@
       "thumbnail" => "/img/ketchupwithyalater.png",
       "name" => "Ketchup With Ya Later",
       "site" => "ketchuplater.com"
-    );
-    // $websites["backcountrydeals"] = array(
-    //   "img" => "/img/port-back.jpeg",
-    //   "thumbnail" => "/img/port-thumb-back.jpg",
-    //   "name" => "backcountrydeals.com"
-    // );
-    // $websites["boats"] = array(
-    //   "img" => "/img/port-boats.png",
-    //   "thumbnail" => "/img/port-thumb-boats.png",
-    //   "name" => "boatsboatsboats.com"
-    // );
-    // $websites["marriageabbey"] = array(
-    //   "img" => "/img/port-marriage.jpeg",
-    //   "thumbnail" => "/img/port-thumb-marriage.jpg",
-    //   "name" => "marriageabbey.com"
-    // );
-    // $websites["rental"] = array(
-    //   "img" => "/img/port-rental.jpeg",
-    //   "thumbnail" => "/img/port-thumb-rental.jpg",
-    //   "name" => "usedrentalequipment.com"
-    // );
+    $websites["neurofit"] = array(
+      "thumbnail" => "/img/neurofit.png",
+      "name" => "NeuroFit",
+      "site" => "neurofit.website"
   ?>

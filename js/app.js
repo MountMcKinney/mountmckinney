@@ -1,48 +1,29 @@
-jQuery('.title').hide().fadeIn(3000);
+// This causes the Mount McKinney name and text to fade in
+$('.title').hide().delay(100).fadeIn(2500);
 
-jQuery(function($){
-     $( '.menu-btn').click(function(){
+// This controls the mobile menu
+// It also overwrites some of the current classes to accomodate
+  // being able to see the menu easier due to its opacity
+$(function(){
+     $('.menu-btn').click(function(){
        $('.responsive-menu').toggleClass('expand');
        $('.home-header').toggleClass('hidden');
        $('.breadcrumb').toggleClass('hide-bread')
-     })
+     });
 });
 
-function postPortfolioToGoogle() {
- var email = $('#connect_email').val();
- var first = $('#connect_name').val();
- var comment = $('#connect_comments').val();
+//This is for creating a pop up form upon clicking a Contact Us button on the home page
+$('.contactPopUp').click(function(){
+  $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
+  $('.overlay').css("display", "block");
+});
 
-     $.ajax({
-         url: "https://docs.google.com/forms/d/1lsJSZEwwBVjwWbBbI4Yj9gAiOt_Q_boZ_kV7HXR0jA0/formResponse",
-         data: { "entry.307489032": email,
-         "entry.528305603": first, "entry.1946196515": comment },
-         type: "POST",
-         dataType: "xml",
-         statusCode: {
-           0: function () {
-               $('#contact-name').load("../inc/contact-thankyou.php");
-               $('#contact-us').hide();
-           },
-       }
-   });
- };
+// This is for after submission of the form, fadeout
+$('#c-submit-button').click(function() {
+  $('.displayPopup').delay(3000).fadeOut(1000);
+});
 
- function postSubscribe() {
-  var email = $('#sub_form_email').val();
-  var first = $('#sub_form_name').val();
-
-      $.ajax({
-          url: "https://docs.google.com/forms/d/1gzeVUb99GZYX4Dy9R0MCfr3kn0_typhQqN0JOZbW9rA/formResponse",
-          data: { "entry.2088672430": email,
-          "entry.1029484234": first},
-          type: "POST",
-          dataType: "xml",
-          statusCode: {
-            0: function () {
-                $('#sub').load("../inc/subscribe-thankyou.php");
-                $('#sub-formpage').hide();
-            },
-        }
-    });
-  };
+// This function is if they want to leave the form without filling it outline
+$('.overlay').click(function(){
+  $('.displayPopup').hide();
+});

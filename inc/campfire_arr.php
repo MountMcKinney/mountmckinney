@@ -37,23 +37,6 @@
     return $output;
   }
 
-// function get_recent_cfstories() {
-//     $recent = array();
-//     $all = get_all_cfstories();
-//
-//     $total_cfstories = count($all);
-//     $position = 0;
-//
-//     foreach($all as $cfstory) {
-//         $position = $position + 1;
-//         if ($total_cfstories - $position < 4) {
-//             $recent[] = $cfstory;
-//         }
-//     }
-//     return $recent;
-// }
-
-
 function get_cfstories_count() {
   return count(get_all_cfstories());
 }
@@ -74,25 +57,27 @@ function get_cfstories_subset($positionStart, $positionEnd) {
 
 function get_all_cfstories() {
   $cfstories = array();
-  // $cfstories["nc-fall-foliage-stikes-back"] = array(
-  //   "img" => "img/cf-nc-foliage-strikes-main.jpg",
-  //   "title" => "Fall Foliage Pt. Duex!",
-  //   "info" => "Maggie Valley, NC",
-  //   "p1" => ""
-  //   "p2" => "",
-  //   "aside1" => "img/cf-nc-foliage-strikes-aside1.jpg",
-  //   "aside1_alt" => "",
-  //   "p3" => "",
-  //   "p4" => "",
-  //   "aside2" => "img/cf-nc-foliage-strikes-aside2.jpg",
-  //   "aside2_alt" => "",
-  //   "p5" => "",
-  //   "p6" => "I almost forgot my announcement that I spoke of last post! I&#39;d like to officially welcome the newest addition to the Mount McKinney family! ...my beard! ...what? Were you expecting different news? Sorry, maybe I should&#39;ve worded that different. Oh well, live and learn. Regardless, thought I&#39;d say something about it since it&#39;s in most of the pictures from this post and the previous one.",
-  //   "p7" => "Much to my wife&#39;s chagrin, I love having it and plan on keeping it at least until the Florida summer starts up again (which can honestly be as early as March). For any guys out there debating whether or not to don the crumb catcher, I recommend giving it a try. It&#39;s an exercise in patience to make it past the itching and ridicule you&#39;ll undoubtedly receive the first week or so (well unless you&#39;re a Greek man whose facial grows at an unnatural rate, you know who you are).",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "December 10th, 2015"
-  // );
+  $cfstories["world-is-your-oyster"] = array(
+    "img" => "img/cf-canadian-rockies.jpg",
+    "title" => "The World Is Your Oyster",
+    "info" => "Get Out And Live!",
+    "p1" => "I invite you to try an exercise with me. Close your eyes and picture a place you&#39;ve always wanted to go. Picture what this place looks like. Is it a majestic mountain, a waterfall crashing upon the rocks below, or a city in some distant land? Next, think of what this place would smell like. Do hints of primrose and pine fill the air? Maybe it&#39;s homemade Italian pasta and a bottle of old wine that saturate your senses. Lastly, what do you hear? Is French music playing? How about birds singing their happy songs as they go about their day? Or maybe the only sound for miles is your footsteps and the wind. Go ahead, close your eyes now, I&#39;ll wait.",
+    "p2" => "Have you done it yet? No? Why not? It&#39;s not going to hurt, well unless you&#39;re driving and reading this. In that case, why are you looking at your phone while driving?!",
+    "aside1" => "img/cf-paris.jpg",
+    "aside1_alt" => "A Paris Sunset",
+    "p3" => "Whatever it is you picture, whether it&#39;s the Italian countryside, the American Southwest, Paris, or the Canadian Rockies I want you to do something for me. I want you to go there! I want you to take the trip you&#39;ve been dreaming about day in and day out.",
+    "p4" => "I hope your day already has a large amount of adventure. I hope it doesn&#39;t seem to drag on from one day to the next. I hope it doesn&#39;t consist of you waking up, sitting at a desk constantly checking the clock, sitting in traffic, and finally crawling into bed all to do it over again the next day. However, if it does then it&#39;s time to get out there and change that. First, you probably want to find a different job, one that fulfills you more. Second, it&#39;s time for you to get out and experience the great adventure that is life.",
+    "aside2" => "img/cf-italian-countryside-aside2.jpg",
+    "aside2_alt" => "The Italian Countryside",
+    "p5" => "I&#39;m not saying you should quit your job and travel the world until you&#39;re flat broke. We all have responsibilities to family and you need to have money in order to travel. However, that doesn&#39;t mean we can&#39;t still do the things we want to do and go to the places we&#39;ve always wanted to see. I believe we find ways to fund and find time for the things we make a true priority in our lives.",
+    "p6" => "What&#39;s holding you back from getting out there? Do you feel like you can&#39;t get away from the office? I understand that feeling. It&#39;s very common to feel like you can&#39;t leave due to fears of how your clients or colleagues could focus without you there. The truth is, though, they&#39;ll get along just fine without you. I know that can make some people sad or feel unimportant. I don&#39;t mean to get you down. I tell you that to free you from putting so much stock in your job that you forget to ever truly live.",
+    "p7" => "Is money the issue that&#39;s keeping you from traveling? If so, I have a couple recommendations for you. First, set up a dedicated travel account. Then, set up automatic transfers to that travel account. Next step, don&#39;t look at the balance very often and you&#39;ll be amazed at quickly the money accumulates. Another tip, would be to cut out things that are less important than traveling to you and then take the money you&#39;ve saved and put it in the account. Go out to eat all the time? Cook more at home. Drink Starbucks every day? Brew your own coffee. Cable is expensive and if you really want to watch TV, the <a href='http://www.gomohu.com/'>Mohu</a> Leaf and <a href='http://www.hulu.com/'>Hulu</a> are much more affordable options.",
+    "p8" => "I read an <a href='http://www.huffingtonpost.com/2013/08/03/top-5-regrets-of-the-dying_n_3640593.html'>article</a> recently that talked about the top 5 regrets of those who were about to die. I think 3 of the 5 are especially poignant. &#34;I wish I&#39;d had the courage to live a life true to myself, not the life others expected of me.&#34; &#34;I wish I hadn&#39;t worked so hard.&#34; &#34;I wish that I had let myself be happier.&#34 Don&#39;t get to the end of your days and wonder what you did with your life and wish you could&#39;ve lived differently. Live this life out as the grand adventure that it is.",
+    "p9" => "So what&#39;s next? Well...get out! Go! Why are you reading this when there is a wonderful world to explore?! There is only one thing in this life that you&#39;ve been given that is never able to be replenished...time. Make the most of your time. Whatever you do, just keep in mind these words of wisdom &#34;We weren&#39;t meant to be born, pay bills, and die.&#34; Get out and live!",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "March 23rd, 2015"
+   );
   $cfstories["nc-fall-foliage-stikes-back"] = array(
     "img" => "img/cf-nc-foliage-strikes-main.jpg",
     "title" => "Fall Foliage, Pt. Duex!",
@@ -227,11 +212,11 @@ function get_all_cfstories() {
     "info" => "Albuquerque, NM",
     "p1" => "This was my first trip to the American Southwest for a hiking trip. I have to admit, I was not expecting it to be nearly as beautiful as it was. I expected New Mexico to be a vast desert with little diversity in the landscape. I always kind of wondered why people would live in what I viewed as such as a harsh climate. I was never so happy to be wrong.",
     "p2" => "I&#39;ll be going into more detail about a couple of the places we hiked in subsequent posts. This is just a small post about my overall experience in NM.",
-    "aside1" => "img/cf-nm-dive-aside1.jpg",
+    "aside1" => "img/cf-nm-jemez.jpg",
     "aside1_alt" => "Red rock beauty",
     "p3" => "We spent a week in and around the Albuquerque area (still can&#39;t spell that right without spellcheck). Our house for the week nestled in the Sandia Mountains. As we ventured out into the wilderness, the true beauty of the state became apparent. We saw red rock deserts, pine tree covered mountains, Native American cave dwellings, the Rio Grande, white limestone mountains, and plains resembling those in Wyoming. I was amazed that on one particular driving day, we saw most of that list in just a few hours.",
     "p4" => "The climate was also comfortable, this being August and the weather while warm was nothing compared to Florida&#39;s 90&#39;s and humid summer days. Personally, I&#39;m just more partial to hiking in cooler weather and like to save my multi-hour hikes for the cooler months.",
-    "aside2" => "img/cf-nm-jemez.jpg",
+    "aside2" => "img/cf-nm-dive-aside1.jpg",
     "aside2_alt" => "Me at the edge of a cliff near a waterfall",
     "p5" => "Overall I was very impressed with the New Mexico. I always love diverse landscapes. Mountains are majestic to me, most likely due to the fact that the highest natural point in Florida is Britton Hill. This hill is a towering 312 feet. Even foothills are wonderful to someone who grew up 50 feet or less above sea level. I think my next trip to the Southwest will be to finally check out the Big Five in Utah or to see the Grand Canyon from up close, as opposed to just flying over it. ",
     "p6" => "However, as gorgeous as the Southwest was, I&#39;m happy to be living in the Southeast. I have never been so thirsty for a week straight, my throat was constantly dry. I&#39;m sure I&#39;d get use to it, I&#39;m just not sure I would want to. I don&#39;t mind the heat and humidity of Florida and the non-summer months are incredible weather-wise.",
@@ -286,13 +271,13 @@ function get_all_cfstories() {
     "date" => "June 16th, 2015 "
   );
   $cfstories["sawyer-mini"] = array(
-    "img" => "img/tc-sawyer-dirty.jpg",
+    "img" => "img/tc-river.jpg",
     "title" => "Best Water Filtration",
     "info" => "The best portable water filtration",
     "p1" => "The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking.",
     "p2" => "I suppose you could fill your bottles and sip from them, but this seems ineffective as now your bottles are contaminated. The other option, is water filtration tablets. I&#39ve tried these before and while they&#39re effective, they can leave the water tasting...less than ideal.",
     "p3" => "Then there is the Sawyer Mini. The compact water filtration system that cleans water effectively and doesn&#39t leave the water tasting terrible. It comes with a foldable water pouch so you can collect water from the stream.",
-    "aside1" => "img/tc-river.jpg",
+    "aside1" => "img/tc-sawyer-dirty.jpg",
     "aside1_alt" => "When in the backcountry, clean water is essential",
     "p4" => "From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.",
     "p5" => "The Sawyer being the right choice for me became cemented the first time I used it while on a weekend hike in the mountains of Georgia. I was extremely thirsty and instead of having to lean down near the stream and drink while holding myself up from not falling in the stream. I was able to simply lean down fill up a water pouch and drink. It was a simple affair, it left me impressed with the Sawyer.",
@@ -489,7 +474,7 @@ function get_all_cfstories() {
     "date" => "March 9th, 2015"
   );
   $cfstories["about-me"] = array(
-    "img" => "img/contact-pic-me.jpg",
+    "img" => "img/cf-nc-foliage-strikes-main.jpg",
     "title" => "Who Am I?",
     "info" => "This is a story all about yours truly",
     "p1" => "Welcome to the very first Campfire Story here at Mount McKinney! This is an exciting time for me. I figured in my first post I should share a little about myself and explain why you should take any of the advice I give in my How To section, called <a href='http://mountmckinney.com/twocents/'>Two Cents</a>.",
