@@ -19,9 +19,6 @@ $('.popupExit').click(function(){
     $('.displayPopup').addClass('popupForm');
 });
 
-
-
-
 //This is for creating a pop up form upon clicking a Contact Us button on the home page
 $('.subFormPopup').click(function(){
   $('.subForm').fadeIn(1200).addClass('displaySubForm').removeClass('subForm');
