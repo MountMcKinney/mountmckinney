@@ -27,7 +27,7 @@
   margin:0;
   text-align:center;
   width:100%;
-  background: #09f url('../img/background-mountainsjpg') no-repeat center;
+  background: #09f url('../img/background-mountains.jpg') no-repeat center;
   background-size:cover;
   height:100%;
 }
@@ -622,7 +622,7 @@ footer p {
 .contact-header {
   margin:0;
   padding-top: 20px;
-  background: #09f url('../img/background-mountainsjpg') no-repeat;
+  background: #09f url('../img/background-mountains.jpg') no-repeat;
   background-position: center;
   background-size:cover;
   height:150px;

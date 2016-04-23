@@ -21,17 +21,29 @@
     $output .= '<img src="'.BASE_URL.$cfstory["img"] .'" class="blog-header-img" alt="'.$cfstory["info"].'">';
     $output .= "</div>";
     $output .= '<p class="blog-content">'.$cfstory["p1"].'</p>';
+    $output .= '<br />';
     $output .= '<aside class="aside1">'.'<img src="'.BASE_URL.$cfstory["aside1"] .'" alt="'.$cfstory["aside1_alt"].'">'.'</aside>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p2"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p3"].'</p>';
-    $output .= '<p class="blog-content">'.$cfstory["p4"].'</p>';
+    $output .= '<br />';
     $output .= '<aside class="aside2">'.'<img src="'.BASE_URL.$cfstory["aside2"] .'" alt="'.$cfstory["aside2_alt"].'">'.'</aside>';
+    $output .= '<br />';
+    $output .= '<p class="blog-content">'.$cfstory["p4"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p5"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p6"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p7"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p8"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p9"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-content">'.$cfstory["p10"].'</p>';
+    $output .= '<br />';
     $output .= '<p class="blog-catch">'.$cfstory["catch"].'</p>';
     $output .= '<p class="blog-signature">'.$cfstory["signature"].'<br>'.'<br>'.$cfstory["date"].'</p>';
     return $output;
@@ -456,16 +468,16 @@ function get_all_cfstories() {
     "date" => "April 17th, 2015 "
   );
   $cfstories["clearwater_lake"] = array(
-    "img" => "img/blog/header/clearwater-lake.jpg",
+    "img" => "img/blog/header/clearwater-ocala-lake.jpg",
     "title" => "Clearwater Lake",
     "info" => "Ocala National Forest, FL",
     "p1" => "Getting away from it all is one of the best things you can do sometimes. When the stresses of modern day life become too much, sometimes getting out into the wilderness can be just what the doctor ordered. You come back refreshed and renewed and that&#39s exactly what happened to me this past weekend. Some friends and I got away to the Ocala National Forest for a little car camping.",
     "p2" => "When we arrived Friday evening it was already dark (which is always frustrating to set up a tent in) and rain was threatening. Thankfully the rain held off and we were able to get our tents up and fire going. We reheated some baked ziti that one of the friends had made and froze for our dinner. This turned out to be one of the nastiest meals I&#39ve had. Thankfully, when you&#39re hungry you just don&#39t care. The wood was a little wet and smoked a large amount because of that. This caused the ziti to have a smoked flavor that did not complement it. Between the four of us, we emptied about ⅓ of a container of parmesan on to the pasta (it was the only thing that seemed to neutralize the smoky flavor). The next few hours were us sitting around the fire sharing stories, cracking open a few beers, and of course, poking fun at the friend&#39s terribly executed dinner. We headed to bed but didn&#39t realize that we had a snorer amongst us. How I wish I would&#39ve grabbed ear plugs before bed. A night of tossing and turning attempting to block the noise was ahead of me.",
-    "aside1" => "img/blog/aside/clearwater-tent.jpg",
+    "aside1" => "img/blog/aside/clearwater-ocala-tent.jpg",
     "aside1_alt" => "Campground, my tent",
     "p3" => "Saturday morning I woke up early and went for a hike by myself around the lake. Everything was still in the forest except for a group of 4 deer who didn&#39t seem to care too much about me. They crossed the trail a few hundred feet ahead of me looking for breakfast. It was a peaceful time to relax and be alone with my thoughts. The beauty of nature always makes me contemplate what&#39s necessary in life. As I came back from my morning hike the whole campsite began to wake up and get their day started. I took another mid-morning hike with one of my friends. It was a great time to just hang out with him and catch up on life. The rest of the day was spent lounging around the campsite and throwing the football down by the lake.",
     "p4" => "That night, we met a group who definitely knew how to have a good time. They were celebrating a milestone, one of the guy&#39s 60th birthday. It was 4 friends and their families. Each had the exact same Jeep just in a different color. They had neon shirts, neon painted croquet balls, led string lights everywhere all of which corresponded to the color of their Jeep. They had black lights hooked up to their Jeeps to accentuate all the neon colors.",
-    "aside2" => "img/blog/aside/clearwater-odd.jpg",
+    "aside2" => "img/blog/aside/clearwater-ocala-odd.jpg",
     "aside2_alt" => "The best party people ever",
     "p5" => "In speaking with them, they had met when they worked for their city to build a haunted house. They had done that for years and collected a large amount of haunted props throughout the years. They told me about how Halloween at their homes consists of house hopping between the 4 of them and checking out their incredibly elaborate displays. One guy had a &#34rain room&#34, in which he set up pipes to create fake rain as you walked across a bridge that would move due to hydraulics. Needless to say, they take Halloween to another level. I want to visit them in October and see these amazing houses.",
     "p6" => "Thankfully, I had ear plugs Saturday night. I slept like a rock and think I only woke up once. Sunday was our clean up and head out day. It put an end to an amazing weekend. It was unbelievable how quickly the time went by, I can&#39t wait to go again though. I hope if you haven&#39t been camping, you get out there and try it. Start with car camping and maybe you&#39ll eventually move into some more backcountry type through-hiking. Even if you don&#39t, just go be outdoors. There is so much outside our wifi and paved city streets. Also, become friends with the weird people at your campsite, they often provide the most memorable moments.",

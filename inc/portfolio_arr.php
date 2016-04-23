@@ -16,22 +16,22 @@
 
     $websites = array();
     $websites["wwb"] = array(
-      "thumbnail" => "/img/wwb.png",
+      "thumbnail" => "/img/portfolio/wwb.jpg",
       "name" => "White, Wyne, and Bree",
       "site" => "wwandb.website"
     );
     $websites["icecream"] = array(
-      "thumbnail" => "/img/3flavorsshop.png",
+      "thumbnail" => "/img/portfolio/3flavorsshop.png",
       "name" => "The 3 Flavors Shop",
       "site" => "3flavorsshop.com"
     );
     $websites["burger"] = array(
-      "thumbnail" => "/img/ketchupwithyalater.png",
+      "thumbnail" => "/img/portfolio/ketchupwithyalater.jpg",
       "name" => "Ketchup With Ya Later",
       "site" => "ketchuplater.com"
     );
     $websites["neurofit"] = array(
-      "thumbnail" => "/img/neurofit.png",
+      "thumbnail" => "/img/portfolio/neurofit.png",
       "name" => "NeuroFit",
       "site" => "neurofit.website"
     );
