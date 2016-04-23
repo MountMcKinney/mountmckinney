@@ -7,7 +7,7 @@
   </div>
   <!-- mobile menu -->
   <div class="mobileMenu">
-    <h3><a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>img/mountMcKinneyLogo.svg" alt="Logo" /></a>
+    <h3><a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>img/logos/mountMcKinneyLogo.svg" alt="Logo" /></a>
     <a href="#" class="mobileMenuToggle menuBtn">Close</a></h3>
       <ul>
         <a href="<?php echo BASE_URL; ?>"><li>Home</li></a>

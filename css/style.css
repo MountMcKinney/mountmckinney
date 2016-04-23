@@ -27,7 +27,7 @@
   margin:0;
   text-align:center;
   width:100%;
-  background: #09f url('../img/background-mountains.jpeg') no-repeat center;
+  background: #09f url('../img/background-mountainsjpg') no-repeat center;
   background-size:cover;
   height:100%;
 }
@@ -622,7 +622,7 @@ footer p {
 .contact-header {
   margin:0;
   padding-top: 20px;
-  background: #09f url('../img/background-mountains.jpeg') no-repeat;
+  background: #09f url('../img/background-mountainsjpg') no-repeat;
   background-position: center;
   background-size:cover;
   height:150px;
@@ -925,8 +925,7 @@ form {
 }
 
 .blog-head {
-  max-height:800px;
-  max-width:800px;
+  max-width:976px;
   margin: 0 auto 100px;
 }
 
@@ -1002,7 +1001,8 @@ form {
 
 .blog-header-img {
   border-radius: 30px;
-  max-height: 550px;
+  width: 100%;
+  height: auto;
 }
 
 .blog-content {
