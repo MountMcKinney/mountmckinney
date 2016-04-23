@@ -15,7 +15,7 @@ $(function(){
 //This is for creating a pop up form upon clicking a Contact Us button on the home page
 $('.contactPopUp').click(function(){
   $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
-  $('.overlay').css("display", "block");
+  // $('.overlay').css("display", "block");
 });
 
 // This is for after submission of the form, fadeout
@@ -30,7 +30,26 @@ $('.popupExit').click(function(){
     $('.displayPopup').addClass('popupForm');
 });
 
-// I need to do the same thing for the subscribe form but make it appear as a list item when you click subscribe. Should be much easier.
+
+
+
+//This is for creating a pop up form upon clicking a Contact Us button on the home page
+$('.subFormPopup').click(function(){
+  $('.subForm').fadeIn(1200).addClass('displaySubForm').removeClass('subForm');
+  // $('.overlay').css("display", "block");
+});
+
+// This is for after submission of the form, fadeout
+$('#c-submit-button').click(function() {
+  $('.displaySubForm').fadeOut(10000);
+  $('.displaySubForm').addClass('subForm');
+});
+
+// This function is if they want to leave the form without filling it outline
+$('.popupSubExit').click(function(){
+    $('.displaySubForm').fadeOut(2000);
+    $('.displaySubForm').addClass('subForm');
+});
 
 
 // $('.overlay').click(function(){

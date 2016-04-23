@@ -47,6 +47,12 @@ $cfstories = get_cfstories_subset($start,$end);
     <?php include(ROOT_PATH."inc/name_title_header.php");?>
     <?php include(ROOT_PATH."inc/menu.php");?>
   </header>
+  <div class="blogHomeHeader">
+    <div class="subscribeButton">
+        <?php include(ROOT_PATH.'inc/subscribeButton.php'); ?>
+        <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
+    </div>
+  </div>
     <div id="wrapper">
       <div id="main-left">
         <div class="campfire">

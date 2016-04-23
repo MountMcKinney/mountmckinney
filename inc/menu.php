@@ -12,7 +12,7 @@
       <a href="<?php echo BASE_URL; ?>portfolio/"><li>Portfolio & Services</li></a>
       <a href="<?php echo BASE_URL; ?>campfirestories/"><li>Campfire Stories</li></a>
       <a href="<?php echo BASE_URL; ?>contact/"><li>Contact</li></a>
-      <a href="<?php echo BASE_URL; ?>subscribe/" class="subFormButton"><li>Subscribe</li></a>
+      <a href="#" class="subFormPopup"><li>Subscribe</li></a>
       </ul>
   </div>
 </div>
@@ -22,6 +22,8 @@
       <a href="<?php echo BASE_URL; ?>portfolio/"><li>Portfolio & Services</li></a>
       <a href="<?php echo BASE_URL; ?>campfirestories/"><li>Campfire Stories</li></a>
       <a href="<?php echo BASE_URL; ?>contact/"><li>Contact</li></a>
-      <a href="<?php echo BASE_URL; ?>subscribe/" class="subFormMobileButton"><li>Subscribe</li></a>
+      <a href="#" class="subFormPopup"><li>Subscribe</li></a>
   </ul>
 </div>
+<!-- This creates a pop up that displays the Subscribe Form when you click Subscribe -->
+<?php include(ROOT_PATH."inc/subscribeFormPopup.php") ?>

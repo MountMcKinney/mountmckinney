@@ -7,6 +7,21 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand.otf');
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../fonts/Cinzel.otf');
+}
+
+@font-face {
+  font-family: 'Vast Shadow';
+  src: url('../fonts/VastShadow.ttf');
+}
+
 /*---------Header---------*/
 #homepage {
   margin:0;
@@ -43,8 +58,7 @@ header {
 }
 
 @media screen and (min-width:652px) and (max-width:905px) {
-
-  .home-header{
+  .home-header {
     margin-top: 10em;
   }
 }
@@ -66,15 +80,22 @@ header {
   margin-top: 40px;
 }
 
-a.contactPopUp, a.contactPopUp:hover {
+a.contactPopUp, a.contactPopUp:hover, .subscribeButtonFloat a, .subscribeButtonFloat a:hover, .subscribeButton a, .subscribeButton a:hover {
   background-color: #0f90f9;
   color: #fff;
   padding: 10px 30px;
-  box-shadow: 0px 3px 10px black;
   font-family: 'Cinzel', sans-serif;
 }
 
-.popupForm {
+#homepage a.contactPopUp, #homepage a.contactPopUp:hover {
+  box-shadow: 0px 3px 10px black;
+}
+
+#home-footer .subscribeButton a, #home-footer .subscribeButton a:hover {
+  display: none;
+}
+
+.popupForm, .subForm {
   display: none;
 }
 
@@ -89,7 +110,7 @@ a.contactPopUp, a.contactPopUp:hover {
   height: 100%;
 }*/
 
-a.popupExit, a.popupExit:hover {
+a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover {
   padding: 10px 0;
   background: orange;
   color: white;
@@ -101,7 +122,7 @@ a.popupExit, a.popupExit:hover {
 }
 
 
-.displayPopup {
+.displayPopup, .displaySubForm {
   position: fixed;
   top: 20%;
   left: 20%;
@@ -110,23 +131,26 @@ a.popupExit, a.popupExit:hover {
   text-align: left;
   background: rgba(0,153,255,1);
   border: 2px solid rgba(255,153,0,0.9);
-  box-shadow: 0px 0px 100px 35px black;
   color: white;
 }
 
-.displayPopup button {
+.displayPopup button, .displaySubForm button {
   background-color: white !important;
   color: #09f !important;
 }
 
-.displayPopup label, .displayPopup p {
+.displayPopup label, .displayPopup p, .displaySubForm label, .displaySubForm p {
   color: white !important;
 }
 
-.displayPopup h4 {
+.displayPopup h4, .displaySubForm h4 {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
+}
+
+.subscribeButtonFloat {
+  float: right;
 }
 
 img {
@@ -174,7 +198,7 @@ body {
   width:100%;
   padding: 20px 0;
   margin: 20px 0 0;
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Vast Shadow', 'Cinzel', cursive;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 13px solid #09f;
@@ -242,7 +266,7 @@ body {
   width:100%;
   padding: 20px 0;
   margin: 20px 0 0;
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Vast Shadow', 'Cinzel', cursive;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 13px solid #09f;
@@ -330,7 +354,12 @@ footer {
   width:100%;
   height:100%;
   color:#09f;
+  padding-bottom: 20px;
   font-family:'Quicksand', sans-serif;
+}
+
+footer p {
+  padding-top: 30px;
 }
 
 #home-footer {
@@ -341,15 +370,14 @@ footer {
   color:#fff;
   font-family:'Quicksand', sans-serif;
   position:fixed;
-  bottom: 0;
+  bottom: 20px;
   margin-bottom:5px;
 }
 
-
-
 /*---------Responsiveness---------*/
-@media screen and (min-width: 410px) {
 
+
+@media screen and (min-width: 410px) {
   #wrapper {
     max-width:1300px;
     margin:auto;
@@ -542,7 +570,7 @@ footer {
 
 #wrapper-contact {
   max-width:1300px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   padding: 5%;
 }
 
@@ -584,7 +612,7 @@ footer {
   z-index: 1;
 }
 
-.about p {
+.about p, .contact-details p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
   color:#2e2e2e;
@@ -597,40 +625,28 @@ footer {
   color:#09f;
 }
 
-.contact-details h4 {
+.contact-details {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  margin-top: 90px;
-}
-
-.contact-details div {
-  border-top:3px solid orange;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  padding:20px 10px 0;
 }
 
 .contact-details li {
-  padding:0 0 0 25px;
-  margin:0 0 10px;
-  text-align:justify;
+  padding: 0 5% 0 5%;
+  margin: 0 auto 30px;
 }
 
-.details a:link, .details a:visited {
-  color:#09f;
+ul.details {
+  padding-left: 0;
 }
 
 .details img {
-  height:30px;
-  width:30px;
+  height:100px;
+  width:100px;
 }
 
 .details li {
-  display:block;
-  padding-bottom: 20px;
-  text-indent: 3%;
-  font-size:1.1rem;
+  display:inline-block;
 }
 
 .contact-footer {
@@ -638,52 +654,11 @@ footer {
   clear:both;
 }
 
-.subscribe h4 {
-  font-family:'Quicksand', sans-serif;
-  font-size:2rem;
-  text-align:center;
-  margin-top: 90px;
-}
-
-.cognito form {
-  margin: 0 auto;
-}
-
 .cognito .c-span-2 {
   max-width: 900px;
 }
 
-#sub {
-  border-top:3px solid orange;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  padding:10px 11%;
-  margin-bottom:100px;
-  position: relative;
-  z-index: 1;
-}
-
-#sub section {
-  color: #2e2e2e;
-  font-family:"Quicksand";
-  text-align:center;
-}
-
-#sub section h2 {
-  text-transform:uppercase;
-  font-size:2.5rem;
-  line-height:2;
-}
-
-#sub section p {
-  text-transform:capitalize;
-  font-size:1.6rem;
-  color:#2e2e2e;
-}
-
-
 @media screen and (max-width: 905px) {
-
 .contact-header {
   height:170px;
   }
@@ -704,23 +679,6 @@ footer {
 
   .details li {
     font-size:1.35rem;
-  }
-
-  .contact-details{
-    width:50%;
-    float:left;
-    max-width: 400px;
-  }
-
-  .subscribe {
-    width:40%;
-    float:right;
-    max-width:400px;
-    margin-right:50px;
-  }
-
-  #sub-formpage {
-    max-width:800px;
   }
 }
 
@@ -817,34 +775,14 @@ footer {
 }
 
 
-/*---------PAGE:SUBSCRIBE---------*/
+/*---------FORM---------*/
 
-.sub-page h4 {
-  font-family:'Quicksand', sans-serif;
-  font-size:2rem;
-  text-align:center;
-  margin-top: 5.5rem;
-}
-
-.sub-page p, .subscribe p {
-  font-family: "Quicksand",sans-serif;
-  text-align: center;
-}
-
-#wrapper-subscribe {
-  max-width:1300px;
-  margin:auto;
-  padding: 5%;
-}
 
 form p {
   font-size: 2rem;
   line-height: 2;
   font-family: 'Quicksand', serif;
 }
-
-
-/*---------FORM---------*/
 
 input[type="text"],
 input[type="email"],
@@ -864,12 +802,12 @@ textarea {
   overflow:auto;
 }
 
-.sub-form, #contact-us, .ss-form {
+#contact-us, .ss-form {
   margin: 10px auto;
 }
 
 .cognito form {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #c-submit-button {
@@ -882,11 +820,6 @@ textarea {
   font-family: "Quicksand", sans-serif;
   color: #09f;
   text-align: center;
-}
-
-.sub-form {
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 label {
@@ -941,7 +874,7 @@ form {
   text-transform:uppercase;
   width:100%;
   padding: 20px 5px;
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Vast Shadow', 'Cinzel', cursive;
   position: relative;
   z-index: -1;
 }
@@ -990,10 +923,26 @@ form {
   }
 }
 
-.breadcrumb {
-  font-family: "Quicksand";
+.blogHeader {
   padding: 15px;
   font-size: 1.5rem;
+}
+
+.blogHomeHeader {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.subscribeButtonFooter {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.breadcrumb {
+  font-family: "Quicksand";
+  float: left;
 }
 
 .hide-bread{
@@ -1098,7 +1047,19 @@ input[type='text'], input:not([type]), textarea {
 }
 
 @media screen and (min-width:905px) {
-  .portfolio h4, .sub-page h4, .about h4, .services h4 {
+  .portfolio h4, .sub-page h4, .services h4 {
     margin-top:initial;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .details img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .contact-details {
+    font-size: 1.5rem;
   }
 }

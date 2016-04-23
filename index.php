@@ -18,6 +18,7 @@ require_once("inc/config.php");
         <p class='title'>Websites Designed to Help You Reach Your Peak</p>
     </div>
     <!-- This button creates a pop up that displays the Contact Us Form -->
+      <?php include(ROOT_PATH."inc/contactButton.php") ?>
       <?php include(ROOT_PATH."inc/contactFormPopup.php") ?>
     <div id='home-footer'>
       <?php include(ROOT_PATH."inc/footer.php"); ?>
