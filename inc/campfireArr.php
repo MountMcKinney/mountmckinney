@@ -1,4 +1,15 @@
 <?php
+
+  function displayCampfireFeatured($topStory){
+    //build HTML output here
+    $output = "";
+    $output .= '<a href="'.BASE_URL.'campfire/?story='.$topStory["story"].'">';
+    $output .= '<img src="'.BASE_URL.$topStory["img"] .'" alt="'.$topStory["info"].'">';
+    $output .= '</a>';
+
+    return $output;
+  }
+
   function displayCampfireHtml($cfstory){
     //build HTML output here
     $output = "";
