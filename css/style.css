@@ -112,7 +112,7 @@ a.contactPopUp, a.contactPopUp:hover, .subscribeButtonFloat a, .subscribeButtonF
   background-color: #0f90f9;
   color: #fff;
   padding: 10px 30px;
-  font-family: 'Cinzel', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #homepage a.contactPopUp, #homepage a.contactPopUp:hover {
@@ -443,7 +443,7 @@ footer p {
     color: white;
     text-align:center;
     text-transform:uppercase;
-    font-family: 'Cinzel', serif;
+    font-family: 'Quicksand', 'Cinzel', serif;
   }
 
   #menu a:visited {
@@ -624,27 +624,20 @@ footer p {
 }
 
 .about img {
-  height:215px;
-  width:215px;
-  border-radius:100%;
   margin:0 auto 30px;
   display:block;
 }
 
 .about h4 {
   font-family:'Quicksand', sans-serif;
-  font-size:2rem;
+  font-size:3rem;
   text-align:center;
   margin-top: 5.5rem;
+  border-bottom:3px solid orange;
 }
 
 .about div {
-  border-top:3px solid orange;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
   padding-top:50px;
-  position: relative;
-  z-index: 1;
 }
 
 .about p, .contact-details p {
@@ -652,7 +645,7 @@ footer p {
   font-size:1.1rem;
   color:#263238;
   text-align:justify;
-  margin:20px 20px;
+  margin:20px 0;
   line-height:1.5rem;
 }
 
@@ -693,7 +686,7 @@ ul.details {
   max-width: 100%;
 }
 
-.c-action {
+#cont-me .c-action {
   float: none !important;
 }
 
@@ -710,10 +703,7 @@ ul.details {
     color: #263238;
 }
   .about img {
-    float:left;
-    margin: 0 5% 0 20px;
-    width:275px;
-    height:275px;
+    float: left;
   }
 
   .details li {
@@ -761,7 +751,7 @@ ul.details {
   font-size:1.1rem;
   color: #263238;
   text-align:justify;
-  margin:20px 30px;
+  margin:20px 0;
   line-height:1.5rem;
 }
 
@@ -808,35 +798,6 @@ ul.details {
 
 /*---------FORM---------*/
 
-
-form p {
-  font-size: 2rem;
-  line-height: 2;
-  font-family: 'Quicksand', serif;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  height: auto;
-  outline: 0;
-  padding: 15px;
-  width: 100%;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-  margin-bottom: 30px;
-  padding:20px auto 0px;
-  border-radius:5px;
-  border: 1px solid orange;
-  font-family:'Quicksand', sans-serif;
-  font-size:1.1rem;
-  color: #263238;
-  overflow:auto;
-}
-
-#contact-us, .ss-form {
-  margin: 10px auto;
-}
-
 .cognito form {
   margin: 0 auto;
 }
@@ -848,10 +809,13 @@ textarea {
   width: 100%;
 }
 
-.message {
-  font-family: "Quicksand", sans-serif;
-  color: #09f;
-  text-align: center;
+#cont-me .cognito .c-label, #cont-me .cognito .c-editor {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#cont-me .cognito .c-button {
+  margin: 0;
 }
 
 label {
