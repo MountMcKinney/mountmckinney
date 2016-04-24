@@ -22,10 +22,6 @@ $pageTitle = $cfstory["title"];
 <?php
   include(ROOT_PATH."inc/header.php");
 ?>
-  <header class="contact-header">
-      <?php include(ROOT_PATH."inc/name_title_header.php");?>
-      <?php include(ROOT_PATH."inc/menu.php");?>
-  </header>
   <div class="blogHeader">
     <div class="breadcrumb">
       <a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["title"]; ?>

@@ -3,6 +3,8 @@
 /*Good color for a future site: rgb(0,153,102)*/
 /*#101725*/
 /*#263238*/
+/*#2638A2*/
+
 
 /*Next to/above? menu options have icons
 Home - house
@@ -14,6 +16,10 @@ Subscribe -*/
 * {
   box-sizing:border-box;
   margin: 0;
+}
+
+ul {
+  padding-left: 0;
 }
 
 @font-face {
@@ -37,6 +43,7 @@ Subscribe -*/
 }
 
 /*---------Header---------*/
+
 #homepage {
   margin:0;
   text-align:center;
@@ -47,13 +54,23 @@ Subscribe -*/
 }
 
 
-header {
+.header {
   margin:0;
-  padding-top: 20px;
-  text-align:center;
-  text-transform:uppercase;
-  font-family: 'Cinzel', serif;
-  color:white;
+  background: #263832;
+  height:100px;
+}
+
+.current {
+  /*background: #2638A2;*/
+  background: #f90;
+}
+
+.notCurrentPage:hover {
+  background: #09f;
+}
+
+#name img {
+  width: 200px;
 }
 
 .home-header {
@@ -61,12 +78,9 @@ header {
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
   color: white;
-  position: relative;
-  z-index: -1;
   border-left: 3px solid orange;
   border-right: 3px solid orange;
-  width: 90%;
-  margin: 10rem auto 0;
+  margin: 0 auto;
   padding: 0 10px;
   background-color: rgba(0,0,0,0.4);
 }
@@ -175,10 +189,6 @@ img {
 #name {
   text-align:right;
   margin:0;
-  color:white;
-  text-shadow: 3px 3px 10px rgba(0,0,0,.8);
-  font-size:1.5rem;
-  line-height:30px;
   float:right;
   padding-right: 10px;
 }
@@ -198,6 +208,9 @@ img {
   display: none;
 }
 
+.menuIcons {
+  width: 40px;
+}
 
 /*---------Body---------*/
 
@@ -327,8 +340,7 @@ body {
 }
 
 .portfolio-images img {
-  border-top:5px solid orange;
-  border-radius:30px;
+  border-radius:10px;
   height:216px;
   width:384px;
 }
@@ -425,26 +437,10 @@ footer p {
 
   #name {
     float:left;
-    text-align:left;
-    margin-top:20px 0 40px;
-    padding-left:10px;
-    color:white;
-    text-shadow: 3px 3px 10px rgba(0,0,0,.8);
-    font-size: 1.4rem;
-    line-height:18px;
-    text-transform:uppercase;
-    font-family: 'Cinzel', serif;
-    color:white;
-  }
-
-  #name p {
-    font-size: 1rem;
-    line-height: 50px;
   }
 
   #menu a:link {
     color: white;
-    text-shadow: 1px 1px 10px rgba(0,0,0,.8);
     text-align:center;
     text-transform:uppercase;
     font-family: 'Cinzel', serif;
@@ -454,22 +450,16 @@ footer p {
     color:white;
   }
 
-  #menu a:hover {
-    color: #09f;
-  }
-
   #menu {
     float:right;
-    padding:0;
-    padding-right:10px;
-    margin-top:20px;
   }
 
   #menu li {
     display:inline-block;
-    margin: 0 0.8em;
     font-size: 1.05rem;
     position:relative;
+    margin: 0 -2px;
+    padding: 18px 20px 19px;
   }
 
   .home-header h1 {
@@ -633,20 +623,6 @@ footer p {
   padding: 5%;
 }
 
-.contact-header {
-  margin:0;
-  padding-top: 20px;
-  background: #09f url('../img/background-mountains.jpg') no-repeat;
-  background-position: center;
-  background-size:cover;
-  height:150px;
-  width: 100%;
-  color:white;
-  text-align:center;
-  text-transform:uppercase;
-  font-family: 'Cinzel', serif;
-}
-
 .about img {
   height:215px;
   width:215px;
@@ -714,7 +690,11 @@ ul.details {
 }
 
 .cognito .c-span-2 {
-  max-width: 900px;
+  max-width: 100%;
+}
+
+.c-action {
+  float: none !important;
 }
 
 @media screen and (max-width: 905px) {
@@ -766,19 +746,14 @@ ul.details {
 
  .portfolio h4 {
   font-family:'Quicksand', sans-serif;
-  font-size:2rem;
+  font-size:3rem;
   text-align:center;
-  margin-top: 5.5rem;
+  border-bottom: 3px solid orange;
 }
 
 #ps {
-  border-top:3px solid orange;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
   padding-top:10px;
   margin-bottom:100px;
-  position: relative;
-  z-index: 1;
 }
 
 #ps p {
@@ -792,9 +767,10 @@ ul.details {
 
 .contact-me h4 {
   font-family:'Quicksand', sans-serif;
-  font-size:2rem;
+  font-size:3rem;
+  border-bottom: 3px solid orange;
+  margin: 50px auto;
   text-align:center;
-  margin-top: 50px;
 }
 
 #contact-name section {
@@ -816,10 +792,6 @@ ul.details {
 }
 
 #cont-me {
-  border-top:3px solid orange;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  padding:10px 11%;
   margin-bottom:100px;
 }
 
@@ -873,6 +845,7 @@ textarea {
   position: relative;
   font-family: 'Quicksand';
   font-size: 1.3rem;
+  width: 100%;
 }
 
 .message {
@@ -883,10 +856,9 @@ textarea {
 
 label {
   display: block;
-  margin-bottom: 8px;
-  color: #2e2e2e;
-  font-size:1.3em;
-  font-family:'Quicksand', sans-serif;
+  margin: 8px 0;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .thanks h2, .thanks p{
@@ -916,8 +888,8 @@ label {
 }
 
 form {
-    max-width: 90%;
-  }
+  max-width: 100%;
+}
 
 
 /*---------PAGE: CAMPFIRE---------*/

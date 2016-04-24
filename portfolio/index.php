@@ -8,14 +8,12 @@ require_once (ROOT_PATH."inc/portfolio_arr.php");
   $pageTitle="Portfolio & Services";
   include(ROOT_PATH."inc/header.php");
 ?>
-    <header class="contact-header">
-      <?php include(ROOT_PATH."inc/name_title_header.php");?>
-      <?php include(ROOT_PATH."inc/menu.php");?>
-    </header>
     <div id="wrapper-portfolio">
       <div class="contact-me" id="contact">
-        <h4>Contact Me</h4>
+        <?php include(ROOT_PATH.'inc/contactIcons.php') ?>
+        </div>
         <div id="cont-me">
+          <h4>Contact Me</h4>
           <?php include(ROOT_PATH."inc/contact-form.php"); ?>
         </div>
        </div>
@@ -23,8 +21,8 @@ require_once (ROOT_PATH."inc/portfolio_arr.php");
         <h4>Portfolio & Services</h4>
         <div id="ps">
         <p>I provide a wide range of technology related services. So, whether you need a website or app built, logo created, social media rebranded, or you are just having general issues with your technology just call on me. </p>
-        <p>From now on, think of me as your go-to technology guru. I've been my family's technological advisor for many years and now I'd like to be yours. Below you can find a couple of my projects, they're always being updated so be sure to check back from time to time. If you are in need of my services, send me a message so we can discuss more details. I look forward to hearing from you! </p>
-        <p>To get in touch with me about my services, simply fill out the Contact Me form below and I'll be in touch within a few hours. I look forward to hearing from you.</p>
+        <p>From now on, think of me as your go to person for all things tech. Below you can find a couple of my projects, they're always being updated so be sure to check back from time to time. </p>
+        <p>If you are in need of my services, simply fill out the Contact Me form and I'll be in touch within a few hours. I look forward to hearing from you!</p>
         <ul class="portfolio-images">
           <?php foreach($websites as $websiteSKU => $website)
               echo display_portfolio_html($websiteSKU, $website);
