@@ -21,7 +21,7 @@ require_once("inc/config.php");
       $output .= "</a> -->
     </div>
   </div>
-    <!-- <div class="home-header">
+    <!-- <div class="homeHeader">
         <h1 class='title'>Mount McKinney</h1>
         <p class='title'>Websites Designed to Help You Reach Your Peak</p>
     </div> -->
