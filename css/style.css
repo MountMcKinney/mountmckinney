@@ -229,7 +229,7 @@ body {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 13px solid #09f;
-  color: #2e2e2e;
+  color: #263238;
   position: relative;
   z-index: -1;
 }
@@ -297,7 +297,7 @@ body {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 13px solid #09f;
-  color: #2e2e2e;
+  color: #263238;
   position: relative;
   z-index: -1;
 }
@@ -328,7 +328,7 @@ body {
 }
 
 .pagination a:hover, .pagination a:visited, .pagination a:link {
-  background-color: slategrey;
+  background-color: #263238;
   color: white;
   padding: 1rem;
 }
@@ -650,7 +650,7 @@ footer p {
 .about p, .contact-details p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color:#2e2e2e;
+  color:#263238;
   text-align:justify;
   margin:20px 20px;
   line-height:1.5rem;
@@ -707,7 +707,7 @@ ul.details {
   .about p {
     font-family:'Quicksand', sans-serif;
     font-size:1.35rem;
-    color: #2e2e2e;
+    color: #263238;
 }
   .about img {
     float:left;
@@ -759,7 +759,7 @@ ul.details {
 #ps p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color: #2e2e2e;
+  color: #263238;
   text-align:justify;
   margin:20px 30px;
   line-height:1.5rem;
@@ -774,7 +774,7 @@ ul.details {
 }
 
 #contact-name section {
-  color: #2e2e2e;
+  color: #263238;
   font-family:"Quicksand";
   text-align:center;
 }
@@ -788,7 +788,7 @@ ul.details {
 #contact-name section p {
   text-transform:capitalize;
   font-size:1.6rem;
-  color: #2e2e2e;
+  color: #263238;
 }
 
 #cont-me {
@@ -829,7 +829,7 @@ textarea {
   border: 1px solid orange;
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color: #2e2e2e;
+  color: #263238;
   overflow:auto;
 }
 
@@ -862,7 +862,7 @@ label {
 }
 
 .thanks h2, .thanks p{
-  color: #2e2e2e;
+  color: #263238;
   text-align: center;
   font-family: "Quicksand",sans-serif;
   text-transform: capitalize;
@@ -899,7 +899,7 @@ form {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 13px solid #09f;
-  color: #2e2e2e;
+  color: #263238;
   text-align:center;
   font-size:2.25rem;
   text-transform:uppercase;
@@ -993,7 +993,7 @@ form {
 
 .blog-content {
   font-family: "Quicksand", sans-serif;
-  color: #2e2e2e;
+  color: #263238;
   line-height: 1.4;
   font-size: 1.1rem;
 }
@@ -1003,7 +1003,7 @@ form {
 }
 
 .tc-blog-list {
-  color: #2e2e2e;
+  color: #263238;
   font-family: "Quicksand", sans-serif;
   font-size: 1.1rem;
 }
@@ -1068,7 +1068,7 @@ input[type='text'], input:not([type]), textarea {
 #services p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
-  color:#2e2e2e;
+  color:#263238;
   text-align:justify;
   margin:20px 30px;
   line-height:1.5rem;
