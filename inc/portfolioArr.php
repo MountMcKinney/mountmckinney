@@ -1,5 +1,5 @@
 <?php
-  function display_portfolio_html($websiteSKU,$website){
+  function displayPortfolioHtml($websiteSKU,$website){
     //build HTML output here
     $output = "";
     $output .= "<li class='".$website["listSide"]."'>";

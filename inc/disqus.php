@@ -1,4 +1,4 @@
-<div id="disqus_thread"></div>
+<div class="disqusThread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES * * */
       var disqus_shortname = 'mountmckinneycom';

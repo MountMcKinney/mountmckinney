@@ -1,39 +1,39 @@
 <?php
 require_once("../inc/config.php");
-require_once(ROOT_PATH."inc/campfire_arr.php");
+require_once(ROOT_PATH."inc/campfireArr.php");
 
 // retrieve current page number from query string; set to 1 if blank
 if (empty($_GET["pg"])) {
-  $current_page = 1;
+  $currentPage = 1;
 } else {
-  $current_page = $_GET["pg"];
+  $currentPage = $_GET["pg"];
 }
 // set strings to 0; remove decimals
-$current_page = intval($current_page);
+$currentPage = intval($currentPage);
 
-$total_cfstories = get_cfstories_count();
-$cfstories_per_page = 4;
-$total_pages = ceil($total_cfstories / $cfstories_per_page);
+$totalCfstories = getCfstoriesCount();
+$cfstoriesPerPage = 4;
+$totalPages = ceil($totalCfstories / $cfstoriesPerPage);
 
 // redirect too-large page numbers to the last page
-if ($current_page > $total_pages) {
-  header("Location: ./?pg=" . $total_pages);
+if ($currentPage > $totalPages) {
+  header("Location: ./?pg=" . $totalPages);
 }
 
 // redirect too-small page numbers (or strings converted to 0) to the first page
-if ($current_page < 1) {
+if ($currentPage < 1) {
   header("Location: ./");
 }
 
 // determine the start and end story for the current page; for example, on
 // page 2 with 4 stories per page, $start and $end would be 5 and 8
-$start = (($current_page - 1) * $cfstories_per_page) + 1;
-$end = $current_page * $cfstories_per_page;
-if ($end > $total_cfstories) {
-  $end = $total_cfstories;
+$start = (($currentPage - 1) * $cfstoriesPerPage) + 1;
+$end = $currentPage * $cfstoriesPerPage;
+if ($end > $totalCfstories) {
+  $end = $totalCfstories;
 }
 
-$cfstories = get_cfstories_subset($start,$end);
+$cfstories = getCfstoriesSubset($start,$end);
 
 ?>
 
@@ -49,14 +49,14 @@ $cfstories = get_cfstories_subset($start,$end);
         <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
     </div>
   </div>
-    <div id="wrapper">
-      <div id="main-left">
+    <div class="wrapper">
+      <div id="mainLeft">
         <div class="campfire">
           <h3>Campfire Stories</h3>
-          <ul class="cts">
+          <ul class="campfireBlog">
             <?php include (ROOT_PATH."inc/pagination.php");?>
             <?php foreach($cfstories as $cfstory) {
-              echo display_campfire_html($cfstory);
+              echo displayCampfireHtml($cfstory);
             }
             ?>
             <?php include (ROOT_PATH."inc/pagination.php");?>
@@ -64,7 +64,7 @@ $cfstories = get_cfstories_subset($start,$end);
         </div>
       </div>
     </div>
-    <footer class="contact-footer">
+    <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
-    <?php include(ROOT_PATH.'inc/js_scripts.php');?>
+    <?php include(ROOT_PATH.'inc/scripts.php');?>

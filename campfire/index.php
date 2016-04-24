@@ -1,7 +1,7 @@
 <?php
 require_once("../inc/config.php");
-require_once(ROOT_PATH."inc/campfire_arr.php");
-$cfstories = get_all_cfstories();
+require_once(ROOT_PATH."inc/campfireArr.php");
+$cfstories = getAllCfstories();
 
 if (isset($_GET["story"])){
   $cfstoryname = $_GET["story"];
@@ -31,16 +31,16 @@ $pageTitle = $cfstory["title"];
         <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
     </div>
   </div>
-  <div id="wrapper">
-    <div id="main-left">
+  <div class="wrapper">
+    <div class="mainLeft">
       <div class="campfire">
-        <h3 id="blog-top-h3"> <?php echo $cfstory["title"];?> </h3>
-        <?php echo display_campfire_blog($cfstory); ?>
+        <h3 class="blogTopH3"> <?php echo $cfstory["title"];?> </h3>
+        <?php echo displayCampfireBlog($cfstory); ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
     </div>
   </div>
-  <footer class="contact-footer">
+  <footer class="footer">
     <?php include(ROOT_PATH."inc/footer.php"); ?>
   </footer>
-    <?php include(ROOT_PATH.'inc/js_scripts.php');?>
+    <?php include(ROOT_PATH.'inc/scripts.php');?>
