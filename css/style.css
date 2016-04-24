@@ -1,6 +1,15 @@
 /*------------------------------Style:CSS-------------------------------------*/
 
 /*Good color for a future site: rgb(0,153,102)*/
+/*#101725*/
+/*#263238*/
+
+/*Next to/above? menu options have icons
+Home - house
+Portfolio - camera
+Campfire Stories - logs on fire
+Contact -
+Subscribe -*/
 
 * {
   box-sizing:border-box;
@@ -15,6 +24,11 @@
 @font-face {
   font-family: 'Cinzel';
   src: url('../fonts/Cinzel.otf');
+}
+
+@font-face {
+  font-family: 'Trajan';
+  src: url('../fonts/Trajan.ttf');
 }
 
 @font-face {
