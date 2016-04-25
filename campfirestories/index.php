@@ -65,6 +65,7 @@ $cfstories = getCfstoriesSubset($start,$end);
         </ul>
       </div>
   </div>
+     <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
     <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>

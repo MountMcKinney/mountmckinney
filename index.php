@@ -13,7 +13,7 @@ require_once("inc/config.php");
   <div class="homeHeader">
       <h1 class='title'>Mount McKinney</h1>
       <p class='title'>Websites Designed to Help You Reach Your Peak</p>
-      <!-- This button creates a pop up that displays the Contact Us Form -->
+      <!-- This button creates a pop up that displays the Subscribe Form -->
         <?php include(ROOT_PATH."inc/contactButton.php") ?>
         <?php include(ROOT_PATH."inc/contactFormPopup.php") ?>
 </div>

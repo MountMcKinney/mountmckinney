@@ -146,10 +146,17 @@ li {
 }
 
 .popupButton a, .popupButton a:hover, .subscribeButtonFloat a, .subscribeButtonFloat a:hover, .subscribeButton a, .subscribeButton a:hover {
-  background-color: #2638A2;
   color: #fff;
   padding: 10px 30px;
   font-family: 'Quicksand', sans-serif;
+}
+
+.popupButton a, .popupButton a:hover {
+  background-color: #2638A2;
+}
+
+.subscribeButtonFloat a, .subscribeButtonFloat a:hover, .subscribeButton a, .subscribeButton a:hover {
+  background-color: #f9b701;
 }
 
 .popupForm, .subForm {
@@ -327,6 +334,12 @@ body {
 
 /*---------Portfolio Page---------*/
 
+.wrapper {
+  max-width:1300px;
+  margin: 0 auto 50px;
+  padding: 10px;
+}
+
 .portfolioServices ul {
   margin-top:0;
   padding:3% 0 0;
@@ -348,6 +361,7 @@ body {
   border:3px solid #f9b701;
   height:216px;
   width:384px;
+  margin: 20px;
 }
 
 .portfolio h4 {
@@ -440,15 +454,12 @@ body {
 
 /*---------About Page---------*/
 
-.wrapper {
-  max-width:1300px;
+.aboutWrapper {
+  max-width:1080px;
   margin: 0 auto 50px;
   padding: 10px;
 }
 
-.about img {
-  margin: 20px 30px 40% 0px;
-}
 
 .about h4 {
   font-family:'Quicksand', sans-serif;
@@ -458,9 +469,9 @@ body {
   border-bottom:3px solid #f9b701;
 }
 
-.about div {
+/*.about div {
   padding-top:50px;
-}
+}*/
 
 .about p, .contactDetails p {
   font-family:'Quicksand', sans-serif;
@@ -672,10 +683,6 @@ ul.details {
 }
 
 @media screen and (max-width:770px) {
-  .contMe {
-    padding-left: 40%;
-    padding-right: 40%;
-  }
 
   .subscribeButtonFloat {
     float: none;
@@ -705,8 +712,12 @@ ul.details {
   }
 
   .about img {
-    float: left;
-    width: 20%;
+    /*float: left;*/
+    width: 100%;
+  }
+
+  .blogHomeHeader h3 {
+    font-size: 3rem;
   }
 }
 
@@ -718,8 +729,8 @@ ul.details {
   }
 
   .about img {
-    float: left;
-    width: 20%;
+    /*float: left;*/
+    width: 100%;
   }
 
   .details li {

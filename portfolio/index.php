@@ -31,6 +31,7 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         </div>
       </div>
     </div>
+     <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
     <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
