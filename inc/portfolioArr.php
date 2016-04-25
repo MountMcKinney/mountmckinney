@@ -29,7 +29,7 @@
     );
     $websites["burger"] = array(
       "listSide" => "portfolioLeft",
-      "thumbnail" => "/img/portfolio/ketchupwithyalater.jpg",
+      "thumbnail" => "/img/portfolio/ketchupwithyalater.png",
       "name" => "Ketchup With Ya Later",
       "site" => "ketchuplater.com"
     );

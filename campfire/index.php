@@ -18,7 +18,7 @@ $pageTitle = $cfstory["title"];
 ?>
 
 <!DOCTYPE html>
-<html>
+<html id="campfirestories">
 <?php
   include(ROOT_PATH."inc/header.php");
 ?>
@@ -32,13 +32,11 @@ $pageTitle = $cfstory["title"];
     </div>
   </div>
   <div class="wrapper">
-    <div class="mainLeft">
       <div class="campfire">
         <h3 class="blogTopH3"> <?php echo $cfstory["title"];?> </h3>
         <?php echo displayCampfireBlog($cfstory); ?>
         <?php include(ROOT_PATH."inc/disqus.php"); ?>
       </div>
-    </div>
   </div>
   <footer class="footer">
     <?php include(ROOT_PATH."inc/footer.php"); ?>

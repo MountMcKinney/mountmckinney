@@ -3,7 +3,7 @@ require_once("../inc/config.php");
 require_once (ROOT_PATH."inc/portfolioArr.php");
 ?>
 <!DOCTYPE html>
-<html>
+<html id="portfolio">
 <?php
   $pageTitle="Portfolio & Services";
   include(ROOT_PATH."inc/header.php");

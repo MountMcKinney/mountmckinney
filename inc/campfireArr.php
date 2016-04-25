@@ -4,7 +4,8 @@
     //build HTML output here
     $output = "";
     $output .= '<a href="'.BASE_URL.'campfire/?story='.$topStory["story"].'">';
-    $output .= '<img src="'.BASE_URL.$topStory["img"] .'" alt="'.$topStory["info"].'">';
+    $output .= '<img src="'.BASE_URL.$topStory["img"] .'" alt="'.$topStory["info"].'class="topStoryImg">';
+    $output .= "<h1 class='topStoryCaption'>".$topStory["title"]."</h1>";
     $output .= '</a>';
 
     return $output;
@@ -56,7 +57,8 @@
     $output .= '<p class="blogContent">'.$cfstory["p10"].'</p>';
     $output .= '<br />';
     $output .= '<p class="blogCatch">'.$cfstory["catch"].'</p>';
-    $output .= '<p class="blogSignature">'.$cfstory["signature"].'<br>'.'<br>'.$cfstory["date"].'</p>';
+    $output .= '<p class="blogSignature">'.$cfstory["date"].'</p>';
+    // $output .= '<p class="blogSignature">'.$cfstory["signature"].'<br>'.'<br>'.$cfstory["date"].'</p>';
     return $output;
   }
 
@@ -508,7 +510,7 @@ function getAllCfstories() {
     "p4" => "As for the <a href='http://mountmckinney.com/campfirestories/'>Campfire Stories</a>, I will be bringing you tales of my time in the great outdoors. This could cover anything from backpacking camping trips to remote areas of Yosemite, car camping trips to Yellowstone, beach camping on the Gulf of Mexico, or even just a beautiful trail that I take with my lovely wife. I look forward to sharing these adventures with all of you. If you have a suggestion for where my next adventure should be, then I would love to hear your thoughts! Drop me an email or comment on my posts anytime.",
     "aside2" => "img/blog/aside/banksTahoe.jpg",
     "aside2Alt" => "Lake Tahoe with Banks",
-    "p5" => "As for the tips I&#39ll be giving you in the How To section, I am by no means an expert and if you disagree with any of my recommendations, then I would love to hear your opinion on what you think. I love learning and researching, if I&#39m passionate about a topic I will spend hours upon hours reading articles on that subject. If I am going to purchase something to use in the backcountry, I will read expert advice so that I know I have the best product for the money. This is what I promise you, that when I give you a recommendation on what fixed blade knife to buy, how to survive a bear attack, or what food to eat on the trail know that it comes after a large amount of research on a topic. You can think of my articles as a summary of opinions. Instead of you taking time to read all about what product, say a sleeping bag, to buy, I have done that for you.",
+    "p5" => "As for any tips I give you, I am by no means an expert and if you disagree with any of my recommendations, then I would love to hear your opinion on what you think. I love learning and researching, if I&#39m passionate about a topic I will spend hours upon hours reading articles on that subject. If I am going to purchase something to use in the backcountry, I have to make sure I get the best product for the money. This is what I promise you, that when I give you a recommendation on what fixed blade knife to buy, how to survive a bear attack, or what food to eat on the trail know that it comes after a countless hours of research. You can think of my articles as a summary of opinions. Instead of you taking time to read all about what product, say a sleeping bag, to buy, I have done that for you.",
     "p6" => "Sound good? Great, I hope you enjoy my articles!",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
