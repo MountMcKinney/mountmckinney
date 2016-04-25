@@ -113,6 +113,18 @@ li {
   filter: blur(2px);*/
 }
 
+.homeHeader h1 {
+  font-family: 'Cinzel', 'Vast Shadow', 'Trajan', 'Quicksand', serif;
+  font-size: 4rem;
+}
+
+.homeHeader p {
+  font-size: 1.6rem;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Quicksand', 'Cinzel', serif;
+}
+
 .homeFooter {
   clear:both;
   text-align:center;
@@ -645,11 +657,6 @@ ul.details {
     height:200px;
     max-width:300px;
   }
-
-  .homeHeader p {
-    font-size: 1.1rem;
-    line-height: 20px;
-  }
 }
 
 
@@ -680,10 +687,6 @@ ul.details {
     margin: 30px 0;
   }
 
-  .homeHeader h1 {
-    font-size: 3rem;
-  }
-
   .homeHeader {
     border-bottom: 0;
     width: 100%;
@@ -700,6 +703,11 @@ ul.details {
 .contactHeader {
   height:170px;
   }
+
+  .about img {
+    float: left;
+    width: 20%;
+  }
 }
 
 @media screen and (min-width:905px) {
@@ -707,7 +715,7 @@ ul.details {
     font-family:'Quicksand', sans-serif;
     font-size:1.35rem;
     color: #263238;
-}
+  }
 
   .about img {
     float: left;
@@ -724,7 +732,7 @@ ul.details {
 }
 
 
-@media screen and (min-width: 1005px) {
+@media screen and (min-width: 1107px) {
 
   .menu {
     display:inline-block;
@@ -767,10 +775,10 @@ ul.details {
   }
 
   .homeHeader p {
-    font-size: 2em;
-    line-height: 50px;
     text-align: center;
     font-family: 'Quicksand', 'Cinzel', serif;
+    font-size: 2em;
+    line-height: 50px;
   }
 
   .menu ul li ul a:hover {
@@ -779,7 +787,7 @@ ul.details {
 }
 
 
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 1107px) {
 
   #homepage {
     background: #263238;
@@ -828,6 +836,7 @@ ul.details {
 
   .mobileMenu img {
     width: 30px;
+    margin: 0 10px -6px 0;
   }
 
   .open {
