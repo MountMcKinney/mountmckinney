@@ -23,7 +23,7 @@
 <!-- desktop menu -->
 <div class="menu">
   <ul>
-    <a href="<?php echo BASE_URL; ?>"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/houseColor.png" alt="Home Icon"  class="menuIcons" /><br/>Home</li></a>
+    <a href="<?php echo BASE_URL; ?>"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/houseIcon.svg" alt="Home Icon"  class="menuIcons" /><br/>Home</li></a>
     <a href="<?php echo BASE_URL; ?>portfolio/"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/computer.png" alt="Portfolio Icon"  class="menuIcons" /><br/>Portfolio & Services</li></a>
     <a href="<?php echo BASE_URL; ?>campfirestories/"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/campfire.png" alt="Campfire Icon"  class="menuIcons" /><br/>Campfire Stories</li></a>
     <a href="#" class="contactPopUp"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/social/mail.png" alt="Contact Icon"  class="menuIcons" /><br/>Contact</li></a>
