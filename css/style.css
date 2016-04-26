@@ -61,7 +61,7 @@ li {
 }
 
 .name img {
-  width: 127px;
+  width: 137px;
 }
 
 .menu {
@@ -660,10 +660,25 @@ ul.details {
 
 
 @media screen and (max-width:435px){
+
+  aside {
+    text-align: center;
+  }
+
   .aside2 img, .aside1 img {
     margin: 3% auto;
-    float: left;
+    clear: both;
+    float: none;
   }
+
+  p.blogContent {
+    text-align: justify;
+  }
+
+  .clearContent {
+    clear: both;
+  }
+
   .portfolioImages img {
     height:200px;
     max-width:300px;
@@ -775,6 +790,10 @@ ul.details {
     position:relative;
     margin: 0 -2px;
     padding: 13px 20px;
+  }
+
+  .subFormPopup .menuHover {
+    margin-right: 0;
   }
 
   .homeHeader h1 {

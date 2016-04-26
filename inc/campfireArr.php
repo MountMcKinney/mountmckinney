@@ -36,13 +36,13 @@
     $output .= '<br />';
     $output .= '<aside class="aside1">'.'<img src="'.BASE_URL.$cfstory["aside1"] .'" alt="'.$cfstory["aside1Alt"].'">'.'</aside>';
     $output .= '<br />';
-    $output .= '<p class="blogContent">'.$cfstory["p2"].'</p>';
+    $output .= '<p class="blogContent clearContent">'.$cfstory["p2"].'</p>';
     $output .= '<br />';
     $output .= '<p class="blogContent">'.$cfstory["p3"].'</p>';
     $output .= '<br />';
     $output .= '<aside class="aside2">'.'<img src="'.BASE_URL.$cfstory["aside2"] .'" alt="'.$cfstory["aside2Alt"].'">'.'</aside>';
     $output .= '<br />';
-    $output .= '<p class="blogContent">'.$cfstory["p4"].'</p>';
+    $output .= '<p class="blogContent clearContent">'.$cfstory["p4"].'</p>';
     $output .= '<br />';
     $output .= '<p class="blogContent">'.$cfstory["p5"].'</p>';
     $output .= '<br />';
