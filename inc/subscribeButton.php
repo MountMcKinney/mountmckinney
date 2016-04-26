@@ -1,2 +1,2 @@
-<!-- This button creates a pop up that displays the Contact Us Form -->
+<!-- This button creates a pop up that displays the Subscribe Form -->
   <a href="#" class="subFormPopup">Subscribe</a>

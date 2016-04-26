@@ -1,4 +1,4 @@
-<!-- This button creates a pop up that displays the Contact Us Form -->
+<!-- This button creates a pop up that displays the Contact Me Form -->
 <div class="popupButton">
-  <a href="#" class="contactPopUp">Contact Us</a>
+  <a href="#" class="contactPopUp">Contact Me</a>
 </div>

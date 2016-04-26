@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule ^campfirestories.php$ /campfirestories/
-RewriteRule ^contact.php$ /contact/
+RewriteRule ^contact.php$ /about/
 RewriteRule ^portfolio.php$ /portfolio/
 
 php_flag  display_errors        on

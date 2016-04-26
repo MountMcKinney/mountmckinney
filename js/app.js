@@ -1,7 +1,7 @@
 // This causes the Mount McKinney name and text to fade in
 $('.title').hide().delay(100).fadeIn(2500);
 
-//This is for creating a pop up form upon clicking a Contact Us button on the home page
+//This is for creating a pop up form upon clicking a Contact Me button on the home page
 $('.contactPopUp').click(function(){
   $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
   // $('.overlay').css("display", "block");
@@ -19,7 +19,7 @@ $('.popupExit').click(function(){
     $('.displayPopup').addClass('popupForm');
 });
 
-//This is for creating a pop up form upon clicking a Contact Us button on the home page
+//This is for creating a pop up form upon clicking a Contact Me button on the home page
 $('.subFormPopup').click(function(){
   $('.subForm').fadeIn(1200).addClass('displaySubForm').removeClass('subForm');
   // $('.overlay').css("display", "block");
@@ -36,7 +36,6 @@ $('.popupSubExit').click(function(){
     $('.displaySubForm').fadeOut(2000);
     $('.displaySubForm').addClass('subForm');
 });
-
 
 // $('.overlay').click(function(){
 //   $('.displayPopup').fadeOut(1000).addClass('popupForm').removeClass('displayPopup');
@@ -65,4 +64,8 @@ $(document).ready(function () {
 	    	}, 250);
     	}
     });
+});
+
+$('.topStoryCaption').mouseover(function(){
+  $('.topStoryImg').css("-webkit-filter", "blur(0px)");
 });
