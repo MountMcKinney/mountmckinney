@@ -504,7 +504,7 @@ ul.details {
 
 .details img {
   height:100px;
-  width:100px;
+  width:130px;
 }
 
 .details li {
@@ -774,7 +774,7 @@ ul.details {
     font-size: 1.05rem;
     position:relative;
     margin: 0 -2px;
-    padding: 8px 20px;
+    padding: 13px 20px;
   }
 
   .homeHeader h1 {
