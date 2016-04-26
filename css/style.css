@@ -39,8 +39,8 @@ li {
 }
 
 @font-face {
-  font-family: 'Trajan';
-  src: url('../fonts/Trajan.ttf');
+  font-family: 'TrajanPro3-Regular';
+  src: url('../fonts/TrajanPro3-Regular.ttf');
 }
 
 @font-face {
@@ -114,7 +114,7 @@ li {
 }
 
 .homeHeader h1 {
-  font-family: 'Cinzel', 'Vast Shadow', 'Trajan', 'Quicksand', serif;
+  font-family: 'Cinzel', 'Vast Shadow', 'TrajanPro3-Regular', 'Quicksand', serif;
   font-size: 4rem;
 }
 
@@ -782,7 +782,7 @@ ul.details {
     text-align: center;
     font-size: 5rem;
     line-height: 75px;
-    font-family: 'Cinzel', 'Vast Shadow', 'Trajan', 'Quicksand', serif;
+    font-family: 'Cinzel', 'Vast Shadow', 'TrajanPro3-Regular', 'Quicksand', serif;
   }
 
   .homeHeader p {
