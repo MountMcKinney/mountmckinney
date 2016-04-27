@@ -59,10 +59,10 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         <h4>Portfolio & Services</h4>
         <div class="portfolioServices">
         <p>
-          Hi, my name is John McKinney! I'm a freelancer based in Jacksonville, FL. When I'm not creating websites for clients locally in Florida and Georgia, I'm working remotely on projects for clients all over the world.
+          Hi, my name is John McKinney! I'm a freelancer based in Jacksonville, FL. When I'm not meeting with clients locally in Florida and Georgia, I'm working remotely on projects for clients all over the US.
         </p>
         <p>
-          I have a diverse skillset, ranging from building custom HTML + CSS + Javascript, to PHP web app development, to logo design, and even custom Wordpress development. I enjoy building everything from small business sites to rich interactive web apps.
+          I have a diverse skillset, ranging from building <span class="highlight">websites</span> using <span class="highlight">HTML</span> + <span class="highlight">CSS</span> + <span class="highlight">Javascript</span>, to <span class="highlight">PHP web app</span> development, to <span class="highlight">logo</span> design, and even custom <span class="highlight">Wordpress</span> development. I enjoy building everything from small business sites to rich interactive web apps.
         </p>
         <br>
           <div class="portfolioInfo">
