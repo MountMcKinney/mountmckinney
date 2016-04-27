@@ -48,7 +48,7 @@ $cfstories = getCfstoriesSubset($start,$end);
   include(ROOT_PATH."inc/header.php");
 ?>
   <div class="wrapper">
-    <div class="blogHomeHeader campfireStoriesHeader">
+    <div id="campfire" class="blogHomeHeader campfireStoriesHeader">
       <h3>Campfire Stories</h3>
       <p>
         Welcome to <a href="<?php echo BASE_URL; ?>">Mount McKinney&#039;s</a> world famous Campfire Stories! Do you enjoy ghost stories scary enough to stop your heart? No? No worries, I don&#039;t tell those here. Ghost stories should only be told around an actual campfire where I can enjoy warm, toasty s&#039;mores to comfort me.
@@ -60,7 +60,7 @@ $cfstories = getCfstoriesSubset($start,$end);
         From time to time I&#039;ll have a guest Camper on here to provide a tale from their journeys. Would you like to be that guest Camper who shares their story? If so, let me know via <a href="mailto:john@mountmckinney.com">email</a>, filling out the <a href="#" class="contactPopUp">Contact form</a>, or by <a href="http://www.pigeongram.com/" target="_blank">Carrier Pigeon</a>. Bonus points and free s&#039;mores for using that last one.
       </p>
       <p>
-        I hope this all sounds great to you, I know I&#039;m excited! Be sure to <a href="#" class="subFormPopup">Subscribe</a> so you don&#039;t miss the latest story!
+        I hope this all sounds great to you, I know I&#039;m excited! Be sure to <a href="#" class="subFormPopup">Subscribe</a> so you don&#039;t miss anything good!
       </p>
       <p>
         Remember friends, adventure is calling, chase after it!
