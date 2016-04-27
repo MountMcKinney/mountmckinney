@@ -61,7 +61,7 @@ li {
 }
 
 .name img {
-  width: 137px;
+  width: 127px;
 }
 
 .menu {
@@ -177,9 +177,9 @@ a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover {
 .displayPopup, .displaySubForm {
   position: fixed;
   top: 20%;
-  left: 20%;
+  left: 25%;
   z-index: 400;
-  width: 60%;
+  width: 50%;
   text-align: left;
   background: #2638A2;
   border: 2px solid #f9b701;

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <?php include_once("analyticstracking.php") ?>
     <header class="header">
         <?php include(ROOT_PATH."inc/logo.php");?>
         <?php include(ROOT_PATH."inc/menu.php");?>
