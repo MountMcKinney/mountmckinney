@@ -376,20 +376,28 @@ body {
   margin-bottom:100px;
 }
 
-.portfolioServices p {
+.portfolioServices p, .contMe p {
   font-family:'Quicksand', sans-serif;
   font-size:1.3rem;
   color: #263238;
-  text-align:justify;
+  line-height:1.5;
+  text-align: justify;
+}
+
+.portfolioServices p {
   margin:20px 0;
-  line-height:1.5rem;
+}
+
+.contMe p {
+  margin: 20px 0 40px;
+  /*text-align: center;*/
 }
 
 .contactMe h4 {
   font-family:'Quicksand', sans-serif;
   font-size:3rem;
   border-bottom: 3px solid #f9b701;
-  margin: 50px auto;
+  margin: 50px auto 25px;
   text-align:center;
 }
 
@@ -440,7 +448,7 @@ body {
   margin-bottom: 15%;
   font-family:'Quicksand', sans-serif;
   font-size:1.3em;
-  line-height: 2em;
+  line-height: 2;
   max-width:350px;
   text-align:center;
 }
@@ -460,7 +468,6 @@ body {
   padding: 10px;
 }
 
-
 .about h4 {
   font-family:'Quicksand', sans-serif;
   font-size:3rem;
@@ -479,11 +486,15 @@ body {
   color:#263238;
   text-align:justify;
   margin:20px 0;
-  line-height:1.5rem;
+  line-height:1.5;
 }
 
 .about a:link, .about a:visited, .campfireStoriesHeader a:link, .campfireStoriesHeader a:visited {
   color: #f9b701;
+}
+
+.highlight {
+  color:#f9b701;
 }
 
 .contactDetails {
@@ -539,7 +550,7 @@ ul.details {
 .blogBody {
   font-family:'Quicksand', sans-serif;
   font-size:1.3rem;
-  line-height:1.5rem;
+  line-height:1.5;
 }
 
 .aside1 img {
@@ -921,6 +932,10 @@ ul.details {
       background: #fff;
       position: relative;
       display: block;
+    }
+
+    .contMe p {
+      text-align: justify;
     }
 }
 

@@ -16,7 +16,6 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <!-- <?php include_once("analyticstracking.php") ?> -->
     <header class="header">
         <?php include(ROOT_PATH."inc/logo.php");?>
         <div class="menubar">
@@ -61,15 +60,27 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         </div>
         <div id="contact" class="contMe">
           <h4>Contact Me</h4>
+          <p>
+            Need a new <span class="highlight">website</span>? How about a fresh <span class="highlight">redesign</span> of your current site? When&#039;s the last time you updated your <span class="highlight">logo</span>?
+            <br/>
+            <br/>
+            Thankfully, you&#039;ve come to the right place. I provide a large range of services related to your <span class="highlight">website</span> and <span class="highlight">branding</span>.
+          </p>
           <?php include(ROOT_PATH."inc/contactForm.php"); ?>
         </div>
        </div>
       <div class="portfolio">
         <h4>Portfolio & Services</h4>
         <div class="portfolioServices">
-        <p>I provide a wide range of technology related services. So, whether you need a website or app built, logo created, social media rebranded, or you are just having general issues with your technology just call on me. </p>
-        <p>From now on, think of me as your go to person for all things tech. Below you can find a couple of my projects, they're always being updated so be sure to check back from time to time. </p>
-        <p>If you are in need of my services, simply fill out the Contact Me form and I'll be in touch within a few hours. I look forward to hearing from you!</p>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
         <ul class="portfolioImages">
           <?php foreach($websites as $websiteSKU => $website)
               echo displayPortfolioHtml($websiteSKU, $website);
