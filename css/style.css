@@ -473,7 +473,7 @@ body {
   padding-top:50px;
 }*/
 
-.about p, .contactDetails p {
+.about p, .contactDetails p, .campfireStoriesHeader p {
   font-family:'Quicksand', sans-serif;
   font-size:1.1rem;
   color:#263238;
@@ -482,7 +482,7 @@ body {
   line-height:1.5rem;
 }
 
-.about a:link, .about a:visited {
+.about a:link, .about a:visited, .campfireStoriesHeader a:link, .campfireStoriesHeader a:visited {
   color: #f9b701;
 }
 
@@ -737,7 +737,7 @@ ul.details {
 }
 
 @media screen and (min-width:905px) {
-  .about p {
+  .about p, .campfireStoriesHeader p {
     font-family:'Quicksand', sans-serif;
     font-size:1.35rem;
     color: #263238;

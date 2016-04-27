@@ -499,7 +499,7 @@ function getAllCfstories() {
     "date" => "March 9th, 2015"
   );
   $cfstories["about-me"] = array(
-    "img" => "img/blog/header/foliageStrikesMain.jpg",
+    "img" => "img/blog/header/whoAmI.jpg",
     "title" => "Who Am I?",
     "info" => "This is a story all about yours truly",
     "p1" => "Welcome to the very first Campfire Story here at Mount McKinney! This is an exciting time for me. I figured in my first post I should share a little about myself and explain why you should take any of the advice I give in my How To section, called <a href='http://mountmckinney.com/twocents/'>Two Cents</a>.",
@@ -507,10 +507,10 @@ function getAllCfstories() {
     "aside1" => "img/blog/aside/destinBeach.jpg",
     "aside1Alt" => "Destin, FL",
     "p3" => "I grew up on the Panhandle of Florida with some of the world&#39s most beautiful beaches. At a young age, I fell in love with the outdoors. I remember spending hours pretending I was a spy or a soldier with the other boys my age in the woods around our neighborhood. As I got older, my fascination with the outdoors only grew. I bike to work just to get outside more, kayak when I can on the weekends, and take walks on local trails. I&#39m most at home outside the walls of my house.",
-    "p4" => "As for the <a href='http://mountmckinney.com/campfirestories/'>Campfire Stories</a>, I will be bringing you tales of my time in the great outdoors. This could cover anything from backpacking camping trips to remote areas of Yosemite, car camping trips to Yellowstone, beach camping on the Gulf of Mexico, or even just a beautiful trail that I take with my lovely wife. I look forward to sharing these adventures with all of you. If you have a suggestion for where my next adventure should be, then I would love to hear your thoughts! Drop me an email or comment on my posts anytime.",
+    "p4" => "As for the <a href='http://mountmckinney.com/campfirestories/'>Campfire Stories</a>, I will be bringing you tales from my time spent in the great outdoors. This could cover anything from backpacking in Denali, road trips to the Smokey Mountains, beach camping on the Gulf of Mexico, or even just a beautiful trail that I take with my lovely wife. I look forward to sharing these adventures with all of you. If you have a suggestion for where my next adventure should be, then I would love to hear your thoughts! Drop me an email or comment on my posts anytime.",
     "aside2" => "img/blog/aside/banksTahoe.jpg",
     "aside2Alt" => "Lake Tahoe with Banks",
-    "p5" => "As for any tips I give you, I am by no means an expert and if you disagree with any of my recommendations, then I would love to hear your opinion on what you think. I love learning and researching, if I&#39m passionate about a topic I will spend hours upon hours reading articles on that subject. If I am going to purchase something to use in the backcountry, I have to make sure I get the best product for the money. This is what I promise you, that when I give you a recommendation on what fixed blade knife to buy, how to survive a bear attack, or what food to eat on the trail know that it comes after a countless hours of research. You can think of my articles as a summary of opinions. Instead of you taking time to read all about what product, say a sleeping bag, to buy, I have done that for you.",
+    "p5" => "If I am going to purchase something to use in the backcountry, I have to make sure I get the best product for the money. This is what I promise you, that when I give you a recommendation on what fixed blade knife to buy, how to survive a bear attack, or what food to eat on the trail know that it comes after a countless hours of research. You can think of my articles as a summary of opinions. Instead of you taking time to read all about what product, say a sleeping bag, to buy, I have done that for you.",
     "p6" => "Sound good? Great, I hope you enjoy my articles!",
     "catch" => "Remember, Adventure is Calling!",
     "signature" => "John McKinney",
