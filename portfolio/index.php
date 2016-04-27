@@ -55,6 +55,40 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         <?php include(ROOT_PATH."inc/subscribeFormPopup.php") ?>
     </header>
     <div class="wrapper">
+      <div class="portfolio">
+        <h4>Portfolio & Services</h4>
+        <div class="portfolioServices">
+        <p>
+          Hi, my name is John McKinney! I'm a freelancer based in Jacksonville, FL. When I'm not creating websites for clients locally in Florida and Georgia, I'm working remotely on projects for clients all over the world.
+        </p>
+        <p>
+          I have a diverse skillset, ranging from building custom HTML + CSS + Javascript, to PHP web app development, to logo design, and even custom Wordpress development. I enjoy building everything from small business sites to rich interactive web apps.
+        </p>
+        <br>
+          <div class="portfolioInfo">
+            <p>
+              Are you a business seeking a stronger web presence?
+              <br>
+              <div class="portfolioContact">
+                <a href="#contact">I need a website!</a>
+              </div>
+              <br>
+            </p>
+            <p>
+              Are you an employer looking to hire me to be a part of your team?
+              <br>
+              <div class="portfolioJob">
+                <a href="https://www.visualcv.com/john-mckinney">John&#039;s resume</a>
+              </div>
+            </p>
+            <ul class="portfolioImages">
+              <?php foreach($websites as $websiteSKU => $website)
+                  echo displayPortfolioHtml($websiteSKU, $website);
+                ?>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="contactMe contact">
         <?php include(ROOT_PATH.'inc/contactIcons.php') ?>
         </div>
@@ -69,25 +103,6 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
           <?php include(ROOT_PATH."inc/contactForm.php"); ?>
         </div>
        </div>
-      <div class="portfolio">
-        <h4>Portfolio & Services</h4>
-        <div class="portfolioServices">
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-        <ul class="portfolioImages">
-          <?php foreach($websites as $websiteSKU => $website)
-              echo displayPortfolioHtml($websiteSKU, $website);
-            ?>
-        </ul>
-        </div>
-      </div>
     </div>
     <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>

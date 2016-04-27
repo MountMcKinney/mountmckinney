@@ -364,11 +364,17 @@ body {
   margin: 20px;
 }
 
+.portfolioImages li {
+  display: inline-block;
+  margin: 1% auto;
+}
+
 .portfolio h4 {
   font-family:'Quicksand', sans-serif;
   font-size:3rem;
   text-align:center;
   border-bottom: 3px solid #f9b701;
+  margin-top: 5.5rem;
 }
 
 .portfolioServices {
@@ -384,13 +390,38 @@ body {
   text-align: justify;
 }
 
+.portfolioInfo p, .portfolioInfo {
+  text-align: center;
+  font-family:'Quicksand', sans-serif;
+  font-size:1.3rem;
+  color: #263238;
+  line-height:1.5;
+}
+
 .portfolioServices p {
   margin:20px 0;
+}
+
+.portfolioContact a, .portfolioJob a, .portfolioJob a:link, .portfolioJob a:visited, .portfolioJob a:hover, .portfolioContact a:link, .portfolioContact a:visited, .portfolioContact a:hover {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.portfolioJob a {
+  background-color: #2638a2;
+}
+
+.portfolioContact a {
+  background-color: #f9b701;
 }
 
 .contMe p {
   margin: 20px 0 40px;
   /*text-align: center;*/
+}
+
+.contactMe {
+  clear: both;
 }
 
 .contactMe h4 {
@@ -501,7 +532,6 @@ body {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
-  padding-top: 50px;
 }
 
 .contactDetails li {
@@ -662,11 +692,6 @@ ul.details {
     display:inline-block;
     margin: 0 1%;
   }
-
-  .portfolioImages li {
-    display: inline-block;
-    margin: 2% auto;
-  }
 }
 
 
@@ -691,8 +716,8 @@ ul.details {
   }
 
   .portfolioImages img {
-    height:200px;
-    max-width:300px;
+    height:171px;
+    max-width:304px;
   }
 }
 
@@ -761,10 +786,6 @@ ul.details {
 
   .details li {
     font-size:1.35rem;
-  }
-
-  .portfolio h4, .subPage h4 {
-    margin-top:initial;
   }
 }
 
@@ -933,24 +954,32 @@ ul.details {
       position: relative;
       display: block;
     }
+}
 
-    .contMe p {
-      text-align: justify;
-    }
+@media screen and (min-width:1215px) {
+  .contMe p {
+    text-align: center;
+  }
+
+  .portfolioImages li {
+    margin: 1%;
+  }
 }
 
 @media screen and (min-width:1300px) {
-  .portfolioLeft {
+  /*.portfolioLeft {
     float: left;
   }
 
   .portfolioRight {
     float: right;
   }
-
+  */
   .portfolioImages img {
     /*border-radius:10px;*/
     border:3px solid #f9b701;
-    height: 333px;
-    width: 592px;
+    height: 216px;
+    width: 384px;
+    /*height: 333px;
+    width: 592px;*/
 }
