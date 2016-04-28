@@ -34,9 +34,9 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
                 <a href="<?php echo BASE_URL; ?>"><li><img src="<?php echo BASE_URL; ?>img/menu/houseIcon.svg" alt="Home Icon"  class="menuIcons" />Home</li></a>
                 <a href="<?php echo BASE_URL; ?>portfolio/"><li><img src="<?php echo BASE_URL; ?>img/menu/computerIcon.svg" alt="Portfolio Icon"  class="menuIcons" />Portfolio & Services</li></a>
                 <a href="<?php echo BASE_URL; ?>campfirestories/"><li><img src="<?php echo BASE_URL; ?>img/menu/campfireIcon.svg" alt="Campfire Icon"  class="menuIcons" />Campfire Stories</li></a>
-                <a href="#contact"><li><img src="<?php echo BASE_URL; ?>img/menu/contactIcon.svg" alt="Contact Icon"  class="menuIcons" />Contact</li></a>
+                <a href="#contact" class="closeMobileMenu"><li><img src="<?php echo BASE_URL; ?>img/menu/contactIcon.svg" alt="Contact Icon"  class="menuIcons" />Contact</li></a>
                 <a href="<?php echo BASE_URL; ?>about/"><li><img src="<?php echo BASE_URL; ?>img/menu/aboutIcon.svg" alt="About Icon"  class="menuIcons" />About</li></a>
-                <a href="#" class="subFormPopup"><li><img src="<?php echo BASE_URL; ?>img/menu/newspaperIcon.svg" alt="Subscribe Icon"  class="menuIcons" />Subscribe</li></a>
+                <a href="#" class="subFormPopup closeMobileMenu"><li><img src="<?php echo BASE_URL; ?>img/menu/newspaperIcon.svg" alt="Subscribe Icon"  class="menuIcons" />Subscribe</li></a>
               </ul>
           </div>
         </div>
@@ -78,7 +78,7 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
               Are you an employer looking to hire me to be a part of your team?
               <br>
               <div class="portfolioJob">
-                <a href="https://www.visualcv.com/john-mckinney">John&#039;s resume</a>
+                <a href="https://www.visualcv.com/john-mckinney" target="_blank">John&#039;s resume</a>
               </div>
             </p>
             <ul class="portfolioImages">
@@ -107,4 +107,4 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
     <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
-    <?php include(ROOT_PATH.'inc/Scripts.php');?>
+    <?php include(ROOT_PATH.'inc/scripts.php');?>

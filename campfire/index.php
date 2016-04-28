@@ -22,21 +22,21 @@ $pageTitle = $cfstory["title"];
 <?php
   include(ROOT_PATH."inc/header.php");
 ?>
-  <div class="blogHeader">
-    <div class="breadcrumb">
-      <a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["title"]; ?>
-    </div>
-    <div class="subscribeButtonFloat">
-        <?php include(ROOT_PATH.'inc/subscribeButton.php'); ?>
-        <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
-    </div>
-  </div>
   <div class="wrapper">
-      <div class="campfire">
-        <h3 class="blogTopH3"> <?php echo $cfstory["title"];?> </h3>
-        <?php echo displayCampfireBlog($cfstory); ?>
-        <?php include(ROOT_PATH."inc/disqus.php"); ?>
+    <div class="blogHeader">
+      <div class="breadcrumb">
+        <a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["title"]; ?>
       </div>
+      <div class="subscribeButtonFloat">
+          <?php include(ROOT_PATH.'inc/subscribeButton.php'); ?>
+          <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
+      </div>
+    </div>
+    <div class="campfire">
+      <h3 class="blogTopH3"> <?php echo $cfstory["title"];?> </h3>
+      <?php echo displayCampfireBlog($cfstory); ?>
+      <?php include(ROOT_PATH."inc/disqus.php"); ?>
+    </div>
   </div>
      <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
   <footer class="footer">

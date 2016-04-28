@@ -7,7 +7,7 @@ require_once("../inc/config.php");
   $pageTitle="About";
   include(ROOT_PATH."inc/header.php");
 ?>
-<div class="aboutWrapper">
+<div class="wrapper">
   <div class="about">
       <h4>About John</h4>
       <div class="aboutMePic">

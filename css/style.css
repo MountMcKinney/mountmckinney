@@ -54,6 +54,10 @@ li {
   margin:0;
   background: #263238;
   height:80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
 }
 
 .menuHover:hover {
@@ -80,7 +84,10 @@ li {
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
   color: #263238;
-  width: 90%;
+  width: 100%;
+  position: fixed;
+  top: 10%;
+  left: 0;
   margin: 2rem auto 0;
 }
 
@@ -100,6 +107,7 @@ li {
   position: fixed;
   left: 0;
   right: 0;
+  top: 70px;
   z-index: -1;
   display: block;
   background: url('../img/mountainBackground.jpg') no-repeat center;
@@ -129,13 +137,12 @@ li {
   clear:both;
   text-align:center;
   width:100%;
-  height:100px;
   color:#fff;
   font-family:'Quicksand', sans-serif;
   position:fixed;
-  bottom: 20px;
+  top:80%;
+  z-index: -1;
   background-color: transparent;
-  margin-bottom:5px;
 }
 
 
@@ -335,8 +342,8 @@ body {
 /*---------Portfolio Page---------*/
 
 .wrapper {
-  max-width:1300px;
-  margin: 0 auto 50px;
+  max-width:95%;
+  margin: 100px auto 50px;
   padding: 10px;
 }
 
@@ -374,7 +381,7 @@ body {
   font-size:3rem;
   text-align:center;
   border-bottom: 3px solid #f9b701;
-  margin-top: 5.5rem;
+  margin-top: 3.5rem;
 }
 
 .portfolioServices {
@@ -493,17 +500,11 @@ body {
 
 /*---------About Page---------*/
 
-.aboutWrapper {
-  max-width:1080px;
-  margin: 0 auto 50px;
-  padding: 10px;
-}
-
 .about h4 {
   font-family:'Quicksand', sans-serif;
   font-size:3rem;
   text-align:center;
-  margin-top: 5.5rem;
+  margin-top: 3.5rem;
   border-bottom:3px solid #f9b701;
 }
 
@@ -605,7 +606,6 @@ ul.details {
   border-bottom: 3px solid #f9b701;
   text-transform: uppercase;
   width: 100%;
-  padding: 20px 0;
   font-family: 'Vast Shadow', 'Cinzel', cursive;
   color: #263238;
 }
@@ -694,6 +694,25 @@ ul.details {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .homeHeader h1 {
+    font-size: 3rem;
+  }
+
+  .homeHeader p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .homeHeader h1 {
+    font-size: 2.5rem;
+  }
+
+  .homeHeader p {
+    font-size: 1rem;
+  }
+}
 
 @media screen and (max-width:435px){
 
@@ -718,6 +737,22 @@ ul.details {
   .portfolioImages img {
     height:171px;
     max-width:304px;
+  }
+
+  .displayPopup, .displaySubForm {
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    z-index: 400;
+    width: 80%;
+  }
+
+  .homeHeader h1 {
+    font-size: 2rem;
+  }
+
+  .homeHeader p {
+    font-size: .8rem;
   }
 }
 
