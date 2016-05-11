@@ -18,7 +18,7 @@ require_once("../inc/config.php");
             Thanks for exploring <a href="<?php echo BASE_URL;?>">Mount McKinney</a>!
           </p>
           <p>
-            My name is John McKinney and I am a freelance <span class="highlight">Web Developer</span> available for hire! I specialize in creating everything you see when you view a webpage.</p>
+            My name is John McKinney and I am a freelance <span class="highlight">Front End Web Developer</span> available for hire! I specialize in creating everything you see when you view a webpage.</p>
           <p>
             The awe-inspiring layout you see throughout the site? That's because of me. Those icons in the navigation menu? Yep, I created those. The forms fading in and out from your clicks? That too. My mission is to provide <span class="highlight">Front End Development</span> services so that you and your business are able to reach your peak!
           </p>

@@ -70,7 +70,7 @@ function getAllCfstories() {
   //
   //                 </p>
   //                 <br />
-  //                 <aside class='aside1'>
+  //                 <aside class='asideRight asideLandscape'>
   //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
   //                 </aside>
   //                 <br />
@@ -83,7 +83,7 @@ function getAllCfstories() {
   //                 <p class='blogContent'>
   //                 </p>
   //                 <br />
-  //                 <aside class='aside2'>
+  //                 <aside class='asideLeft asideLandscape'>
   //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
   //                 </aside>
   //                 <br />
@@ -111,32 +111,45 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
     "title" => "Southern Charm",
     "info" => "Savannah was a wonderful place to visit",
-    "section" => "<p class='blogContent'>
-                    Sometimes you need to just get away and revitalize yourself. In mid-April, it was time for me and my wife to do just that. We decided a B&B trip to Savannah, GA for the weekend was the perfect getaway. It was a wonderful, relaxing experience in one of my favorite cities. We stayed at the Dresser Palmer House right near Forsyth Park. The weather was gorgeous, only feeling hot when we went hiking in non-shaded parts of Skidaway Island State Park and being cold enough to wear a jacket in the evenings.
+    "section" => "<aside class='asidePortraitSmall asideLeft'>
+                    <img src='../img/blog/aside/savannahCity.jpg' alt='Me and a statue just hanging out'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Sometimes you need to just get away and revitalize yourself. In mid-April, it was time for me and my wife to do just that. We decided a B&B trip to Savannah, GA for the weekend was the perfect getaway. It was a wonderful, relaxing experience in one of my favorite cities. We stayed at the <a href='http://dresserpalmerhouse.com/'>Dresser Palmer House</a> right near <a href='http://visithistoricsavannah.com/forsyth-park/'>Forsyth Park</a>. The weather was gorgeous, only feeling hot when we went hiking in non-shaded parts of <a href='http://gastateparks.org/SkidawayIsland'>Skidaway Island State Park</a> and being cold enough to wear a jacket in the evenings.
+                  </p>
+                  <br />
+                  <aside class='asideLandscape asideRight'>
+                    <img src='../img/blog/aside/savannahForsythe.jpg' alt='Me hitting a double at 19th Century baseball'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Most of our Friday was spent driving up to Savannah. Friday night was spent going to dinner at the <a href='http://www.crystalbeerparlor.com/'>Crystal Beer Parlor</a> eating one of the best peach cobblers I&#039;ve ever had and then going for a long walk around the city to walk off said cobbler. Overall, a pretty chill night.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Most of our Friday was spent driving up to Savannah. Friday night was spent going to dinner at the Crystal Beer Parlor eating one of the best peach cobblers I&#039;ve ever had and then going for a long walk around the city to walk off said cobbler. Overall, a pretty chill night.
+                    Saturday we headed out to the <a href='http://www.gastateparks.org/Wormsloe'>Wormsloe Historic Site</a> (unfortunate name if you ask me) which is the colonial estate of Noble Jones (awesome name). Wormsloe has the most amazing drive, a canopy of live oaks and Spanish moss creating a drive like no other. The drive was incredible and I was able to capture it on the GoPro with time lapse which you can see below. After driving in, there are some trails you can take, as well as tours of the historic recreations of the village led by rangers. These historic recreations include a blacksmith shop and a small house. Wormsloe was certainly something worth checking out at least once.
                   </p>
                   <br />
-                  <p class='blogContent'>
-                    Saturday we headed out to the Wormsloe Historic Site (unfortunate name if you ask me) which is the colonial estate of Noble Jones (awesome name). Wormsloe has the most amazing drive, a canopy of live oaks and Spanish moss creating a drive like no other. The drive was incredible and I was able to capture it on the GoPro with time lapse which you can see below. After driving in, there are some trails you can take, as well as tours of the historic recreations of the village led by rangers. These historic recreations include a blacksmith shop and a small house. Wormsloe was certainly something worth checking out at least once.
-                  </p>
-                  <br />
-                  <p class='blogContent blogVideo'>
-                    <video autoplay loop muted poster='../img/blog/videos/poster/savannahWormsloe.jpg'>
-                      <source src='../img/blog/videos/wormsloe.mp4' type='video/mp4'>
-                      <source src='../img/blog/videos/wormsloe.ogg' type='video/ogg'>
-                      Your browser does not support the video tag.
-                    </video>
-                  </p>
+                  <aside class='asideLandscape asideLeft'>
+                    <img src='../img/blog/aside/savannahFortBaseball.jpg' alt='Me hitting a double at 19th Century baseball'>
+                  </aside>
                   <br />
                   <p class='blogContent'>
                     After Wormsloe, we made the short drive to Skidaway Island State Park. This state park had a nice trail leading out to a river. On the banks of the river, we stood just enjoying the silence of nature. Such a peaceful moment with the water softly flowing by and lapping up onto the riverbank. Heading back into the city, Saturday evening was spent walking around the city, people watching from a bench in one of the parks, and of course going to the giant candy shop on River Street. We attended the vigil Mass at St. John the Baptist Cathedral as well which is a beautiful church and a definite must see.
                   </p>
                   <br />
+                  <!-- Html for video in the campfire array
+                   <p class='blogContent blogVideo'>
+                     <video controls muted poster='../img/blog/videos/poster/savannahWormsloe.jpg'>
+                       <source src='../img/blog/videos/wormsloe.mp4' type='video/mp4'>
+                       <source src='../img/blog/videos/wormsloe.ogg' type='video/ogg'>
+                       Your browser does not support the video tag.
+                     </video>
+                   </p>
+                   <br /> -->
                   <p class='blogContent'>
-                    Sunday at the B&B we had delicious peaches and cream french toast which I&#039;m still dreaming about. Before leaving Savannah we went to Fort Pulaski, which ended up being the highlight of our trip. This 19th Century fort is on the way to Tybee Island and is a National Monument. You can read the full write-up I did of Fort Pulaski for Sportody here. However, the gist of the experience was that there were tons of cannons (always a favorite of mine), we played 19th Century baseball (I got a double), and the fort was awesome! Basically, you need to go to Savannah immediately!
+                    Sunday at the B&B we had delicious peaches and cream french toast which I&#039;m still dreaming about. Before leaving Savannah we went to <a href='https://www.nps.gov/fopu/index.htmFort'>Fort Pulaski</a>, which ended up being the highlight of our trip. This 19th Century fort is on the way to Tybee Island and is a National Monument. You can read the full write-up I did of Fort Pulaski for the sports/outdoor blog website, Sportody, <a href='http://www.sportody.com/blog/must-do-historical-sites-near-savannah-fort-pulaski'>here</a>. However, the gist of the experience was that there were tons of cannons (always a favorite of mine), we played 19th Century baseball (I got a double), and the fort was awesome! Basically, you need to go to Savannah immediately!
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -152,7 +165,7 @@ function getAllCfstories() {
                     I invite you to try an exercise with me. Close your eyes and picture a place you&#39;ve always wanted to go. Picture what this place looks like. Is it a majestic mountain, a waterfall crashing upon the rocks below, or a city in some distant land? Next, think of what this place would smell like. Do hints of primrose and pine fill the air? Maybe it&#39;s homemade Italian pasta and a bottle of old wine that saturate your senses. Lastly, what do you hear? Is French music playing? How about birds singing their happy songs as they go about their day? Or maybe the only sound for miles is your footsteps and the wind. Go ahead, close your eyes now, I&#39;ll wait.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
                   </aside>
                   <br />
@@ -168,7 +181,7 @@ function getAllCfstories() {
                     I hope your day already has a large amount of adventure. I hope it doesn&#39;t seem to drag on from one day to the next. I hope it doesn&#39;t consist of you waking up, sitting at a desk constantly checking the clock, sitting in traffic, and finally crawling into bed all to do it over again the next day. However, if it does then it&#39;s time to get out there and change that. First, you probably want to find a different job, one that fulfills you more. Second, it&#39;s time for you to get out and experience the great adventure that is life.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
                   </aside>
                   <br />
@@ -209,7 +222,7 @@ function getAllCfstories() {
                     An awe-inspiring place, Waterrock Knob boasts one of the highest peaks along the Blue Ridge. The parking lot has incredible views for sure, allowing you to see above the whole horizon. The best views are at the top of the trail of the peak at the back of the parking lot. We set out on the walking path that turned into a trail shortly. Most of the leaves on the trees along the trail had already fallen due to the high altitude. This ended up being a blessing as it allowed us to see the incredible views along the hike without being obstructed. The peak offered even better views and was well worth the effort it took to climb. The most interesting thing was seeing the road winding through the mountains. From our vantage, cars resembled toys and people were mere ants.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/foliageStrikesAside1.jpg' alt='The wife and I hiking up the mountains'>
                   </aside>
                   <br />
@@ -221,7 +234,7 @@ function getAllCfstories() {
                     The trail was steep but paved for the beginning, definitely a good thigh workout! Hiking is one of those things that&#39;s always worth it when you reach your destination, no matter how painful it was at the time. This was no exception. Knowing the hike ends with a waterfall or a mountain summit always help me push further than I think I can at the bottom. Saying this makes me realize I&#39;m essentially a donkey chasing after a carrot.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/foliageStrikesAside2.jpg' alt='The whole group looking over our last vista'>
                   </aside>
                   <br />
@@ -258,7 +271,7 @@ function getAllCfstories() {
                     Now, where was I? Oh right! I was about to tell you about my trip to Maggie Valley, NC just outside of Asheville. The last week of October, my wife and I, joined by another married couple friend of ours loaded up the car and headed north for a trip to see the Fall foliage. This has become an annual trip for me over the past few years with friends but now as a newly married man, I was able to make it a couples weekend.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/fallFoliageAside1.jpg' alt='The steep climb up the Chimney Tops'>
                   </aside>
                   <br />
@@ -269,7 +282,7 @@ function getAllCfstories() {
                     Our first day trip for hiking was to the beautiful Great Smoky Mountain National Park. Nestled between Cherokee, NC and Gatlinburg, TN (two rather touristy towns) is this gorgeous piece of protected national land. It was a place I had road tripped to the past couple years with friends, but this was a different experience than previous trips. The Sun was out most of the day and it was on the warmer side that day so our climb up the Chimney Tops was actually painful on the hands. You can see the rocks that we climbed in the picture to the right. The rocks burned our hands as we ascended, but boy is that view ever worth it.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/fallFoliageAside2.jpg' alt='The cool waterfall water crashing down on us'>
                   </aside>
                   <br />
@@ -302,7 +315,7 @@ function getAllCfstories() {
                     Sadly, this is the end of our trip. Thank you New Mexico for an incredible trip. The last trip for us was to the Sandia Peak. Seated atop one of the Sandia Mountain peaks is Sandia Peak, a ski area and restaurant. Apparently, High Finance is the highest full service restaurant in the US. To get up to the peak you take a tramway, the longest aerial tram ride in the US.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/peakAside1.jpg' alt='The gondola we took all the way to the top'>
                   </aside>
                   <br />
@@ -310,7 +323,7 @@ function getAllCfstories() {
                     We rode our gondola up to the top. Looking out from the windows you could get some incredible views of Albuquerque and the Sandia Mountains. Thankfully, I&#39;m not afraid of heights or else I might have had a rougher trip up to the peak. However, even if you aren&#39;t afraid of heights you may still feel woozy if you happen to look through the slits in the air grate on the floor.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/peakAside2.jpg' alt='Me admiring the view from 10,000 feet'>
                   </aside>
                   <br />
@@ -339,7 +352,7 @@ function getAllCfstories() {
                     After eating lunch at Jemez Falls and checking out the Valles Caldera we headed over to the Bandelier National Monument near Los Alamos. As we rolled in, so did the storms. We were worried this would keep us from getting to see this interesting piece of history. The Rangers, informed us that the storms looked like they would be staying up on the plateau and the canyon should be fine. We waited a few minutes and then headed out in the light rain.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/bandAside.jpg' alt='The village below the cave dwellings'>
                   </aside>
                   <br />
@@ -347,7 +360,7 @@ function getAllCfstories() {
                     Thankfully, after a few more minutes, the rain subsided. After a short stroll, slightly damp, we arrived at the monument. It was definitely an impressive sight. We saw the cave dwellings, built into the side of the canyon walls. Below, there was remnants of a rather large village.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/bandAside2.jpg' alt='Me and my wife, cramped in the cave dwellings'>
                   </aside>
                   <br />
@@ -380,7 +393,7 @@ function getAllCfstories() {
                     This was the most diverse day of the trip. We headed out from the Sandia foothills near Albuquerque and made our way to the red rock deserts on the way to the Soda Dam near Jemez Springs. The red rock deserts were beautiful, a vibrant red like I had never seen. It felt like I was on Mars. From there we headed to the Soda Dam.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/jemezAside.jpg' alt='My wife, dangling her legs off a cliff near a waterfall'>
                   </aside>
                   <br />
@@ -392,7 +405,7 @@ function getAllCfstories() {
                     We stopped for lunch at Jemez Falls, it reminded me of pictures of Colorado. I&#39;m partial to the green mountain landscapes like these over the brown ones, like the Sandia Mountains. It was beautiful, we spent a great deal of time exploring here. We climbed on rocks, sat near the edges of cliffs, and skipped rocks on the river. Eventually, however, we did have to leave.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/valles.jpg' alt='The Valles Caldera'>
                   </aside>
                   <br />
@@ -421,7 +434,7 @@ function getAllCfstories() {
                     We stayed in the foothills of the Sandia Mountains on historic Route 66. It was my first time on Route 66, unfortunately, we didn&#39;t spend much time exploring it. We did play the classic Chuck Berry song while on it though. It&#39;s amazing the wildlife that grows regardless of climate. Every time we left the house we saw rabbits and while leaving the house one evening we even got to see a bobcat. I was thankful to be in a house that was surrounded by so much nature.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/homeAside.jpg' alt='Goofy picture on a rock near the house'>
                   </aside>
                   <br />
@@ -429,7 +442,7 @@ function getAllCfstories() {
                     There were a number of beautiful trails into the foothills near our house. One evening, my wife and I ventured out onto one before dinner. We began down the path and came upon a couple of large boulders stacked on top of each other. We, of course, climbed them. After taking a couple goofy pictures, we climbed down and continued on our path.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/homeAside2.jpg' alt='My wife flexing like a strong man'>
                   </aside>
                   <br />
@@ -458,7 +471,7 @@ function getAllCfstories() {
                     The first hike of the trip was to go to the Kasha Katuwe Tent Rocks National Monument (say that 5x fast). This is a slot canyon west of Santa Fe, definitely worth the hike. This was my first experience in a slot canyon.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/kk.jpg' alt='Hiking through the slot canyon'>
                   </aside>
                   <br />
@@ -470,7 +483,7 @@ function getAllCfstories() {
                     As interesting as it was being inside the slot canyon, it wasn&#39;t until we rose high above the canyon floor that the sights became breathtaking. We climbed the makeshift rock stairs. I kept thinking, what was the first person to do this thinking. There were points that would certainly have been extremely difficult if not for the railroad ties added to the trail to help create better steps.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/kkVista.jpg' alt='The view was truly something incredible.'>
                   </aside>
                   <br />
@@ -499,7 +512,7 @@ function getAllCfstories() {
                     This was my first trip to the American Southwest for a hiking trip. I have to admit, I was not expecting it to be nearly as beautiful as it was. I expected New Mexico to be a vast desert with little diversity in the landscape. I always kind of wondered why people would live in what I viewed as such as a harsh climate. I was never so happy to be wrong.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/jemez.jpg' alt='Me at the edge of a cliff near a waterfall'>
                   </aside>
                   <br />
@@ -511,7 +524,7 @@ function getAllCfstories() {
                     We spent a week in and around the Albuquerque area (still can&#39;t spell that right without spellcheck). Our house for the week nestled in the Sandia Mountains. As we ventured out into the wilderness, the true beauty of the state became apparent. We saw red rock deserts, pine tree covered mountains, Native American cave dwellings, the Rio Grande, white limestone mountains, and plains resembling those in Wyoming. I was amazed that on one particular driving day, we saw most of that list in just a few hours.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/diveAside1.jpg' alt='The New Mexican Landscape'>
                   </aside>
                   <br />
@@ -544,7 +557,7 @@ function getAllCfstories() {
                     Thursday, a friend told me about slip &#39;n slide kickball, by Sunday we were playing our first game. Today, I&#39;ll be detailing our game and the supplies you&#39;ll need to make this happen at your next get together. Our supplies:
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/slideballSetup.jpg' alt='Set up of the field prior to the game'>
                   </aside>
                   <br />
@@ -564,7 +577,7 @@ function getAllCfstories() {
                     We blew up the kiddie pools, laid out the plastic sheets, and put water and soap on everything. It was a high-scoring affair, I believe one game was around 19-17 and the other shorter game was 16-8. The score was obviously less important than the fun (though my team won both games...just saying). We made the rules up as we went. Cutting outs from 3 to an inning to 2, requiring slides at every base (even on a home run), and deciding whether you could steal bases or not halfway through the game. It felt a lot like when you&#39;re young, creating games with the neighborhood kids. It was a blast.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/slideballAfter.jpg' alt='After the game is over, we just spent a good 10 mins running around sliding'>
                   </aside>
                   <br />
@@ -597,7 +610,7 @@ function getAllCfstories() {
                     A few years ago, I was walking to class and got caught in a torrential downpour. I had an important project in my backpack as well as my laptop. I sprinted into the nearest building and waited out the storm. Thankfully, my project wasn&#39t ruined and my laptop was ok. However, the experience was enough for me to spend money to ensure the safety of my belongings.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/mountainsWeight.jpg' alt='Now, I'm prepared no matter what'>
                   </aside>
                   <br />
@@ -609,7 +622,7 @@ function getAllCfstories() {
                     Well, the Overboard pack is still my choice of backpack, even when hiking. I know that it doesn&#39t have the internal frame that traditional packs have and doesn&#39t have all the bells and whistles that other packs have. For me though, it&#39s exactly what I need.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/tradBackOverboard.jpg' alt='Even as the storms roll in, I'm covered'>
                   </aside>
                   <br />
@@ -638,7 +651,7 @@ function getAllCfstories() {
                     The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/sawyerDirty.jpg' alt='When in the backcountry, clean water is essential'>
                   </aside>
                   <br />
@@ -654,7 +667,7 @@ function getAllCfstories() {
                     From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/sawyerMini.jpg' alt='Cleaning dirty water will keep you alive'>
                   </aside>
                   <br />
@@ -687,7 +700,7 @@ function getAllCfstories() {
                     What we didn&#39t know when we started off on the trail was the lack of water that would be available on the trail we took. I had read some reviews of the area and some stories from the specific loop we were planning on doing and all the pictures were of people down by a river. What I didn&#39t realize was that the first time we&#39d see a river on the trail we took in would be when we got to the Jacks River after hiking just under 8 miles and dropping 2,000 ft. in elevation.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/cohuttaTent.jpg' alt='Our tent near the river'>
                   </aside>
                   <br />
@@ -699,7 +712,7 @@ function getAllCfstories() {
                     We then had to wade our way through the stream a couple of times to get to an open area to make camp. Slipping my feet into the cold water stream water after a good day of hiking was one of the more refreshing feelings I&#39ve had. The area we found was right on the river bank, just far enough back to have dry, solid ground but still right on the river. We set up the camp, started a fire, and ate dinner. It was so peaceful out there. The sound of the river lulled me to sleep, well that is until 5 mins after closing my eyes when nature called. All that water I guzzled to get rehydrated was ready to be set free. I must have woken up 4-5 times that night.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/cohuttaMe.jpg' alt='Me being goofy down by the falls'>
                   </aside>
                   <br />
@@ -732,7 +745,7 @@ function getAllCfstories() {
                     Down here in Florida, it&#39s already in the 90&#39s even in early May. Those temperatures can make camping a lot more uncomfortable. Add the daily afternoon thunderstorm and you can see why most don&#39t camp in Florida in the summer. Despite that my wife and I joined another married couple and headed out for one last camping trip in Florida before it&#39s unbearable to camp until September. It was an amazing time, the weather wasn&#39t too hot and the thunderstorms subsided for a sunny weekend.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/juniperTent.jpg' alt='Our 6 persion mansion'>
                   </aside>
                   <br />
@@ -744,7 +757,7 @@ function getAllCfstories() {
                     After setting up our camp and tent we headed out for a short hike. The water around Juniper Springs, is gorgeous and crystal clear. We didn&#39t venture onto the Florida Trail which goes right near Juniper Spring, due to it not having much shade and it was already high 80s. We stuck to the short nature trails around the campground and the swimming area. While on our short hike, we snapped some shots of a few turtles sunbathing. It was a lazy Saturday for us and for all of nature. We made our way to the springs for a dip in the chilly spring waters. It felt amazing once we got in, but boy that initial descent into the water is painful.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/juniperTurtle.jpg' alt='Turtles sunbathing'>
                   </aside>
                   <br />
@@ -774,7 +787,7 @@ function getAllCfstories() {
                     First, I would like to suggest the types of things you should look for in a knife:
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/knifeRambo.jpg' alt='Rambo's ridiculously large knife'>
                   </aside>
                   <br />
@@ -798,7 +811,7 @@ function getAllCfstories() {
                     All the knives I looked into were full-tang. I did a large amount of looking around before deciding upon the SCHF26. I originally thought I would go with the KA-BAR US Marine Corp, the Ontario 499 Air Force, or the SOG Seal Pup Elite. All are great knives, however, when I held them in my hand they just didn&#39t find feel quite right. I have large hands, so it is important to me to have a handle that is long enough. The KA-BAR and the Seal Pup just felt a little short in my hand for comfort. The Ontario had similar specs as the KA-BAR but was difficult to find locally so I ended up passing on it.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/blades.jpg' alt='Some of your choices'>
                   </aside>
                   <br />
@@ -827,7 +840,7 @@ function getAllCfstories() {
                     My wife and I packed up Tuesday night and headed to the beach house a few hours from home, our stuff loaded up in the car and bikes secured on the trunk bike rack. I say secured but what I mean is we thought they were secured. I learned two valuable lessons this past Tuesday, don&#39t skimp on a bike rack and make sure you&#39ve double and triple checked that you&#39ve installed it correctly. We were in such a hurry and it was the first time we had used our bike rack that I didn&#39t place the side straps in the position they needed to be. It was probably not best to try a new bike rack out for the first time on a multi-hour interstate trip...I guess I learned three valuable lessons then.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/graytonSunset.jpg' alt='Sunsets on the beach'>
                   </aside>
                   <br />
@@ -835,7 +848,7 @@ function getAllCfstories() {
                     Anyway, we were on the interstate for 30 mins and everything seemed to be fine, I had been keeping a constant eye on the bikes to make sure they weren&#39t wobbling. Then not more than a minute later, we drove over a dip in the road. It was enough of a bounce to cause the lower bar to swing closed and caused the bikes to swing down toward the road. I immediately pulled over to the shoulder and inspected the bikes. Thankfully the only damage was that on my wife&#39s new bike (when I say new I mean one day old) the front tire had dragged on the asphalt and burned a hole in the tire and tube. It definitely could&#39ve been worse. We reattached the bikes and drove back the 30 mins home, put the bikes inside and headed out again. That was all the excitement we had this trip.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/graytonWater.jpg' alt='Serene water during the bike ride'>
                   </aside>
                   <br />
@@ -868,7 +881,7 @@ function getAllCfstories() {
                     I always have my bag packed, when it&#39s time to go I don&#39t spend time thinking about what I need. I take things out to wash and clean after a trip and then immediately place them back in the pack. I carry a 30 liter pack, I&#39m always looking for ways to lower the weight and hopefully get down to a 20 liter pack.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/tradBackOverboard.jpg' alt='Contents of my bag, laid out'>
                   </aside>
                   <br />
@@ -915,7 +928,7 @@ function getAllCfstories() {
                             <dt>Babywipes</dt>
                             <dt>Adventure Medical Kit Dayhiker First Aid Kit</dt>
                             <dt>2 9x11 Loksaks</dt>
-                            <aside class='aside1'>
+                            <aside class='asideRight asideLandscape'>
                               <img src='../img/blog/aside/threeDaySpring.jpg' alt='Now I'm prepared no matter what'>
                             </aside>
                             <dt>Food: (varies)</dt>
@@ -973,7 +986,7 @@ function getAllCfstories() {
                     Getting away from it all is one of the best things you can do sometimes. When the stresses of modern day life become too much, sometimes getting out into the wilderness can be just what the doctor ordered. You come back refreshed and renewed and that&#39s exactly what happened to me this past weekend. Some friends and I got away to the Ocala National Forest for a little car camping.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/clearwaterOcalaTent.jpg' alt='Campground, my tent'>
                   </aside>
                   <br />
@@ -989,7 +1002,7 @@ function getAllCfstories() {
                     That night, we met a group who definitely knew how to have a good time. They were celebrating a milestone, one of the guy&#39s 60th birthday. It was 4 friends and their families. Each had the exact same Jeep just in a different color. They had neon shirts, neon painted croquet balls, led string lights everywhere all of which corresponded to the color of their Jeep. They had black lights hooked up to their Jeeps to accentuate all the neon colors.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/clearwaterOcalaOdd.jpg' alt='The best party people ever'>
                   </aside>
                   <br />
@@ -1014,7 +1027,7 @@ function getAllCfstories() {
                     Welcome to the very first Campfire Story here at Mount McKinney! This is an exciting time for me.
                   </p>
                   <br />
-                  <aside class='aside1'>
+                  <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/destinBeach.jpg' alt='Beaches at Destin, FL'>
                   </aside>
                   <br />
@@ -1026,7 +1039,7 @@ function getAllCfstories() {
                     I grew up on the Panhandle of Florida with some of the world&#39s most beautiful beaches. At a young age, I fell in love with the outdoors. I remember spending hours pretending I was a spy or a soldier with the other boys my age in the woods around our neighborhood. As I got older, my fascination with the outdoors only grew. I bike to work just to get outside more, kayak when I can on the weekends, and take walks on local trails. I&#39m most at home outside the walls of my house.
                   </p>
                   <br />
-                  <aside class='aside2'>
+                  <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/banksTahoe.jpg' alt='Lake Tahoe with Banks'>
                   </aside>
                   <br />
