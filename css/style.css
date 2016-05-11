@@ -264,7 +264,7 @@ div .disqusThread {
   float: none !important;
 }
 
-.cognito form {
+.cognito .c-forms-form {
   margin: 0 auto;
 }
 
@@ -592,9 +592,25 @@ ul.details {
   border-radius: 5px;
 }
 
-.aside2 img {
-  height: 198px;
-  width: 352px;
+.aside1Portrait img {
+  height: 352px;
+  width: 198px;
+  float: right;
+  margin: 23px 0% 2% 3%;
+  border-radius: 5px;
+}
+
+.aside2Portrait img {
+  height: 352px;
+  width: 198px;
+  float: left;
+  margin: 23px 3% 2% 0%;
+  border-radius: 5px;
+}
+
+.aside2PortraitSmall img {
+  height: 256px;
+  width: 144px;
   float: left;
   margin: 23px 3% 2% 0%;
   border-radius: 5px;
@@ -608,6 +624,15 @@ ul.details {
   width: 100%;
   font-family: 'Vast Shadow', 'Cinzel', cursive;
   color: #263238;
+}
+
+.blogVideo {
+  text-align: center;
+}
+
+.blogVideo video {
+  width:80%;
+  height:auto;
 }
 
 .campfire ul {
