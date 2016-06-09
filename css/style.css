@@ -166,11 +166,11 @@ li {
   background-color: #f9b701;
 }
 
-.popupForm, .subForm {
+.popupForm, .subForm, .onsiteForm {
   display: none;
 }
 
-a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover {
+a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover, a.popupOnsiteExit, a.popupOnsiteExit:hover {
   padding: 10px 0;
   background: #f9b701;
   color: white;
@@ -181,7 +181,7 @@ a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover {
   font-family: 'Quicksand', serif;
 }
 
-.displayPopup, .displaySubForm {
+.displayPopup, .displaySubForm, .displayOnsiteForm {
   position: fixed;
   top: 20%;
   left: 25%;
@@ -193,16 +193,16 @@ a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover {
   color: white;
 }
 
-.displayPopup button, .displaySubForm button {
+.displayPopup button, .displaySubForm button, .displayOnsiteForm button {
   background-color: white !important;
   color: #2638A2 !important;
 }
 
-.displayPopup label, .displayPopup p, .displaySubForm label, .displaySubForm p {
+.displayPopup label, .displayPopup p, .displaySubForm label, .displaySubForm p, .displayOnsiteForm label, .displayOnsiteForm p {
   color: white !important;
 }
 
-.displayPopup h4, .displaySubForm h4 {
+.displayPopup h4, .displaySubForm h4, .displayOnsiteForm h4 {
   font-family:'Quicksand', sans-serif;
   font-size:2rem;
   text-align:center;
@@ -710,6 +710,62 @@ ul.details {
   margin: 50px auto;
 }
 
+/*---------SharpSpring Training---------*/
+
+.bookTime {
+  text-align: center;
+}
+
+.bookTime a:visited, .bookTime a:link, .bookTime a:hover {
+  background-color: #2638a2;
+  padding: 10px 20px;
+  font-family: 'Quicksand';
+  font-size: 1.5rem;
+  color: white;
+}
+
+table.trainingSection {
+    margin: auto auto 5%;
+}
+
+.trainingHeader {
+  font-size: 3rem;
+  font-family: 'Cinzel', sans-serif;
+  color: #263238;
+  border-bottom: 2px solid #f9b701;
+  text-align: center;
+}
+
+.trainingSubHeader {
+  font-size: 2rem;
+  font-family: 'Cinzel', sans-serif;
+}
+
+.trainingPricing {
+  font-size: 2rem;
+  font-family: 'Cinzel', sans-serif;
+  margin-bottom: 30px;
+}
+
+.trainingFeatures {
+  font-size: 1.5rem;
+  /*margin-bottom: 12px;*/
+  line-height: 1.5;
+}
+
+td {
+  font-family: 'Quicksand';
+  text-align: center;
+  padding: 40px 5%;
+  max-width: 700px;
+  vertical-align: top;
+}
+
+.finePrint p {
+  font-size: 1rem;
+  text-align: center;
+}
+
 /*---------Responsiveness---------*/
 
 @media screen and (min-width: 410px) {
@@ -765,7 +821,7 @@ ul.details {
     max-width:304px;
   }
 
-  .displayPopup, .displaySubForm {
+  .displayPopup, .displaySubForm, .displayOnsiteForm {
     position: fixed;
     top: 15%;
     left: 10%;
@@ -773,7 +829,7 @@ ul.details {
     width: 80%;
   }
 
-  .homeHeader h1 {
+  .homeHeader h1, .about h4 {
     font-size: 2rem;
   }
 
@@ -1024,6 +1080,20 @@ ul.details {
 
   .portfolioImages li {
     margin: 1%;
+  }
+}
+
+@media screen and (max-width:1210px) {
+  td {
+    display: inline;
+  }
+
+  td ul {
+    margin-bottom: 80px;
+  }
+
+  .bookTime {
+    margin-bottom: 50px;
   }
 }
 

@@ -1,6 +1,6 @@
   <head>
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/favicon.ico">
-    <title> <?php echo $pageTitle ?> | Mount McKinney</title>
+    <title> <?php echo $pageTitle ?> | Mount McKinney LLC</title>
     <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
     <script src="https://services.cognitoforms.com/s/SkK_LHLpKUmLPQLt_eXuZQ"></script>
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>css/style.css">

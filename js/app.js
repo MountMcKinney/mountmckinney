@@ -1,7 +1,7 @@
 // This causes the Mount McKinney name and text to fade in
 $('.title').hide().delay(100).fadeIn(2500);
 
-//This is for creating a pop up form upon clicking a Contact Me button on the home page
+//This is for creating a pop up form upon clicking a Contact Me button
 $('.contactPopUp').click(function(){
   $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
   // $('.overlay').css("display", "block");
@@ -19,7 +19,7 @@ $('.popupExit').click(function(){
     $('.displayPopup').addClass('popupForm');
 });
 
-//This is for creating a pop up form upon clicking a Contact Me button on the home page
+//This is for creating a pop up form upon clicking a Subscribe button
 $('.subFormPopup').click(function(){
   $('.subForm').fadeIn(1200).addClass('displaySubForm').removeClass('subForm');
   // $('.overlay').css("display", "block");
@@ -31,7 +31,7 @@ $('#c-submit-button').click(function() {
   $('.displaySubForm').addClass('subForm');
 });
 
-// This function is if they want to leave the form without filling it outline
+// This function is if they want to leave the form without filling it out
 $('.popupSubExit').click(function(){
     $('.displaySubForm').fadeOut(2000);
     $('.displaySubForm').addClass('subForm');
