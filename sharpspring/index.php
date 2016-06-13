@@ -57,21 +57,13 @@ require_once("../inc/config.php");
                 <h5 class="trainingHeader">Agency Support</h5>
                   <ul>
                     <li class="trainingPricing">$60/hr</li>
-                    <li class="trainingFeatures">Submission of Partner Support tickets</li>
-                    <li class="trainingFeatures">Monitoring of issues and providing support updates</li>
+                    <li class="trainingFeatures">Support for agency employees who manage client accounts</li>
+                    <li class="trainingFeatures">Do your employees need help managing SharpSpring for their clients?</li>
+                    <li class="trainingFeatures">
+                      <a href="mailto:john@mountmckinney.com" id="bookTime">Send me an email</a>
+                    </li>
                   </ul>
               </td>
-              <td>
-                <h5 class="trainingHeader">Client Setup</h5>
-                  <ul>
-                    <li class="trainingPricing">$100/hr</li>
-                    <li class="trainingFeatures">Creation of client in SharpSpring</li>
-                    <li class="trainingFeatures">Creation of users</li>
-                    <li class="trainingFeatures">White-labeling available upon request</li>
-                  </ul>
-              </td>
-            </tr>
-            <tr>
               <td>
                 <h5 class="trainingHeader">Onsite Training</h5>
                   <ul>
@@ -82,14 +74,6 @@ require_once("../inc/config.php");
                     <li class="trainingFeatures">
                       <a href="mailto:john@mountmckinney.com" id="bookTime">Send me an email</a>
                     </li>
-                  </ul>
-              </td>
-              <td>
-                <h5 class="trainingHeader">Client Demo</h5>
-                  <ul>
-                    <li class="trainingPricing">$100/hr</li>
-                    <li class="trainingFeatures">Overview demo of SharpSpring platform</li>
-                    <li class="trainingFeatures">White-labeled environment available upon request</li>
                   </ul>
               </td>
             </tr>
