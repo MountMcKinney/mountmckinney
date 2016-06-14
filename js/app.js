@@ -1,7 +1,7 @@
 // This causes the Mount McKinney name and text to fade in
 $('.title').hide().delay(100).fadeIn(2500);
 
-//This is for creating a pop up form upon clicking a Contact Me button
+//This is for creating a pop up form upon clicking a Contact Us button
 $('.contactPopUp').click(function(){
   $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
   // $('.overlay').css("display", "block");

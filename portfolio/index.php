@@ -59,7 +59,10 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         <h4>Portfolio & Services</h4>
         <div class="portfolioServices">
         <p>
-          Hi, my name is John McKinney! I'm a freelancer <span class="highlight">Front End Web Developer</span> with a diverse skillset, ranging from building <span class="highlight">websites</span> using <span class="highlight">HTML</span> + <span class="highlight">CSS</span> + <span class="highlight">Javascript</span>, to <span class="highlight">PHP web app</span> development, to <span class="highlight">logo</span> design, and even custom <span class="highlight">Wordpress</span> development. I enjoy building everything from small business sites to rich interactive web apps.
+          Mount McKinney LLC is a web agency that provides a range of services including <span class="highlight">Web Design & Development</span>, <span class="highlight">Wordpress</span>, and training on the <span class="highlight">SharpSpring</span> marketing automation platform. Websites are built with <span class="highlight">HTML</span> + <span class="highlight">CSS</span> + <span class="highlight">Javascript</span>, as well as <span class="highlight">PHP</span> and <span class="highlight">AngularJS</span> web app development.  Mount McKinney LLC can build everything from small business sites to rich interactive web apps.
+        </p>
+        <p>
+          As for <span class="highlight">SharpSpring training</span>, you can find more information about what Mount McKinney LLC provides <a href="<?php echo BASE_URL; ?>ss-training/">here</a>.
         </p>
         <br>
           <div class="portfolioInfo">
@@ -71,13 +74,13 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
               </div>
               <br>
             </p>
-            <p>
-              Are you an employer looking to hire me to be a part of your team?
+            <!-- <p>
+              Are you an employer looking to hire John McKinney to be a part of your team?
               <br>
               <div class="portfolioJob">
                 <a href="https://www.visualcv.com/john-mckinney" target="_blank">John&#039;s resume</a>
               </div>
-            </p>
+            </p> -->
             <ul class="portfolioImages">
               <?php foreach($websites as $websiteSKU => $website)
                   echo displayPortfolioHtml($websiteSKU, $website);
@@ -90,12 +93,12 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         <?php include(ROOT_PATH.'inc/contactIcons.php') ?>
         </div>
         <div id="contact" class="contMe">
-          <h4>Contact Me</h4>
+          <h4>Contact Us</h4>
           <p>
             Need a new <span class="highlight">website</span>? How about a fresh <span class="highlight">redesign</span> of your current site? When&#039;s the last time you updated your <span class="highlight">logo</span>?
             <br/>
             <br/>
-            Thankfully, you&#039;ve come to the right place. I provide a large range of services related to your <span class="highlight">website</span> and <span class="highlight">branding</span>.
+            Thankfully, you&#039;ve come to the right place. Mount McKinney LLC provides a large range of services related to your <span class="highlight">website</span> and <span class="highlight">branding</span>.
           </p>
           <?php include(ROOT_PATH."inc/contactForm.php"); ?>
         </div>
