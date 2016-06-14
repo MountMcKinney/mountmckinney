@@ -20,7 +20,7 @@ require_once("../inc/config.php");
           <p>
             John McKinney is the founder of Mount McKinney LLC. Mount McKinney LLC specializes in creating everything you see when you view a webpage and everything you don&#039;t.</p>
           <p>
-            The awe-inspiring layout you see throughout the site? That's us. Those icons in the navigation menu? Yep, all us. The forms fading in and out from your clicks? That too. Our mission is to provide <span class="highlight">Quality Development</span> services so that you and your business are able to reach your peak!
+            The awe-inspiring layout you see throughout the site? That's us. Those icons in the navigation menu? Yep, all us. The forms fading in and out from your clicks? That too. Our mission is to provide quality development services so that you and your business are able to reach your peak!
           </p>
           <p>
             If you&#039;d like to hire Mount McKinney for your next project, fill out this <a href="#" class="contactPopUp">Contact form</a>, shoot us a <a href="http://fb.me/msg/mountmckinney" target="_blank" class="social" id="facebookIcon">Facebook message</a>, or even <a href="http://twitter.com/intent/tweet?screen_name=mountmckinney" target="_blank" "social" id="twitterIcon">tweet</a> us.
