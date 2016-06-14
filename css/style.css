@@ -526,10 +526,9 @@ body {
 }
 
 .highlight {
-  border: 2px solid #f9b701;
-  background: #2638a2;
-  color: #fff;
-  padding: 0 15px;
+  border-bottom: 2px solid #f9b701;
+  color: #2638a2;
+  padding: 0 5px;
 }
 
 .contactDetails {
