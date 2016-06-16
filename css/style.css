@@ -477,7 +477,7 @@ body {
   max-width: 800px;
 }
 
-.topStory a:link, .topStory a:visited, .topStory a:hover {
+.topStory a:link, .topStory a:visited, .topStory a:hover, a.sharpLink:link, a.sharpLink:visited, a.sharpLink:hover {
   color: #f9b701;
 }
 

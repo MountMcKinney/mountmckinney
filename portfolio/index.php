@@ -62,7 +62,7 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
           Mount McKinney LLC is a web agency that provides a range of services including <span class="highlight">Web Design & Development</span>, <span class="highlight">Wordpress</span>, and training on the <span class="highlight">SharpSpring</span> marketing automation platform. Websites are built with <span class="highlight">HTML</span> + <span class="highlight">CSS</span> + <span class="highlight">Javascript</span>, as well as <span class="highlight">PHP</span> and <span class="highlight">AngularJS</span> web app development.  Mount McKinney LLC can build everything from small business sites to rich interactive web apps.
         </p>
         <p>
-          As for <span class="highlight">SharpSpring training</span>, you can find more information about what Mount McKinney LLC provides <a href="<?php echo BASE_URL; ?>ss-training/">here</a>.
+          As for <a class="sharpLink" href="<?php echo BASE_URL; ?>ss-training/">SharpSpring training</a>, you can find more information about what Mount McKinney LLC provides <a class="sharpLink" href="<?php echo BASE_URL; ?>ss-training/">here</a>.
         </p>
         <br>
           <div class="portfolioInfo">
