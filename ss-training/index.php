@@ -50,12 +50,10 @@ require_once("../inc/config.php");
             <tr>
               <td>
                 <h5 class="trainingHeader">Agency Support</h5>
-                  <ul>
-                    <li class="trainingFeatures">Support for agency employees who manage client accounts</li>
-                    <li class="trainingFeatures">Do your employees need help managing SharpSpring for their clients?</li>
-                    <li class="trainingFeatures">
-                      <a href="mailto:john@mountmckinney.com" id="bookTime">Send John an email</a>
-                    </li>
+                  <ul>                
+                    <li class="trainingFeatures">Management of agency or client accounts</li>
+                    <li class="trainingFeatures">Creation SharpSpring campaigns, workflows, emails, etc.</li>
+                    <li class="trainingFeatures">Contacting of Partner Support about SharpSpring related issues</li>
                   </ul>
               </td>
               <td>

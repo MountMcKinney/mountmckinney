@@ -786,7 +786,7 @@ td {
 }
 
 @media screen and (max-width: 700px) {
-  .homeHeader h1 {
+  .homeHeader h1, .blogTopH3 {
     font-size: 3rem;
   }
 
@@ -796,7 +796,7 @@ td {
 }
 
 @media screen and (max-width: 520px) {
-  .homeHeader h1 {
+  .homeHeader h1, .blogTopH3 {
     font-size: 2.5rem;
   }
 

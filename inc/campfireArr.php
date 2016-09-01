@@ -106,11 +106,52 @@ function getAllCfstories() {
   //   "signature" => "John McKinney",
   //   "date" => "May 10th, 2016"
   //  );
+  $cfstories["irish-adventures"] = array(
+    "img" => "img/blog/header/irishAdventuresKinsale.jpg",
+    "thumb" => "img/blog/thumb/irishAdventuresKinsaleThumb.jpg",
+    "title" => "Irish Adventures",
+    "info" => "Ireland",
+    "section" => "<p class='blogContent'>
+                    It only took the entire summer for me to finally write about our trip to Ireland. As our flight took off from Orlando in mid-May, I knew we would be embarking on a truly once in a lifetime trip. After a short connection in Boston, we departed for Shannon! I had never been to Ireland but I knew I was excited to go and I knew I would love it. Boy was I right, it was hard to leave such a breathtakingly beautiful country. My grandmother had come to America from Ireland when she was a little girl. Being in a place that only 2 generations before had been my family&#039;s home made me immediately feel at home there. Not to mention that I definitely could pass for an Irish citizen, well at least until I spoke obviously.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/jameson.jpg' alt='Wife and I at the Jameson Distillery'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    It&#039;s been a long time since I was as tired as I was that first day. The flight was overnight and I slept for at most 45 mins. Never really been able to sleep on planes (or in cars for that matter). Thankfully, I was at least comfortable, as I had sprung the extra cash for a bulkhead seat. I am 6&#039; 4&#034; so that extra legroom was a lifesaver. As we got into our rental car, I sat in the driver&#039;s seat and immediately just felt odd. I was sitting on the opposite side of the car from my everyday driving. Changing gears, grabbing my water bottle, and even holding my wife&#039;s hand was now my left hand&#039;s responsibility. For the most part, we were fine driving on the left side of the road, though we did have one close call when I had to make a right turn while going around a bend in a busy town with tour buses all around me.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Oh those wretched tour buses. The smallest of them take up the entire lane and most venture into your lane. I honestly felt bad for the people in them, they wouldn&#039;t experience Ireland the way my wife and I did. They couldn&#039;t take a detour, change their plans last minute, or just stop on the side of the road to hike. They missed some of the most amazing sights that we experienced.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/cobhCathedral.jpg' alt='St. Colman&#39;s Cathedral in Cobh, Ireland'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Our first major stop was to experience that great liquid gold, Irish whiskey. We headed south from Shannon to Middleton, the home of the Jameson Distillery. What a blast that was. I learned so much and got to drink some delicious whiskey doing it. At the end of the tour, I participated in a taste test with Jameson 12 yr, Jonnie Walker Black, and Jack Daniels. Somehow, I feel they didn&#039;t exactly go for top-shelf when it came to bourbon.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    After our whiskey tour, we headed to Cobh to see St. Colman&#039;s Cathedral. This massive gothic Cathedral towers over the town, as you can see in the picture. The Cathedral was gorgeous (as were all the Cathedrals we visited in Ireland). This one, right on the Cork Harbour, provided picturesque views both inside and out.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    From there, we made our way to where we&#039;d be staying the first night, Kinsale. A small town on the River Bandon on the South edge of Ireland, Kinsale is a quaint town that is well worth the stop for the night. Our first (but not last) Irish poured Guinness was ordered in a pub in Kinsale. We felt a bit like zombies that first day except without wanting to eat braaaaaainnnssss. I had gotten less than an hour of sleep in 40 hours. Needless to say, I was very excited when that first day&#039;s rest came. I was out as soon as my head hit the pillow.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "September 1st, 2016"
+   );
   $cfstories["southern-charm"] = array(
     "img" => "img/blog/header/savannahSouthernCharm.jpg",
     "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
     "title" => "Southern Charm",
-    "info" => "Savannah was a wonderful place to visit",
+    "info" => "Savannah, GA",
     "section" => "<aside class='asidePortraitSmall asideLeft'>
                     <img src='../img/blog/aside/savannahCity.jpg' alt='Me and a statue just hanging out'>
                   </aside>
