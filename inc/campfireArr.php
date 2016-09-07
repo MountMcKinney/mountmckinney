@@ -106,6 +106,235 @@ function getAllCfstories() {
   //   "signature" => "John McKinney",
   //   "date" => "May 10th, 2016"
   //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "May 10th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "May 10th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "May 10th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "signature" => "John McKinney",
+  //   "date" => "May 10th, 2016"
+  //  );
+  $cfstories["the-road-less-traveled"] = array(
+    "img" => "img/blog/header/derreenGardensHarbour.jpg",
+    "thumb" => "img/blog/thumb/derreenGardensHarbourThumb.jpg",
+    "title" => "The Road Less Traveled",
+    "info" => "Take The Non-Beaten Path",
+    "section" => "<aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/healyPassSheep.jpg' alt='Painted Sheep'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Where we <a href='http://mountmckinney.com/campfire/?story=irish-adventures'>last left off</a>, my wife and I were trans-Atlantic flight zombies staying the night in Kinsale. As we arose the next morning to greet the beautiful Irish morning, we felt so much better. We were ready to explore this gorgeous land that our families came from.
+                  </p>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    From Kinsale, we headed toward the West Coast to drive along the Beara Penninsula on the Ring of Beara. The lesser known cousin to the Ring of Kerry, the Ring of Beara doesn't see nearly as many tourists. I'm not sure why because I thought it was actually more beautiful than the Ring of Kerry. With fewer cars (and buses) to clog up the roadways, we enjoyed unabated views of this national treasure. Just goes to show, that sometimes the best places aren't on the beaten path.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/healyPassHillTop.jpg' alt='The view from the top of Healy Pass'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    On the Ring of Beara is where we first experienced sheep walking on and around the road. They were everywhere. All with different color spray paint on them, I assume to designate who they belong to. As we drove the windy roads along Beara, we cut through the Penninsula by driving along the Healy Pass, which offered views of wide-open plains rising into high hills.  Upon seeing a pull-off near the top of the pass, we decided to go hillwalking.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Each time we reached a new vista, we had to just stop and stare. Ireland is truly one of the most beautiful places I've ever been. There is something enchanting about Ireland. From the top of the hill, we could see a few houses around a beautiful lake at the bottom of the valley. We sat at the top of that hill for over half an hour just taking in the view and thanking God for an incredible landscape.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/derreenGardens.jpg' alt='Derreen Gardens'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    With so much left to see that day, we reluctantly made our way down toward the car to continue on. Our path took us right by that lake we had seen at the top of the hill. Venturing further we made our way to Derreen Gardens on the north coast of the Beara Penninsula.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Derreen Gardens is full of lush growth and fragrant flowers. A peaceful walk around the grounds made us feel as though we were in another time, one less concerned with the latest phone or who liked what on Facebook. We saw older couples taking walks and families having picnics by the water. Our own tranquil stroll through the gardens included plenty of time to stop and take it all in.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We stayed until nearly closing time, not wanting to move from our bench where we were taking it all in.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "September 7th, 2016"
+   );
   $cfstories["irish-adventures"] = array(
     "img" => "img/blog/header/irishAdventuresKinsale.jpg",
     "thumb" => "img/blog/thumb/irishAdventuresKinsaleThumb.jpg",
