@@ -300,7 +300,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent clearContent'>
-                    From Kinsale, we headed toward the West Coast to drive along the Beara Penninsula on the Ring of Beara. The lesser known cousin to the Ring of Kerry, the Ring of Beara doesn't see nearly as many tourists. I'm not sure why because I thought it was actually more beautiful than the Ring of Kerry. With fewer cars (and buses) to clog up the roadways, we enjoyed unabated views of this national treasure. Just goes to show, that sometimes the best places aren't on the beaten path.
+                    From Kinsale, we headed toward the West Coast to drive along the Beara Peninsula on the Ring of Beara. The lesser known cousin to the Ring of Kerry, the Ring of Beara doesn&#39;t see nearly as many tourists. I&#39;m not sure why because I thought it was actually more beautiful than the Ring of Kerry. With fewer cars (and buses) to clog up the roadways, we enjoyed unabated views of this national treasure. Just goes to show, that sometimes the best places aren&#39;t on the beaten path.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -308,11 +308,15 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    On the Ring of Beara is where we first experienced sheep walking on and around the road. They were everywhere. All with different color spray paint on them, I assume to designate who they belong to. As we drove the windy roads along Beara, we cut through the Penninsula by driving along the Healy Pass, which offered views of wide-open plains rising into high hills.  Upon seeing a pull-off near the top of the pass, we decided to go hillwalking.
+                    On the Ring of Beara is where we first experienced sheep walking on and around the road. They were everywhere. All with different color spray paint on them, I assume to designate who they belong to. As we drove the windy roads along Beara, we cut through the Peninsula by driving along the Healy Pass, which offered views of wide-open plains rising into high hills.  Upon seeing a pull-off near the top of the pass, we decided to go hillwalking.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Each time we reached a new vista, we had to just stop and stare. Ireland is truly one of the most beautiful places I've ever been. There is something enchanting about Ireland. From the top of the hill, we could see a few houses around a beautiful lake at the bottom of the valley. We sat at the top of that hill for over half an hour just taking in the view and thanking God for an incredible landscape.
+                    Each time we reached a new vista, we had to just stop and stare. Ireland is truly one of the most beautiful places I&#39;ve ever been. There is something enchanting about Ireland. From the top of the hill, we could see a few houses around a beautiful lake at the bottom of the valley. We sat at the top of that hill for over half an hour just taking in the view and thanking God for an incredible landscape.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    With so much left to see that day, we reluctantly made our way down toward the car to continue on. Our path took us right by that lake we had seen at the top of the hill. Venturing further we made our way to Derreen Gardens on the north coast of the Beara Peninsula.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -320,15 +324,19 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    With so much left to see that day, we reluctantly made our way down toward the car to continue on. Our path took us right by that lake we had seen at the top of the hill. Venturing further we made our way to Derreen Gardens on the north coast of the Beara Penninsula.
-                  </p>
-                  <br />
-                  <p class='blogContent'>
                     Derreen Gardens is full of lush growth and fragrant flowers. A peaceful walk around the grounds made us feel as though we were in another time, one less concerned with the latest phone or who liked what on Facebook. We saw older couples taking walks and families having picnics by the water. Our own tranquil stroll through the gardens included plenty of time to stop and take it all in.
                   </p>
                   <br />
                   <p class='blogContent'>
                     We stayed until nearly closing time, not wanting to move from our bench where we were taking it all in.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Sadly, eventually, we had to leave and make our way to where we would be staying the next few nights, Kenmare. A small town of 1,900, Kenmare is an easily walkable town. We had a wonderful night walking around the streets looking for shops that bear our surname. It was in Kenmare, that we got our first experience with Irish supermarkets.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                      We like to save money as much as possible on big trips and will often buy groceries and cook in to do so. With very little options food-wise and employees disinterested in helping you, they made miss Publix. Publix, Ireland needs you. They don&#039;t know what they&#039;re missing.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
