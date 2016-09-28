@@ -194,122 +194,166 @@ function getAllCfstories() {
   //                 ",
   //   "catch" => "Remember, Adventure is Calling!",
   //   "signature" => "John McKinney",
-  //   "date" => "May 10th, 2016"
+  //   "date" => "September 28th, 2016"
   //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "May 10th, 2016"
-  //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "May 10th, 2016"
-  //  );
+  $cfstories["gap-of-dunloe"] = array(
+    "img" => "img/blog/header/gapOfDunloe.jpg",
+    "thumb" => "img/blog/thumb/gapOfDunloeThumb.jpg",
+    "title" => "Gap Of Dunloe",
+    "info" => "13 Miles of Pure Bliss!",
+    "section" => "<p class='blogContent'>
+                    As we drove from Kenmare through Moll&#39;s Gap this time we didn&#39;t take the right towards Killarney National Park. Instead, we headed left toward Lord Brandon&#39;s Cottage to leave our car for the day while we made the trek through the Gap of Dunloe. The road became a single lane for multiple miles. Thankfully, there were very few cars on it but with thick brush on both sides of the road, it made passing each other difficult. We missed multiple turns and got a little lost along the way but that&#39;s all part of the fun. Missing one turn took us to a serene lake, we definitely didn&#39;t mind that detour. After driving down what looked like someone&#39;s driveway we had finally found Lord Brandon&#39;s Cottage.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/mountainBeforeGapOfDunloe.jpg' alt='The wife showing the magnifience of the mountains!'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    Online I had seen conflicting reports about whether you can drive the Gap of Dunloe or not. Some said it was ok just not advised due to the amount of horse-drawn carriages and hikers on the single lane road. Others said it was not legal to drive on the road. Regardless, we felt we didn&#39;t want to take the chance and would rather hike it anyway.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    This was 100% the right call. While I didn&#39;t see any signs prohibiting cars and would often see cars on the road, they were more of a nuisance to the hikers due to how narrow the road is and the lack of a shoulder in my areas. Plus, you don&#39;t get to appreciate the views due to them going by so much more quickly. There are also some views that you don&#39;t get inside the car. If you are able to walk the long road, I highly recommend it.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We strapped on our 3 liter water reservoir backpack filled with trail mix, fruit, an external battery for our phones, and of course, the one thing you need in Ireland no matter what the sky looks like, our rain jackets. We began following the path back we had driven in on before stopping to &#34;baaaaa&#34; at sheep we saw on the side of the road. Don&#39;t lie you would do it too.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/townBelowGapOfDunloe.jpg' alt='The path from Lord Brandon&#39;s Cottage'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    If you look at the picture to the left to this paragraph, you&#39;ll see the path we took from Lord Brandon&#39;s. This led us through the small township you see. After you pass the township, you&#39;ll come to a fork in the road. The sign is a tad confusing because it shows a hiking symbol pointed to the left, that hiking symbol is for those hiking the Kerry Peninsula. You want to head right. I say this because I saw people go left and then have to come back. If not for some kind bicyclists fortuitously climbing the mountain at that moment we may have made that same mistake. Thankfully, they were able to direct us to the correct path, all while going up the steep incline on their bikes.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We had followed the road up, we had reached the highest point on our path. We could see the vast Black Valley we had just come from stretching out behind us and the incredible sights of the Gap of Dunloe ahead of us. Stopping for a snack and a brief rest we had a short conversation with a white haired couple that was also making the 13 mile trip from Lord Brandon&#39;s to Kate Kearney&#39;s and back. They told us about how they had done this hike before but it was when they were much younger. I must say I am still impressed that they were able to complete this hike at their age.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Continuing down into the Gap, we were struck by the beauty of the cragginess of the mountains rising up on both sides of us. The path wound down and leveled off and became a leisurely stroll compared to the steep incline we had just came from. Sheep grazed on the side of the road and up on the mountains. They hopped effortlessly from rock to rock looking for that perfect blade of grass to chow down on.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/bridgeGapOfDunloe.jpg' alt='The most picturesque bridge in Ireland'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Speaking of chowing down, we had made it to our halfway point, Kate Kearney&#39;s Cottage. This little restaurant and shop was a welcome sight after a few hours of walking. I, having no issue with doing so, ordered the lamb and it was delicious.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Hiking back through the Gap was just as beautiful as it was the first time. The hike back was so much easier due to us being on the descent on that steep road. Before heading back to Kenmare we decided to see what was down the road right past the parking area we had left our car at outside of Lord Brandon&#39;s Cottage. This turned out to almost be a costly mistake. The road turned into a dirt and gravel path and offered no place turn around. We had to make a u-turn on a road no wider than our car with a lot of mud right off the path. Thankfully, we didn&#39;t get stuck. It was to be our last night in Kenmare, our home for the past few days. So, of course, we decided to reward ourselves for our big day of hiking with an ice cream from the local shoppe.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/blackValleyPlains.jpg' alt='The path from Lord Brandon&#39;s Cottage'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    I enjoyed every minute of hiking the Gap of Dunloe and I hope that when you visit Ireland, you make it part of your trip as well. There are easier ways of seeing it if you&#39;re not one for hours of hiking in a day. I&#39;ve seen people online talk about taking a boat from Ross Castle in Killarney National Park to Lord Brandon&#39;s Cottage then hiking to Kate Kearney&#39;s, followed by a short taxi ride back to Ross Castle. Though you could easily reverse this if you&#39;d like to avoid going up the steep incline. The only thing you would need to do is make sure you make it to Lord Brandon&#39;s early enough to catch the last boat to Ross Castle. This seems like a unique experience and one I would like to experience when we go back to Ireland one day.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Strangely, I don&#39;t believe this is that well known of a hike for many people in Ireland unless they are from that area. I have a friend from the northern area of West Ireland living here in the States now. When he asked what we would doing on our trip to Ireland I listed off a few things including the Gap of Dunloe. He told me he was only familiar with it because his American wife had also hiked the Gap.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "September 21st, 2016"
+   );
+  $cfstories["windy-mountain-roads"] = array(
+    "img" => "img/blog/header/killarneyNationalPark.jpg",
+    "thumb" => "img/blog/thumb/killarneyNationalParkThumb.jpg",
+    "title" => "Windy Mountain Roads",
+    "info" => "The views you get from vistas are great, but the best views are the ones you have to work to get to.",
+    "section" => "<p class='blogContent'>
+                    Kenmare, a lovely town of just over 2,000, would be our home for the next few days. It&#39;s strange how a town so small by US standards felt much bigger there. Kenmare and Killarney are considered the 2 jumping off point for exploring the famous Ring of Kerry. If you&#39;re looking for a peaceful time with a lot less tourist-y feel, Kenmare is your type of place. Killarney was fun and not a large city by any means, but it is definitely more of a tourist central area.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/mollsGap.jpg' alt='The view from Moll&#39;s Gap'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    No matter which town you stay in, you need to drive the road between them to see one of the most amazing views in Ireland in my opinion. Moll&#39;s Gap is a mountainous intersection of roads. Our first day in Kenmare, we headed to the Killarney National Park and needed to drive through Moll&#39;s Gap to get there. As we trekked along the mountain roads there came a point where the road curved to the right seemingly right into the rocks. We made that right and instantly a &#34;wooooooooowwwww!&#34; came from both our lips in exclamation. To be fair, Ireland would do this over and over again throughout our adventures.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We pulled off and just stared out into the vast mountain range with its valleys and windy roads. I love my wife, we both said when looking out at all of this, &#34;I can&#39;t wait to go hike this!&#34; Not wanting to miss any time hiking through one of only 6 National Parks in Ireland, we headed back to the car to drive those windy roads to Killarney town.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/torcWaterfall.jpg' alt='The Torc Waterfall in Killarney National Park'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    As windy as our drive along the Healy Pass was on the Beara Peninsula, the road to Killarney was far more so. This isn&#39;t a bad thing though, I thoroughly enjoyed driving the windy roads. Our little Hyundai was right at home along these windy roads to Killarney, but it was the tour buses (they&#39;re a recurring enemy of mine on this trip) that would make this road feel so much more difficult to drive on at times. But we had arrived. We had made it to Killarney National Park and it was awesome. The Emerald Isle was on full display here, the various shades of green shimmering in the sunlight.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Starting up the steep path through the woods we didn&#39;t make it far before we had to stop. Not from exhaustion but because we found a waterfall! I don&#39;t know about you but I&#39;m a sucker for waterfalls. Something about them is always cool to me. The rushing water creates a peaceful and relaxing noise that washes away all my worries. Though, while I&#39;m in Ireland, what worries do I have?
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/muckrossGrounds.jpg' alt='The view from the Muckross House'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Many people made the short trip to the waterfall but few went further and climbing up the steep path to continue the hike and that&#39;s a shame. They missed some wonderful hiking to the top of the waterfall and views that you can&#39;t get from down in the parking lot. Maybe that&#39;s just me though, I have always been one to push that little bit further, knowing it almost always pays off. The views you get from vistas are great, but the best views are the ones you have to work to get to.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Eschewing the jaunting cars (horse-drawn carriages) that were rather pushy about getting us to hire them, we made our way to the Muckross House and Gardens. Situated on Muckross Lake and in the middle of Killarney National Park, this mansion is well worth the visit. Though, we were both expecting a mansion with grandeur similar to that of the Biltmore, this estate is far less expansive. However, the perfectly manicured grounds and gardens (which are free to visit) make this a place well worth the visit.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/bagpipes.jpg' alt='Man playing bagpipes looking out over a lake...cause Ireland.'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Leaving Muckross, we made our way to Killarney, which is a lot of fun to say in your best Irish brogue. Just don&#39;t do so around someone actually from Ireland...can&#39;t imagine you&#39;re good enough at it to pull it off. Walking around Killarney we stopped in little shops and even went into some of the tourist-y shops. After dinner, we decided to treat ourselves to a pastry from French pastry shop knowing that tomorrow we would be hiking about 13 miles in the Gap of Dunloe.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    One thing we were surprised at while visiting the National Parks though was the lack of trails. At both Killarney and Connemara later there was very trails. At Connemara especially, there was only one trail that was broken up into three different loops.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Heading back through the windy roads to Kenmare, we decided to stop one more time at the first vista we came to upon entering the Park. Glad we did, a man was out there playing the bagpipes. Which is just awesome.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "September 14th, 2016"
+   );
   $cfstories["the-road-less-traveled"] = array(
     "img" => "img/blog/header/derreenGardensHarbour.jpg",
     "thumb" => "img/blog/thumb/derreenGardensHarbourThumb.jpg",
     "title" => "The Road Less Traveled",
     "info" => "Take The Non-Beaten Path",
-    "section" => "<aside class='asideRight asideLandscape'>
-                    <img src='../img/blog/aside/healyPassSheep.jpg' alt='Painted Sheep'>
-                  </aside>
-                  <br />
-                  <p class='blogContent'>
+    "section" => "<p class='blogContent'>
                     Where we <a href='http://mountmckinney.com/campfire/?story=irish-adventures'>last left off</a>, my wife and I were trans-Atlantic flight zombies staying the night in Kinsale. As we arose the next morning to greet the beautiful Irish morning, we felt so much better. We were ready to explore this gorgeous land that our families came from.
                   </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/healyPassSheep.jpg' alt='Painted Sheep'>
+                  </aside>
                   <br />
                   <p class='blogContent clearContent'>
                     From Kinsale, we headed toward the West Coast to drive along the Beara Peninsula on the Ring of Beara. The lesser known cousin to the Ring of Kerry, the Ring of Beara doesn&#39;t see nearly as many tourists. I&#39;m not sure why because I thought it was actually more beautiful than the Ring of Kerry. With fewer cars (and buses) to clog up the roadways, we enjoyed unabated views of this national treasure. Just goes to show, that sometimes the best places aren&#39;t on the beaten path.
                   </p>
                   <br />
-                  <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/healyPassHillTop.jpg' alt='The view from the top of Healy Pass'>
-                  </aside>
-                  <br />
                   <p class='blogContent'>
                     On the Ring of Beara is where we first experienced sheep walking on and around the road. They were everywhere. All with different color spray paint on them, I assume to designate who they belong to. As we drove the windy roads along Beara, we cut through the Peninsula by driving along the Healy Pass, which offered views of wide-open plains rising into high hills.  Upon seeing a pull-off near the top of the pass, we decided to go hillwalking.
                   </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/healyPassHillTop.jpg' alt='The view from the top of Healy Pass'>
+                  </aside>
                   <br />
                   <p class='blogContent'>
                     Each time we reached a new vista, we had to just stop and stare. Ireland is truly one of the most beautiful places I&#39;ve ever been. There is something enchanting about Ireland. From the top of the hill, we could see a few houses around a beautiful lake at the bottom of the valley. We sat at the top of that hill for over half an hour just taking in the view and thanking God for an incredible landscape.

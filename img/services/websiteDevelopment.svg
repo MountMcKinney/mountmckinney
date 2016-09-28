@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#2F2F2F;}
+	.st2{fill:#B7B7B7;}
+	.st3{fill:#2638A2;}
+	.st4{fill:#C4C2BC;}
+	.st5{fill:#F9B701;}
+</style>
+<g id="Computer">
+	<g>
+		<g>
+			<g>
+				<g>
+					<rect x="79" y="25" class="st0" width="482" height="315"/>
+					<path class="st1" d="M592,31.7C592,15.8,579.2,3,563.3,3H75.7C59.8,3,47,15.8,47,31.7v330.7c0,15.8,12.8,28.7,28.7,28.7h487.7
+						c15.8,0,28.7-12.8,28.7-28.7V31.7H592z M561,340H79V25h482V340z"/>
+				</g>
+				<g>
+					<rect x="481" y="67.9" class="st0" width="482" height="315"/>
+				</g>
+				<g>
+					<rect x="398.3" y="342.9" class="st0" width="71.2" height="146"/>
+				</g>
+				<polygon class="st1" points="251,390 246.9,411 393.3,411 389.8,390 				"/>
+			</g>
+			<path class="st1" d="M247.1,411h146.2c0,0,7.7,39.9,39.5,69H207C207,480,234.5,459,247.1,411z"/>
+		</g>
+		<circle class="st2" cx="526.8" cy="365.1" r="8.6"/>
+	</g>
+</g>
+<g id="Layer_3">
+	<g>
+		<g>
+			<g>
+				<path class="st1" d="M464.3,477.6h156c6.6,0,12-5.4,12-12V261.4c0-6.6-5.4-12-12-12h-156c-6.6,0-12,5.4-12,12v204.2
+					C452.3,472.2,457.7,477.6,464.3,477.6z"/>
+			</g>
+			<rect x="460.3" y="263.9" class="st3" width="164" height="190"/>
+		</g>
+		<circle class="st4" cx="542.3" cy="465.3" r="7.3"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<g>
+		<g>
+			<path class="st1" d="M41.7,477.6h74.7c6.6,0,12-5.4,12-12V300.3c0-6.6-5.4-12-12-12H41.7c-6.6,0-12,5.4-12,12v165.3
+				C29.7,472.2,35.1,477.6,41.7,477.6z"/>
+			<rect x="37.7" y="302.3" class="st5" width="82.7" height="152.5"/>
+		</g>
+		<circle class="st4" cx="79" cy="465.4" r="7.3"/>
+	</g>
+</g>
+</svg>

@@ -1,11 +1,13 @@
 <?php
 require_once("../inc/config.php");
-require_once (ROOT_PATH."inc/portfolioArr.php");
+require_once (ROOT_PATH."inc/servicesArr.php");
+
+$services = getAllServices();
 ?>
 <!DOCTYPE html>
 <html id="portfolio">
 <?php
-  $pageTitle="Portfolio & Services";
+  $pageTitle="Services";
 ?>
   <head>
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/favicon.ico">
@@ -58,11 +60,18 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
     </header>
     <div class="wrapper">
       <div class="portfolio">
-        <h4>Portfolio</h4>
+        <h4>Services</h4>
         <div class="portfolioServices">
+        <p>
+          Mount McKinney LLC is a web agency that provides a range of services including <span class="highlight">Web Design & Development</span>, <span class="highlight">Wordpress</span>, and training on the <span class="highlight">SharpSpring</span> marketing automation platform. Websites are built with <span class="highlight">HTML</span> + <span class="highlight">CSS</span> + <span class="highlight">Javascript</span>, as well as <span class="highlight">PHP</span> and <span class="highlight">AngularJS</span> web app development.  Mount McKinney LLC can build everything from small business sites to rich interactive web apps.
+        </p>
+        <!-- <p>
+          As for <a class="sharpLink" href="<?php echo BASE_URL; ?>sharpspring/">SharpSpring training</a>, you can find more information about what Mount McKinney LLC provides <a class="sharpLink" href="<?php echo BASE_URL; ?>sharpspring/">here</a>.
+        </p> -->
+        <br>
           <div class="portfolioInfo">
             <p>
-              Are you a business seeking a stronger web presence? Check out some of Mount McKinney\'s work below then drop us a line.
+              Are you a business seeking a stronger web presence?
               <br>
               <div class="portfolioContact">
                 <a href="#contact">I need a website!</a>
@@ -70,8 +79,8 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
               <br>
             </p>
             <ul class="portfolioImages">
-              <?php foreach($websites as $websiteSKU => $website) {
-                      echo displayPortfolioHtml($websiteSKU, $website);
+              <?php foreach($services as $service) {
+                      echo displayServiceHtml($service);
                     }
                 ?>
             </ul>
