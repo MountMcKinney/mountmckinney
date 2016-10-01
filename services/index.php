@@ -62,21 +62,9 @@ $services = getAllServices();
       <div class="portfolio">
         <h4>Services</h4>
         <div class="portfolioServices">
-        <p>
-          Mount McKinney LLC is a web agency that provides a range of services including <span class="highlight">Web Design & Development</span>, <span class="highlight">Wordpress</span>, and training on the <span class="highlight">SharpSpring</span> marketing automation platform. Websites are built with <span class="highlight">HTML</span> + <span class="highlight">CSS</span> + <span class="highlight">Javascript</span>, as well as <span class="highlight">PHP</span> and <span class="highlight">AngularJS</span> web app development.  Mount McKinney LLC can build everything from small business sites to rich interactive web apps.
-        </p>
-        <!-- <p>
-          As for <a class="sharpLink" href="<?php echo BASE_URL; ?>sharpspring/">SharpSpring training</a>, you can find more information about what Mount McKinney LLC provides <a class="sharpLink" href="<?php echo BASE_URL; ?>sharpspring/">here</a>.
-        </p> -->
-        <br>
           <div class="portfolioInfo">
             <p>
-              Are you a business seeking a stronger web presence?
-              <br>
-              <div class="portfolioContact">
-                <a href="#contact">I need a website!</a>
-              </div>
-              <br>
+              Do you need a new website or a re-design? How about a new logo? Maybe you are just having a small technical issue that you would just cannot figure out. Or do you need someone to handle the technical areas of your Wordpress site so that you can get back to focusing on your business.
             </p>
             <ul class="portfolioImages">
               <?php foreach($services as $service) {
@@ -91,13 +79,7 @@ $services = getAllServices();
         <?php include(ROOT_PATH.'inc/contactIcons.php') ?>
         </div>
         <div id="contact" class="contMe">
-          <h4>Contact Us</h4>
-          <p>
-            Need a new <span class="highlight">website</span>? How about a fresh <span class="highlight">redesign</span> of your current site? When&#039;s the last time you updated your <span class="highlight">logo</span>?
-            <br/>
-            <br/>
-            Thankfully, you&#039;ve come to the right place. Mount McKinney LLC provides a large range of services related to your <span class="highlight">website</span> and <span class="highlight">branding</span>.
-          </p>
+          <h4>Let&#039;s Connect</h4>
           <?php include(ROOT_PATH."inc/contactForm.php"); ?>
         </div>
        </div>

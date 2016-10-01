@@ -1,3 +1,7 @@
+// To Do:
+// Add a script that looks for ?pg=# in the url and doesn't display the campfire story intro
+
+
 // This causes the Mount McKinney name and text to fade in
 $('.title').hide().delay(100).fadeIn(2500);
 

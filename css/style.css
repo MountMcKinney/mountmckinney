@@ -13,6 +13,11 @@ Campfire Stories - logs on fire
 Contact -
 Subscribe -*/
 
+.wordpressImg {
+  width: 384px;
+  height: 216px;
+}
+
 * {
   box-sizing:border-box;
   margin: 0;

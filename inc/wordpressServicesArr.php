@@ -35,7 +35,7 @@ function getAllWordpressServices() {
     "thumb" => "img/wordpressServices/campfireFutureUse.jpg",
     "title" => "Wordpress Service Name",
     "section" => "<p class='blogContent'>
-
+                    Lorem ipsum
                   </p>
                   <br />
                   <p class='blogContent clearContent'>
@@ -46,10 +46,6 @@ function getAllWordpressServices() {
                   <br />
                   <p class='blogContent'>
                   </p>
-                  <br />
-                  <aside class='asideLeft asideLandscape'>
-                    <img src='../img/wordpressService/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-                  </aside>
                   <br />
                   <p class='blogContent'>
                   </p>

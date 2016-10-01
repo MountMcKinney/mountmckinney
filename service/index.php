@@ -27,10 +27,6 @@ $pageTitle = $service["title"];
       <div class="breadcrumb">
         <a href="<?php echo BASE_URL; ?>services/">Services</a> &gt; <?php echo $service ["title"]; ?>
       </div>
-      <div class="subscribeButtonFloat">
-          <?php include(ROOT_PATH.'inc/subscribeButton.php'); ?>
-          <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
-      </div>
     </div>
     <div class="campfire">
       <h3 class="blogTopH3"> <?php echo $service["title"];?> </h3>

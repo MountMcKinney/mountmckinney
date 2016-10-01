@@ -4,7 +4,7 @@ require_once(ROOT_PATH."inc/wordpressServicesArr.php");
 $wordpressServices = getAllWordpressServices();
 
 if (isset($_GET["wordpress-service"])){
-  $wordpressServicename = $_GET["wordpress-wordpressService"];
+  $wordpressServicename = $_GET["wordpress-service"];
   if (isset($wordpressServices[$wordpressServicename])){
     $wordpressService = $wordpressServices[$wordpressServicename];
   }

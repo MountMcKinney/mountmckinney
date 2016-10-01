@@ -151,51 +151,59 @@ function getAllCfstories() {
   //   "signature" => "John McKinney",
   //   "date" => "May 10th, 2016"
   //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "September 28th, 2016"
-  //  );
+  $cfstories["ring-of-kerry"] = array(
+    "img" => "img/blog/header/ringOfKerryHeader.jpg",
+    "thumb" => "img/blog/thumb/ringOfKerryThumb.jpg",
+    "title" => "The Ring of Kerry",
+    "info" => "World famous for a reason!",
+    "section" => "<p class='blogContent'>
+                    With morning came an end to our time in Kenmare, we were sad to leave this wonderful place that allowed us to see such an amazing views around Killarney National Park, the Gap of Dunloe, and the Ring of Beara. It was time to continue our sojourn through Ireland though.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/staigue.jpg' alt='The Staigue Fort'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    Our next trek would take us to the tip of the Kerry Peninsula by way of the Ring of Kerry. While the majority of people drive the Ring of Kerry in one day, we decided to take two and stay the night in Portmagee. Heading out from Kenmare we headed along the coast. Since we had the time we would stop whenever we saw a sign directing us to an interesting sight or a pull-off that had an incredible view.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Our first major stop worth photographing was the Staigue Fort. This fort, built sometime between 300 to 400 AD, has walls that are multiple feet. Built in the valleys of hill country and with good sightlines down the hill to the bay, I can easily see why they built the fort where they did. It was a lot of fun climbing the walls and walking around the top of the walls. I&#39;m not sure if people were actually this short back then or if they were just more ok with ducking every time they entered a doorway, but I had to almost get on my hands and knees to make it into the fort.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/cliffsOfKerry.jpg' alt='The Cliffs of Kerry'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    After nearly knocking my head on almost every doorway in the fort and with me only a little bit woozy from that, we headed back to the car. Continuing our drive we decided to take the slightly longer route to the Ballinskelligs before heading to Portmagee. I&#39;m happy we did because our drive into Portmagee took us up on top of a high hill before heading down. This gave some great views of the quaint town that we would stay the night in. From right to left the land sloped from flat to the highest points in the area before dropping off dramatically as cliffs into the ocean. Off in the distance, the Valentia Island looked like you could hike the entire island in a day if you wanted and would be rewarded handsomely with incredible views.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Being in awe of the cliffs we knew we needed to check them out. They are the Cliffs of Kerry, and while they are less popular than the world famous Cliffs of Moher (for good reason as they are not as expansive as their County Clare cousins) they were still awe-inspiring. We hadn&#39;t seen any cliffs yet in Ireland so we just stood and stared for a long time at the painted cliffs before us. Off in the distance, we saw two islands rising out of the ocean. This brought a great deal of excitement because that would be tomorrow&#39;s destination, the Skellig Islands.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/portmageeHarbour.jpg' alt='The sloping of Portmagee up into the coastal cliffs'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    After checking into our B&B, we walked into the town to grab a bite to eat and a walk around the small fishing village. With winds whipping and us being right on the Atlantic, the temperature was definitely a little bit more chilly than our more inland destinations. We drove over to Valentia Island to catch the sunset before bed (sunset was at around 10 pm).
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Having a big day ahead of us with an early wake up we wanted to get to bed as soon as possible...until...I learned that Portmagee is certified Dark Sky Reserve. For those of you who don&#39;t know what that means. Basically, Portmagee is an area, that is kept free of artificial light pollution. This means that some of the best star gazing on the planet can be had from this location. The moment I learned this from my friend Google, I jumped up, threw on some shoes and headed to the car to go to the beach nearby considered the darkest of the area. My dreams were then promptly thrashed upon walking outside, looking up, and seeing clouds...I was in one of the eleven certified Dark Sky Reserves on the planet and I couldn&#39;t take advantage of it!
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Defeated by clouds, we headed back inside to get some sleep. We had a trip to the Skellig Michael ahead of us!
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "September 28th, 2016"
+   );
   $cfstories["gap-of-dunloe"] = array(
     "img" => "img/blog/header/gapOfDunloe.jpg",
     "thumb" => "img/blog/thumb/gapOfDunloeThumb.jpg",
@@ -709,7 +717,7 @@ function getAllCfstories() {
   $cfstories["nm-jemez"] = array(
     "img" => "img/blog/header/jemezFalls.jpg",
     "thumb" => "img/blog/thumb/jemezFallsThumb.jpg",
-    "title" => "Jemez Falls and Valles Caldera",
+    "title" => "Jemez Falls & Valles Caldera",
     "info" => "Jemez Falls, NM",
     "section" => "<p class='blogContent'>
                     This was the most diverse day of the trip. We headed out from the Sandia foothills near Albuquerque and made our way to the red rock deserts on the way to the Soda Dam near Jemez Springs. The red rock deserts were beautiful, a vibrant red like I had never seen. It felt like I was on Mars. From there we headed to the Soda Dam.
