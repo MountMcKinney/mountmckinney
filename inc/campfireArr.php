@@ -106,51 +106,107 @@ function getAllCfstories() {
   //   "signature" => "John McKinney",
   //   "date" => "May 10th, 2016"
   //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "May 10th, 2016"
-  //  );
+  $cfstories["skellig-michael"] = array(
+    "img" => "img/blog/header/skelligMichaelStairs.jpg",
+    "thumb" => "img/blog/thumb/skelligMichaelStairsThumb.jpg",
+    "title" => "The Skellig Michael",
+    "info" => "Easily the coolest place we went to in Ireland",
+    "section" => "<p class='blogContent clearContent'>
+                    Last time, we had been defeated by clouds but were hopeful for our upcoming trip to the Skellig Islands. After a hearty, Irish breakfast we walked to the docks to catch our boat to the Skelligs. We were greeted by five or so captains all calling out names in very thick Irish accents looking for their passengers so they could be on their way. Asking a few of them for &#034;Eoin&#034; (which we had no idea how to pronounce at the time) yielded no results. Finally, one captain said, &#034;I know Eoin, he&#039;s over there.&#034; (pointing toward the end of the dock) We followed this captain as we thought he was taking us to him. After going to a boat and it not being Eoin, he turned to us and said &#034;Why are you following me? Eoin is over there.&#034;
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Realizing that where he had actually pointed was to a single boat on the other side of the river, we panicked and immediately started hustling over the bridge to catch our boat. We arrived and were greeted by a man that looked like he was straight out of a novel about the Irish sea. He introduced himself as Eoin (pronounced essentially like Owen) and made a joke about us running across the bridge. He then explained that we can go inside the Skellig museum as we wait for the others. Turns out we didn&#039;t need to run...oh well, better safe than sorry.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/oversizedCameras.jpg' alt='Huge bird-watching cameras'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    We learned all about the Skellig Michael&#039;s incredible history. The rocky, dangerous island is about 7 miles off the coast of Portmagee and was occupied by Christian monks from sometime during the 6th century until late into the 12th century. Seeing what they built all the way out there is incredible, the island is as harsh and unforgiving as it gets. For something a little more current, it was on the Skellig Michael that the last scene from Star Wars: The Force Awakens was filmed.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Due to the danger of trying to land people on the island and the dangers on the island itself, they only allow the trip if the weather isn&#039;t too bad and the waves aren&#039;t too big. You need to book your trip far in advance as they only allow about 200 people a day to land on the island (many more circle the island to see it which is nice, but trust me, it is not remotely as epic) and then you need to hope for good weather. Thankfully, as was the case for our entire trip, the weather was gorgeous!
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/skelligMichael.jpg' alt='Huge bird-watching cameras'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    We walked down to our dock and met the others on our boat. A group on the boat had cameras with lenses so big they looked as though they could capture a dime at the bottom of the Grand Canyon. Turns out they don&#039;t even do photography for a living, they just all really love taking pictures of birds.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We headed out to sea and made our way to Little Skellig, which you can&#039;t get on as it&#039;s a bird preserve. The island is home to over fifty thousand birds, so I&#039;m not sure you&#039;d want to visit the island. After looping around Little Skellig we made our way to the main event, Skellig Michael. If Eoin was a character in a book about the sea, this was the Irish version of Treasure Island. Rising out of the sea, you wondered how the monks made the trip out here let alone survived on the island.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asidePortrait'>
+                    <img src='../img/blog/aside/stairs.jpg' alt='Huge bird-watching cameras'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Docking in a small cove, we disembarked from our boat and headed up the path. There were signs all over the place warning of falling rocks and to keep moving. This was a dangerous place, but well worth the risk. After a brief safety talk from one of the few people that stay on the island (for two months at a time, incredibly) to maintain it we began our climb.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    The monks had laid/carved slate stairs spiraling up the side of the island. Higher and higher we climbed, the views getting increasingly more beautiful. We reached a small valley between the two peaks. On your left, was the tallest peak on the island. On your right, the stairs to the monastery and the second tallest peak. In front and behind you were sharp slopes down into the Atlantic Ocean.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We were lucky that we were one of the last boat trips so we were able to have our entire last hour on the island with just the ten people on the boat and the people working on the island. This gave us some incredible shots without people. You can see a great panorama I took from our valley lunch spot here. The spot was a tad terrifying due to the sheer drop off in front of me.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Next to our lunch spot was the taller of the two peaks on the island. This peak is no longer accessible except by special permit as there is no safe way up. The monastery on the other peak housed about twelve men looking to seclude themselves from civilization to grow closer to God. This peak, however, was for those who wished to seclude themselves even more, the hermit.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Our entire time on the island birds flew all around us. My favorite, the puffin only makes an appearance a few months out of the year before heading out to sea. One look, and you&#039;ll fall in love with them.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/skelligMichaelWifeStairs.jpg' alt='Huge bird-watching cameras'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    After lunch, we made our way to the monastery on the shorter peak. Walking around we saw the where the monk lived, beehive huts made out of stone. These structures had no luxuries at all. I essentially had to crawl through the door to get in, so I can&#039;t imagine a big monk on this island.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    As was par for the course in Ireland we didn&#039;t want to leave but knew we had to start heading down in order to catch our boat back. We were the last to leave the monastery and the valley. We wanted to soak every moment up that we could.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    The wife and I both agree that the Skelligs were hands down the coolest thing we did in Ireland and that includes climbing the Croagh Patrick, visiting Dublin, and even the famous Cliffs of Moher. If you have the opportunity to land on the Skellig Michael, take it (just promise to bring me). It&#039;s truly unlike anything else I&#039;ve ever done.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/ballycarberyCastle.jpg' alt='Huge bird-watching cameras'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Upon returning from the Skelligs, it was time to finish the Ring of Kerry and head on to the Dingle Peninsula. We waved goodbye to the quaint charm of Portmagee (yes we actually waived) and headed back on the Ring of Kerry toward Killarney. We weren&#039;t on it long before we saw the ruins of a castle that we knew we needed to explore.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    The Ballycarbery Castle is just off the N70, the main road. The vine-covered castle ruins are worth the stop. If for nothing else, then so you can get a cool shot like mine. Even better though, you can actually climb up into the second and third stories of the castle and act as if you were the ruler of the land (c&#039;mon, you know you want to).
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    As our day grew short and began to stretch into evening, we made it to the Dingle Peninsula. I&#039;ll leave the stories of Dingle for next time. But before I go, I have to say something about our lodging. We stayed in a house in Ballyferriter with an incredible view. I highly recommend staying there for the night as Breege is the sweetest woman on Airbnb. She did everything to make our stay as wonderful and as welcoming as possible, including having a sign welcoming me to the house.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    If you ever stay on Dingle, definitely check out her place! I don&#039;t receive any referral credit for you signing up for Airbnb from the earlier link I gave you taking you to her place. However, if you&#039;d like to help me get referral credit for providing the recommendation then please sign up for Airbnb via this link. But don&#039;t feel like you have to, I am more just highlighting the woman who was the best host we had on the trip.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "signature" => "John McKinney",
+    "date" => "October 5th, 2016"
+   );
   $cfstories["ring-of-kerry"] = array(
     "img" => "img/blog/header/ringOfKerryHeader.jpg",
     "thumb" => "img/blog/thumb/ringOfKerryThumb.jpg",
