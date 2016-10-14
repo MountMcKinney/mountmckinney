@@ -4,7 +4,7 @@
     //build HTML output here
     $output = "";
     $output .= "<li>";
-    $output .= '<a href="'.BASE_URL.'wordpress-service/?wordpress-service='.$wordpressService["wordpress-service"].'">';
+    $output .= '<a href="'.BASE_URL.'wordpress/?wordpress-service='.$wordpressService["wordpress-service"].'">';
     $output .= "<figure>";
     $output .= '<img src="'.BASE_URL.$wordpressService["thumb"] .'">';
     $output .= "<figcaption>".$wordpressService["title"]."</figcaption>";
@@ -31,26 +31,215 @@ function getWordpressServicesCount() {
 
 function getAllWordpressServices() {
   $wordpressServices = array();
-  $wordpressServices["southern-charm"] = array(
-    "thumb" => "img/wordpressServices/campfireFutureUse.jpg",
-    "title" => "Wordpress Service Name",
-    "section" => "<p class='blogContent'>
-                    Lorem ipsum
-                  </p>
-                  <br />
-                  <p class='blogContent clearContent'>
-                  </p>
-                  <br />
-                  <p class='blogContent'>
-                  </p>
-                  <br />
-                  <p class='blogContent'>
-                  </p>
-                  <br />
-                  <p class='blogContent'>
-                  </p>
-                  "
-   );
+        $wordpressServices["monthly-support"] = array(
+          "title" => "Monthly Support Plans",
+          "section" => "<p class='blogContent'>
+                          Lorem ipsum
+                        </p>
+                        <br />
+                        <div>
+                          <div class='support-plan'>
+                            <h3>Basic</h3>
+                            <h1 class='price'>$29</h1>
+                            <ul>
+                              <li>Reason 1</li>
+                              <li>Reason 2</li>
+                              <li>Reason 3</li>
+                            </ul>
+                          </div>
+                          <div class='support-plan recommended-plan'>
+                            <h3>Pro</h3>
+                            <h1 class='price'>$59</h1>
+                            <ul>
+                              <li>Reason 3</li>
+                              <li>Reason 4</li>
+                              <li>Reason 5</li>
+                            </ul>
+                          </div>
+                          <div class='support-plan'>
+                            <h3>Super Duper</h3>
+                            <h1 class='price'>$99</h1>
+                            <ul>
+                              <li>Reason 6</li>
+                              <li>Reason 7</li>
+                              <li>Reason 8</li>
+                            </ul>
+                          </div>
+                        </div>
+                        "
+        );
+        $wordpressServices["wordpress-maintenance"] = array(
+          "title" => "Wordpress Maintenance",
+          "section" => "<p class='blogContent'>
+                         Lorem ipsum
+                       </p>
+                       <br />
+                       <p class='blogContent clearContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       "
+        );
+        $wordpressServices["wordpress-design"] = array(
+          "title" => "WordPress Design",
+          "section" => "<p class='blogContent'>
+                          Lorem ipsum
+                        </p>
+                        <br />
+                        <p class='blogContent clearContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        "
+        );
+        $wordpressServices["wordpress-setup"] = array(
+          "title" => "WordPress Setup",
+          "section" => "<p class='blogContent'>
+                         Lorem ipsum
+                       </p>
+                       <br />
+                       <p class='blogContent clearContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       "
+        );
+        $wordpressServices["wordpress-update"] = array(
+          "title" => "WordPress Update",
+          "section" => "<p class='blogContent'>
+                          Lorem ipsum
+                        </p>
+                        <br />
+                        <p class='blogContent clearContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        "
+        );
+        $wordpressServices["website-uptime-monitoring"] = array(
+          "title" => "Website Uptime Monitoring",
+          "section" => "<p class='blogContent'>
+                         Lorem ipsum
+                       </p>
+                       <br />
+                       <p class='blogContent clearContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       "
+        );
+        $wordpressServices["website-security-scan"] = array(
+          "title" => "Website Security Scan",
+          "section" => "<p class='blogContent'>
+                          Lorem ipsum
+                        </p>
+                        <br />
+                        <p class='blogContent clearContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        "
+        );
+        $wordpressServices["website-analytics"] = array(
+          "title" => "Website Analytics",
+          "section" => "<p class='blogContent'>
+                         Lorem ipsum
+                       </p>
+                       <br />
+                       <p class='blogContent clearContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       "
+        );
+        $wordpressServices["database-backups"] = array(
+          "title" => "Database Backups",
+          "section" => "<p class='blogContent'>
+                          Lorem ipsum
+                        </p>
+                        <br />
+                        <p class='blogContent clearContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        <br />
+                        <p class='blogContent'>
+                        </p>
+                        "
+        );
+        $wordpressServices["hosting-transfers"] = array(
+          "title" => "Hosting Transfers",
+          "section" => "<p class='blogContent'>
+                         Lorem ipsum
+                       </p>
+                       <br />
+                       <p class='blogContent clearContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       <br />
+                       <p class='blogContent'>
+                       </p>
+                       "
+        );
+
   foreach ($wordpressServices as $wordpressServicename => $wordpressService) {
     $wordpressServices[$wordpressServicename]["wordpress-service"] = $wordpressServicename;
 }

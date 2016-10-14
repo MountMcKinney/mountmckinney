@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#1DE9B6;stroke-miterlimit:10;}
+	.st1{fill:#1DE9B6;}
+	.st2{fill:#00BFA5;}
+	.st3{fill:#FFC107;}
+	.st4{fill:#263832;}
+	.st5{font-family:'ScriptoramaJF-Tradeshow';}
+	.st6{font-size:227.6916px;}
+</style>
+<g>
+	<path class="st0" d="M599,464.3H41c-6.6,0-12-5.4-12-12v-390c0-6.6,5.4-12,12-12h558c6.6,0,12,5.4,12,12v390
+		C611,458.9,605.6,464.3,599,464.3z"/>
+	<path class="st1" d="M611,121.3H29v-59c0-6.6,5.4-12,12-12h558c6.6,0,12,5.4,12,12V121.3z"/>
+	<rect x="29" y="105.3" class="st2" width="582" height="16"/>
+	<path class="st3" d="M496.2,84.9h-11.9c-8.7,0-15.8-7.1-15.8-15.8V31.5c0-8.7,7.1-15.8,15.8-15.8h11.9c8.7,0,15.8,7.1,15.8,15.8
+		v37.6C512,77.8,504.9,84.9,496.2,84.9z"/>
+	<path class="st3" d="M156.2,84.9h-11.9c-8.7,0-15.8-7.1-15.8-15.8V31.5c0-8.7,7.1-15.8,15.8-15.8h11.9c8.7,0,15.8,7.1,15.8,15.8
+		v37.6C172,77.8,164.9,84.9,156.2,84.9z"/>
+	<text transform="matrix(1 0 0 1 166.5383 381.9512)" class="st4 st5 st6">27</text>
+</g>
+</svg>

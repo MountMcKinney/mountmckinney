@@ -103,8 +103,227 @@ function getAllCfstories() {
   //                 </p>
   //                 ",
   //   "catch" => "Remember, Adventure is Calling!",
-  //   "signature" => "John McKinney",
-  //   "date" => "May 10th, 2016"
+  //   "date" => "November 16th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "date" => "November 9th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "date" => "November 2nd, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "date" => "October 26th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "date" => "October 19th, 2016"
+  //  );
+  // $cfstories["southern-charm"] = array(
+  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
+  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+  //   "title" => "Southern Charm",
+  //   "info" => "Get Out And Live!",
+  //   "section" => "<p class='blogContent'>
+  //
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideRight asideLandscape'>
+  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent clearContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <aside class='asideLeft asideLandscape'>
+  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+  //                 </aside>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 <br />
+  //                 <p class='blogContent'>
+  //                 </p>
+  //                 ",
+  //   "catch" => "Remember, Adventure is Calling!",
+  //   "date" => "October 12th, 2016"
   //  );
   $cfstories["skellig-michael"] = array(
     "img" => "img/blog/header/skelligMichaelStairs.jpg",
@@ -120,11 +339,11 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/oversizedCameras.jpg' alt='Huge bird-watching cameras'>
+                    <img src='../img/blog/aside/oversizedCamera.jpg' alt='Huge bird-watching cameras'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    We learned all about the Skellig Michael&#039;s incredible history. The rocky, dangerous island is about 7 miles off the coast of Portmagee and was occupied by Christian monks from sometime during the 6th century until late into the 12th century. Seeing what they built all the way out there is incredible, the island is as harsh and unforgiving as it gets. For something a little more current, it was on the Skellig Michael that the last scene from Star Wars: The Force Awakens was filmed.
+                    We learned all about the Skellig Michael&#039;s incredible history. The rocky, dangerous island is about 7 miles off the coast of Portmagee and was occupied by Christian monks from sometime during the 6th century until late into the 12th century. Seeing what they built all the way out there is incredible, the island is as harsh and unforgiving as it gets. For something a little more current, it was on the Skellig Michael that <a href='https://youtu.be/eaxTllYqvls?t=190'>the last scene from Star Wars: The Force Awakens</a> was filmed.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -156,7 +375,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We were lucky that we were one of the last boat trips so we were able to have our entire last hour on the island with just the ten people on the boat and the people working on the island. This gave us some incredible shots without people. You can see a great panorama I took from our valley lunch spot here. The spot was a tad terrifying due to the sheer drop off in front of me.
+                    We were lucky that we were one of the last boat trips so we were able to have our entire last hour on the island with just the ten people on the boat and the people working on the island. This gave us some incredible shots without people. You can see a great panorama I took from our valley lunch spot <a href='https://www.google.com/maps/place/Great+Skellig/@51.7707024,-10.541172,3a,75y,207.37h,98t/data=!3m8!1e1!3m6!1s-pSY9jsTFc-o%2FV18w1Q9bJNI%2FAAAAAAAAYxE%2FAWdAGBzOpv85dAgUoZ52LaWWm8YIygMYwCLIB!2e4!3e11!6s%2F%2Flh4.googleusercontent.com%2F-pSY9jsTFc-o%2FV18w1Q9bJNI%2FAAAAAAAAYxE%2FAWdAGBzOpv85dAgUoZ52LaWWm8YIygMYwCLIB%2Fw251-h100-n-k-no%2F!7i9728!8i3864!4m5!3m4!1s0x484fbc67fdc50715:0x9ac017e72720f9e0!8m2!3d51.7706615!4d-10.5405245'>here</a>. The spot was a tad terrifying due to the sheer drop off in front of me.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -196,15 +415,14 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    As our day grew short and began to stretch into evening, we made it to the Dingle Peninsula. I&#039;ll leave the stories of Dingle for next time. But before I go, I have to say something about our lodging. We stayed in a house in Ballyferriter with an incredible view. I highly recommend staying there for the night as Breege is the sweetest woman on Airbnb. She did everything to make our stay as wonderful and as welcoming as possible, including having a sign welcoming me to the house.
+                    As our day grew short and began to stretch into evening, we made it to the Dingle Peninsula. I&#039;ll leave the stories of Dingle for next time. But before I go, I have to say something about our lodging. We stayed in <a href='https://www.airbnb.com/rooms/3524768'>a house in Ballyferriter with an incredible view</a>. I highly recommend staying there for the night as Breege is the sweetest woman on Airbnb. She did everything to make our stay as wonderful and as welcoming as possible, including having a sign welcoming me to the house.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    If you ever stay on Dingle, definitely check out her place! I don&#039;t receive any referral credit for you signing up for Airbnb from the earlier link I gave you taking you to her place. However, if you&#039;d like to help me get referral credit for providing the recommendation then please sign up for Airbnb via this link. But don&#039;t feel like you have to, I am more just highlighting the woman who was the best host we had on the trip.
+                    If you ever stay on Dingle, definitely check out her place! I don&#039;t receive any referral credit for you signing up for Airbnb from the earlier link I gave you taking you to her place. However, if you&#039;d like to help me get referral credit for providing the recommendation then please sign up for Airbnb via <a href='http://www.airbnb.com/c/jmckinney2'>this link</a>. But don&#039;t feel like you have to, I am more just highlighting the woman who was the best host we had on the trip.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "October 5th, 2016"
    );
   $cfstories["ring-of-kerry"] = array(
@@ -257,7 +475,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "September 28th, 2016"
    );
   $cfstories["gap-of-dunloe"] = array(
@@ -326,7 +543,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "September 21st, 2016"
    );
   $cfstories["windy-mountain-roads"] = array(
@@ -391,7 +607,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "September 14th, 2016"
    );
   $cfstories["the-road-less-traveled"] = array(
@@ -448,7 +663,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "September 7th, 2016"
    );
   $cfstories["irish-adventures"] = array(
@@ -489,7 +703,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "September 1st, 2016"
    );
   $cfstories["southern-charm"] = array(
@@ -539,7 +752,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "May 10th, 2016"
    );
   $cfstories["world-is-your-oyster"] = array(
@@ -592,7 +804,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "March 23rd, 2016"
    );
   $cfstories["nc-fall-foliage-stikes-back"] = array(
@@ -641,7 +852,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "December 15th, 2015"
   );
   $cfstories["nc-fall-foliage"] = array(
@@ -689,7 +899,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "December 10th, 2015"
   );
   $cfstories["nm-sandia"] = array(
@@ -726,7 +935,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "August 23rd, 2015"
   );
   $cfstories["nm-bandelier"] = array(
@@ -767,7 +975,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "August 18th, 2015"
   );
   $cfstories["nm-jemez"] = array(
@@ -808,7 +1015,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "August 18th, 2015"
   );
   $cfstories["nm-home"] = array(
@@ -845,7 +1051,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "August 15th, 2015"
   );
   $cfstories["nm-kasha-katuwe"] = array(
@@ -886,7 +1091,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "August 13th, 2015"
   );
   $cfstories["nm-diversity"] = array(
@@ -927,7 +1131,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "August 10th, 2015"
   );
   $cfstories["slideball"] = array(
@@ -984,7 +1187,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "July 27th, 2015"
   );
   $cfstories["trad-backpack"] = array(
@@ -1025,7 +1227,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "June 16th, 2015 "
   );
   $cfstories["sawyer-mini"] = array(
@@ -1070,7 +1271,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "June 4th, 2015 "
   );
   $cfstories["cohutta-mountain"] = array(
@@ -1119,7 +1319,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "May 26th, 2015"
   );
   $cfstories["juniper-springs"] = array(
@@ -1157,7 +1356,6 @@ function getAllCfstories() {
                   <br />
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "May 19th, 2015"
   );
   $cfstories["fixed-blade"] = array(
@@ -1214,7 +1412,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "May 12th, 2015 "
   );
   $cfstories["grayton-beach"] = array(
@@ -1255,7 +1452,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "May 10th, 2015"
   );
   $cfstories["3-day-spring-pack"] = array(
@@ -1360,7 +1556,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "April 17th, 2015 "
   );
   $cfstories["clearwater-lake"] = array(
@@ -1401,7 +1596,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "March 9th, 2015"
   );
   $cfstories["about-me"] = array(
@@ -1442,7 +1636,6 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "signature" => "John McKinney",
     "date" => "February 27, 2015"
   );
   foreach ($cfstories as $cfstoryname => $cfstory) {

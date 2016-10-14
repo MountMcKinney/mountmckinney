@@ -62,7 +62,7 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
         <div class="portfolioServices">
           <div class="portfolioInfo">
             <p>
-              Are you a business seeking a stronger web presence? Check out some of Mount McKinney\'s work below then drop us a line.
+              Are you a business seeking a stronger web presence? Check out some of Mount McKinney&#039;s work below then drop us a line.
               <br>
               <div class="portfolioContact">
                 <a href="#contact">I need a website!</a>

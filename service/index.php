@@ -29,7 +29,7 @@ $pageTitle = $service["title"];
       </div>
     </div>
     <div class="campfire">
-      <h3 class="blogTopH3"> <?php echo $service["title"];?> </h3>
+      <h3 class="serviceTopH3"> <?php echo $service["title"];?> </h3>
       <?php echo displayServicePage($service); ?>
       <br />
     </div>

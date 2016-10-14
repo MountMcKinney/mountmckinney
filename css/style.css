@@ -5,6 +5,34 @@
 /*#263238*/
 /*#2638A2*/
 
+.support-plan {
+    display: inline-block;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 -2px;
+    line-height: 2;
+    width: 320px;
+    border: 1px solid lightgrey;
+}
+
+.recommended-plan {
+    background: cadetblue;
+    border-left: none;
+    border-right: none;
+}
+
+.price {
+    background: yellowgreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 100px;
+    margin: auto;
+}
+
+
 
 /*Next to/above? menu options have icons
 Home - house
@@ -570,14 +598,17 @@ ul.details {
   float: right;
 }
 
-.blogTopH3 {
+.blogTopH3, .serviceTopH3 {
   color: #263238;
   text-align:center;
   font-size:4rem;
   text-transform:uppercase;
   width:100%;
-  font-family: 'Vast Shadow', 'Cinzel', cursive;
   padding: 20px 0;
+}
+
+.blogTopH3 {
+  font-family: 'Vast Shadow', 'Cinzel', cursive;
 }
 
 .blogHead {
@@ -669,6 +700,9 @@ ul.details {
   border-radius: 5px;
   width: 100%;
   height: auto;
+  max-width: 1408px;
+  margin: auto;
+  display: block;
 }
 
 .blogContent {
@@ -712,6 +746,12 @@ ul.details {
 
 .campfire {
   margin: 50px auto;
+}
+
+/*---------Service---------*/
+
+.serviceTopH3 {
+  font-family: 'Cinzel', cursive;
 }
 
 /*---------SharpSpring Training---------*/
@@ -791,7 +831,7 @@ td {
 }
 
 @media screen and (max-width: 700px) {
-  .homeHeader h1, .blogTopH3 {
+  .homeHeader h1, .blogTopH3, .serviceTopH3 {
     font-size: 3rem;
   }
 
@@ -801,7 +841,7 @@ td {
 }
 
 @media screen and (max-width: 520px) {
-  .homeHeader h1, .blogTopH3 {
+  .homeHeader h1, .blogTopH3, .serviceTopH3 {
     font-size: 2.5rem;
   }
 
