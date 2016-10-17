@@ -25,15 +25,11 @@ $pageTitle = $wordpressService["title"];
   <div class="wrapper">
     <div class="blogHeader">
       <div class="breadcrumb">
-        <a href="<?php echo BASE_URL; ?>wordpress-service/">Wordpress Services</a> &gt; <?php echo $wordpressService ["title"]; ?>
-      </div>
-      <div class="subscribeButtonFloat">
-          <?php include(ROOT_PATH.'inc/subscribeButton.php'); ?>
-          <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
+        <a href="<?php echo BASE_URL; ?>service/">Services</a> &gt; <a class="altBreadcrumb" href="<?php echo BASE_URL; ?>service/?service=wordpress-support">Wordpress Services</a> &gt; <?php echo $wordpressService ["title"]; ?>
       </div>
     </div>
     <div class="campfire">
-      <h3 class="blogTopH3"> <?php echo $wordpressService["title"];?> </h3>
+      <h3 class="serviceTopH3"> <?php echo $wordpressService["title"];?> </h3>
       <?php echo displayWordpressServicePage($wordpressService); ?>
       <br />
     </div>

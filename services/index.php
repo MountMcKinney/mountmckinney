@@ -59,14 +59,14 @@ $services = getAllServices();
         <?php include(ROOT_PATH."inc/subscribeFormPopup.php") ?>
     </header>
     <div class="wrapper">
-      <div class="portfolio">
+      <div class="services">
         <h4>Services</h4>
-        <div class="portfolioServices">
-          <div class="portfolioInfo">
+        <div class="servicesList">
+          <div class="servicesInfo">
             <p>
               Do you need a new website or a re-design? How about a new logo? Maybe you are just having a small technical issue that you would just cannot figure out. Or do you need someone to handle the technical areas of your Wordpress site so that you can get back to focusing on your business.
             </p>
-            <ul class="portfolioImages">
+            <ul class="servicesImages">
               <?php foreach($services as $service) {
                       echo displayServiceHtml($service);
                     }

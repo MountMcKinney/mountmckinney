@@ -1,5 +1,4 @@
 // To Do:
-// Add a script that looks for ?pg=# in the url and doesn't display the campfire story intro
 
 
 // This causes the Mount McKinney name and text to fade in
@@ -92,6 +91,21 @@ $(document).ready(function () {
     });
 });
 
-$('.topStoryCaption').mouseover(function(){
-  $('.topStoryImg').css("-webkit-filter", "blur(0px)");
+// This script looks for ?pg=# in the url for Campfire Stories and doesn't display the campfire bio
+$(document).ready(function () {
+    if(window.location.href.indexOf("?pg=") > -1) {
+       $('.campfireBio').addClass('campfireBioRead');
+    }
 });
+
+//
+// $('.topStoryCaption').mouseover(function(){
+//   $('.topStoryImg').css("-webkit-filter", "blur(0px)");
+// });
+
+// To create a popup that appears when someone hovers over text with the title attribute
+$( function() {
+    $( document ).tooltip({
+      track: true
+    });
+  } );

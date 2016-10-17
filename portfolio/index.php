@@ -5,7 +5,7 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
 <!DOCTYPE html>
 <html id="portfolio">
 <?php
-  $pageTitle="Portfolio & Services";
+  $pageTitle="Portfolio";
 ?>
   <head>
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>img/favicon.ico">

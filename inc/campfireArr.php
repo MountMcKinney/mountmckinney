@@ -281,50 +281,73 @@ function getAllCfstories() {
   //   "catch" => "Remember, Adventure is Calling!",
   //   "date" => "October 19th, 2016"
   //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "date" => "October 12th, 2016"
-  //  );
+  $cfstories["dingle-peninsula"] = array(
+    "img" => "img/blog/header/dunquinHarbour.jpg",
+    "thumb" => "img/blog/thumb/dunquinHarbourThumb.jpg",
+    "title" => "Dingle Peninsula",
+    "info" => "The gorgeous Dingle Peninsula",
+    "section" => "<p class='blogContent'>
+                    Awaking late in Ballyferriter, we decided to make this a relaxing day where we slept in, ate breakfast while staring out the window at our incredible view, and just took our time checking out the gorgeous Dingle Peninsula. It was amazing how much slower life felt not just on the Dingle Peninsula but in most of Ireland. We were so far removed from the go-go-go culture here in the States. I loved the slower pace, made it easy to find new adventures.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/corpusChristi.jpg' alt='A procession through Dingle for Corpus Christi'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    It was Sunday, so our first stop was to go to Dingle to go church. We went to St. Mary&#039;s which is a very interesting parish. Their Mass is in Gaelic on the first Sunday of the month and the other Sunday Masses of the month are bilingual (Gaelic and English). It was a wonderful experience and one I highly recommend if for nothing else but the novelty of hearing the Gaelic language spoken so freely.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    After Mass, there was a procession through the town (it&#039;s not a big town) because it was Corpus Christi Sunday. Corpus Christi is a feast day that celebrates the belief that all Catholics hold that the bread and wine the Priest holds up during Mass becomes the Body and Blood of the Lord, Jesus Christ. This procession was amazing to be a part of. So many walked with us and others joined as we passed them. The procession was filled with singing and praying.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Getting back in the car we headed north for the coast. We had no plans and not directions of anywhere we wanted to go. We just started driving and knew we&#039;d figure it out along the way. We found Mount Brandon along our route to the north but decided not to hike it mostly because we couldn&#039;t find anywhere to pull off and park.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/wineStrand.jpg' alt='The view of the water from the Wine Strand'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Following the coast to the west for a while, we found the Wine Strand where we stopped for a picnic lunch and to just watch the waves crash in. After skipping rocks for longer than a grown man will admit, we continued west and began to look around and think the area looked familiar. At first, we thought Ireland was beginning to run together until we saw a sign welcoming us to Ballyferriter. We had somehow made it back to our home while we were wandering around Dingle. This beautiful peninsula had so much for us to explore and yet was also so much smaller than we expected.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Continuing west, we found a place to pull off the road near a beach to take a hike along the mini-cliffs. Our path took us through fields with cows and other fields with sheep. While admiring the view of the Three Sisters (3 coastal high points in a row) we were greeted by some locals who saw us staring at the Three Sisters and asked if we were trying to see the Star Wars set. We had no idea, but apparently the not yet released Star Wars: Episode VIII will have some scenes shot from this location and we were staring right at them. They told us that the actors were no longer there but before they left they went to go visit the local school. How cool is that? There was no real publicity about it and that&#039;s part of why it&#039;s so cool to me.
+                  </p>
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/starWars.jpg' alt='The view of the water from the Wine Strand'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Making our way further up the coast we stopped at Waymont (according to Google Maps, though I never saw a sign), this point jutting out into the Atlantic Ocean was a great view of the harbour from the vista point. However, it wasn&#039;t until we decided to leave the vista and hike up onto the hill that the view became really great. These secluded views reminded us that the best and most rewarding views are so often found when you trek a little further than the designated vistas.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    That&#039;s when things got interesting though. It was on this peninsula that I found my evil twin! As you can see from the picture below we were evenly matched but I was able to best him and keep him from taking over the world. You are all welcome!
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/evilTwin.jpg' alt='The view of the water from the Wine Strand'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    With the sun getting close to setting there was one place I wanted to find, Dunquin Harbour. Honestly, this was one of my favorite shots from all of Ireland. I had seen awesome shots from this little boat path leading to the harbour before going to Ireland and knew I needed to find it. I didn&#039;t realize how hard it would be to actually find though. We drove around for nearly an hour and had seen some incredible views off the coastal road and even found a place to pet cute, baby sheep but still hadn&#039;t found what we were looking for. (Quick side note, glad we didn&#039;t stop to pet the lambs. On the way back to the States while going through customs one of their questions was if we had come in contact with any farm animals.)
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We were beginning to think the picture I saw wasn&#039;t really in Dunquin but was mislabeled as Dunquin. Just as we were ready to just give up, we decided to make a turn into a place we hadn&#039;t check yet but had passed 4-5 times. There it was! We couldn&#039;t believe it was real!
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    If you&#039;re looking to find it, search Google Maps for the Dunquin-Blasket Island Ferry, it&#039;s the easiest way. As you can see from the amazing picture headlining this story, it was 100% worth it.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "date" => "October 12th, 2016"
+   );
   $cfstories["skellig-michael"] = array(
     "img" => "img/blog/header/skelligMichaelStairs.jpg",
     "thumb" => "img/blog/thumb/skelligMichaelStairsThumb.jpg",
