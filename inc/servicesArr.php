@@ -149,9 +149,6 @@ $services["web-development"] = array(
                         </div>
                       </div>
                     </div>
-                    <div class='wordpressForm'>
-                      <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                    </div>
                     <div class='finePrint'>
                       <p>
                         *Quick Fixes are defined as jobs that Mount McKinney determines will take 30 mins or less. You cannot stack multiple small jobs to make a large project.
@@ -279,9 +276,7 @@ $services["web-development"] = array(
                     </a>
                    </li>
                   </ul>
-                  <div class='wordpressForm'>
-                    <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                  </div>                  "
+                  "
   );
   // $services["site-security"] = array(
   //   "thumb" => "img/services/websiteSecurityScan.svg",

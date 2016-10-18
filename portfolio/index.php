@@ -17,8 +17,11 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
             <p>
               Are you a business seeking a stronger web presence? Check out some of Mount McKinney&#039;s work below then drop us a line.
               <br>
+              Do you need a new website? How about a fresh redesign of your current site? When&#039;s the last time you updated your logo?
+              <br/>
+              Thankfully, you&#039;ve come to the right place. Mount McKinney LLC provides a large range of services related to your website and branding.
               <div class="portfolioContact">
-                <a href="#contact">I need a website!</a>
+                <a class="typeform-share button" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">I need help!</a>
               </div>
               <br>
             </p>
@@ -31,19 +34,6 @@ require_once (ROOT_PATH."inc/portfolioArr.php");
           </div>
         </div>
       </div>
-      <div class="contactMe contact">
-        <?php include(ROOT_PATH.'inc/contactIcons.php') ?>
-        </div>
-        <div id="contact" class="contMe">
-          <h4>Contact Us</h4>
-          <p>
-            Need a new <span class="highlight">website</span>? How about a fresh <span class="highlight">redesign</span> of your current site? When&#039;s the last time you updated your <span class="highlight">logo</span>?
-            <br/>
-            <br/>
-            Thankfully, you&#039;ve come to the right place. Mount McKinney LLC provides a large range of services related to your <span class="highlight">website</span> and <span class="highlight">branding</span>.
-          </p>
-        </div>
-       </div>
     </div>
     <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>

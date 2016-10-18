@@ -22,7 +22,6 @@
     $output .= "</div>";
     $output .= $wordpressService["section"];
     $output .= "<br />";
-    $output .= $wordpressService["contact"];
     return $output;
   }
 
@@ -34,10 +33,6 @@ function getAllWordpressServices() {
   $wordpressServices = array();
         $wordpressServices["monthly-support"] = array(
           "title" => "Monthly Support Plans",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<div class='planPage'>
                           <div class='plans'>
                             <div class='supportPlan basicPlan'>
@@ -114,10 +109,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["wordpress-maintenance"] = array(
           "title" => "Wordpress Maintenance",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                          Lorem ipsum
                        </p>
@@ -137,10 +128,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["wordpress-design"] = array(
           "title" => "WordPress Design",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                           Lorem ipsum
                         </p>
@@ -160,10 +147,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["wordpress-setup"] = array(
           "title" => "WordPress Setup",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                          Lorem ipsum
                        </p>
@@ -183,10 +166,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["wordpress-update"] = array(
           "title" => "WordPress Update",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                           Lorem ipsum
                         </p>
@@ -206,10 +185,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["website-uptime-monitoring"] = array(
           "title" => "Uptime Monitoring",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                          Lorem ipsum
                        </p>
@@ -229,10 +204,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["website-security-scan"] = array(
           "title" => "Website Security Scan",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                           Lorem ipsum
                         </p>
@@ -252,10 +223,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["website-analytics"] = array(
           "title" => "Website Analytics",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                          Lorem ipsum
                        </p>
@@ -275,10 +242,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["database-backups"] = array(
           "title" => "Database Backups",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                           Lorem ipsum
                         </p>
@@ -298,10 +261,6 @@ function getAllWordpressServices() {
         );
         $wordpressServices["hosting-transfers"] = array(
           "title" => "Hosting Transfers",
-          "contact" => "<div class='wordpressForm'>
-                          <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
-                          <script src='https://services.cognitoforms.com/scripts/embed.js'></script>
-                        </div>",
           "section" => "<p class='blogContent'>
                          Lorem ipsum
                        </p>

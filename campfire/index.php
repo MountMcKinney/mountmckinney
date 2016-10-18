@@ -21,15 +21,12 @@ $pageTitle = $cfstory["title"];
 <html id="campfirestories">
 <?php
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/subscribeFormPopup.php");
 ?>
   <div class="wrapper">
     <div class="blogHeader">
       <div class="breadcrumb">
         <a href="<?php echo BASE_URL; ?>campfirestories/">Campfire Stories</a> &gt; <?php echo $cfstory ["title"]; ?>
-      </div>
-      <div class="subscribeButtonFloat">
-          <?php include(ROOT_PATH.'inc/subscribeButton.php'); ?>
-          <?php include(ROOT_PATH.'inc/subscribeFormPopup.php'); ?>
       </div>
     </div>
     <div class="campfire">
@@ -42,7 +39,6 @@ $pageTitle = $cfstory["title"];
       <?php include(ROOT_PATH."inc/disqus.php"); ?>
     </div>
   </div>
-     <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
   <footer class="footer">
     <?php include(ROOT_PATH."inc/footer.php"); ?>
   </footer>

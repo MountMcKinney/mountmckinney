@@ -21,6 +21,7 @@ $pageTitle = $service["title"];
 <html id="services">
 <?php
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/contactFormPopup.php");
 ?>
   <div class="wrapper">
     <div class="blogHeader">

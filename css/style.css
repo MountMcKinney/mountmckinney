@@ -160,26 +160,24 @@ li {
   left: 0;
   right: 0;
   top: 32%;
-  width: 147.1px;
   margin: auto;
   max-width: 100%;
 }
 
 .subscribeButtonFooter {
-  position: absolute;
+  position: static;
   left: 0;
   right: 0;
-  width: 130px;
   margin: auto;
   max-width: 100%;
 }
 
-.contactPopupButton a:link, .contactPopupButton a:hover, .contactPopupButton a:visited,
-.subscribePopupButton a:link, .subscribePopupButton a:hover, .subscribePopupButton a:visited,
-.homeContactPopupButton a:link, .homeContactPopupButton a:hover, .homeContactPopupButton a:visited,
-.subscribeButton a:link, .subscribeButton a:hover, .subscribeButton a:visited {
-  color: #ffffff;
-  font-family: 'Quicksand', 'Cinzel', sans-serif;
+.typeform-share.button {
+  float: none !important;
+  display: inline-block !important;
+  background: #f9b701 !important;
+  color: #ffffff !important;
+  font-family: 'Quicksand', 'Cinzel', sans-serif !important;
   font-size: 1rem !important;
   padding: 10px 20px !important;
   border: none !important;
@@ -190,10 +188,10 @@ li {
   background: #2638a2 !important;
 }
 
-.subscribePopupButton a:link, .subscribePopupButton a:hover, .subscribePopupButton a:visited,
+/*.subscribePopupButton a:link, .subscribePopupButton a:hover, .subscribePopupButton a:visited,
 .subscribeButton a:link, .subscribeButton a:hover, .subscribeButton a:visited {
   background: #f9b701 !important;
-}
+}*/
 
 /*---------Pagination---------*/
 
@@ -257,7 +255,7 @@ footer p {
 }
 
 .subscribeButtonFooter {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
   font-size: 1rem;
 }
@@ -338,9 +336,8 @@ body {
   margin:20px 0;
 }
 
-.portfolioContact a, .portfolioJob a, .portfolioJob a:link, .portfolioJob a:visited, .portfolioJob a:hover, .portfolioContact a:link, .portfolioContact a:visited, .portfolioContact a:hover {
-  color: #fff;
-  padding: 10px 20px;
+.portfolioContact a:link, .portfolioContact a:visited, .portfolioContact a:hover {
+  font-size: 1.5rem !important;
 }
 
 .portfolioJob a {

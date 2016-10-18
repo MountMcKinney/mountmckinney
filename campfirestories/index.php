@@ -46,8 +46,9 @@ $cfstories = getCfstoriesSubset($start,$end);
 <?php
   $pageTitle="Campfire Stories";
   include(ROOT_PATH."inc/header.php");
-  include(ROOT_PATH."inc/subscribeFormPopup");
+  include(ROOT_PATH."inc/subscribeFormPopup.php");
 ?>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
   <div class="wrapper">
     <div id="campfire" class="blogHomeHeader campfireStoriesHeader">
       <h3>Campfire Stories</h3>
@@ -59,7 +60,7 @@ $cfstories = getCfstoriesSubset($start,$end);
           If not ghost stories, what will sorts of stories will be told? How about tales of adventure with hints of comedy and wit? Adventures so intriguing you&#039;ll be on the edge of your seat while reading them, and if you&#039;re standing, you&#039;ll find a chair just to be on the edge of your seat. There may be the occasional tall tale from time to time in there as well, but isn&#039;t embelishment what turns a good story into a great one?
         </p>
         <p>
-          From time to time a wandering hiker will drop by to provide a tale from their journeys. Are you an outdoorsy person with a tale to weave for all of us? If so, send us an <a href="mailto:john@mountmckinney.com">email</a>, fill out the <a href="#" class="contactPopUp">Contact form</a>, or send us a <a href="http://www.pigeongram.com/" target="_blank">Carrier Pigeon</a>. Bonus points and free s&#039;mores for using that last one.
+          From time to time a wandering hiker will drop by to provide a tale from their journeys. Are you an outdoorsy person with a tale to weave for all of us? If so, send us an <a href="mailto:john@mountmckinney.com">email</a>, fill out the <a class="typeform-share link" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact form</a>, or send us a <a href="http://www.pigeongram.com/" target="_blank">Carrier Pigeon</a>. Bonus points and free s&#039;mores for using that last one.
         </p>
         <p>
           We hope this all sounds great to you, we&#039;re certainly excited! Be sure to subscribe so you don&#039;t miss anything good!
@@ -80,7 +81,6 @@ $cfstories = getCfstoriesSubset($start,$end);
         </ul>
       </div>
   </div>
-     <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
     <footer class="footer">
       <?php include(ROOT_PATH."inc/footer.php"); ?>
     </footer>
