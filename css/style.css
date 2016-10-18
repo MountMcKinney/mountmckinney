@@ -63,6 +63,9 @@ li {
 
 .name img {
   width: 127px;
+  position: fixed;
+  right: 5px;
+  top: 3px;
 }
 
 .menu {
@@ -145,88 +148,52 @@ li {
 
 /*---------Form Popups---------*/
 
-.popupButton {
-  margin-top: 40px;
-}
-
-.popupButton a, .popupButton a:hover, .subscribeButtonFloat a, .subscribeButtonFloat a:hover, .subscribeButton a, .subscribeButton a:hover {
-  color: #fff;
-  padding: 10px 30px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.popupButton a, .popupButton a:hover {
-  background-color: #2638A2;
-}
-
-.subscribeButtonFloat a, .subscribeButtonFloat a:hover, .subscribeButton a, .subscribeButton a:hover {
-  background-color: #f9b701;
-}
-
-.popupForm, .subForm, .onsiteForm {
-  display: none;
-}
-
-a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover, a.popupOnsiteExit, a.popupOnsiteExit:hover {
-  padding: 10px 0;
-  background: #f9b701;
-  color: white;
-  float: right;
-  font-size: 2rem;
-  text-align: center;
-  width: 100%;
-  font-family: 'Quicksand', serif;
-}
-
-.displayPopup, .displaySubForm, .displayOnsiteForm {
+.contactPopupButton, .subscribePopupButton {
   position: fixed;
-  top: 20%;
-  left: 25%;
-  z-index: 400;
-  width: 50%;
-  text-align: left;
-  background: rgba(38,50,56,.8);
-  border: 2px solid #f9b701;
-  color: white;
+  z-index: 200;
+  top: 160px;
+  right: 60px;
 }
 
-.displayPopup button, .displaySubForm button, .displayOnsiteForm button {
-  background-color: white !important;
-  color: #2638A2 !important;
-}
-
-.displayPopup label, .displayPopup p, .displaySubForm label, .displaySubForm p, .displayOnsiteForm label, .displayOnsiteForm p {
-  color: white !important;
-}
-
-.displayPopup h4, .displaySubForm h4, .displayOnsiteForm h4 {
-  font-family:'Quicksand', sans-serif;
-  font-size:2rem;
-  text-align:center;
-}
-
-.name {
-  text-align:right;
-  margin:0;
-  float:right;
-  padding: 6px 10px 0px 0px;
-}
-
-.name p {
-  font-size: 1rem;
-}
-
-/*.overlay {
-  background: rgba(0, 0, 0, 0.6);
-  display: none;
+.homeContactPopupButton {
   position: absolute;
   left: 0;
-  top: 0;
-  z-index: 300;
-  width: 100%;
-  height: 100%;
-}*/
+  right: 0;
+  top: 32%;
+  width: 147.1px;
+  margin: auto;
+  max-width: 100%;
+}
 
+.subscribeButtonFooter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 130px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.contactPopupButton a:link, .contactPopupButton a:hover, .contactPopupButton a:visited,
+.subscribePopupButton a:link, .subscribePopupButton a:hover, .subscribePopupButton a:visited,
+.homeContactPopupButton a:link, .homeContactPopupButton a:hover, .homeContactPopupButton a:visited,
+.subscribeButton a:link, .subscribeButton a:hover, .subscribeButton a:visited {
+  color: #ffffff;
+  font-family: 'Quicksand', 'Cinzel', sans-serif;
+  font-size: 1rem !important;
+  padding: 10px 20px !important;
+  border: none !important;
+}
+
+.contactPopupButton a:link, .contactPopupButton a:hover, .contactPopupButton a:visited,
+.homeContactPopupButton a:link, .homeContactPopupButton a:hover, .homeContactPopupButton a:visited {
+  background: #2638a2 !important;
+}
+
+.subscribePopupButton a:link, .subscribePopupButton a:hover, .subscribePopupButton a:visited,
+.subscribeButton a:link, .subscribeButton a:hover, .subscribeButton a:visited {
+  background: #f9b701 !important;
+}
 
 /*---------Pagination---------*/
 
@@ -247,45 +214,10 @@ a.popupExit, a.popupExit:hover, a.popupSubExit, a.popupSubExit:hover, a.popupOns
   padding: 1rem;
 }
 
-/*---------Third Party (Disqus, Cognito)---------*/
+/*---------Third Party (Disqus)---------*/
 
 div .disqusThread {
   margin: 4rem;
-}
-
-.cognito .c-span-2 {
-  max-width: 100%;
-}
-
-.contMe .c-action {
-  float: none !important;
-}
-
-.cognito .c-forms-form {
-  margin: 0 auto;
-}
-
-#c-submit-button {
-  position: relative;
-  font-family: 'Quicksand';
-  font-size: 1.3rem;
-  width: 100%;
-}
-
-.contMe .cognito .c-label, .contMe .cognito .c-editor {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.contMe .cognito .c-button {
-  margin: 0;
-}
-
-label {
-  display: inline-block;
-  margin: 8px 0;
-  font-size: 1.5rem;
-  font-family: 'Quicksand', sans-serif;
 }
 
 /*---------Links---------*/
@@ -453,7 +385,7 @@ body {
   font-size:1.6rem;
   color: #263238;
 }
-
+/*
 .contMe {
   margin-bottom:100px;
 }
@@ -466,7 +398,7 @@ body {
   color:white;
   border:1px #2638A2 solid;
   border-radius:15px;
-}
+}*/
 
 /*---------Campfire Stories Page---------*/
 
@@ -561,10 +493,6 @@ ul.details {
 }
 
 /*---------Campfire Page---------*/
-
-.subscribeButtonFloat {
-  float: right;
-}
 
 .blogTopH3, .serviceTopH3 {
   color: #263238;
@@ -1060,14 +988,6 @@ td {
     max-width:304px;
   }
 
-  .displayPopup, .displaySubForm, .displayOnsiteForm {
-    position: fixed;
-    top: 15%;
-    left: 10%;
-    z-index: 400;
-    width: 80%;
-  }
-
   .homeHeader h1, .about h4 {
     font-size: 2rem;
   }
@@ -1090,12 +1010,6 @@ td {
 }
 
 @media screen and (max-width:770px) {
-
-  .subscribeButtonFloat {
-    float: none;
-    margin-top: 100px;
-    text-align: center;
-  }
 
   .blogSignature {
     margin: 30px 0;
@@ -1155,6 +1069,11 @@ td {
     display:none;
   }
 
+  .name img {
+    left: 5px;
+    right: 0;
+  }
+
   .name {
     float:left;
     padding: 5px 10px;
@@ -1177,10 +1096,6 @@ td {
     position:relative;
     margin: 0 -2px;
     padding: 13px 20px;
-  }
-
-  .subFormPopup .menuHover {
-    margin-right: 0;
   }
 
   .homeHeader h1 {
@@ -1211,7 +1126,8 @@ td {
   }
 
   .menuBtn {
-    padding-top: 20px;
+    position: fixed;
+    top: 30px;
   }
 
   .menuBtn div {
@@ -1246,8 +1162,8 @@ td {
   	left: -250px;
   	width: 250px;
   	height: 100%;
-  	background: #fff;
-  	z-index: 100;
+  	background: #263238;
+  	z-index: 10000;
     display: block;
   }
 

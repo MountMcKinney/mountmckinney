@@ -6,6 +6,7 @@ require_once("../inc/config.php");
 <?php
   $pageTitle="SharpSpring";
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/contactFormPopup.php");
 ?>
 <div class="wrapper">
   <div class="about">
@@ -72,11 +73,6 @@ require_once("../inc/config.php");
           <h5 class="trainingHeader">Want More Info & Pricing?</h5>
    </div>
   </div>
-  <div class="bigContact">
-  <?php include(ROOT_PATH.'inc/contactButton.php'); ?>
-  </div>
-  <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
-</div>
 <footer class="footer">
   <?php include(ROOT_PATH."inc/footer.php"); ?>
 </footer>

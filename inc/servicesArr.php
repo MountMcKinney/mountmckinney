@@ -5,7 +5,7 @@
     $output = "";
     $output .= "<li>";
     $output .= '<a href="'.BASE_URL.'service/?service='.$service["service"].'">';
-    $output .= "<figure>";
+    $output .= "<figure title='".$service['popup']."'>";
     $output .= '<img src="'.BASE_URL.$service["thumb"] .'">';
     $output .= "<figcaption>".$service["title"]."</figcaption>";
     $output .= "</figure>";
@@ -34,7 +34,7 @@ $services = array();
 $services["web-development"] = array(
   "thumb" => "img/services/websiteDevelopment.svg",
   "title" => "Web Development",
-  "tooltip" => "",
+  "popup" => "Are you in need of a new website? Or a redesign of your current one? Mount McKinney can create from scratch websites or in WordPress, Squarespace, Wix, or whatever platform you want.",
   "section" => "<p class='blogContent'>
                   Do you need an interior designer or a contractor?
                 </p>
@@ -61,6 +61,7 @@ $services["web-development"] = array(
  $services["web-design"] = array(
    "thumb" => "img/services/webDesign.svg",
    "title" => "Web Design",
+   "popup" => "Your current website feeling stale? Are your users complaining of how difficult it is to find things on your site? Do you fear that you haven't stayed up to date with the latest modern design trends? Mount McKinney can redesign your site to make it more beautiful and more user-friendly!",
    "section" => "<p class='blogContent'>
                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                  </p>
@@ -87,6 +88,7 @@ $services["web-development"] = array(
   $services["monthly-support"] = array(
     "thumb" => "img/services/monthlySupport.svg",
     "title" => "Monthly WordPress Support Plans",
+    "popup" => "Do you have a WordPress blog or website and need help managing it? Mount McKinney provides this service in 3 options, click here to learn more about them!",
     "section" => "<div class='planPage'>
                     <div class='plans'>
                       <div class='supportPlan basicPlan'>
@@ -147,6 +149,9 @@ $services["web-development"] = array(
                         </div>
                       </div>
                     </div>
+                    <div class='wordpressForm'>
+                      <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
+                    </div>
                     <div class='finePrint'>
                       <p>
                         *Quick Fixes are defined as jobs that Mount McKinney determines will take 30 mins or less. You cannot stack multiple small jobs to make a large project.
@@ -164,6 +169,7 @@ $services["web-development"] = array(
   $services["wordpress-support"] = array(
     "thumb" => "img/services/wordpressMaintenance.svg",
     "title" => "WordPress Support",
+    "popup" => "Does your WordPress blog or website need a little TLC? Mount McKinney can provide a wide-range of services. A full list of WordPress services can be found here.",
     "section" => "<p class='blogContent centerParagraph'>
                     What would you rather focus on, fixing technical issues in Wordpress or growing your business? Thought so.
                     <br />
@@ -273,33 +279,9 @@ $services["web-development"] = array(
                     </a>
                    </li>
                   </ul>
-                  "
-  );
-  $services["quick-fix"] = array(
-    "thumb" => "img/services/quickFix.svg",
-    "title" => "Quick Fix",
-    "section" => "<p class='blogContent'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <br />
-                  <p class='blogContent clearContent'>
-                    // Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <br />
-                  <p class='blogContent'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <br />
-                  <p class='blogContent'>
-                  </p>
-                  <br />
-                  <aside class='asideLeft asideLandscape'>
-
-                  </aside>
-                  <br />
-                  <p class='blogContent'>
-                  </p>
-                  "
+                  <div class='wordpressForm'>
+                    <iframe src='https://services.cognitoforms.com/f/SkK_LHLpKUmLPQLt_eXuZQ?id=7' style='position:relative;width:1px;min-width:100%;*width:100%;' frameborder='0' scrolling='yes' seamless='seamless' height='751' width='100%'></iframe>
+                  </div>                  "
   );
   // $services["site-security"] = array(
   //   "thumb" => "img/services/websiteSecurityScan.svg",
@@ -356,12 +338,38 @@ $services["web-development"] = array(
    $services["logo-design"] = array(
      "thumb" => "img/services/logoDesign.svg",
      "title" => "Logo Design",
+     "popup" => "Don&#039;t have a logo yet or your current logo feel out of date? Mount McKinney can work with you to create something special, just for you!",
      "section" => "<p class='blogContent'>
                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                    </p>
                    <br />
                    <p class='blogContent clearContent'>
                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                   <br />
+                   <p class='blogContent'>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                   <br />
+                   <p class='blogContent'>
+                   </p>
+                   <br />
+                   <aside class='asideLeft asideLandscape'>
+
+                   </aside>
+                   <br />
+                   "
+   );
+   $services["quick-fix"] = array(
+     "thumb" => "img/services/quickFix.svg",
+     "title" => "Quick Fix",
+     "popup" => "Do you just need a quick fix on your website like fixing that plugin that won&#039;t update, changing some colors on your site, updating your theme, or backing up your database? If it&#039;s a small project under 30 mins then a quick fix is perfect for you.",
+     "section" => "<p class='blogContent'>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                   <br />
+                   <p class='blogContent clearContent'>
+                     // Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                    </p>
                    <br />
                    <p class='blogContent'>

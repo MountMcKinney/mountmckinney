@@ -21,6 +21,7 @@ $pageTitle = $wordpressService["title"];
 <html id="wordpress-services">
 <?php
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/wordpressContactFormPopup.php");
 ?>
   <div class="wrapper">
     <div class="blogHeader">

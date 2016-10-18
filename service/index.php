@@ -34,7 +34,6 @@ $pageTitle = $service["title"];
       <br />
     </div>
   </div>
-     <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
   <footer class="footer">
     <?php include(ROOT_PATH."inc/footer.php"); ?>
   </footer>

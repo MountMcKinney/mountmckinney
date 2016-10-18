@@ -46,6 +46,7 @@ $cfstories = getCfstoriesSubset($start,$end);
 <?php
   $pageTitle="Campfire Stories";
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/subscribeFormPopup");
 ?>
   <div class="wrapper">
     <div id="campfire" class="blogHomeHeader campfireStoriesHeader">
@@ -61,7 +62,7 @@ $cfstories = getCfstoriesSubset($start,$end);
           From time to time a wandering hiker will drop by to provide a tale from their journeys. Are you an outdoorsy person with a tale to weave for all of us? If so, send us an <a href="mailto:john@mountmckinney.com">email</a>, fill out the <a href="#" class="contactPopUp">Contact form</a>, or send us a <a href="http://www.pigeongram.com/" target="_blank">Carrier Pigeon</a>. Bonus points and free s&#039;mores for using that last one.
         </p>
         <p>
-          We hope this all sounds great to you, we&#039;re certainly excited! Be sure to <a href="#" class="subFormPopup">Subscribe</a> so you don&#039;t miss anything good!
+          We hope this all sounds great to you, we&#039;re certainly excited! Be sure to subscribe so you don&#039;t miss anything good!
         </p>
         <p>
           Remember friends, adventure is calling, chase after it!

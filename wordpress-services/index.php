@@ -10,6 +10,7 @@ $wordpressServices = getAllWordpressServices();
 <?php
   $pageTitle="Wordpress";
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/wordpressContactFormPopup.php");
 ?>
 <div class="wrapper">
   <div class="about">

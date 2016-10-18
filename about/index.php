@@ -2,13 +2,14 @@
 require_once("../inc/config.php");
 ?>
 <!DOCTYPE html>
-<html id="contact">
+<html id="about">
 <?php
   $pageTitle="About";
   include(ROOT_PATH."inc/header.php");
+  include(ROOT_PATH."inc/contactFormPopup.php");
 ?>
 <div class="wrapper">
-  <div class="about">
+    <div class="about">
       <h4>About Us</h4>
       <div class="aboutMePic">
         <img src="<?php echo BASE_URL;?>img/contactPicMe.jpg">
@@ -39,8 +40,6 @@ require_once("../inc/config.php");
       </div>
    </div>
    <?php include(ROOT_PATH.'inc/contactIcons.php') ?>
-   <?php include(ROOT_PATH.'inc/contactButton.php'); ?>
-   <?php include(ROOT_PATH.'inc/contactFormPopup.php'); ?>
   </div>
 </div>
 <footer class="footer">
