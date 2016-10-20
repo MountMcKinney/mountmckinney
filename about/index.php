@@ -20,15 +20,15 @@ require_once("../inc/config.php");
             Thanks for exploring <a href="<?php echo BASE_URL;?>">Mount McKinney</a>!
           </p>
           <p>
-            John McKinney is the founder of Mount McKinney LLC. Mount McKinney LLC specializes in creating everything you see when you view a webpage and everything you don&#039;t.</p>
+            John McKinney is the founder of Mount McKinney LLC. Mount McKinney LLC specializes in creating everything you see when you view a webpage and everything you don&apos;t.</p>
           <p>
             The awe-inspiring layout you see throughout the site? That's us. Those icons in the navigation menu? Yep, all us. Our mission is to provide quality development services so that you and your business are able to reach your peak!
           </p>
           <p>
-            If you&#039;d like to hire Mount McKinney for your next project fill out this <a class="typeform-share link" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact form</a> or shoot us a <a href="http://fb.me/msg/mountmckinney" target="_blank" class="social" id="facebookIcon">Facebook message</a>.
+            If you&apos;d like to hire Mount McKinney for your next project fill out this <a class="typeform-share link" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact form</a> or shoot us a <a href="http://fb.me/msg/mountmckinney" target="_blank" class="social" id="facebookIcon">Facebook message</a>.
           </p>
           <p>
-            You can the full list of the services we provide on the <a href="<?php echo BASE_URL;?>services/">Services</a> page. You can find some of the work we&#039;ve done in the past on the <a href="<?php echo BASE_URL;?>portfolio/">Portfolio</a> page. We look forward to working with you!
+            You can the full list of the services we provide on the <a href="<?php echo BASE_URL;?>services/">Services</a> page. You can find some of the work we&apos;ve done in the past on the <a href="<?php echo BASE_URL;?>portfolio/">Portfolio</a> page. We look forward to working with you!
           </p>
           <br>
           <br>

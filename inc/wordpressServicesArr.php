@@ -43,7 +43,7 @@ function getAllWordpressServices() {
                                 <li class='altRow'>Amazing Customer Support!</li>
                                 <li>Email Support</li>
                                 <li class='altRow' title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating</li>
-                                <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&#039;s Uptime Monitoring service will check every 30 minutes to ensure it&#039;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>30 Minute Uptime Monitoring</li>
+                                <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 30 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>30 Minute Uptime Monitoring</li>
                                 <li class='altRow' title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Weekly Server Backups</li>
                                 <li title='Mount McKinney will run a monthly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Monthly Security Scans</li>
                                 <li class='altRow' title='Mount McKinney will set up a cache on your WordPress site.'>Cache Setup</li>
@@ -62,7 +62,7 @@ function getAllWordpressServices() {
                                 <li>Amazing Customer Support!</li>
                                 <li class='altRow' title='You will have access to a chat portal to receive live help.'>Email/Chat Support</li>
                                 <li title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating</li>
-                                <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&#039;s Uptime Monitoring service will check every 5 minutes to ensure it&#039;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring</li>
+                                <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring</li>
                                 <li title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Daily Server Backups</li>
                                 <li class='altRow' title='Mount McKinney will run a weekly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Weekly Security Scans</li>
                                 <li title='Mount McKinney will set up a cache on your WordPress site and monitor the cache monthly to maintain high performance.'>Cache Setup & Monthly Monitoring</li>
@@ -81,7 +81,7 @@ function getAllWordpressServices() {
                                 <li class='altRow'>Amazing Customer Support!</li>
                                 <li title='You will have access to a chat portal to receive live help. You will also be able to schedule phone support.'>Email/Chat/Phone Support</li>
                                 <li class='altRow' title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating</li>
-                                <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&#039;s Uptime Monitoring service will check every minute to ensure it&#039;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring</li>
+                                <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring</li>
                                 <li class='altRow' title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Real-time Server Backups**</li>
                                 <li title='Mount McKinney will run a daily security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Daily Security Scans</li>
                                 <li class='altRow' title='Mount McKinney will set up a cache on your WordPress site and monitor the cache weekly to maintain high performance.'>Cache Setup & Weekly Monitoring</li>
@@ -123,7 +123,7 @@ function getAllWordpressServices() {
                        </p>
                        <br />
                        <p class='serviceContent'>
-                         Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get all these features and more!
+                         Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get all these features and more!
                        </p>
                        <br />
                        <p class='serviceContent'>
@@ -137,7 +137,7 @@ function getAllWordpressServices() {
         $wordpressServices["wordpress-design"] = array(
           "title" => "WordPress Design",
           "section" => "<p class='serviceContent'>
-                          When&#039;s the last time you changed your WordPress theme? Doing so can seem like a huge undertaking to make sure everything looks good after the transition. So, why not let Mount McKinney take care of it for you?
+                          When&apos;s the last time you changed your WordPress theme? Doing so can seem like a huge undertaking to make sure everything looks good after the transition. So, why not let Mount McKinney take care of it for you?
                         </p>
                         <br />
                         <p class='serviceContent clearContent'>
@@ -149,7 +149,7 @@ function getAllWordpressServices() {
                         </p>
                         <br />
                         <p class='serviceContent'>
-                          Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> give you free access to the gorgeous and versatile Virtue theme by Kadence Themes as well as many more features!
+                          Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> give you free access to the gorgeous and versatile Virtue theme by Kadence Themes as well as many more features!
                         </p>
                         <br />
                         <p class='serviceContent'>
@@ -171,7 +171,7 @@ function getAllWordpressServices() {
                        </p>
                        <br />
                        <p class='serviceContent'>
-                         Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
+                         Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
                        </p>
                        <br />
                        <p class='serviceContent'>
@@ -189,11 +189,11 @@ function getAllWordpressServices() {
                         </p>
                         <br />
                         <p class='serviceContent'>
-                          Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get get this feature and many more!
+                          Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get get this feature and many more!
                         </p>
                         <br />
                         <p class='serviceContent'>
-                          Does your WordPress site need to be updated but you&#039;re not ready to sign-up for our monthly support plan?
+                          Does your WordPress site need to be updated but you&apos;re not ready to sign-up for our monthly support plan?
                           <div class='servicesContact'>
                             <a class='typeform-share button' href='https://mountmckinney.typeform.com/to/vx9QaK' data-mode='1' target='_blank'>Update My Site</a>
                           </div>
@@ -207,7 +207,7 @@ function getAllWordpressServices() {
                        </p>
                        <br />
                        <p class='serviceContent'>
-                         Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
+                         Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
                        </p>
                        <br />
                        <p class='serviceContent'>
@@ -225,7 +225,7 @@ function getAllWordpressServices() {
                         </p>
                         <br />
                         <p class='serviceContent'>
-                          Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
+                          Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
                         </p>
                         <br />
                         <p class='serviceContent'>
@@ -239,11 +239,11 @@ function getAllWordpressServices() {
         $wordpressServices["website-analytics"] = array(
           "title" => "Website Analytics",
           "section" => "<p class='serviceContent'>
-                         Do you know how many views your site is getting? Do your pages load slowly? How&#039;s your SEO? These are all things we can help with!
+                         Do you know how many views your site is getting? Do your pages load slowly? How&apos;s your SEO? These are all things we can help with!
                        </p>
                        <br />
                        <p class='serviceContent clearContent'>
-                         We can show you not only how many views your site is getting, but also what pages they are clicking the most and where they&#039;re coming from. We&#039;ll show what keywords are being most used to find your site so you can target your ads.
+                         We can show you not only how many views your site is getting, but also what pages they are clicking the most and where they&apos;re coming from. We&apos;ll show what keywords are being most used to find your site so you can target your ads.
                        </p>
                        <br />
                        <p class='serviceContent'>
@@ -257,7 +257,7 @@ function getAllWordpressServices() {
         $wordpressServices["database-backups"] = array(
           "title" => "Database Backups",
           "section" => "<p class='serviceContent'>
-                          When&#039;s the last time you backed up your website data to an external hard drive? We recommend doing so frequently to avoid losing anything.
+                          When&apos;s the last time you backed up your website data to an external hard drive? We recommend doing so frequently to avoid losing anything.
                         </p>
                         <br />
                         <p class='serviceContent clearContent'>
@@ -265,7 +265,7 @@ function getAllWordpressServices() {
                         </p>
                         <br />
                         <p class='serviceContent'>
-                          Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
+                          Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
                         </p>
                         <br />
                         <p class='serviceContent'>
@@ -286,7 +286,7 @@ function getAllWordpressServices() {
                          Not sure what hosting platform to use? We can give you recommendations for good, reliable hosts.
                        </p>
                        <p class='serviceContent'>
-                         Mount McKinney&#039;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
+                         Mount McKinney&apos;s <a href='http://localhost/wordpress/?wordpress-service=monthly-support'>Monthly WordPress Support Plans</a> are an excellent way to get this feature and many more!
                        </p>
                        <br />
                        <p class='serviceContent'>

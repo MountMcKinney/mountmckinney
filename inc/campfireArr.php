@@ -295,15 +295,15 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
-                    It was Sunday, so our first stop was to go to Dingle to go church. We went to St. Mary&#039;s which is a very interesting parish. Their Mass is in Gaelic on the first Sunday of the month and the other Sunday Masses of the month are bilingual (Gaelic and English). It was a wonderful experience and one I highly recommend if for nothing else but the novelty of hearing the Gaelic language spoken so freely.
+                    It was Sunday, so our first stop was to go to Dingle to go church. We went to St. Mary&apos;s which is a very interesting parish. Their Mass is in Gaelic on the first Sunday of the month and the other Sunday Masses of the month are bilingual (Gaelic and English). It was a wonderful experience and one I highly recommend if for nothing else but the novelty of hearing the Gaelic language spoken so freely.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    After Mass, there was a procession through the town (it&#039;s not a big town) because it was Corpus Christi Sunday. Corpus Christi is a feast day that celebrates the belief that all Catholics hold that the bread and wine the Priest holds up during Mass becomes the Body and Blood of the Lord, Jesus Christ. This procession was amazing to be a part of. So many walked with us and others joined as we passed them. The procession was filled with singing and praying.
+                    After Mass, there was a procession through the town (it&apos;s not a big town) because it was Corpus Christi Sunday. Corpus Christi is a feast day that celebrates the belief that all Catholics hold that the bread and wine the Priest holds up during Mass becomes the Body and Blood of the Lord, Jesus Christ. This procession was amazing to be a part of. So many walked with us and others joined as we passed them. The procession was filled with singing and praying.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Getting back in the car we headed north for the coast. We had no plans and not directions of anywhere we wanted to go. We just started driving and knew we&#039;d figure it out along the way. We found Mount Brandon along our route to the north but decided not to hike it mostly because we couldn&#039;t find anywhere to pull off and park.
+                    Getting back in the car we headed north for the coast. We had no plans and not directions of anywhere we wanted to go. We just started driving and knew we&apos;d figure it out along the way. We found Mount Brandon along our route to the north but decided not to hike it mostly because we couldn&apos;t find anywhere to pull off and park.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -315,18 +315,18 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Continuing west, we found a place to pull off the road near a beach to take a hike along the mini-cliffs. Our path took us through fields with cows and other fields with sheep. While admiring the view of the Three Sisters (3 coastal high points in a row) we were greeted by some locals who saw us staring at the Three Sisters and asked if we were trying to see the Star Wars set. We had no idea, but apparently the not yet released Star Wars: Episode VIII will have some scenes shot from this location and we were staring right at them. They told us that the actors were no longer there but before they left they went to go visit the local school. How cool is that? There was no real publicity about it and that&#039;s part of why it&#039;s so cool to me.
+                    Continuing west, we found a place to pull off the road near a beach to take a hike along the mini-cliffs. Our path took us through fields with cows and other fields with sheep. While admiring the view of the Three Sisters (3 coastal high points in a row) we were greeted by some locals who saw us staring at the Three Sisters and asked if we were trying to see the Star Wars set. We had no idea, but apparently the not yet released Star Wars: Episode VIII will have some scenes shot from this location and we were staring right at them. They told us that the actors were no longer there but before they left they went to go visit the local school. How cool is that? There was no real publicity about it and that&apos;s part of why it&apos;s so cool to me.
                   </p>
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/starWars.jpg' alt='The view of the water from the Wine Strand'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Making our way further up the coast we stopped at Waymont (according to Google Maps, though I never saw a sign), this point jutting out into the Atlantic Ocean was a great view of the harbour from the vista point. However, it wasn&#039;t until we decided to leave the vista and hike up onto the hill that the view became really great. These secluded views reminded us that the best and most rewarding views are so often found when you trek a little further than the designated vistas.
+                    Making our way further up the coast we stopped at Waymont (according to Google Maps, though I never saw a sign), this point jutting out into the Atlantic Ocean was a great view of the harbour from the vista point. However, it wasn&apos;t until we decided to leave the vista and hike up onto the hill that the view became really great. These secluded views reminded us that the best and most rewarding views are so often found when you trek a little further than the designated vistas.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    That&#039;s when things got interesting though. It was on this peninsula that I found my evil twin! As you can see from the picture below we were evenly matched but I was able to best him and keep him from taking over the world. You are all welcome!
+                    That&apos;s when things got interesting though. It was on this peninsula that I found my evil twin! As you can see from the picture below we were evenly matched but I was able to best him and keep him from taking over the world. You are all welcome!
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -334,15 +334,15 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    With the sun getting close to setting there was one place I wanted to find, Dunquin Harbour. Honestly, this was one of my favorite shots from all of Ireland. I had seen awesome shots from this little boat path leading to the harbour before going to Ireland and knew I needed to find it. I didn&#039;t realize how hard it would be to actually find though. We drove around for nearly an hour and had seen some incredible views off the coastal road and even found a place to pet cute, baby sheep but still hadn&#039;t found what we were looking for. (Quick side note, glad we didn&#039;t stop to pet the lambs. On the way back to the States while going through customs one of their questions was if we had come in contact with any farm animals.)
+                    With the sun getting close to setting there was one place I wanted to find, Dunquin Harbour. Honestly, this was one of my favorite shots from all of Ireland. I had seen awesome shots from this little boat path leading to the harbour before going to Ireland and knew I needed to find it. I didn&apos;t realize how hard it would be to actually find though. We drove around for nearly an hour and had seen some incredible views off the coastal road and even found a place to pet cute, baby sheep but still hadn&apos;t found what we were looking for. (Quick side note, glad we didn&apos;t stop to pet the lambs. On the way back to the States while going through customs one of their questions was if we had come in contact with any farm animals.)
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We were beginning to think the picture I saw wasn&#039;t really in Dunquin but was mislabeled as Dunquin. Just as we were ready to just give up, we decided to make a turn into a place we hadn&#039;t check yet but had passed 4-5 times. There it was! We couldn&#039;t believe it was real!
+                    We were beginning to think the picture I saw wasn&apos;t really in Dunquin but was mislabeled as Dunquin. Just as we were ready to just give up, we decided to make a turn into a place we hadn&apos;t check yet but had passed 4-5 times. There it was! We couldn&apos;t believe it was real!
                   </p>
                   <br />
                   <p class='blogContent'>
-                    If you&#039;re looking to find it, search Google Maps for the Dunquin-Blasket Island Ferry, it&#039;s the easiest way. As you can see from the amazing picture headlining this story, it was 100% worth it.
+                    If you&apos;re looking to find it, search Google Maps for the Dunquin-Blasket Island Ferry, it&apos;s the easiest way. As you can see from the amazing picture headlining this story, it was 100% worth it.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -354,11 +354,11 @@ function getAllCfstories() {
     "title" => "The Skellig Michael",
     "info" => "Easily the coolest place we went to in Ireland",
     "section" => "<p class='blogContent clearContent'>
-                    Last time, we had been defeated by clouds but were hopeful for our upcoming trip to the Skellig Islands. After a hearty, Irish breakfast we walked to the docks to catch our boat to the Skelligs. We were greeted by five or so captains all calling out names in very thick Irish accents looking for their passengers so they could be on their way. Asking a few of them for &#034;Eoin&#034; (which we had no idea how to pronounce at the time) yielded no results. Finally, one captain said, &#034;I know Eoin, he&#039;s over there.&#034; (pointing toward the end of the dock) We followed this captain as we thought he was taking us to him. After going to a boat and it not being Eoin, he turned to us and said &#034;Why are you following me? Eoin is over there.&#034;
+                    Last time, we had been defeated by clouds but were hopeful for our upcoming trip to the Skellig Islands. After a hearty, Irish breakfast we walked to the docks to catch our boat to the Skelligs. We were greeted by five or so captains all calling out names in very thick Irish accents looking for their passengers so they could be on their way. Asking a few of them for &quot;Eoin&quot; (which we had no idea how to pronounce at the time) yielded no results. Finally, one captain said, &quot;I know Eoin, he&apos;s over there.&quot; (pointing toward the end of the dock) We followed this captain as we thought he was taking us to him. After going to a boat and it not being Eoin, he turned to us and said &quot;Why are you following me? Eoin is over there.&quot;
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Realizing that where he had actually pointed was to a single boat on the other side of the river, we panicked and immediately started hustling over the bridge to catch our boat. We arrived and were greeted by a man that looked like he was straight out of a novel about the Irish sea. He introduced himself as Eoin (pronounced essentially like Owen) and made a joke about us running across the bridge. He then explained that we can go inside the Skellig museum as we wait for the others. Turns out we didn&#039;t need to run...oh well, better safe than sorry.
+                    Realizing that where he had actually pointed was to a single boat on the other side of the river, we panicked and immediately started hustling over the bridge to catch our boat. We arrived and were greeted by a man that looked like he was straight out of a novel about the Irish sea. He introduced himself as Eoin (pronounced essentially like Owen) and made a joke about us running across the bridge. He then explained that we can go inside the Skellig museum as we wait for the others. Turns out we didn&apos;t need to run...oh well, better safe than sorry.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -366,11 +366,11 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    We learned all about the Skellig Michael&#039;s incredible history. The rocky, dangerous island is about 7 miles off the coast of Portmagee and was occupied by Christian monks from sometime during the 6th century until late into the 12th century. Seeing what they built all the way out there is incredible, the island is as harsh and unforgiving as it gets. For something a little more current, it was on the Skellig Michael that <a href='https://youtu.be/eaxTllYqvls?t=190'>the last scene from Star Wars: The Force Awakens</a> was filmed.
+                    We learned all about the Skellig Michael&apos;s incredible history. The rocky, dangerous island is about 7 miles off the coast of Portmagee and was occupied by Christian monks from sometime during the 6th century until late into the 12th century. Seeing what they built all the way out there is incredible, the island is as harsh and unforgiving as it gets. For something a little more current, it was on the Skellig Michael that <a href='https://youtu.be/eaxTllYqvls?t=190'>the last scene from Star Wars: The Force Awakens</a> was filmed.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Due to the danger of trying to land people on the island and the dangers on the island itself, they only allow the trip if the weather isn&#039;t too bad and the waves aren&#039;t too big. You need to book your trip far in advance as they only allow about 200 people a day to land on the island (many more circle the island to see it which is nice, but trust me, it is not remotely as epic) and then you need to hope for good weather. Thankfully, as was the case for our entire trip, the weather was gorgeous!
+                    Due to the danger of trying to land people on the island and the dangers on the island itself, they only allow the trip if the weather isn&apos;t too bad and the waves aren&apos;t too big. You need to book your trip far in advance as they only allow about 200 people a day to land on the island (many more circle the island to see it which is nice, but trust me, it is not remotely as epic) and then you need to hope for good weather. Thankfully, as was the case for our entire trip, the weather was gorgeous!
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -378,11 +378,11 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    We walked down to our dock and met the others on our boat. A group on the boat had cameras with lenses so big they looked as though they could capture a dime at the bottom of the Grand Canyon. Turns out they don&#039;t even do photography for a living, they just all really love taking pictures of birds.
+                    We walked down to our dock and met the others on our boat. A group on the boat had cameras with lenses so big they looked as though they could capture a dime at the bottom of the Grand Canyon. Turns out they don&apos;t even do photography for a living, they just all really love taking pictures of birds.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We headed out to sea and made our way to Little Skellig, which you can&#039;t get on as it&#039;s a bird preserve. The island is home to over fifty thousand birds, so I&#039;m not sure you&#039;d want to visit the island. After looping around Little Skellig we made our way to the main event, Skellig Michael. If Eoin was a character in a book about the sea, this was the Irish version of Treasure Island. Rising out of the sea, you wondered how the monks made the trip out here let alone survived on the island.
+                    We headed out to sea and made our way to Little Skellig, which you can&apos;t get on as it&apos;s a bird preserve. The island is home to over fifty thousand birds, so I&apos;m not sure you&apos;d want to visit the island. After looping around Little Skellig we made our way to the main event, Skellig Michael. If Eoin was a character in a book about the sea, this was the Irish version of Treasure Island. Rising out of the sea, you wondered how the monks made the trip out here let alone survived on the island.
                   </p>
                   <br />
                   <aside class='asideLeft asidePortrait'>
@@ -406,7 +406,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Our entire time on the island birds flew all around us. My favorite, the puffin only makes an appearance a few months out of the year before heading out to sea. One look, and you&#039;ll fall in love with them.
+                    Our entire time on the island birds flew all around us. My favorite, the puffin only makes an appearance a few months out of the year before heading out to sea. One look, and you&apos;ll fall in love with them.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -414,15 +414,15 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    After lunch, we made our way to the monastery on the shorter peak. Walking around we saw the where the monk lived, beehive huts made out of stone. These structures had no luxuries at all. I essentially had to crawl through the door to get in, so I can&#039;t imagine a big monk on this island.
+                    After lunch, we made our way to the monastery on the shorter peak. Walking around we saw the where the monk lived, beehive huts made out of stone. These structures had no luxuries at all. I essentially had to crawl through the door to get in, so I can&apos;t imagine a big monk on this island.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    As was par for the course in Ireland we didn&#039;t want to leave but knew we had to start heading down in order to catch our boat back. We were the last to leave the monastery and the valley. We wanted to soak every moment up that we could.
+                    As was par for the course in Ireland we didn&apos;t want to leave but knew we had to start heading down in order to catch our boat back. We were the last to leave the monastery and the valley. We wanted to soak every moment up that we could.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    The wife and I both agree that the Skelligs were hands down the coolest thing we did in Ireland and that includes climbing the Croagh Patrick, visiting Dublin, and even the famous Cliffs of Moher. If you have the opportunity to land on the Skellig Michael, take it (just promise to bring me). It&#039;s truly unlike anything else I&#039;ve ever done.
+                    The wife and I both agree that the Skelligs were hands down the coolest thing we did in Ireland and that includes climbing the Croagh Patrick, visiting Dublin, and even the famous Cliffs of Moher. If you have the opportunity to land on the Skellig Michael, take it (just promise to bring me). It&apos;s truly unlike anything else I&apos;ve ever done.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -430,19 +430,19 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Upon returning from the Skelligs, it was time to finish the Ring of Kerry and head on to the Dingle Peninsula. We waved goodbye to the quaint charm of Portmagee (yes we actually waived) and headed back on the Ring of Kerry toward Killarney. We weren&#039;t on it long before we saw the ruins of a castle that we knew we needed to explore.
+                    Upon returning from the Skelligs, it was time to finish the Ring of Kerry and head on to the Dingle Peninsula. We waved goodbye to the quaint charm of Portmagee (yes we actually waived) and headed back on the Ring of Kerry toward Killarney. We weren&apos;t on it long before we saw the ruins of a castle that we knew we needed to explore.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    The Ballycarbery Castle is just off the N70, the main road. The vine-covered castle ruins are worth the stop. If for nothing else, then so you can get a cool shot like mine. Even better though, you can actually climb up into the second and third stories of the castle and act as if you were the ruler of the land (c&#039;mon, you know you want to).
+                    The Ballycarbery Castle is just off the N70, the main road. The vine-covered castle ruins are worth the stop. If for nothing else, then so you can get a cool shot like mine. Even better though, you can actually climb up into the second and third stories of the castle and act as if you were the ruler of the land (c&apos;mon, you know you want to).
                   </p>
                   <br />
                   <p class='blogContent'>
-                    As our day grew short and began to stretch into evening, we made it to the Dingle Peninsula. I&#039;ll leave the stories of Dingle for next time. But before I go, I have to say something about our lodging. We stayed in <a href='https://www.airbnb.com/rooms/3524768'>a house in Ballyferriter with an incredible view</a>. I highly recommend staying there for the night as Breege is the sweetest woman on Airbnb. She did everything to make our stay as wonderful and as welcoming as possible, including having a sign welcoming me to the house.
+                    As our day grew short and began to stretch into evening, we made it to the Dingle Peninsula. I&apos;ll leave the stories of Dingle for next time. But before I go, I have to say something about our lodging. We stayed in <a href='https://www.airbnb.com/rooms/3524768'>a house in Ballyferriter with an incredible view</a>. I highly recommend staying there for the night as Breege is the sweetest woman on Airbnb. She did everything to make our stay as wonderful and as welcoming as possible, including having a sign welcoming me to the house.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    If you ever stay on Dingle, definitely check out her place! I don&#039;t receive any referral credit for you signing up for Airbnb from the earlier link I gave you taking you to her place. However, if you&#039;d like to help me get referral credit for providing the recommendation then please sign up for Airbnb via <a href='http://www.airbnb.com/c/jmckinney2'>this link</a>. But don&#039;t feel like you have to, I am more just highlighting the woman who was the best host we had on the trip.
+                    If you ever stay on Dingle, definitely check out her place! I don&apos;t receive any referral credit for you signing up for Airbnb from the earlier link I gave you taking you to her place. However, if you&apos;d like to help me get referral credit for providing the recommendation then please sign up for Airbnb via <a href='http://www.airbnb.com/c/jmckinney2'>this link</a>. But don&apos;t feel like you have to, I am more just highlighting the woman who was the best host we had on the trip.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -682,7 +682,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                      We like to save money as much as possible on big trips and will often buy groceries and cook in to do so. With very little options food-wise and employees disinterested in helping you, they made miss Publix. Publix, Ireland needs you. They don&#039;t know what they&#039;re missing.
+                      We like to save money as much as possible on big trips and will often buy groceries and cook in to do so. With very little options food-wise and employees disinterested in helping you, they made miss Publix. Publix, Ireland needs you. They don&apos;t know what they&apos;re missing.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -694,7 +694,7 @@ function getAllCfstories() {
     "title" => "Irish Adventures",
     "info" => "Ireland",
     "section" => "<p class='blogContent'>
-                    It only took the entire summer for me to finally write about our trip to Ireland. As our flight took off from Orlando in mid-May, I knew we would be embarking on a truly once in a lifetime trip. After a short connection in Boston, we departed for Shannon! I had never been to Ireland but I knew I was excited to go and I knew I would love it. Boy was I right, it was hard to leave such a breathtakingly beautiful country. My grandmother had come to America from Ireland when she was a little girl. Being in a place that only 2 generations before had been my family&#039;s home made me immediately feel at home there. Not to mention that I definitely could pass for an Irish citizen, well at least until I spoke obviously.
+                    It only took the entire summer for me to finally write about our trip to Ireland. As our flight took off from Orlando in mid-May, I knew we would be embarking on a truly once in a lifetime trip. After a short connection in Boston, we departed for Shannon! I had never been to Ireland but I knew I was excited to go and I knew I would love it. Boy was I right, it was hard to leave such a breathtakingly beautiful country. My grandmother had come to America from Ireland when she was a little girl. Being in a place that only 2 generations before had been my family&apos;s home made me immediately feel at home there. Not to mention that I definitely could pass for an Irish citizen, well at least until I spoke obviously.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -702,11 +702,11 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
-                    It&#039;s been a long time since I was as tired as I was that first day. The flight was overnight and I slept for at most 45 mins. Never really been able to sleep on planes (or in cars for that matter). Thankfully, I was at least comfortable, as I had sprung the extra cash for a bulkhead seat. I am 6&#039; 4&#034; so that extra legroom was a lifesaver. As we got into our rental car, I sat in the driver&#039;s seat and immediately just felt odd. I was sitting on the opposite side of the car from my everyday driving. Changing gears, grabbing my water bottle, and even holding my wife&#039;s hand was now my left hand&#039;s responsibility. For the most part, we were fine driving on the left side of the road, though we did have one close call when I had to make a right turn while going around a bend in a busy town with tour buses all around me.
+                    It&apos;s been a long time since I was as tired as I was that first day. The flight was overnight and I slept for at most 45 mins. Never really been able to sleep on planes (or in cars for that matter). Thankfully, I was at least comfortable, as I had sprung the extra cash for a bulkhead seat. I am 6&apos; 4&quot; so that extra legroom was a lifesaver. As we got into our rental car, I sat in the driver&apos;s seat and immediately just felt odd. I was sitting on the opposite side of the car from my everyday driving. Changing gears, grabbing my water bottle, and even holding my wife&apos;s hand was now my left hand&apos;s responsibility. For the most part, we were fine driving on the left side of the road, though we did have one close call when I had to make a right turn while going around a bend in a busy town with tour buses all around me.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Oh those wretched tour buses. The smallest of them take up the entire lane and most venture into your lane. I honestly felt bad for the people in them, they wouldn&#039;t experience Ireland the way my wife and I did. They couldn&#039;t take a detour, change their plans last minute, or just stop on the side of the road to hike. They missed some of the most amazing sights that we experienced.
+                    Oh those wretched tour buses. The smallest of them take up the entire lane and most venture into your lane. I honestly felt bad for the people in them, they wouldn&apos;t experience Ireland the way my wife and I did. They couldn&apos;t take a detour, change their plans last minute, or just stop on the side of the road to hike. They missed some of the most amazing sights that we experienced.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -714,15 +714,15 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Our first major stop was to experience that great liquid gold, Irish whiskey. We headed south from Shannon to Middleton, the home of the Jameson Distillery. What a blast that was. I learned so much and got to drink some delicious whiskey doing it. At the end of the tour, I participated in a taste test with Jameson 12 yr, Jonnie Walker Black, and Jack Daniels. Somehow, I feel they didn&#039;t exactly go for top-shelf when it came to bourbon.
+                    Our first major stop was to experience that great liquid gold, Irish whiskey. We headed south from Shannon to Middleton, the home of the Jameson Distillery. What a blast that was. I learned so much and got to drink some delicious whiskey doing it. At the end of the tour, I participated in a taste test with Jameson 12 yr, Jonnie Walker Black, and Jack Daniels. Somehow, I feel they didn&apos;t exactly go for top-shelf when it came to bourbon.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    After our whiskey tour, we headed to Cobh to see St. Colman&#039;s Cathedral. This massive gothic Cathedral towers over the town, as you can see in the picture. The Cathedral was gorgeous (as were all the Cathedrals we visited in Ireland). This one, right on the Cork Harbour, provided picturesque views both inside and out.
+                    After our whiskey tour, we headed to Cobh to see St. Colman&apos;s Cathedral. This massive gothic Cathedral towers over the town, as you can see in the picture. The Cathedral was gorgeous (as were all the Cathedrals we visited in Ireland). This one, right on the Cork Harbour, provided picturesque views both inside and out.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    From there, we made our way to where we&#039;d be staying the first night, Kinsale. A small town on the River Bandon on the South edge of Ireland, Kinsale is a quaint town that is well worth the stop for the night. Our first (but not last) Irish poured Guinness was ordered in a pub in Kinsale. We felt a bit like zombies that first day except without wanting to eat braaaaaainnnssss. I had gotten less than an hour of sleep in 40 hours. Needless to say, I was very excited when that first day&#039;s rest came. I was out as soon as my head hit the pillow.
+                    From there, we made our way to where we&apos;d be staying the first night, Kinsale. A small town on the River Bandon on the South edge of Ireland, Kinsale is a quaint town that is well worth the stop for the night. Our first (but not last) Irish poured Guinness was ordered in a pub in Kinsale. We felt a bit like zombies that first day except without wanting to eat braaaaaainnnssss. I had gotten less than an hour of sleep in 40 hours. Needless to say, I was very excited when that first day&apos;s rest came. I was out as soon as my head hit the pillow.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -746,7 +746,7 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Most of our Friday was spent driving up to Savannah. Friday night was spent going to dinner at the <a href='http://www.crystalbeerparlor.com/'>Crystal Beer Parlor</a> eating one of the best peach cobblers I&#039;ve ever had and then going for a long walk around the city to walk off said cobbler. Overall, a pretty chill night.
+                    Most of our Friday was spent driving up to Savannah. Friday night was spent going to dinner at the <a href='http://www.crystalbeerparlor.com/'>Crystal Beer Parlor</a> eating one of the best peach cobblers I&apos;ve ever had and then going for a long walk around the city to walk off said cobbler. Overall, a pretty chill night.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -771,7 +771,7 @@ function getAllCfstories() {
                    </p>
                    <br /> -->
                   <p class='blogContent'>
-                    Sunday at the B&B we had delicious peaches and cream french toast which I&#039;m still dreaming about. Before leaving Savannah we went to <a href='https://www.nps.gov/fopu/index.htmFort'>Fort Pulaski</a>, which ended up being the highlight of our trip. This 19th Century fort is on the way to Tybee Island and is a National Monument. You can read the full write-up I did of Fort Pulaski for the sports/outdoor blog website, Sportody, <a href='http://www.sportody.com/blog/must-do-historical-sites-near-savannah-fort-pulaski'>here</a>. However, the gist of the experience was that there were tons of cannons (always a favorite of mine), we played 19th Century baseball (I got a double), and the fort was awesome! Basically, you need to go to Savannah immediately!
+                    Sunday at the B&B we had delicious peaches and cream french toast which I&apos;m still dreaming about. Before leaving Savannah we went to <a href='https://www.nps.gov/fopu/index.htmFort'>Fort Pulaski</a>, which ended up being the highlight of our trip. This 19th Century fort is on the way to Tybee Island and is a National Monument. You can read the full write-up I did of Fort Pulaski for the sports/outdoor blog website, Sportody, <a href='http://www.sportody.com/blog/must-do-historical-sites-near-savannah-fort-pulaski'>here</a>. However, the gist of the experience was that there were tons of cannons (always a favorite of mine), we played 19th Century baseball (I got a double), and the fort was awesome! Basically, you need to go to Savannah immediately!
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
