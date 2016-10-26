@@ -193,94 +193,114 @@ function getAllCfstories() {
   //   "catch" => "Remember, Adventure is Calling!",
   //   "date" => "November 2nd, 2016"
   //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "date" => "October 26th, 2016"
-  //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "date" => "October 19th, 2016"
-  //  );
+  $cfstories["southern-charm"] = array(
+    "img" => "img/blog/header/savannahSouthernCharm.jpg",
+    "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
+    "title" => "Southern Charm",
+    "info" => "Get Out And Live!",
+    "section" => "<p class='blogContent'>
+                    Taking a break from our series of Irish adventure stories, it&apos;s October, which means it&apos;s time for my annual trip to the Smoky Mountains to check out the changing leaves and hike in the mountains. This year it was me and 3 other friends. We packed up the truck and headed north to the mountains! We decided to camp in Smokemont campgrounds which is right inside the Smoky Mountain National Park on the Cherokee, NC side.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    About an hour from Asheville on I-26, we came to a complete stop. Waze changed our time til arrival from one hour to two. I put the truck in park at one point waiting for the traffic to move. The 3 miles to the next exit were brutal. I didn&apos;t really care what the exit was I was sure it would save us time. We pulled off and let Waze direct us the rest of the way, it saved us about an hour, maybe more. The other thing it did was save my sanity. I&apos;d much rather have a trip take a little longer as long as I&apos;m actually moving. Sitting on the interstate isn&apos;t fun. Winding our way through back roads would become a theme of the trip, which isn&apos;t necessarily a bad thing in my opinion.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We entered Great Smoky Mountain National Park and saw a large sign warning us to be cautious due to elk. We figured the odds of actually seeing an elk were low until we saw 10 or so cars pulled over. There in the field were two large elk, one female and one male. We quickly pulled over and snapped a couple pics.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    As we neared the campsite the temperature dropped considerably and the rain rolled in. Arriving at Smokemont in the dark and light rain made for a fun campsite setup. Thankfully, we got the campfire going quickly and I had my tent setup in a few minutes. Immediately after the last of our group had thrown on their rainfly, the rain stopped. We had set up camp and were ready for dinner...until we realized something. We had forgotten something very important at home...chairs!
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    It was already just after 8pm and dark, we headed into Cherokee hoping we would get lucky and find someone selling camp chairs. We stopped by a gas station to ask if they knew anywhere we could by a camping chair nearby. The woman laughed at us... Undeterred we drove around checking tourist shops, pawn shops, and gas stations. No luck anywhere and more than a few laughs and looks. We had given up when we saw one last gas station we hadn&apos;t tried yet. No camping chairs but there were pool floaties! Obviously not the most ideal solution but at least we could have a dry butt. The woman working at the store was very confused by us buying pool floaties while wearing sweaters. After explaining we didn&apos;t have chairs she looked at us with a large amount of pity.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    After dinner we sat around the fire, drank whiskey, ate s&apos;mores, and shared stories. That&apos;s always one of my favorite parts of camping. Knowing we had a big day of hiking ahead of us, we hit the hay.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    The next morning we packed up and headed to hike along the Blue Ridge Parkway. Our first stop was Waterrock Knob. This short but steep hike rewards you with some incredible views. As we made our climb a bald eagle flew over our heads. One of my favorite things about this hike is that it has a lot of unobstructive views of different valleys as you make your trek up. Reaching the top, you could see miles upon miles of peaks and valleys. I&apos;ve always been mesmerized by mountains, I can stare at them for hours. Before heading back down, we met a dad celebrating his birthday by camping with his toddler. Apparently, they have a tradition that on his birthday and his son&apos;s birthday they go camping in the mountains. This seems like a tradition I may have to adopt.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    After Waterrock Knob, we decided we didn&apos;t want to be at the campsite tonight without chairs so we made a pitstop at the Waynesville Walmart. We were finally all set for a night of enjoying the campfire. Getting back on the Blue Ridge we drove for a number of miles through incredible yellows, reds, and oranges. We stopped briefly for another short hike at the Devil&apos;s Courthouse and another at a random overlook we stopped at for a picture. Our last hike of the day was the longest and steepest. The trail to the top of Mt. Pisgah was beautiful, albeit freezing for us Florida boys. If you&apos;ve never hiked to the top of Mt. Pisgah, I highly recommend it. At the top was an incredible near 360&deg; view of the Blue Ridge Mountains. You&apos;ll be in a little bit of pain on the hike but that just makes the top that much more worth it.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Our second night of camping was colder than the first but just made the campfire that much better. We spent the night cracking jokes, drinking more whiskey, and just enjoying the incredible stargazing. I highly recommend checking out the Great Smokys for fall foliage next year. If you see me on the trail, make sure to say hi! 
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "date" => "October 30th, 2016"
+   );
+  $cfstories["cliffs-of-moher"] = array(
+    "img" => "img/blog/header/cliffsOfMoher.jpg",
+    "thumb" => "img/blog/thumb/cliffsOfMoherThumb.jpg",
+    "title" => "The Cliffs of Moher",
+    "info" => "The incredible Cliffs of Moher!",
+    "section" => "<p class='blogContent'>
+                    As we said farewell to the Dingle Peninsula we both said the same thing, &quot;We should&apos;ve stayed longer!&quot; We had seen most of what the peninsula had to offer in terms of new attractions but it was just such a peaceful and beautiful place. It was definitely not easy to begin our trip to Doolin especially because of the length of the drive ahead of us. However, we knew that the Cliffs of Moher lay at the end of the drive and we were eager to see one of Ireland&apos;s most famous landmarks.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/conorPass.jpg' alt='The Conor Pass in Dingle'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    Leaving from Ballyferriter, we took a mountain road called the Conor Pass. While driving through the Conor Pass we saw a vista point at the height of the road. Wanting to hold on to the Dingle Peninsula as much as we could we pulled over for a hike without hesitation. Climbing the hills next to the vista led us to a high hill with a 360&deg; view of the Pass. Hikers here had created a rock mound, with each hiker adding a rock to the pile. It was now a few feet in diameter and was almost as tall as I am.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/adare.jpg' alt='Adare is a lovely place to stop'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Our drive to Doolin was rather uneventful (which I suppose is a good thing when said in that way). We stopped for a picnic lunch in a small town south of Shannon, Adare. Adare has thatch-style roofs and seeks to maintain the old Ireland-feel. If you ever find yourself driving through and need a place to stretch your legs, the park across from the Adare Heritage Center is a tranquil place to do so.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    From there we drove to Doolin. Arriving at our B&B in Doolin, we knew we needed to get out and explore one of Ireland&apos;s greatest treasures. Our B&B host told us of a small area on the side of the road we could park at and walk up to the Cliffs of Moher. To find the spot we parked at, go here https://goo.gl/maps/fWmduwE1Txx. It&apos;s a small pull-off area that barely looks like you can park there but it&apos;s apparently where the locals park as you don&apos;t have to pay that way. What she didn&apos;t tell us is that walking up that way would be far more epic than the path most people take. This small path often led us to the edge of the Cliffs. There was even a sign reminding us of the dangers of the Cliffs.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/cliffsCanKill.jpg' alt='The Conor Pass in Dingle'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    We continued on the path for awhile and finally came to a paved area that had short walls stopping you before you go to the edge of the Cliffs. This much safer area was the official Cliffs of Moher. They had far more safety measures involved than the path up and it, in my opinion, took away from the grandeur of the experience. Maybe it was just in comparison to the dangers, even though they were small, but the safety we felt behind the walls never allowed us to experience the same &quot;woah&quot; moments where your stomach drops from the sheer drop below you. I understand why they have the walls, all I am saying is that when you go to the Cliffs of Moher, don&apos;t be afraid to take the small path beyond the signs warning you of the dangers of leaving the safe area.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    After spending the evening hiking the Cliffs, we knew we needed to head back to grab dinner before the restaurants stopped serving food at 9pm. This was something that was odd to me, the Sun didn&apos;t set until well into 10pm but restaurants stopped serving food at 9pm. So, if you were out hiking, you couldn&apos;t go out to eat unless you stopped hiking early.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/cliffsNearLedge.jpg' alt='Me enjoying the beauty of the Cliffs of Moher'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Doolin is known for its traditional Irish music, so we made sure to chose a small pub that had live music that we could walk to from our B&B, Gus O&apos;Connor&apos;s Pub. The food was delicious and the music was a lot of fun to listen to. If you&apos;re looking for a place to grab a pint and listen to the music, O&apos;Connor&apos;s is a great choice.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    We had read such great things about Doolin and how it is the center of classic Irish music. Doolin felt about the same size as Portmagee. While Portmagee felt quaint and we loved it, Doolin felt a little too touristy for us and often times too crowded. It was also not necessary to stay there to get the full Cliffs of Moher experience. I recommend staying in another town and driving into to see the Cliffs. We easily could have stayed in Ennis and Shannon as they aren&apos;t far from the Cliffs and drove in for the day. Galway City is a little further but we really enjoyed Galway and you could easily have Galway be a home base for you to make a day trip to the Cliffs.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "date" => "October 26th, 2016"
+   );
   $cfstories["dingle-peninsula"] = array(
     "img" => "img/blog/header/dunquinHarbour.jpg",
     "thumb" => "img/blog/thumb/dunquinHarbourThumb.jpg",
