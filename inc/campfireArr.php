@@ -193,17 +193,17 @@ function getAllCfstories() {
   //   "catch" => "Remember, Adventure is Calling!",
   //   "date" => "November 2nd, 2016"
   //  );
-  $cfstories["southern-charm"] = array(
-    "img" => "img/blog/header/savannahSouthernCharm.jpg",
-    "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-    "title" => "Southern Charm",
-    "info" => "Get Out And Live!",
+  $cfstories["sleeping-in-the-mountains"] = array(
+    "img" => "img/blog/header/elk.jpg",
+    "thumb" => "img/blog/thumb/elkThumb.jpg",
+    "title" => "Sleeping in the Mountains",
+    "info" => "The beautiful Smoky Mountain National Park!",
     "section" => "<p class='blogContent'>
                     Taking a break from our series of Irish adventure stories, it&apos;s October, which means it&apos;s time for my annual trip to the Smoky Mountains to check out the changing leaves and hike in the mountains. This year it was me and 3 other friends. We packed up the truck and headed north to the mountains! We decided to camp in Smokemont campgrounds which is right inside the Smoky Mountain National Park on the Cherokee, NC side.
                   </p>
                   <br />
-                  <aside class='asideRight asideLandscape'>
-                    <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/smokyMountainYellow2016.jpg' alt='View from the top of a hike in the Blue Ridge Mountains'>
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
@@ -214,13 +214,13 @@ function getAllCfstories() {
                     We entered Great Smoky Mountain National Park and saw a large sign warning us to be cautious due to elk. We figured the odds of actually seeing an elk were low until we saw 10 or so cars pulled over. There in the field were two large elk, one female and one male. We quickly pulled over and snapped a couple pics.
                   </p>
                   <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/smokyMountainRed2016.jpg' alt='The beautiful colors of the Smoky Mountains'>
+                  </aside>
+                  <br />
                   <p class='blogContent'>
                     As we neared the campsite the temperature dropped considerably and the rain rolled in. Arriving at Smokemont in the dark and light rain made for a fun campsite setup. Thankfully, we got the campfire going quickly and I had my tent setup in a few minutes. Immediately after the last of our group had thrown on their rainfly, the rain stopped. We had set up camp and were ready for dinner...until we realized something. We had forgotten something very important at home...chairs!
                   </p>
-                  <br />
-                  <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-                  </aside>
                   <br />
                   <p class='blogContent'>
                     It was already just after 8pm and dark, we headed into Cherokee hoping we would get lucky and find someone selling camp chairs. We stopped by a gas station to ask if they knew anywhere we could by a camping chair nearby. The woman laughed at us... Undeterred we drove around checking tourist shops, pawn shops, and gas stations. No luck anywhere and more than a few laughs and looks. We had given up when we saw one last gas station we hadn&apos;t tried yet. No camping chairs but there were pool floaties! Obviously not the most ideal solution but at least we could have a dry butt. The woman working at the store was very confused by us buying pool floaties while wearing sweaters. After explaining we didn&apos;t have chairs she looked at us with a large amount of pity.
@@ -229,6 +229,10 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     After dinner we sat around the fire, drank whiskey, ate s&apos;mores, and shared stories. That&apos;s always one of my favorite parts of camping. Knowing we had a big day of hiking ahead of us, we hit the hay.
                   </p>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/waterrockKnob.jpg' alt='Living on the edge at Waterrock Knob'>
+                  </aside>
                   <br />
                   <p class='blogContent'>
                     The next morning we packed up and headed to hike along the Blue Ridge Parkway. Our first stop was Waterrock Knob. This short but steep hike rewards you with some incredible views. As we made our climb a bald eagle flew over our heads. One of my favorite things about this hike is that it has a lot of unobstructive views of different valleys as you make your trek up. Reaching the top, you could see miles upon miles of peaks and valleys. I&apos;ve always been mesmerized by mountains, I can stare at them for hours. Before heading back down, we met a dad celebrating his birthday by camping with his toddler. Apparently, they have a tradition that on his birthday and his son&apos;s birthday they go camping in the mountains. This seems like a tradition I may have to adopt.
@@ -239,7 +243,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Our second night of camping was colder than the first but just made the campfire that much better. We spent the night cracking jokes, drinking more whiskey, and just enjoying the incredible stargazing. I highly recommend checking out the Great Smokys for fall foliage next year. If you see me on the trail, make sure to say hi! 
+                    Our second night of camping was colder than the first but just made the campfire that much better. We spent the night cracking jokes, drinking more whiskey, and just enjoying the incredible stargazing. I highly recommend checking out the Great Smokys for fall foliage next year. If you see me on the trail, make sure to say hi!
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
