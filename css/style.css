@@ -24,7 +24,12 @@ li {
 }
 
 strong {
-  color: #f9b701;
+  /*color: #f9b701;*/
+  color: #2638a2;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 /*---------Fonts---------*/
@@ -63,6 +68,7 @@ strong {
 
 .menuHover:hover {
   background: #2638A2;
+  height: 85px;
 }
 
 .name img {
@@ -82,6 +88,7 @@ strong {
 
 .menuIcons {
   width: 40px;
+  height: 30px;
 }
 
 .homeHeader {
@@ -154,7 +161,7 @@ strong {
 
 .contactPopupButton, .subscribePopupButton {
   position: fixed;
-  z-index: 200;
+  z-index: 180;
   top: 160px;
   right: 60px;
 }
@@ -285,29 +292,29 @@ body {
   position: relative;
 }
 
-.portfolioImages figcaption {
+/*.portfolioImages figcaption {
   color:#2638A2;
   margin-bottom: 5%;
   font-family:'Quicksand', sans-serif;
   font-size:1.3em;
   line-height: 2em;
   text-align:center;
-}
+}*/
 
 .portfolioImages img {
   /*border-radius:10px;*/
   border:3px solid #f9b701;
-  height:216px;
-  width:384px;
-  margin: 20px 20px 0;
+  height:100%;
+  width:100%;
+  /*margin: 20px 20px 0;*/
 }
 
 .portfolioImages li {
   display: inline-block;
-  margin: 1% auto;
+  margin: 0 1%;
 }
 
-.portfolio h4 {
+.portfolio h4, .services h4 {
   font-family:'Quicksand', sans-serif;
   font-size:4.5rem;
   text-align:center;
@@ -360,7 +367,7 @@ body {
   color: #f9b701;
 }
 
-.campfireBlog figcaption {
+.campfireBlog figcaption, .portfolioImages figcaption {
   color:#2638A2;
   margin-bottom: 15%;
   font-family:'Quicksand', sans-serif;
@@ -373,8 +380,8 @@ body {
 .campfireBlog img {
   border: 3px solid #f9b701;
   /*border-radius: 10px;*/
-  height: 216px;
-  width: 384px;
+  height: 100%;
+  width: 100%;
 }
 
 /*---------About Page---------*/
@@ -453,6 +460,16 @@ ul.details {
   font-family: 'Vast Shadow', 'Cinzel', cursive;
 }
 
+.blogSubHeader {
+  font-size: 1.5rem;
+  font-family: 'Quicksand', serif;
+  color: #2638a2;
+}
+
+.headerClearContent {
+  clear: both;
+}
+
 .blogHead {
   margin: 0 auto 50px;
 }
@@ -476,13 +493,14 @@ ul.details {
 }
 
 .asideLandscape img {
-  height: 198px;
-  width: 352px;
+  height: 100%;
+  width: 100%;
+  max-width: 384px;
 }
 
 .asidePortrait img {
-  height: 352px;
-  width: 198px;
+  height: 100%;
+  max-height: 384px;
 }
 
 .asidePortraitSmall img {
@@ -559,7 +577,8 @@ ul.details {
 }
 
 .blogContent a:link, .blogContent a:hover, .blogContent a:visited,
-.serviceContent a:link, .serviceContent a:hover, .serviceContent a:visited {
+.serviceContent a:link, .serviceContent a:hover, .serviceContent a:visited,
+.finePrint a:link, .finePrint a:hover, .finePrint a:visited {
   color: #f9b701;
 }
 
@@ -615,24 +634,17 @@ ul.details {
 }
 
 .servicesImages img {
-  /*border-radius:10px;*/
-  border:3px solid #f9b701;
-  height:216px;
-  width:384px;
+  border: 3px solid #f9b701;
+  height: 216px;
+  width: 384px;
+  /* max-width: 90%; */
+  /* max-height: 100%; */
   margin: 20px 20px 0;
 }
 
 .servicesImages li {
   display: inline-block;
   margin: 1% auto;
-}
-
-.services h4 {
-  font-family:'Quicksand', sans-serif;
-  font-size:4.5rem;
-  text-align:center;
-  border-bottom: 3px solid #f9b701;
-  margin-top: 3.5rem;
 }
 
 .servicesList {
@@ -684,7 +696,7 @@ ul.details {
   font-family: 'Quicksand', 'Cinzel', serif;
   padding: 10px;
   background: #ffffff;
-  margin: 20px;
+  margin: 40px;
   box-shadow: 0px 0px 10px 2px #263238;
   color: #263238;
   position: relative;
@@ -695,6 +707,11 @@ ul.details {
   text-align: center;
   font-family: 'Quicksand', 'Cinzel', sans-serif;
   font-size: 1.14rem;
+  padding-top: 30px;
+}
+
+.plans {
+  padding-bottom: 50px;
 }
 
 .supportPlan {
@@ -719,6 +736,24 @@ ul.details {
 .supportPlan h3 {
   color: #ffffff;
   font-size: 2.5rem;
+}
+
+.supportPlan h5 {
+  color: #ffffff;
+  font-size: 1.14rem;
+  padding: 10px 0;
+}
+
+.basicPlan h5 {
+  background: #263238;
+}
+
+.plusPlan h5 {
+  background: #f9b701;
+}
+
+.vipPlan h5 {
+  background: #2638a2;
 }
 
 .basic {
@@ -758,6 +793,10 @@ ul.details {
   font-family: 'Poiret One', cursive;
 }
 
+.smallText {
+  font-size: 1.1rem;
+}
+
 .altRow {
   background: #b0c4de;
 }
@@ -765,6 +804,7 @@ ul.details {
 .planButton {
   width: 250px;
   margin: 30px auto 0;
+  max-width: 100%;
 }
 
 .planButton a:link, .planButton a:visited, .planButton a:hover {
@@ -799,13 +839,22 @@ ul.details {
 
 .finePrint {
   margin-top: 140px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.finePrint h6 {
+  text-align: left;
 }
 
 .finePrint p {
-  font-size: 1rem;
+  font-size: 1rem !important;
   text-align: left;
   line-height: 1.5;
-  margin-top: 15px;
+}
+
+.ui-state-active {
+  background: #f9b701;
+  border: 1px solid #d59d01;
 }
 
 .wordpressServiceList {
@@ -839,6 +888,11 @@ ul.details {
 
 .serviceHeader {
   margin: 0 auto 20px;
+}
+
+.ui-helper-hidden-accessible {
+  position: absolute;
+  left: -999em;
 }
 
 /*---------SharpSpring Training---------*/
@@ -912,6 +966,23 @@ td {
   }
 }
 
+
+@media screen and (max-width: 905px) {
+.contactHeader {
+  height:170px;
+  }
+
+  .about img {
+    /*float: left;*/
+    width: 100%;
+  }
+
+  .blogHomeHeader h3, .portfolio h4, .services h4 {
+    font-size: 3rem;
+  }
+}
+
+
 @media screen and (max-width: 700px) {
   .homeHeader h1, .blogTopH3, .serviceTopH3 {
     font-size: 3rem;
@@ -923,8 +994,8 @@ td {
 }
 
 @media screen and (max-width: 520px) {
-  .homeHeader h1, .blogTopH3, .serviceTopH3 {
-    font-size: 2.5rem;
+  .homeHeader h1, .blogTopH3, .serviceTopH3, .blogHomeHeader h3, .portfolio h4, .services h4 {
+    font-size: 2rem;
   }
 
   .homeHeader p {
@@ -934,6 +1005,12 @@ td {
   .bigContact a, .bigContact a:hover {
     padding: 20px 50px;
     font-size: 1.4rem;
+  }
+
+  .servicesImages img,.wordpressServiceList img {
+    max-width: 90%;
+    max-height: 100%;
+    margin: 0;
   }
 }
 
@@ -957,10 +1034,10 @@ td {
     clear: both;
   }
 
-  .portfolioImages img {
+  /*.portfolioImages img {
     height:171px;
     max-width:304px;
-  }
+  }*/
 
   .homeHeader h1, .about h4 {
     font-size: 2rem;
@@ -1000,22 +1077,6 @@ td {
   }
 }
 
-
-@media screen and (max-width: 905px) {
-.contactHeader {
-  height:170px;
-  }
-
-  .about img {
-    /*float: left;*/
-    width: 100%;
-  }
-
-  .blogHomeHeader h3 {
-    font-size: 3rem;
-  }
-}
-
 @media screen and (min-width:905px) {
   .about p, .campfireStoriesHeader p {
     font-family:'Quicksand', sans-serif;
@@ -1034,7 +1095,6 @@ td {
 }
 
 @media screen and (min-width: 1107px) {
-
   .menu {
     display:inline-block;
   }
@@ -1137,7 +1197,7 @@ td {
   	width: 250px;
   	height: 100%;
   	background: #263238;
-  	z-index: 10000;
+  	z-index: 999;
     display: block;
   }
 
@@ -1212,9 +1272,9 @@ td {
     text-align: center;
   }
 
-  .portfolioImages li {
+  /*.portfolioImages li {
     margin: 1%;
-  }
+  }*/
 
   .wordpressServiceList li {
     margin: 2%;
@@ -1247,8 +1307,8 @@ td {
   .portfolioImages img {
     /*border-radius:10px;*/
     border:3px solid #f9b701;
-    height: 216px;
-    width: 384px;
+    height: 100%;
+    width: 100%;
     margin-bottom: 0;
     /*height: 333px;
     width: 592px;*/

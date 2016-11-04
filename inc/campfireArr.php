@@ -149,50 +149,58 @@ function getAllCfstories() {
   //   "catch" => "Remember, Adventure is Calling!",
   //   "date" => "November 9th, 2016"
   //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "date" => "November 2nd, 2016"
-  //  );
+  $cfstories["moon-walking-in-ireland"] = array(
+    "img" => "img/blog/header/burren.jpg",
+    "thumb" => "img/blog/thumb/burrenThumb.jpg",
+    "title" => "Moon Walking in Ireland",
+    "info" => "The strange sights of the Burren",
+    "section" => "<p class='blogContent'>
+                    In my initial planning of the trip I expected us to get into Doolin too late to see the Cliffs and today would be when we saw them. However, I didn&apos;t realize how late the Sun sets in summer in Ireland. So instead we decided to explore what else County Clare had to offer, we packed our lunch (because we&apos;re frugal like that) and headed out.
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader'>The Burren</h5>
+                  <br />
+                  <p class='blogContent'>
+                    Our first stop was to see the Burren. The Burren is the smallest of Ireland&apos;s six National Parks but is definitely the most unique. The entire region is covered in limestone which formed there as sediment over 350 million years ago. The Burren has been compared to walking on the moon due to the large amount of rock covering the landscape. While I can&apos;t confirm those reports as sadly I&apos;ve yet to leave this planet on an adventure, I can confirm it was unique, to say the least. Our only hike in the Burren was to see the Poulnabrone Dolmen, a large portal tomb. As we drove through the Park we would look out on the rolling hills and it was grey everywhere we looked.
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>Exploring Co. Clare...Finding Cows & Chocolate</h5>
+                  <br />
+                  <aside class='asideLeft asideLandscape'>
+                    <img src='../img/blog/aside/coolePark.jpg' alt='Coole Park looks a lot like Italy'>
+                  </aside>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    From the Burren we continued exploring County Clare we stumbled across <a href='http://www.hazelmountainchocolate.com/'>Hazel Mountain Chocolate</a>. This small chocolate shop and cafe had some delicious chocolate (though it was definitely expensive). If you like chocolate, which why wouldn&apos;t you, you should stop in and see this small chocolate shop. Right across a field from the chocolate shop is Corcomroe Abbey. The ruins of this 13th Century Cistercian were beautiful, if you have the time, I recommend making the Corcomroe Abbey a stop while exploring the Burren. Heading out toward Coole Park for a late lunch, our path was suddenly stopped by cows! It brought us great amusement to have a road completely stopped by cows. I am still looking for my path to be stopped by sheep but cows will work too.
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>Coole Park, Italy in Ireland</h5>
+                  <br />
+                  <p class='blogContent'>
+                    The juxtaposition between our morning hike in the Burren and where we stopped for a late lunch was incredible. Our lunch spot was at Coole Park, a nature reserve in south County Galway. If you&apos;re nearby and need a relaxing spot to take a walk, eat lunch, or just enjoy a rare sunny Irish day I can think of no place better than Coole Park.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/sunsetCastle.jpg' alt='Sunset behind a castle'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    Upon arriving in Coole Park we headed into a walled courtyard area to eat lunch. We ended up feeling so relaxed we took a nap in the Sun on the field. While the Burren was desolate and rocky, Coole Park was alive with all kinds of flowers and tall trees. To me the Burren was interesting and Coole Park was beautiful. If you&apos;d like to walk, there are two trails for you, the Family Path and the Seven Woods Path. The Family Path is only 1.5km and is a good length for a relaxing stroll in the woods. The Seven Woods Path is 4.5km and is incredibly relaxing. I highly recommend you take the longer path, it&apos;s definitely worth it.
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Sunsets & Castles</h5>
+                  <br />
+                  <p class='blogContent'>
+                    From there we continued exploring County Clare, heading up to Flaggy Shore in the north and grabbing ice cream from <a href='http://www.linnallaicecream.ie/'>Linnalla Irish Ice Cream</a> where the ice cream is made from the cows right outside. We even found a small round castle because, of course. Ireland has random unmarked castles. We ended our evening with another hike along Cliffs of Moher and watching the sunset.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Our ninth day in Ireland was not filled with much of anything other than relaxation and taking it easy. We didn&apos;t rush anywhere, we didn&apos;t even know what we would see that day other than the Burren and Coole Park. If I was to plan the trip again I wouldn&apos;t have had us stay in Doolin an extra day as it would&apos;ve allowed us to see County Donegal or even Northern Ireland, but hindsight is 20/20 and I didn&apos;t mind the day of relaxation.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "date" => "November 2nd, 2016"
+   );
   $cfstories["sleeping-in-the-mountains"] = array(
     "img" => "img/blog/header/elk.jpg",
     "thumb" => "img/blog/thumb/elkThumb.jpg",
@@ -201,6 +209,8 @@ function getAllCfstories() {
     "section" => "<p class='blogContent'>
                     Taking a break from our series of Irish adventure stories, it&apos;s October, which means it&apos;s time for my annual trip to the Smoky Mountains to check out the changing leaves and hike in the mountains. This year it was me and 3 other friends. We packed up the truck and headed north to the mountains! We decided to camp in Smokemont campgrounds which is right inside the Smoky Mountain National Park on the Cherokee, NC side.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>Traffic Strikes</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/smokyMountainYellow2016.jpg' alt='View from the top of a hike in the Blue Ridge Mountains'>
@@ -213,6 +223,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     We entered Great Smoky Mountain National Park and saw a large sign warning us to be cautious due to elk. We figured the odds of actually seeing an elk were low until we saw 10 or so cars pulled over. There in the field were two large elk, one female and one male. We quickly pulled over and snapped a couple pics.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Don&apos;t Forget Chairs!</h5>
                   <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/smokyMountainRed2016.jpg' alt='The beautiful colors of the Smoky Mountains'>
@@ -229,6 +241,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     After dinner we sat around the fire, drank whiskey, ate s&apos;mores, and shared stories. That&apos;s always one of my favorite parts of camping. Knowing we had a big day of hiking ahead of us, we hit the hay.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>Hiking the Blue Ridge Parkway</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/waterrockKnob.jpg' alt='Living on the edge at Waterrock Knob'>
@@ -247,14 +261,16 @@ function getAllCfstories() {
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
-    "date" => "October 30th, 2016"
+    "date" => "October 31st, 2016"
    );
   $cfstories["cliffs-of-moher"] = array(
     "img" => "img/blog/header/cliffsOfMoher.jpg",
     "thumb" => "img/blog/thumb/cliffsOfMoherThumb.jpg",
     "title" => "The Cliffs of Moher",
     "info" => "The incredible Cliffs of Moher!",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Goodbye Dingle!</h5>
+                  <br />
+                  <p class='blogContent'>
                     As we said farewell to the Dingle Peninsula we both said the same thing, &quot;We should&apos;ve stayed longer!&quot; We had seen most of what the peninsula had to offer in terms of new attractions but it was just such a peaceful and beautiful place. It was definitely not easy to begin our trip to Doolin especially because of the length of the drive ahead of us. However, we knew that the Cliffs of Moher lay at the end of the drive and we were eager to see one of Ireland&apos;s most famous landmarks.
                   </p>
                   <br />
@@ -266,6 +282,8 @@ function getAllCfstories() {
                     Leaving from Ballyferriter, we took a mountain road called the Conor Pass. While driving through the Conor Pass we saw a vista point at the height of the road. Wanting to hold on to the Dingle Peninsula as much as we could we pulled over for a hike without hesitation. Climbing the hills next to the vista led us to a high hill with a 360&deg; view of the Pass. Hikers here had created a rock mound, with each hiker adding a rock to the pile. It was now a few feet in diameter and was almost as tall as I am.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Adare, a Cute Place to Stretch Your Legs</h5>
+                  <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/adare.jpg' alt='Adare is a lovely place to stop'>
                   </aside>
@@ -274,8 +292,10 @@ function getAllCfstories() {
                     Our drive to Doolin was rather uneventful (which I suppose is a good thing when said in that way). We stopped for a picnic lunch in a small town south of Shannon, Adare. Adare has thatch-style roofs and seeks to maintain the old Ireland-feel. If you ever find yourself driving through and need a place to stretch your legs, the park across from the Adare Heritage Center is a tranquil place to do so.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>The Dangerous Cliffs of Moher</h5>
+                  <br />
                   <p class='blogContent'>
-                    From there we drove to Doolin. Arriving at our B&B in Doolin, we knew we needed to get out and explore one of Ireland&apos;s greatest treasures. Our B&B host told us of a small area on the side of the road we could park at and walk up to the Cliffs of Moher. To find the spot we parked at, go here https://goo.gl/maps/fWmduwE1Txx. It&apos;s a small pull-off area that barely looks like you can park there but it&apos;s apparently where the locals park as you don&apos;t have to pay that way. What she didn&apos;t tell us is that walking up that way would be far more epic than the path most people take. This small path often led us to the edge of the Cliffs. There was even a sign reminding us of the dangers of the Cliffs.
+                    From there we drove to Doolin. Arriving at our B&B in Doolin, we knew we needed to get out and explore one of Ireland&apos;s greatest treasures. Our B&B host told us of a small area on the side of the road we could park at and walk up to the Cliffs of Moher. To find the spot we parked at, go <a href='https://goo.gl/maps/fWmduwE1Txx'>here</a>. It&apos;s a small pull-off area that barely looks like you can park there but it&apos;s apparently where the locals park as you don&apos;t have to pay that way. What she didn&apos;t tell us is that walking up that way would be far more epic than the path most people take. This small path often led us to the edge of the Cliffs. There was even a sign reminding us of the dangers of the Cliffs.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -287,7 +307,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    After spending the evening hiking the Cliffs, we knew we needed to head back to grab dinner before the restaurants stopped serving food at 9pm. This was something that was odd to me, the Sun didn&apos;t set until well into 10pm but restaurants stopped serving food at 9pm. So, if you were out hiking, you couldn&apos;t go out to eat unless you stopped hiking early.
+                    After spending the evening hiking the Cliffs, we knew we needed to head back to grab dinner before the restaurants stopped serving food at 9pm. This was something that was odd to me, the Sun didn&apos;t set until well into 10pm but restaurants stopped serving food well before that. So, if you were out hiking, you couldn&apos;t go out to eat unless you stopped hiking early.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -314,6 +334,8 @@ function getAllCfstories() {
                     Awaking late in Ballyferriter, we decided to make this a relaxing day where we slept in, ate breakfast while staring out the window at our incredible view, and just took our time checking out the gorgeous Dingle Peninsula. It was amazing how much slower life felt not just on the Dingle Peninsula but in most of Ireland. We were so far removed from the go-go-go culture here in the States. I loved the slower pace, made it easy to find new adventures.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Church in Dingle</h5>
+                  <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/corpusChristi.jpg' alt='A procession through Dingle for Corpus Christi'>
                   </aside>
@@ -326,8 +348,10 @@ function getAllCfstories() {
                     After Mass, there was a procession through the town (it&apos;s not a big town) because it was Corpus Christi Sunday. Corpus Christi is a feast day that celebrates the belief that all Catholics hold that the bread and wine the Priest holds up during Mass becomes the Body and Blood of the Lord, Jesus Christ. This procession was amazing to be a part of. So many walked with us and others joined as we passed them. The procession was filled with singing and praying.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Lazy Sunday Afternoons</h5>
+                  <br />
                   <p class='blogContent'>
-                    Getting back in the car we headed north for the coast. We had no plans and not directions of anywhere we wanted to go. We just started driving and knew we&apos;d figure it out along the way. We found Mount Brandon along our route to the north but decided not to hike it mostly because we couldn&apos;t find anywhere to pull off and park.
+                    Getting back in the car we headed north for the coast. We had no plans and no directions for anywhere we wanted to go. We just started driving and knew we&apos;d figure it out along the way. We found Mount Brandon along our route to the north but decided not to hike it mostly because we couldn&apos;t find anywhere to pull off and park.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -337,6 +361,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     Following the coast to the west for a while, we found the Wine Strand where we stopped for a picnic lunch and to just watch the waves crash in. After skipping rocks for longer than a grown man will admit, we continued west and began to look around and think the area looked familiar. At first, we thought Ireland was beginning to run together until we saw a sign welcoming us to Ballyferriter. We had somehow made it back to our home while we were wandering around Dingle. This beautiful peninsula had so much for us to explore and yet was also so much smaller than we expected.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Star Wars & Ireland</h5>
                   <br />
                   <p class='blogContent'>
                     Continuing west, we found a place to pull off the road near a beach to take a hike along the mini-cliffs. Our path took us through fields with cows and other fields with sheep. While admiring the view of the Three Sisters (3 coastal high points in a row) we were greeted by some locals who saw us staring at the Three Sisters and asked if we were trying to see the Star Wars set. We had no idea, but apparently the not yet released Star Wars: Episode VIII will have some scenes shot from this location and we were staring right at them. They told us that the actors were no longer there but before they left they went to go visit the local school. How cool is that? There was no real publicity about it and that&apos;s part of why it&apos;s so cool to me.
@@ -349,9 +375,13 @@ function getAllCfstories() {
                     Making our way further up the coast we stopped at Waymont (according to Google Maps, though I never saw a sign), this point jutting out into the Atlantic Ocean was a great view of the harbour from the vista point. However, it wasn&apos;t until we decided to leave the vista and hike up onto the hill that the view became really great. These secluded views reminded us that the best and most rewarding views are so often found when you trek a little further than the designated vistas.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>My Evil Twin!</h5>
+                  <br />
                   <p class='blogContent'>
                     That&apos;s when things got interesting though. It was on this peninsula that I found my evil twin! As you can see from the picture below we were evenly matched but I was able to best him and keep him from taking over the world. You are all welcome!
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>The Gorgeous Dunquin Harbour</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/evilTwin.jpg' alt='The view of the water from the Wine Strand'>
@@ -377,7 +407,9 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/skelligMichaelStairsThumb.jpg",
     "title" => "The Skellig Michael",
     "info" => "Easily the coolest place we went to in Ireland",
-    "section" => "<p class='blogContent clearContent'>
+    "section" => "<h5 class='blogSubHeader'>Adventures Finding Our Boat</h5>
+                  <br />
+                  <p class='blogContent clearContent'>
                     Last time, we had been defeated by clouds but were hopeful for our upcoming trip to the Skellig Islands. After a hearty, Irish breakfast we walked to the docks to catch our boat to the Skelligs. We were greeted by five or so captains all calling out names in very thick Irish accents looking for their passengers so they could be on their way. Asking a few of them for &quot;Eoin&quot; (which we had no idea how to pronounce at the time) yielded no results. Finally, one captain said, &quot;I know Eoin, he&apos;s over there.&quot; (pointing toward the end of the dock) We followed this captain as we thought he was taking us to him. After going to a boat and it not being Eoin, he turned to us and said &quot;Why are you following me? Eoin is over there.&quot;
                   </p>
                   <br />
@@ -397,6 +429,8 @@ function getAllCfstories() {
                     Due to the danger of trying to land people on the island and the dangers on the island itself, they only allow the trip if the weather isn&apos;t too bad and the waves aren&apos;t too big. You need to book your trip far in advance as they only allow about 200 people a day to land on the island (many more circle the island to see it which is nice, but trust me, it is not remotely as epic) and then you need to hope for good weather. Thankfully, as was the case for our entire trip, the weather was gorgeous!
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Time to Ship Off!</h5>
+                  <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/skelligMichael.jpg' alt='Huge bird-watching cameras'>
                   </aside>
@@ -405,9 +439,13 @@ function getAllCfstories() {
                     We walked down to our dock and met the others on our boat. A group on the boat had cameras with lenses so big they looked as though they could capture a dime at the bottom of the Grand Canyon. Turns out they don&apos;t even do photography for a living, they just all really love taking pictures of birds.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Little Skellig</h5>
+                  <br />
                   <p class='blogContent'>
                     We headed out to sea and made our way to Little Skellig, which you can&apos;t get on as it&apos;s a bird preserve. The island is home to over fifty thousand birds, so I&apos;m not sure you&apos;d want to visit the island. After looping around Little Skellig we made our way to the main event, Skellig Michael. If Eoin was a character in a book about the sea, this was the Irish version of Treasure Island. Rising out of the sea, you wondered how the monks made the trip out here let alone survived on the island.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>Skellig Michael (a.k.a. Treasure Island)</h5>
                   <br />
                   <aside class='asideLeft asidePortrait'>
                     <img src='../img/blog/aside/stairs.jpg' alt='Huge bird-watching cameras'>
@@ -449,6 +487,8 @@ function getAllCfstories() {
                     The wife and I both agree that the Skelligs were hands down the coolest thing we did in Ireland and that includes climbing the Croagh Patrick, visiting Dublin, and even the famous Cliffs of Moher. If you have the opportunity to land on the Skellig Michael, take it (just promise to bring me). It&apos;s truly unlike anything else I&apos;ve ever done.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader headerClearContent'>From Skellig Michael to Dingle</h5>
+                  <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/ballycarberyCastle.jpg' alt='Huge bird-watching cameras'>
                   </aside>
@@ -460,6 +500,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     The Ballycarbery Castle is just off the N70, the main road. The vine-covered castle ruins are worth the stop. If for nothing else, then so you can get a cool shot like mine. Even better though, you can actually climb up into the second and third stories of the castle and act as if you were the ruler of the land (c&apos;mon, you know you want to).
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Where to Stay in Dingle</h5>
                   <br />
                   <p class='blogContent'>
                     As our day grew short and began to stretch into evening, we made it to the Dingle Peninsula. I&apos;ll leave the stories of Dingle for next time. But before I go, I have to say something about our lodging. We stayed in <a href='https://www.airbnb.com/rooms/3524768'>a house in Ballyferriter with an incredible view</a>. I highly recommend staying there for the night as Breege is the sweetest woman on Airbnb. She did everything to make our stay as wonderful and as welcoming as possible, including having a sign welcoming me to the house.
@@ -489,8 +531,10 @@ function getAllCfstories() {
                     Our next trek would take us to the tip of the Kerry Peninsula by way of the Ring of Kerry. While the majority of people drive the Ring of Kerry in one day, we decided to take two and stay the night in Portmagee. Heading out from Kenmare we headed along the coast. Since we had the time we would stop whenever we saw a sign directing us to an interesting sight or a pull-off that had an incredible view.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>The Staigue Fort</h5>
+                  <br />
                   <p class='blogContent'>
-                    Our first major stop worth photographing was the Staigue Fort. This fort, built sometime between 300 to 400 AD, has walls that are multiple feet. Built in the valleys of hill country and with good sightlines down the hill to the bay, I can easily see why they built the fort where they did. It was a lot of fun climbing the walls and walking around the top of the walls. I&#39;m not sure if people were actually this short back then or if they were just more ok with ducking every time they entered a doorway, but I had to almost get on my hands and knees to make it into the fort.
+                    Our first major stop worth photographing was the Staigue Fort. This fort, built sometime between 300 to 400 AD, has walls that are multiple feet. Built in the valleys of hill country and with good sightlines down the hill to the bay, I can easily see why they built the fort where they did. It was a lot of fun climbing the walls and walking around the top of the walls. I&apos;m not sure if people were actually this short back then or if they were just more ok with ducking every time they entered a doorway, but I had to almost get on my hands and knees to make it into the fort.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -498,11 +542,13 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    After nearly knocking my head on almost every doorway in the fort and with me only a little bit woozy from that, we headed back to the car. Continuing our drive we decided to take the slightly longer route to the Ballinskelligs before heading to Portmagee. I&#39;m happy we did because our drive into Portmagee took us up on top of a high hill before heading down. This gave some great views of the quaint town that we would stay the night in. From right to left the land sloped from flat to the highest points in the area before dropping off dramatically as cliffs into the ocean. Off in the distance, the Valentia Island looked like you could hike the entire island in a day if you wanted and would be rewarded handsomely with incredible views.
+                    After nearly knocking my head on almost every doorway in the fort and with me only a little bit woozy from that, we headed back to the car. Continuing our drive we decided to take the slightly longer route to the Ballinskelligs before heading to Portmagee. I&apos;m happy we did because our drive into Portmagee took us up on top of a high hill before heading down. This gave some great views of the quaint town that we would stay the night in. From right to left the land sloped from flat to the highest points in the area before dropping off dramatically as cliffs into the ocean. Off in the distance, the Valentia Island looked like you could hike the entire island in a day if you wanted and would be rewarded handsomely with incredible views.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>The Cliffs of Kerry</h5>
+                  <br />
                   <p class='blogContent'>
-                    Being in awe of the cliffs we knew we needed to check them out. They are the Cliffs of Kerry, and while they are less popular than the world famous Cliffs of Moher (for good reason as they are not as expansive as their County Clare cousins) they were still awe-inspiring. We hadn&#39;t seen any cliffs yet in Ireland so we just stood and stared for a long time at the painted cliffs before us. Off in the distance, we saw two islands rising out of the ocean. This brought a great deal of excitement because that would be tomorrow&#39;s destination, the Skellig Islands.
+                    Being in awe of the cliffs we knew we needed to check them out. They are the Cliffs of Kerry, and while they are less popular than the world famous Cliffs of Moher (for good reason as they are not as expansive as their County Clare cousins) they were still awe-inspiring. We hadn&apos;t seen any cliffs yet in Ireland so we just stood and stared for a long time at the painted cliffs before us. Off in the distance, we saw two islands rising out of the ocean. This brought a great deal of excitement because that would be tomorrow&apos;s destination, the Skellig Islands.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -513,8 +559,10 @@ function getAllCfstories() {
                     After checking into our B&B, we walked into the town to grab a bite to eat and a walk around the small fishing village. With winds whipping and us being right on the Atlantic, the temperature was definitely a little bit more chilly than our more inland destinations. We drove over to Valentia Island to catch the sunset before bed (sunset was at around 10 pm).
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Certified Dark Sky Reserve</h5>
+                  <br />
                   <p class='blogContent'>
-                    Having a big day ahead of us with an early wake up we wanted to get to bed as soon as possible...until...I learned that Portmagee is certified Dark Sky Reserve. For those of you who don&#39;t know what that means. Basically, Portmagee is an area, that is kept free of artificial light pollution. This means that some of the best star gazing on the planet can be had from this location. The moment I learned this from my friend Google, I jumped up, threw on some shoes and headed to the car to go to the beach nearby considered the darkest of the area. My dreams were then promptly thrashed upon walking outside, looking up, and seeing clouds...I was in one of the eleven certified Dark Sky Reserves on the planet and I couldn&#39;t take advantage of it!
+                    Having a big day ahead of us with an early wake up we wanted to get to bed as soon as possible...until...I learned that Portmagee is certified Dark Sky Reserve. For those of you who don&apos;t know what that means. Basically, Portmagee is an area, that is kept free of artificial light pollution. This means that some of the best star gazing on the planet can be had from this location. The moment I learned this from my friend Google, I jumped up, threw on some shoes and headed to the car to go to the beach nearby considered the darkest of the area. My dreams were then promptly thrashed upon walking outside, looking up, and seeing clouds...I was in one of the eleven certified Dark Sky Reserves on the planet and I couldn&apos;t take advantage of it!
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -529,8 +577,10 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/gapOfDunloeThumb.jpg",
     "title" => "Gap Of Dunloe",
     "info" => "13 Miles of Pure Bliss!",
-    "section" => "<p class='blogContent'>
-                    As we drove from Kenmare through Moll&#39;s Gap this time we didn&#39;t take the right towards Killarney National Park. Instead, we headed left toward Lord Brandon&#39;s Cottage to leave our car for the day while we made the trek through the Gap of Dunloe. The road became a single lane for multiple miles. Thankfully, there were very few cars on it but with thick brush on both sides of the road, it made passing each other difficult. We missed multiple turns and got a little lost along the way but that&#39;s all part of the fun. Missing one turn took us to a serene lake, we definitely didn&#39;t mind that detour. After driving down what looked like someone&#39;s driveway we had finally found Lord Brandon&#39;s Cottage.
+    "section" => "<h5 class='blogSubHeader'>New Paths Through Familiar Roads</h5>
+                  <br />
+                  <p class='blogContent'>
+                    As we drove from Kenmare through Moll&apos;s Gap this time we didn&apos;t take the right towards Killarney National Park. Instead, we headed left toward Lord Brandon&apos;s Cottage to leave our car for the day while we made the trek through the Gap of Dunloe. The road became a single lane for multiple miles. Thankfully, there were very few cars on it but with thick brush on both sides of the road, it made passing each other difficult. We missed multiple turns and got a little lost along the way but that&apos;s all part of the fun. Missing one turn took us to a serene lake, we definitely didn&apos;t mind that detour. After driving down what looked like someone&apos;s driveway we had finally found Lord Brandon&apos;s Cottage.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -538,28 +588,32 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
-                    Online I had seen conflicting reports about whether you can drive the Gap of Dunloe or not. Some said it was ok just not advised due to the amount of horse-drawn carriages and hikers on the single lane road. Others said it was not legal to drive on the road. Regardless, we felt we didn&#39;t want to take the chance and would rather hike it anyway.
+                    Online I had seen conflicting reports about whether you can drive the Gap of Dunloe or not. Some said it was ok just not advised due to the amount of horse-drawn carriages and hikers on the single lane road. Others said it was not legal to drive on the road. Regardless, we felt we didn&apos;t want to take the chance and would rather hike it anyway.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    This was 100% the right call. While I didn&#39;t see any signs prohibiting cars and would often see cars on the road, they were more of a nuisance to the hikers due to how narrow the road is and the lack of a shoulder in my areas. Plus, you don&#39;t get to appreciate the views due to them going by so much more quickly. There are also some views that you don&#39;t get inside the car. If you are able to walk the long road, I highly recommend it.
+                    This was 100% the right call. While I didn&apos;t see any signs prohibiting cars and would often see cars on the road, they were more of a nuisance to the hikers due to how narrow the road is and the lack of a shoulder in my areas. Plus, you don&apos;t get to appreciate the views due to them going by so much more quickly. There are also some views that you don&apos;t get inside the car. If you are able to walk the long road, I highly recommend it.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>13 Miles of Pure Bliss</h5>
+                  <br />
                   <p class='blogContent'>
-                    We strapped on our 3 liter water reservoir backpack filled with trail mix, fruit, an external battery for our phones, and of course, the one thing you need in Ireland no matter what the sky looks like, our rain jackets. We began following the path back we had driven in on before stopping to &#34;baaaaa&#34; at sheep we saw on the side of the road. Don&#39;t lie you would do it too.
+                    We strapped on our 3 liter water reservoir backpack filled with trail mix, fruit, an external battery for our phones, and of course, the one thing you need in Ireland no matter what the sky looks like, our rain jackets. We began following the path back we had driven in on before stopping to &#34;baaaaa&#34; at sheep we saw on the side of the road. Don&apos;t lie you would do it too.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/townBelowGapOfDunloe.jpg' alt='The path from Lord Brandon&#39;s Cottage'>
+                    <img src='../img/blog/aside/townBelowGapOfDunloe.jpg' alt='The path from Lord Brandon&apos;s Cottage'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    If you look at the picture to the left to this paragraph, you&#39;ll see the path we took from Lord Brandon&#39;s. This led us through the small township you see. After you pass the township, you&#39;ll come to a fork in the road. The sign is a tad confusing because it shows a hiking symbol pointed to the left, that hiking symbol is for those hiking the Kerry Peninsula. You want to head right. I say this because I saw people go left and then have to come back. If not for some kind bicyclists fortuitously climbing the mountain at that moment we may have made that same mistake. Thankfully, they were able to direct us to the correct path, all while going up the steep incline on their bikes.
+                    If you look at the picture to the left to this paragraph, you&apos;ll see the path we took from Lord Brandon&apos;s. This led us through the small township you see. After you pass the township, you&apos;ll come to a fork in the road. The sign is a tad confusing because it shows a hiking symbol pointed to the left, that hiking symbol is for those hiking the Kerry Peninsula. You want to head right. I say this because I saw people go left and then have to come back. If not for some kind bicyclists fortuitously climbing the mountain at that moment we may have made that same mistake. Thankfully, they were able to direct us to the correct path, all while going up the steep incline on their bikes.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We had followed the road up, we had reached the highest point on our path. We could see the vast Black Valley we had just come from stretching out behind us and the incredible sights of the Gap of Dunloe ahead of us. Stopping for a snack and a brief rest we had a short conversation with a white haired couple that was also making the 13 mile trip from Lord Brandon&#39;s to Kate Kearney&#39;s and back. They told us about how they had done this hike before but it was when they were much younger. I must say I am still impressed that they were able to complete this hike at their age.
+                    We had followed the road up, we had reached the highest point on our path. We could see the vast Black Valley we had just come from stretching out behind us and the incredible sights of the Gap of Dunloe ahead of us. Stopping for a snack and a brief rest we had a short conversation with a white haired couple that was also making the 13 mile trip from Lord Brandon&apos;s to Kate Kearney&apos;s and back. They told us about how they had done this hike before but it was when they were much younger. I must say I am still impressed that they were able to complete this hike at their age.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Down into the Valley</h5>
                   <br />
                   <p class='blogContent'>
                     Continuing down into the Gap, we were struck by the beauty of the cragginess of the mountains rising up on both sides of us. The path wound down and leveled off and became a leisurely stroll compared to the steep incline we had just came from. Sheep grazed on the side of the road and up on the mountains. They hopped effortlessly from rock to rock looking for that perfect blade of grass to chow down on.
@@ -570,23 +624,25 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Speaking of chowing down, we had made it to our halfway point, Kate Kearney&#39;s Cottage. This little restaurant and shop was a welcome sight after a few hours of walking. I, having no issue with doing so, ordered the lamb and it was delicious.
+                    Speaking of chowing down, we had made it to our halfway point, Kate Kearney&apos;s Cottage. This little restaurant and shop was a welcome sight after a few hours of walking. I, having no issue with doing so, ordered the lamb and it was delicious.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>There and Back Again</h5>
+                  <br />
                   <p class='blogContent'>
-                    Hiking back through the Gap was just as beautiful as it was the first time. The hike back was so much easier due to us being on the descent on that steep road. Before heading back to Kenmare we decided to see what was down the road right past the parking area we had left our car at outside of Lord Brandon&#39;s Cottage. This turned out to almost be a costly mistake. The road turned into a dirt and gravel path and offered no place turn around. We had to make a u-turn on a road no wider than our car with a lot of mud right off the path. Thankfully, we didn&#39;t get stuck. It was to be our last night in Kenmare, our home for the past few days. So, of course, we decided to reward ourselves for our big day of hiking with an ice cream from the local shoppe.
+                    Hiking back through the Gap was just as beautiful as it was the first time. The hike back was so much easier due to us being on the descent on that steep road. Before heading back to Kenmare we decided to see what was down the road right past the parking area we had left our car at outside of Lord Brandon&apos;s Cottage. This turned out to almost be a costly mistake. The road turned into a dirt and gravel path and offered no place turn around. We had to make a u-turn on a road no wider than our car with a lot of mud right off the path. Thankfully, we didn&apos;t get stuck. It was to be our last night in Kenmare, our home for the past few days. So, of course, we decided to reward ourselves for our big day of hiking with an ice cream from the local shoppe.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/blackValleyPlains.jpg' alt='The path from Lord Brandon&#39;s Cottage'>
+                    <img src='../img/blog/aside/blackValleyPlains.jpg' alt='The path from Lord Brandon&apos;s Cottage'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    I enjoyed every minute of hiking the Gap of Dunloe and I hope that when you visit Ireland, you make it part of your trip as well. There are easier ways of seeing it if you&#39;re not one for hours of hiking in a day. I&#39;ve seen people online talk about taking a boat from Ross Castle in Killarney National Park to Lord Brandon&#39;s Cottage then hiking to Kate Kearney&#39;s, followed by a short taxi ride back to Ross Castle. Though you could easily reverse this if you&#39;d like to avoid going up the steep incline. The only thing you would need to do is make sure you make it to Lord Brandon&#39;s early enough to catch the last boat to Ross Castle. This seems like a unique experience and one I would like to experience when we go back to Ireland one day.
+                    I enjoyed every minute of hiking the Gap of Dunloe and I hope that when you visit Ireland, you make it part of your trip as well. There are easier ways of seeing it if you&apos;re not one for hours of hiking in a day. I&apos;ve seen people online talk about taking a boat from Ross Castle in Killarney National Park to Lord Brandon&apos;s Cottage then hiking to Kate Kearney&apos;s, followed by a short taxi ride back to Ross Castle. Though you could easily reverse this if you&apos;d like to avoid going up the steep incline. The only thing you would need to do is make sure you make it to Lord Brandon&apos;s early enough to catch the last boat to Ross Castle. This seems like a unique experience and one I would like to experience when we go back to Ireland one day.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Strangely, I don&#39;t believe this is that well known of a hike for many people in Ireland unless they are from that area. I have a friend from the northern area of West Ireland living here in the States now. When he asked what we would doing on our trip to Ireland I listed off a few things including the Gap of Dunloe. He told me he was only familiar with it because his American wife had also hiked the Gap.
+                    Strangely, I don&apos;t believe this is that well known of a hike for many people in Ireland unless they are from that area. I have a friend from the northern area of West Ireland living here in the States now. When he asked what we would doing on our trip to Ireland I listed off a few things including the Gap of Dunloe. He told me he was only familiar with it because his American wife had also hiked the Gap.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -598,19 +654,21 @@ function getAllCfstories() {
     "title" => "Windy Mountain Roads",
     "info" => "The views you get from vistas are great, but the best views are the ones you have to work to get to.",
     "section" => "<p class='blogContent'>
-                    Kenmare, a lovely town of just over 2,000, would be our home for the next few days. It&#39;s strange how a town so small by US standards felt much bigger there. Kenmare and Killarney are considered the 2 jumping off point for exploring the famous Ring of Kerry. If you&#39;re looking for a peaceful time with a lot less tourist-y feel, Kenmare is your type of place. Killarney was fun and not a large city by any means, but it is definitely more of a tourist central area.
+                    Kenmare, a lovely town of just over 2,000, would be our home for the next few days. It&apos;s strange how a town so small by US standards felt much bigger there. Kenmare and Killarney are considered the 2 jumping off point for exploring the famous Ring of Kerry. If you&apos;re looking for a peaceful time with a lot less tourist-y feel, Kenmare is your type of place. Killarney was fun and not a large city by any means, but it is definitely more of a tourist central area.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Incredible Views</h5>
+                  <br />
                   <aside class='asideRight asideLandscape'>
-                    <img src='../img/blog/aside/mollsGap.jpg' alt='The view from Moll&#39;s Gap'>
+                    <img src='../img/blog/aside/mollsGap.jpg' alt='The view from Moll&apos;s Gap'>
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
-                    No matter which town you stay in, you need to drive the road between them to see one of the most amazing views in Ireland in my opinion. Moll&#39;s Gap is a mountainous intersection of roads. Our first day in Kenmare, we headed to the Killarney National Park and needed to drive through Moll&#39;s Gap to get there. As we trekked along the mountain roads there came a point where the road curved to the right seemingly right into the rocks. We made that right and instantly a &#34;wooooooooowwwww!&#34; came from both our lips in exclamation. To be fair, Ireland would do this over and over again throughout our adventures.
+                    No matter which town you stay in, you need to drive the road between them to see one of the most amazing views in Ireland in my opinion. Moll&apos;s Gap is a mountainous intersection of roads. Our first day in Kenmare, we headed to the Killarney National Park and needed to drive through Moll&apos;s Gap to get there. As we trekked along the mountain roads there came a point where the road curved to the right seemingly right into the rocks. We made that right and instantly a &#34;wooooooooowwwww!&#34; came from both our lips in exclamation. To be fair, Ireland would do this over and over again throughout our adventures.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We pulled off and just stared out into the vast mountain range with its valleys and windy roads. I love my wife, we both said when looking out at all of this, &#34;I can&#39;t wait to go hike this!&#34; Not wanting to miss any time hiking through one of only 6 National Parks in Ireland, we headed back to the car to drive those windy roads to Killarney town.
+                    We pulled off and just stared out into the vast mountain range with its valleys and windy roads. I love my wife, we both said when looking out at all of this, &#34;I can&apos;t wait to go hike this!&#34; Not wanting to miss any time hiking through one of only 6 National Parks in Ireland, we headed back to the car to drive those windy roads to Killarney town.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -618,11 +676,13 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    As windy as our drive along the Healy Pass was on the Beara Peninsula, the road to Killarney was far more so. This isn&#39;t a bad thing though, I thoroughly enjoyed driving the windy roads. Our little Hyundai was right at home along these windy roads to Killarney, but it was the tour buses (they&#39;re a recurring enemy of mine on this trip) that would make this road feel so much more difficult to drive on at times. But we had arrived. We had made it to Killarney National Park and it was awesome. The Emerald Isle was on full display here, the various shades of green shimmering in the sunlight.
+                    As windy as our drive along the Healy Pass was on the Beara Peninsula, the road to Killarney was far more so. This isn&apos;t a bad thing though, I thoroughly enjoyed driving the windy roads. Our little Hyundai was right at home along these windy roads to Killarney, but it was the tour buses (they&apos;re a recurring enemy of mine on this trip) that would make this road feel so much more difficult to drive on at times. But we had arrived. We had made it to Killarney National Park and it was awesome. The Emerald Isle was on full display here, the various shades of green shimmering in the sunlight.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Hiking in Shimmering Green</h5>
+                  <br />
                   <p class='blogContent'>
-                    Starting up the steep path through the woods we didn&#39;t make it far before we had to stop. Not from exhaustion but because we found a waterfall! I don&#39;t know about you but I&#39;m a sucker for waterfalls. Something about them is always cool to me. The rushing water creates a peaceful and relaxing noise that washes away all my worries. Though, while I&#39;m in Ireland, what worries do I have?
+                    Starting up the steep path through the woods we didn&apos;t make it far before we had to stop. Not from exhaustion but because we found a waterfall! I don&apos;t know about you but I&apos;m a sucker for waterfalls. Something about them is always cool to me. The rushing water creates a peaceful and relaxing noise that washes away all my worries. Though, while I&apos;m in Ireland, what worries do I have?
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -630,24 +690,30 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Many people made the short trip to the waterfall but few went further and climbing up the steep path to continue the hike and that&#39;s a shame. They missed some wonderful hiking to the top of the waterfall and views that you can&#39;t get from down in the parking lot. Maybe that&#39;s just me though, I have always been one to push that little bit further, knowing it almost always pays off. The views you get from vistas are great, but the best views are the ones you have to work to get to.
+                    Many people made the short trip to the waterfall but few went further and climbing up the steep path to continue the hike and that&apos;s a shame. They missed some wonderful hiking to the top of the waterfall and views that you can&apos;t get from down in the parking lot. Maybe that&apos;s just me though, I have always been one to push that little bit further, knowing it almost always pays off. The views you get from vistas are great, but the best views are the ones you have to work to get to.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>The Muckross House & Gardens</h5>
                   <br />
                   <p class='blogContent'>
                     Eschewing the jaunting cars (horse-drawn carriages) that were rather pushy about getting us to hire them, we made our way to the Muckross House and Gardens. Situated on Muckross Lake and in the middle of Killarney National Park, this mansion is well worth the visit. Though, we were both expecting a mansion with grandeur similar to that of the Biltmore, this estate is far less expansive. However, the perfectly manicured grounds and gardens (which are free to visit) make this a place well worth the visit.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>The Touristy Killarney</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/bagpipes.jpg' alt='Man playing bagpipes looking out over a lake...cause Ireland.'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Leaving Muckross, we made our way to Killarney, which is a lot of fun to say in your best Irish brogue. Just don&#39;t do so around someone actually from Ireland...can&#39;t imagine you&#39;re good enough at it to pull it off. Walking around Killarney we stopped in little shops and even went into some of the tourist-y shops. After dinner, we decided to treat ourselves to a pastry from French pastry shop knowing that tomorrow we would be hiking about 13 miles in the Gap of Dunloe.
+                    Leaving Muckross, we made our way to Killarney, which is a lot of fun to say in your best Irish brogue. Just don&apos;t do so around someone actually from Ireland...can&apos;t imagine you&apos;re good enough at it to pull it off. Walking around Killarney we stopped in little shops and even went into some of the tourist-y shops. After dinner, we decided to treat ourselves to a pastry from French pastry shop knowing that tomorrow we would be hiking about 13 miles in the Gap of Dunloe.
                   </p>
                   <br />
                   <p class='blogContent'>
                     One thing we were surprised at while visiting the National Parks though was the lack of trails. At both Killarney and Connemara later there was very trails. At Connemara especially, there was only one trail that was broken up into three different loops.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>One Final Treat</h5>
                   <br />
                   <p class='blogContent'>
                     Heading back through the windy roads to Kenmare, we decided to stop one more time at the first vista we came to upon entering the Park. Glad we did, a man was out there playing the bagpipes. Which is just awesome.
@@ -665,13 +731,17 @@ function getAllCfstories() {
                     Where we <a href='http://mountmckinney.com/campfire/?story=irish-adventures'>last left off</a>, my wife and I were trans-Atlantic flight zombies staying the night in Kinsale. As we arose the next morning to greet the beautiful Irish morning, we felt so much better. We were ready to explore this gorgeous land that our families came from.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>The Ring of Beara</h5>
+                  <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/healyPassSheep.jpg' alt='Painted Sheep'>
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
-                    From Kinsale, we headed toward the West Coast to drive along the Beara Peninsula on the Ring of Beara. The lesser known cousin to the Ring of Kerry, the Ring of Beara doesn&#39;t see nearly as many tourists. I&#39;m not sure why because I thought it was actually more beautiful than the Ring of Kerry. With fewer cars (and buses) to clog up the roadways, we enjoyed unabated views of this national treasure. Just goes to show, that sometimes the best places aren&#39;t on the beaten path.
+                    From Kinsale, we headed toward the West Coast to drive along the Beara Peninsula on the Ring of Beara. The lesser known cousin to the Ring of Kerry, the Ring of Beara doesn&apos;t see nearly as many tourists. I&apos;m not sure why because I thought it was actually more beautiful than the Ring of Kerry. With fewer cars (and buses) to clog up the roadways, we enjoyed unabated views of this national treasure. Just goes to show, that sometimes the best places aren&apos;t on the beaten path.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Hillwalking in the Healy Pass</h5>
                   <br />
                   <p class='blogContent'>
                     On the Ring of Beara is where we first experienced sheep walking on and around the road. They were everywhere. All with different color spray paint on them, I assume to designate who they belong to. As we drove the windy roads along Beara, we cut through the Peninsula by driving along the Healy Pass, which offered views of wide-open plains rising into high hills.  Upon seeing a pull-off near the top of the pass, we decided to go hillwalking.
@@ -682,8 +752,10 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Each time we reached a new vista, we had to just stop and stare. Ireland is truly one of the most beautiful places I&#39;ve ever been. There is something enchanting about Ireland. From the top of the hill, we could see a few houses around a beautiful lake at the bottom of the valley. We sat at the top of that hill for over half an hour just taking in the view and thanking God for an incredible landscape.
+                    Each time we reached a new vista, we had to just stop and stare. Ireland is truly one of the most beautiful places I&apos;ve ever been. There is something enchanting about Ireland. From the top of the hill, we could see a few houses around a beautiful lake at the bottom of the valley. We sat at the top of that hill for over half an hour just taking in the view and thanking God for an incredible landscape.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Derreen Gardens</h5>
                   <br />
                   <p class='blogContent'>
                     With so much left to see that day, we reluctantly made our way down toward the car to continue on. Our path took us right by that lake we had seen at the top of the hill. Venturing further we made our way to Derreen Gardens on the north coast of the Beara Peninsula.
@@ -717,7 +789,9 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/irishAdventuresKinsaleThumb.jpg",
     "title" => "Irish Adventures",
     "info" => "Ireland",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Coming Home to Ireland</h5>
+                  <br />
+                  <p class='blogContent'>
                     It only took the entire summer for me to finally write about our trip to Ireland. As our flight took off from Orlando in mid-May, I knew we would be embarking on a truly once in a lifetime trip. After a short connection in Boston, we departed for Shannon! I had never been to Ireland but I knew I was excited to go and I knew I would love it. Boy was I right, it was hard to leave such a breathtakingly beautiful country. My grandmother had come to America from Ireland when she was a little girl. Being in a place that only 2 generations before had been my family&apos;s home made me immediately feel at home there. Not to mention that I definitely could pass for an Irish citizen, well at least until I spoke obviously.
                   </p>
                   <br />
@@ -733,17 +807,23 @@ function getAllCfstories() {
                     Oh those wretched tour buses. The smallest of them take up the entire lane and most venture into your lane. I honestly felt bad for the people in them, they wouldn&apos;t experience Ireland the way my wife and I did. They couldn&apos;t take a detour, change their plans last minute, or just stop on the side of the road to hike. They missed some of the most amazing sights that we experienced.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader headerClearContent'>Irish Whiskey</h5>
+                  <br />
                   <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/cobhCathedral.jpg' alt='St. Colman&#39;s Cathedral in Cobh, Ireland'>
+                    <img src='../img/blog/aside/cobhCathedral.jpg' alt='St. Colman&apos;s Cathedral in Cobh, Ireland'>
                   </aside>
                   <br />
                   <p class='blogContent'>
                     Our first major stop was to experience that great liquid gold, Irish whiskey. We headed south from Shannon to Middleton, the home of the Jameson Distillery. What a blast that was. I learned so much and got to drink some delicious whiskey doing it. At the end of the tour, I participated in a taste test with Jameson 12 yr, Jonnie Walker Black, and Jack Daniels. Somehow, I feel they didn&apos;t exactly go for top-shelf when it came to bourbon.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>St. Colman&apos;s Cathedral</h5>
+                  <br />
                   <p class='blogContent'>
                     After our whiskey tour, we headed to Cobh to see St. Colman&apos;s Cathedral. This massive gothic Cathedral towers over the town, as you can see in the picture. The Cathedral was gorgeous (as were all the Cathedrals we visited in Ireland). This one, right on the Cork Harbour, provided picturesque views both inside and out.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Zombie Tourists</h5>
                   <br />
                   <p class='blogContent'>
                     From there, we made our way to where we&apos;d be staying the first night, Kinsale. A small town on the River Bandon on the South edge of Ireland, Kinsale is a quaint town that is well worth the stop for the night. Our first (but not last) Irish poured Guinness was ordered in a pub in Kinsale. We felt a bit like zombies that first day except without wanting to eat braaaaaainnnssss. I had gotten less than an hour of sleep in 40 hours. Needless to say, I was very excited when that first day&apos;s rest came. I was out as soon as my head hit the pillow.
@@ -757,9 +837,7 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
     "title" => "Southern Charm",
     "info" => "Savannah, GA",
-    "section" => "<aside class='asidePortraitSmall asideLeft'>
-                    <img src='../img/blog/aside/savannahCity.jpg' alt='Me and a statue just hanging out'>
-                  </aside>
+    "section" => "<h5 class='blogSubHeader'>Getting Away From It All</h5>
                   <br />
                   <p class='blogContent'>
                     Sometimes you need to just get away and revitalize yourself. In mid-April, it was time for me and my wife to do just that. We decided a B&B trip to Savannah, GA for the weekend was the perfect getaway. It was a wonderful, relaxing experience in one of my favorite cities. We stayed at the <a href='http://dresserpalmerhouse.com/'>Dresser Palmer House</a> right near <a href='http://visithistoricsavannah.com/forsyth-park/'>Forsyth Park</a>. The weather was gorgeous, only feeling hot when we went hiking in non-shaded parts of <a href='http://gastateparks.org/SkidawayIsland'>Skidaway Island State Park</a> and being cold enough to wear a jacket in the evenings.
@@ -773,8 +851,10 @@ function getAllCfstories() {
                     Most of our Friday was spent driving up to Savannah. Friday night was spent going to dinner at the <a href='http://www.crystalbeerparlor.com/'>Crystal Beer Parlor</a> eating one of the best peach cobblers I&apos;ve ever had and then going for a long walk around the city to walk off said cobbler. Overall, a pretty chill night.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Tunnel of Trees</h5>
+                  <br />
                   <p class='blogContent'>
-                    Saturday we headed out to the <a href='http://www.gastateparks.org/Wormsloe'>Wormsloe Historic Site</a> (unfortunate name if you ask me) which is the colonial estate of Noble Jones (awesome name). Wormsloe has the most amazing drive, a canopy of live oaks and Spanish moss creating a drive like no other. The drive was incredible and I was able to capture it on the GoPro with time lapse which you can see below. After driving in, there are some trails you can take, as well as tours of the historic recreations of the village led by rangers. These historic recreations include a blacksmith shop and a small house. Wormsloe was certainly something worth checking out at least once.
+                    Saturday we headed out to the <a href='http://www.gastateparks.org/Wormsloe'>Wormsloe Historic Site</a> (unfortunate name if you ask me) which is the colonial estate of Noble Jones (awesome name). Wormsloe has the most amazing drive, a canopy of live oaks and Spanish moss creating a drive like no other. The drive was incredible and I was able to capture it on the GoPro with time lapse. After driving in, there are some trails you can take, as well as tours of the historic recreations of the village led by rangers. These historic recreations include a blacksmith shop and a small house. Wormsloe was certainly something worth checking out at least once.
                   </p>
                   <br />
                   <aside class='asideLandscape asideLeft'>
@@ -785,15 +865,8 @@ function getAllCfstories() {
                     After Wormsloe, we made the short drive to Skidaway Island State Park. This state park had a nice trail leading out to a river. On the banks of the river, we stood just enjoying the silence of nature. Such a peaceful moment with the water softly flowing by and lapping up onto the riverbank. Heading back into the city, Saturday evening was spent walking around the city, people watching from a bench in one of the parks, and of course going to the giant candy shop on River Street. We attended the vigil Mass at St. John the Baptist Cathedral as well which is a beautiful church and a definite must see.
                   </p>
                   <br />
-                  <!-- Html for video in the campfire array
-                   <p class='blogContent blogVideo'>
-                     <video controls muted poster='../img/blog/videos/poster/savannahWormsloe.jpg'>
-                       <source src='../img/blog/videos/wormsloe.mp4' type='video/mp4'>
-                       <source src='../img/blog/videos/wormsloe.ogg' type='video/ogg'>
-                       Your browser does not support the video tag.
-                     </video>
-                   </p>
-                   <br /> -->
+                  <h5 class='blogSubHeader'>19th Century Baseball</h5>
+                  <br />
                   <p class='blogContent'>
                     Sunday at the B&B we had delicious peaches and cream french toast which I&apos;m still dreaming about. Before leaving Savannah we went to <a href='https://www.nps.gov/fopu/index.htmFort'>Fort Pulaski</a>, which ended up being the highlight of our trip. This 19th Century fort is on the way to Tybee Island and is a National Monument. You can read the full write-up I did of Fort Pulaski for the sports/outdoor blog website, Sportody, <a href='http://www.sportody.com/blog/must-do-historical-sites-near-savannah-fort-pulaski'>here</a>. However, the gist of the experience was that there were tons of cannons (always a favorite of mine), we played 19th Century baseball (I got a double), and the fort was awesome! Basically, you need to go to Savannah immediately!
                   </p>
@@ -806,8 +879,10 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/canadianRockiesThumb.jpg",
     "title" => "The World Is Your Oyster",
     "info" => "Get Out And Live!",
-    "section" => "<p class='blogContent'>
-                    I invite you to try an exercise with me. Close your eyes and picture a place you&#39;ve always wanted to go. Picture what this place looks like. Is it a majestic mountain, a waterfall crashing upon the rocks below, or a city in some distant land? Next, think of what this place would smell like. Do hints of primrose and pine fill the air? Maybe it&#39;s homemade Italian pasta and a bottle of old wine that saturate your senses. Lastly, what do you hear? Is French music playing? How about birds singing their happy songs as they go about their day? Or maybe the only sound for miles is your footsteps and the wind. Go ahead, close your eyes now, I&#39;ll wait.
+    "section" => "<h5 class='blogSubHeader'>Close Your Eyes</h5>
+                  <br />
+                  <p class='blogContent'>
+                    I invite you to try an exercise with me. Close your eyes and picture a place you&apos;ve always wanted to go. Picture what this place looks like. Is it a majestic mountain, a waterfall crashing upon the rocks below, or a city in some distant land? Next, think of what this place would smell like. Do hints of primrose and pine fill the air? Maybe it&apos;s homemade Italian pasta and a bottle of old wine that saturate your senses. Lastly, what do you hear? Is French music playing? How about birds singing their happy songs as they go about their day? Or maybe the only sound for miles is your footsteps and the wind. Go ahead, close your eyes now, I&apos;ll wait.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -815,15 +890,17 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent clearContent'>
-                    Have you done it yet? No? Why not? It&#39;s not going to hurt, well unless you&#39;re driving and reading this. In that case, why are you looking at your phone while driving?!
+                    Have you done it yet? No? Why not? It&apos;s not going to hurt, well unless you&apos;re driving and reading this. In that case, why are you looking at your phone while driving?!
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Whatever it is you picture, whether it&#39;s the Italian countryside, the American Southwest, Paris, or the Canadian Rockies I want you to do something for me. I want you to go there! I want you to take the trip you&#39;ve been dreaming about day in and day out.
+                    Whatever it is you picture, whether it&apos;s the Italian countryside, the American Southwest, Paris, or the Canadian Rockies I want you to do something for me. I want you to go there! I want you to take the trip you&apos;ve been dreaming about day in and day out.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>My Hope for You</h5>
+                  <br />
                   <p class='blogContent'>
-                    I hope your day already has a large amount of adventure. I hope it doesn&#39;t seem to drag on from one day to the next. I hope it doesn&#39;t consist of you waking up, sitting at a desk constantly checking the clock, sitting in traffic, and finally crawling into bed all to do it over again the next day. However, if it does then it&#39;s time to get out there and change that. First, you probably want to find a different job, one that fulfills you more. Second, it&#39;s time for you to get out and experience the great adventure that is life.
+                    I hope your day already has a large amount of adventure. I hope it doesn&apos;t seem to drag on from one day to the next. I hope it doesn&apos;t consist of you waking up, sitting at a desk constantly checking the clock, sitting in traffic, and finally crawling into bed all to do it over again the next day. However, if it does then it&apos;s time to get out there and change that. First, you probably want to find a different job, one that fulfills you more. Second, it&apos;s time for you to get out and experience the great adventure that is life.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -831,23 +908,29 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    I&#39;m not saying you should quit your job and travel the world until you&#39;re flat broke. We all have responsibilities to family and you need to have money in order to travel. However, that doesn&#39;t mean we can&#39;t still do the things we want to do and go to the places we&#39;ve always wanted to see. I believe we find ways to fund and find time for the things we make a true priority in our lives.
+                    I&apos;m not saying you should quit your job and travel the world until you&apos;re flat broke. We all have responsibilities to family and you need to have money in order to travel. However, that doesn&apos;t mean we can&apos;t still do the things we want to do and go to the places we&apos;ve always wanted to see. I believe we find ways to fund and find time for the things we make a true priority in our lives.
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Focus on What&apos;s Important</h5>
+                  <br />
+                  <p class='blogContent'>
+                    What&apos;s holding you back from getting out there? Do you feel like you can&apos;t get away from the office? I understand that feeling. It&apos;s very common to feel like you can&apos;t leave due to fears of how your clients or colleagues could focus without you there. The truth is, though, they&apos;ll get along just fine without you. I know that can make some people sad or feel unimportant. I don&apos;t mean to get you down. I tell you that to free you from putting so much stock in your job that you forget to ever truly live.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    What&#39;s holding you back from getting out there? Do you feel like you can&#39;t get away from the office? I understand that feeling. It&#39;s very common to feel like you can&#39;t leave due to fears of how your clients or colleagues could focus without you there. The truth is, though, they&#39;ll get along just fine without you. I know that can make some people sad or feel unimportant. I don&#39;t mean to get you down. I tell you that to free you from putting so much stock in your job that you forget to ever truly live.
+                    Is money the issue that&apos;s keeping you from traveling? If so, I have a couple recommendations for you. First, set up a dedicated travel account. Then, set up automatic transfers to that travel account. Next step, don&apos;t look at the balance very often and you&apos;ll be amazed at quickly the money accumulates. Another tip, would be to cut out things that are less important than traveling to you and then take the money you&apos;ve saved and put it in the account. Go out to eat all the time? Cook more at home. Drink Starbucks every day? Brew your own coffee. Cable is expensive and if you really want to watch TV, the <a href='http://www.gomohu.com/'>Mohu</a> Leaf and <a href='http://www.hulu.com/'>Hulu</a> are much more affordable options.
                   </p>
                   <br />
-                  <p class='blogContent'>
-                    Is money the issue that&#39;s keeping you from traveling? If so, I have a couple recommendations for you. First, set up a dedicated travel account. Then, set up automatic transfers to that travel account. Next step, don&#39;t look at the balance very often and you&#39;ll be amazed at quickly the money accumulates. Another tip, would be to cut out things that are less important than traveling to you and then take the money you&#39;ve saved and put it in the account. Go out to eat all the time? Cook more at home. Drink Starbucks every day? Brew your own coffee. Cable is expensive and if you really want to watch TV, the <a href='http://www.gomohu.com/'>Mohu</a> Leaf and <a href='http://www.hulu.com/'>Hulu</a> are much more affordable options.
-                  </p>
+                  <h5 class='blogSubHeader'>Don&apos;t Regret Your Life</h5>
                   <br />
                   <p class='blogContent'>
-                    I read an <a href='http://www.huffingtonpost.com/2013/08/03/top-5-regrets-of-the-dying_n_3640593.html'>article</a> recently that talked about the top 5 regrets of those who were about to die. I think 3 of the 5 are especially poignant. &#34;I wish I&#39;d had the courage to live a life true to myself, not the life others expected of me.&#34; &#34;I wish I hadn&#39;t worked so hard.&#34; &#34;I wish that I had let myself be happier.&#34 Don&#39;t get to the end of your days and wonder what you did with your life and wish you could&#39;ve lived differently. Live this life out as the grand adventure that it is.
+                    I read an <a href='http://www.huffingtonpost.com/2013/08/03/top-5-regrets-of-the-dying_n_3640593.html'>article</a> recently that talked about the top 5 regrets of those who were about to die. I think 3 of the 5 are especially poignant. &#34;I wish I&apos;d had the courage to live a life true to myself, not the life others expected of me.&#34;, &#34;I wish I hadn&apos;t worked so hard.&#34;, and &#34;I wish that I had let myself be happier.&#34. Don&apos;t get to the end of your days and wonder what you did with your life and wish you could&apos;ve lived differently. Live this life out as the grand adventure that it is.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>What Next?</h5>
+                  <br />
                   <p class='blogContent'>
-                    So what&#39;s next? Well...get out! Go! Why are you reading this when there is a wonderful world to explore?! There is only one thing in this life that you&#39;ve been given that is never able to be replenished...time. Make the most of your time. Whatever you do, just keep in mind these words of wisdom &#34;We weren&#39;t meant to be born, pay bills, and die.&#34; Get out and live!
+                    So what&apos;s next? Well...get out! Go! Why are you reading this when there is a wonderful world to explore?! There is only one thing in this life that you&apos;ve been given that is never able to be replenished...time. Make the most of your time. Whatever you do, just keep in mind these words of wisdom &#34;We weren&apos;t meant to be born, pay bills, and die.&#34; Get out and live!
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -858,8 +941,10 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/foliageStrikesMainThumb.jpg",
     "title" => "Fall Foliage, Pt. Duex!",
     "info" => "Maggie Valley, NC",
-    "section" => "<p class='blogContent'>
-                    I love the mountains, nothing else causes me to say &#34;wow!&#34;, &#34;woah!&#34;, and &#34;that&#39;s beautiful!&#34; so often...other than when I&#39;m with my wife, of course. This was our final full day and we spent it exploring the Blue Ridge Parkway, an amazing way to finish up the trip. As we drove down the winding roads, we found ourselves constantly wanting to pull over to take pictures, each vista seemingly more beautiful than the last. The best stop we made was at Waterrock Knob.
+    "section" => "<h5 class='blogSubHeader'>The Awe-Inspiring Mountains</h5>
+                  <br />
+                  <p class='blogContent'>
+                    I love the mountains, nothing else causes me to say &#34;wow!&#34;, &#34;woah!&#34;, and &#34;that&apos;s beautiful!&#34; so often...other than when I&apos;m with my wife, of course. This was our final full day and we spent it exploring the Blue Ridge Parkway, an amazing way to finish up the trip. As we drove down the winding roads, we found ourselves constantly wanting to pull over to take pictures, each vista seemingly more beautiful than the last. The best stop we made was at Waterrock Knob.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -871,12 +956,14 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    We continued the winding road through the mountains. I love driving these type of roads, they&#39;re just plain fun and when you add the fall foliage it&#39;s even better. The trailhead of our next hike had a picnic table and we used the opportunity to have a surface to eat on. The weather had gotten windy and cold due to the altitude so it wasn&#39;t as pleasant as we had hoped when we initially packed our picnic lunch. As we looked up from our table to the cliff high above us, I noticed some people on top of it. I remember thinking how high up they were and that it was going to hurt to make that climb.
+                    We continued the winding road through the mountains. I love driving these type of roads, they&apos;re just plain fun and when you add the fall foliage it&apos;s even better. The trailhead of our next hike had a picnic table and we used the opportunity to have a surface to eat on. The weather had gotten windy and cold due to the altitude so it wasn&apos;t as pleasant as we had hoped when we initially packed our picnic lunch. As we looked up from our table to the cliff high above us, I noticed some people on top of it. I remember thinking how high up they were and that it was going to hurt to make that climb.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    The trail was steep but paved for the beginning, definitely a good thigh workout! Hiking is one of those things that&#39;s always worth it when you reach your destination, no matter how painful it was at the time. This was no exception. Knowing the hike ends with a waterfall or a mountain summit always help me push further than I think I can at the bottom. Saying this makes me realize I&#39;m essentially a donkey chasing after a carrot.
+                    The trail was steep but paved for the beginning, definitely a good thigh workout! Hiking is one of those things that&apos;s always worth it when you reach your destination, no matter how painful it was at the time. This was no exception. Knowing the hike ends with a waterfall or a mountain summit always help me push further than I think I can at the bottom. Saying this makes me realize I&apos;m essentially a donkey chasing after a carrot.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Autumn Horizon</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/foliageStrikesAside2.jpg' alt='The whole group looking over our last vista'>
@@ -887,15 +974,17 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Every view we saw was incredible, I loved our time in the Blue Ridge Mountains. I can&#39;t wait until next year when I get to make the trek up to see foliage once again. Until next year fall foliage!
+                    Every view we saw was incredible, I loved our time in the Blue Ridge Mountains. I can&apos;t wait until next year when I get to make the trek up to see foliage once again. Until next year fall foliage!
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>An Announcement</h5>
+                  <br />
+                  <p class='blogContent'>
+                    I almost forgot my announcement that I spoke of in the last post! I&apos;d like to officially welcome the newest addition to the Mount McKinney family! ...my beard! ...what? Were you expecting different news? Sorry, maybe I should&apos;ve worded that different. Oh well, live and learn. Regardless, thought I should say something about it since it&apos;s in most of the pictures from this post and the previous one.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    I almost forgot my announcement that I spoke of in the last post! I&#39;d like to officially welcome the newest addition to the Mount McKinney family! ...my beard! ...what? Were you expecting different news? Sorry, maybe I should&#39;ve worded that different. Oh well, live and learn. Regardless, thought I should say something about it since it&#39;s in most of the pictures from this post and the previous one.
-                  </p>
-                  <br />
-                  <p class='blogContent'>
-                    Much to my wife&#39;s chagrin, I love having it and plan on keeping it at least until the Florida summer starts up again (which can honestly be as early as March). For any guys out there debating whether or not to don the crumb catcher, I recommend giving it a try. It&#39;s an exercise in patience to make it past the itching and ridicule you&#39;ll undoubtedly receive the first week or so (well unless you&#39;re a Greek man whose facial grows at an unnatural rate, you know who you are).
+                    Much to my wife&apos;s chagrin, I love having it and plan on keeping it at least until the Florida summer starts up again (which can honestly be as early as March). For any guys out there debating whether or not to don the crumb catcher, I recommend giving it a try. It&apos;s an exercise in patience to make it past the itching and ridicule you&apos;ll undoubtedly receive the first week or so (well unless you&apos;re a Greek man whose facial grows at an unnatural rate, you know who you are).
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -907,12 +996,14 @@ function getAllCfstories() {
     "title" => "Fall Foliage",
     "info" => "Maggie Valley, NC",
     "section" => "<p class='blogContent'>
-                    This is my long overdue post about our trip to North Carolina. I tell ya, sometimes it&#39;s way too easy to let things get away from you. I think my New Years resolution is to write these while I&#39;m on the trip, that and to make blogging a much more regular thing. Expect to see a new blog post every other Monday afternoon. Ya, I think that&#39;s a good goal to have, not too overwhelming right? Better than buying a gym membership that doesn&#39;t get used after the first few weeks of the year. Definitely never done that before... We&#39;ll see how this goes. Wish me luck I guess?
+                    This is my long overdue post about our trip to North Carolina. I tell ya, sometimes it&apos;s way too easy to let things get away from you. I think my New Years resolution is to write these while I&apos;m on the trip, that and to make blogging a much more regular thing. Expect to see a new blog post every other Monday afternoon. Ya, I think that&apos;s a good goal to have, not too overwhelming right? Better than buying a gym membership that doesn&apos;t get used after the first few weeks of the year. Definitely never done that before... We&apos;ll see how this goes. Wish me luck I guess?
                   </p>
                   <br />
                   <p class='blogContent'>
                     Now, where was I? Oh right! I was about to tell you about my trip to Maggie Valley, NC just outside of Asheville. The last week of October, my wife and I, joined by another married couple friend of ours loaded up the car and headed north for a trip to see the Fall foliage. This has become an annual trip for me over the past few years with friends but now as a newly married man, I was able to make it a couples weekend.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Fall Colors at the Right Time</h5>
                   <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/fallFoliageAside1.jpg' alt='The steep climb up the Chimney Tops'>
@@ -921,6 +1012,9 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     It turns out we came at the perfect time for our multi-day trip. The leaves were amazing! They had only started to change at the elevation our cabin was at. The picture above is from our back patio of the cabin. No camping for me this time, our friends and my wife prefer the comforts a cabin provide. Anyway, the trees just outside cabin started as mostly yellow and by the end of our trip were a conglomeration of yellow, orange, and red. It always amazes me how beautiful it is to look at trees.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Hiking in the Smokys</h5>
+                  <br />
                   <p class='blogContent'>
                     Our first day trip for hiking was to the beautiful Great Smoky Mountain National Park. Nestled between Cherokee, NC and Gatlinburg, TN (two rather touristy towns) is this gorgeous piece of protected national land. It was a place I had road tripped to the past couple years with friends, but this was a different experience than previous trips. The Sun was out most of the day and it was on the warmer side that day so our climb up the Chimney Tops was actually painful on the hands. You can see the rocks that we climbed in the picture to the right. The rocks burned our hands as we ascended, but boy is that view ever worth it.
                   </p>
@@ -933,12 +1027,14 @@ function getAllCfstories() {
                     After burning our hands, we headed down the mountain and headed to our next destination, a waterfall not far from our cabin. Not sure why but I always love sticking my head under waterfalls (especially when the water is ice cold). It certainly was cold, but well worth the dunk. That night was spent relaxing in the hot tub at the cabin. After a long day of hiking, it was exactly what we needed.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Apple Farms and Vineyards</h5>
+                  <br />
                   <p class='blogContent'>
-                    The next day was a day off from hiking. In the morning, we headed over to Hendersonville to Grandad&#39;s Apple Farm. Surprisingly warm out and definitely late in the season our dreams of picking an apple straight from the tree were kind of dashed. I was able to find one good apple to pluck, but it took longer than we&#39;d like to admit to find that good one. While there we had a nice picnic lunch and made sure to grab some delicious apple snacks to go with our food. If you go there I highly recommend the apple cider smoothie and the apple dumpling a la mode, quite delicious.
+                    The next day was a day off from hiking. In the morning, we headed over to Hendersonville to Grandad&apos;s Apple Farm. Surprisingly warm out and definitely late in the season our dreams of picking an apple straight from the tree were kind of dashed. I was able to find one good apple to pluck, but it took longer than we&apos;d like to admit to find that good one. While there we had a nice picnic lunch and made sure to grab some delicious apple snacks to go with our food. If you go there I highly recommend the apple cider smoothie and the apple dumpling a la mode, quite delicious.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Next up was Burntshirt Vineyards, a lovely vineyard that served some surprisingly good wine. Reminding me slightly of the vineyards I toured in Napa Valley, though those were a good bit larger. It was well worth the trip especially because it was right down the road from Grandad&#39;s Farm. We had a tour of the vineyards and received lots of great info on how they make the wine. It was a tranquil and quaint place, I think just relaxing on the rocking chairs was my favorite part. Although a close second was the wine tasting.
+                    Next up was Burntshirt Vineyards, a lovely vineyard that served some surprisingly good wine. Reminding me slightly of the vineyards I toured in Napa Valley, though those were a good bit larger. It was well worth the trip especially because it was right down the road from Grandad&apos;s Farm. We had a tour of the vineyards and received lots of great info on how they make the wine. It was a tranquil and quaint place, I think just relaxing on the rocking chairs was my favorite part. Although a close second was the wine tasting.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -962,23 +1058,25 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    We rode our gondola up to the top. Looking out from the windows you could get some incredible views of Albuquerque and the Sandia Mountains. Thankfully, I&#39;m not afraid of heights or else I might have had a rougher trip up to the peak. However, even if you aren&#39;t afraid of heights you may still feel woozy if you happen to look through the slits in the air grate on the floor.
+                    We rode our gondola up to the top. Looking out from the windows you could get some incredible views of Albuquerque and the Sandia Mountains. Thankfully, I&apos;m not afraid of heights or else I might have had a rougher trip up to the peak. However, even if you aren&apos;t afraid of heights you may still feel woozy if you happen to look through the slits in the air grate on the floor.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/peakAside2.jpg' alt='Me admiring the view from 10,000 feet'>
                   </aside>
                   <br />
+                  <h5 class='blogSubHeader'>Reaching the Sandia Peak</h5>
+                  <br />
                   <p class='blogContent'>
                     We reached the peak of 10,000 feet, got off the gondola, and almost kissed the ground (kidding). We stopped by High Finance for a drink and sat out on the deck to enjoy the view with the beer. It was an amazing view, we saw mountains littering the landscape. Below, the city of Albuquerque sprawled out before us and all of it looked so tiny.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    After finishing up our drinks, we headed out on a trail along the mountain&#39;s crest. Everytime we stopped for a picture at a vista point, the views improved. Pushing deeper into the woods we found a spot we particularly liked. It had a panoramic view with the least amount of tree obstruction.
+                    After finishing up our drinks, we headed out on a trail along the mountain&apos;s crest. Everytime we stopped for a picture at a vista point, the views improved. Pushing deeper into the woods we found a spot we particularly liked. It had a panoramic view with the least amount of tree obstruction.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    My wife and I sat and enjoyed the peaceful calm at 10,000 feet. The deafening silence provided a wonderful soundtrack to the views we were basking in. It&#39;s one of the things I love most about going out into nature. Far away from the bustling of our daily lives, you are able to see what is truly important. The silence you find in the great outdoors relaxes you, if it&#39;s been awhile since you last experienced it, get out! Go! Have an adventure!
+                    My wife and I sat and enjoyed the peaceful calm at 10,000 feet. The deafening silence provided a wonderful soundtrack to the views we were basking in. It&apos;s one of the things I love most about going out into nature. Far away from the bustling of our daily lives, you are able to see what is truly important. The silence you find in the great outdoors relaxes you, if it&apos;s been awhile since you last experienced it, get out! Go! Have an adventure!
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -989,7 +1087,9 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/bandThumb.jpg",
     "title" => "Bandelier National Monument",
     "info" => "Bandelier National Monument, NM",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Rain Rolling In</h5>
+                  <br />
+                  <p class='blogContent'>
                     After eating lunch at Jemez Falls and checking out the Valles Caldera we headed over to the Bandelier National Monument near Los Alamos. As we rolled in, so did the storms. We were worried this would keep us from getting to see this interesting piece of history. The Rangers, informed us that the storms looked like they would be staying up on the plateau and the canyon should be fine. We waited a few minutes and then headed out in the light rain.
                   </p>
                   <br />
@@ -1009,16 +1109,20 @@ function getAllCfstories() {
                     We walked along the nicely laid out steps, with railings up to the entrance of the first dwelling that we could enter via ladder. There was already someone in that one and a family with two small children waiting to get in. We decided that we would just skip this one and enter the next one. Following the path a little further along we saw a few <a href='https://en.wikipedia.org/wiki/Petroglyph'>petroglyphs</a> on the walls inside and outside the dwellings.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader headerClearContent'>Climbing into the Caves</h5>
+                  <br />
                   <p class='blogContent'>
-                      There were clearly multiple &#34;floors&#34; of dwellings, as well as having multi-level houses down below. We came across the next ladder and climbed up, as a tall person I can say that I would not have fared well in those back then. In reading the guide from the ranger station, the average male was 5 foot 6 and the average female was 5 foot. I&#39;m not sure how someone even that size could stay in those very long. I was hunched over my entire time in the dwelling.
+                    There were clearly multiple &#34;floors&#34; of dwellings, as well as having multi-level houses down below. We came across the next ladder and climbed up, as a tall person I can say that I would not have fared well in those back then. In reading the guide from the ranger station, the average male was 5 foot 6 and the average female was 5 foot. I&apos;m not sure how someone even that size could stay in those very long. I was hunched over my entire time in the dwelling.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We exited that dwelling and moved along to the last dwelling that you could enter in that area, I enjoyed this one much more. It was tall enough for me to stand upright and move around. I could definitely enjoy an amazing night&#39;s sleep in that dark cave.
+                    We exited that dwelling and moved along to the last dwelling that you could enter in that area, I enjoyed this one much more. It was tall enough for me to stand upright and move around. I could definitely enjoy an amazing night&apos;s sleep in that dark cave.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Hard Life in Frijoles Canyon</h5>
+                  <br />
                   <p class='blogContent'>
-                    In reading the guide book more to find out about this interesting people, I learned that life was difficult and the average lifespan was only 35 years. So maybe my dark cave would not have provided me that good night&#39;s sleep after all, at least not back then. It&#39;s always important to remember how good we have it in this day and age. I enjoyed my experience learning more about the people who once inhabited the walls of the Frijoles Canyon.
+                    In reading the guide book more to find out about this interesting people, I learned that life was difficult and the average lifespan was only 35 years. So maybe my dark cave would not have provided me that good night&apos;s sleep after all, at least not back then. It&apos;s always important to remember how good we have it in this day and age. I enjoyed my experience learning more about the people who once inhabited the walls of the Frijoles Canyon.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -1029,7 +1133,9 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/jemezFallsThumb.jpg",
     "title" => "Jemez Falls & Valles Caldera",
     "info" => "Jemez Falls, NM",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>New Mexican Diversity</h5>
+                  <br />
+                  <p class='blogContent'>
                     This was the most diverse day of the trip. We headed out from the Sandia foothills near Albuquerque and made our way to the red rock deserts on the way to the Soda Dam near Jemez Springs. The red rock deserts were beautiful, a vibrant red like I had never seen. It felt like I was on Mars. From there we headed to the Soda Dam.
                   </p>
                   <br />
@@ -1041,8 +1147,10 @@ function getAllCfstories() {
                     The Soda Dam, an interesting sight to say the least, is a dam formed by the collection of minerals. It looked a lot like something out of a science fiction movie. It was definitely not your typical waterfall, but was worth the stop on our way. After that brief stop, we followed the road into the mountains. We winded our way through the sprawling pine tree lined paths.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Colorado in New Mexico?</h5>
+                  <br />
                   <p class='blogContent'>
-                    We stopped for lunch at Jemez Falls, it reminded me of pictures of Colorado. I&#39;m partial to the green mountain landscapes like these over the brown ones, like the Sandia Mountains. It was beautiful, we spent a great deal of time exploring here. We climbed on rocks, sat near the edges of cliffs, and skipped rocks on the river. Eventually, however, we did have to leave.
+                    We stopped for lunch at Jemez Falls, it reminded me of pictures of Colorado. I&apos;m partial to the green mountain landscapes like these over the brown ones, like the Sandia Mountains. It was beautiful, we spent a great deal of time exploring here. We climbed on rocks, sat near the edges of cliffs, and skipped rocks on the river. Eventually, however, we did have to leave.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
@@ -1054,8 +1162,10 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We stood and stared at the immense beauty of the sight. I learned from locals later that evening that elk typically roam the Valles. Sadly, we didn&#39;t see any elk while we were there. It was hard to believe that in one day we had seen so much. New Mexico had certainly not disappointed and we weren&#39;t even done for the day.
+                    We stood and stared at the immense beauty of the sight. I learned from locals later that evening that elk typically roam the Valles. Sadly, we didn&apos;t see any elk while we were there. It was hard to believe that in one day we had seen so much. New Mexico had certainly not disappointed and we weren&apos;t even done for the day.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader headerClearContent'>Onward to Bandelier</h5>
                   <br />
                   <p class='blogContent'>
                     Finally, we left the beautiful plains of the Valles and made our way to Bandelier. It was difficult to understand just how big the Valles is. As we were driving around the perimeter we looked down and had few things to judge the size against. Then, we saw a SUV driving on one of the roads in the middle. It looked much smaller than we felt it should. After research into the Valles, we learned that it is almost 14 miles wide.
@@ -1069,9 +1179,13 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/homeThumb.jpg",
     "title" => "Finding Beauty Close to Home",
     "info" => "Albuquerque, NM",
-    "section" => "<p class='blogContent'>
-                    We stayed in the foothills of the Sandia Mountains on historic Route 66. It was my first time on Route 66, unfortunately, we didn&#39;t spend much time exploring it. We did play the classic Chuck Berry song while on it though. It&#39;s amazing the wildlife that grows regardless of climate. Every time we left the house we saw rabbits and while leaving the house one evening we even got to see a bobcat. I was thankful to be in a house that was surrounded by so much nature.
+    "section" => "<h5 class='blogSubHeader'>The Famous Route 66</h5>
+                  <br />
+                  <p class='blogContent'>
+                    We stayed in the foothills of the Sandia Mountains on historic Route 66. It was my first time on Route 66, unfortunately, we didn&apos;t spend much time exploring it. We did play the classic Chuck Berry song while on it though. It&apos;s amazing the wildlife that grows regardless of climate. Every time we left the house we saw rabbits and while leaving the house one evening we even got to see a bobcat. I was thankful to be in a house that was surrounded by so much nature.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Trekking Near the House</h5>
                   <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/homeAside.jpg' alt='Goofy picture on a rock near the house'>
@@ -1085,8 +1199,10 @@ function getAllCfstories() {
                     <img src='../img/blog/aside/homeAside2.jpg' alt='My wife flexing like a strong man'>
                   </aside>
                   <br />
+                  <h5 class='blogSubHeader'>A Fork in the Road</h5>
+                  <br />
                   <p class='blogContent'>
-                    We came to a fork in the path and opted to take the more rugged, primitive trail. We followed it along and made a few wrong turns here and there trying to stay on the path. Finally after walking on that path a good ways, we decided we didn&#39;t think it was prudent to continue on the trail. There were too many points that we could easily lose the trail on the way back. So we headed back before we got ourselves lost.
+                    We came to a fork in the path and opted to take the more rugged, primitive trail. We followed it along and made a few wrong turns here and there trying to stay on the path. Finally after walking on that path a good ways, we decided we didn&apos;t think it was prudent to continue on the trail. There were too many points that we could easily lose the trail on the way back. So we headed back before we got ourselves lost.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -1109,6 +1225,8 @@ function getAllCfstories() {
                     The first hike of the trip was to go to the Kasha Katuwe Tent Rocks National Monument (say that 5x fast). This is a slot canyon west of Santa Fe, definitely worth the hike. This was my first experience in a slot canyon.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Journey Through a Slot Canyon</h5>
+                  <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/kk.jpg' alt='Hiking through the slot canyon'>
                   </aside>
@@ -1118,8 +1236,10 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    As interesting as it was being inside the slot canyon, it wasn&#39;t until we rose high above the canyon floor that the sights became breathtaking. We climbed the makeshift rock stairs. I kept thinking, what was the first person to do this thinking. There were points that would certainly have been extremely difficult if not for the railroad ties added to the trail to help create better steps.
+                    As interesting as it was being inside the slot canyon, it wasn&apos;t until we rose high above the canyon floor that the sights became breathtaking. We climbed the makeshift rock stairs. I kept thinking, what was the first person to do this thinking. There were points that would certainly have been extremely difficult if not for the railroad ties added to the trail to help create better steps.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Higher and Higher</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/kkVista.jpg' alt='The view was truly something incredible.'>
@@ -1130,22 +1250,24 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Reaching that peak was well worth the hike. What a gorgeous site, the land stretched on for miles and miles. Off in the distance in nearly every direction there were mountains. Down below you could see the tent rocks and the people traversing their way in and out of the canyon. The view compelled us to be speechless (which if you&#39;ve ever met me is not my natural state).
+                    Reaching that peak was well worth the hike. What a gorgeous site, the land stretched on for miles and miles. Off in the distance in nearly every direction there were mountains. Down below you could see the tent rocks and the people traversing their way in and out of the canyon. The view compelled us to be speechless (which if you&apos;ve ever met me is not my natural state).
                   </p>
                   <br />
                   <p class='blogContent'>
-                    It was difficult to want to trek down to the car from such awe inspiring beauty. Eventually, we had to make that journey though. As we reached the car, my wife had to make her customary statement whenever we do any sort of climb like that, &#34;Can you believe we were just at the top of that?!&#34; It&#39;s not really a trip for me unless I hear her say that.
+                    It was difficult to want to trek down to the car from such awe inspiring beauty. Eventually, we had to make that journey though. As we reached the car, my wife had to make her customary statement whenever we do any sort of climb like that, &#34;Can you believe we were just at the top of that?!&#34; It&apos;s not really a trip for me unless I hear her say that.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
     "date" => "August 13th, 2015"
   );
   $cfstories["nm-diversity"] = array(
-    "img" => "img/blog/header/diveMain.jpg",
-    "thumb" => "img/blog/thumb/diveMainThumb.jpg",
+    "img" => "img/blog/header/newMexico.jpg",
+    "thumb" => "img/blog/thumb/newMexicoThumb.jpg",
     "title" => "American Southwest Diversity",
     "info" => "Albuquerque, NM",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Impressed by the American Southwest</h5>
+                  <br />
+                  <p class='blogContent'>
                     This was my first trip to the American Southwest for a hiking trip. I have to admit, I was not expecting it to be nearly as beautiful as it was. I expected New Mexico to be a vast desert with little diversity in the landscape. I always kind of wondered why people would live in what I viewed as such as a harsh climate. I was never so happy to be wrong.
                   </p>
                   <br />
@@ -1154,19 +1276,21 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    I&#39;ll be going into more detail about a couple of the places we hiked in subsequent posts. This is just a small post about my overall experience in NM.
+                    I&apos;ll be going into more detail about a couple of the places we hiked in subsequent posts. This is just a small post about my overall experience in NM.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    We spent a week in and around the Albuquerque area (still can&#39;t spell that right without spellcheck). Our house for the week nestled in the Sandia Mountains. As we ventured out into the wilderness, the true beauty of the state became apparent. We saw red rock deserts, pine tree covered mountains, Native American cave dwellings, the Rio Grande, white limestone mountains, and plains resembling those in Wyoming. I was amazed that on one particular driving day, we saw most of that list in just a few hours.
+                    We spent a week in and around the Albuquerque area (still can&apos;t spell that right without spellcheck). Our house for the week nestled in the Sandia Mountains. As we ventured out into the wilderness, the true beauty of the state became apparent. We saw red rock deserts, pine tree covered mountains, Native American cave dwellings, the Rio Grande, white limestone mountains, and plains resembling those in Wyoming. I was amazed that on one particular driving day, we saw most of that list in just a few hours.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Climate</h5>
+                  <br />
                   <aside class='asideLeft asideLandscape'>
-                    <img src='../img/blog/aside/diveAside1.jpg' alt='The New Mexican Landscape'>
+                    <img src='../img/blog/aside/valles.jpg' alt='The Valles Caldera'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    The climate was also comfortable, this being August and the weather while warm was nothing compared to Florida&#39;s 90&#39;s and humid summer days. Personally, I&#39;m just more partial to hiking in cooler weather and like to save my multi-hour hikes for the cooler months.
+                    The climate was also comfortable, this being August and the weather, while warm, was nothing compared to Florida&apos;s 90&apos;s and humid summer days. Personally, I&apos;m just more partial to hiking in cooler weather and like to save my multi-hour hikes for the cooler months.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -1174,7 +1298,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    However, as gorgeous as the Southwest was, I&#39;m happy to be living in the Southeast. I have never been so thirsty for a week straight, my throat was constantly dry. I&#39;m sure I&#39;d get use to it, I&#39;m just not sure I would want to. I don&#39;t mind the heat and humidity of Florida and the non-summer months are incredible weather-wise.
+                    However, as gorgeous as the Southwest was, I&apos;m happy to be living in the Southeast. I have never been so thirsty for a week straight, my throat was constantly dry. I&apos;m sure I&apos;d get use to it, I&apos;m just not sure I would want to. I don&apos;t mind the heat and humidity of Florida and the non-summer months are incredible weather-wise.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -1183,15 +1307,13 @@ function getAllCfstories() {
   $cfstories["slideball"] = array(
     "img" => "img/blog/header/slideball.jpg",
     "thumb" => "img/blog/thumb/slideballThumb.jpg",
-    "title" => "Slip &#39;n Slide Kickball",
+    "title" => "Slip &apos;n Slide Kickball",
     "info" => "Gainesville, FL",
     "section" => "<p class='blogContent'>
-                    One of the most amazing ways to spend an afternoon.
+                    One of the most amazing ways to spend an afternoon. Thursday, a friend told me about slip &apos;n slide kickball, by Sunday we were playing our first game. Today, I&apos;ll be detailing our game and the supplies you&apos;ll need to make this happen at your next get together. Our supplies:
                   </p>
                   <br />
-                  <p class='blogContent'>
-                    Thursday, a friend told me about slip &#39;n slide kickball, by Sunday we were playing our first game. Today, I&#39;ll be detailing our game and the supplies you&#39;ll need to make this happen at your next get together. Our supplies:
-                  </p>
+                  <h5 class='blogSubHeader'>Supplies</h5>
                   <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/slideballSetup.jpg' alt='Set up of the field prior to the game'>
@@ -1201,7 +1323,7 @@ function getAllCfstories() {
                     <dl class='campfireList'>
                       <dt>4 4ft. inflatable kiddie pools for bases</dt>
                       <dt>4 10x25ft. heavy duty plastic painting sheets</dt>
-                      <dt>Baby soap (don&#39;t want stinging in your eyes)</dt>
+                      <dt>Baby soap (don&apos;t want stinging in your eyes)</dt>
                       <dt>A ball (we used a flat soccerball)</dt>
                       <dt>Something to keep the sheets down (tent stakes work great)</dt>
                       <dt>Hose</dt>
@@ -1209,16 +1331,20 @@ function getAllCfstories() {
                     </dl>
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>The Setup</h5>
+                  <br />
                   <p class='blogContent'>
-                    We blew up the kiddie pools, laid out the plastic sheets, and put water and soap on everything. It was a high-scoring affair, I believe one game was around 19-17 and the other shorter game was 16-8. The score was obviously less important than the fun (though my team won both games...just saying). We made the rules up as we went. Cutting outs from 3 to an inning to 2, requiring slides at every base (even on a home run), and deciding whether you could steal bases or not halfway through the game. It felt a lot like when you&#39;re young, creating games with the neighborhood kids. It was a blast.
+                    We blew up the kiddie pools, laid out the plastic sheets, and put water and soap on everything. It was a high-scoring affair, I believe one game was around 19-17 and the other shorter game was 16-8. The score was obviously less important than the fun (though my team won both games...just saying). We made the rules up as we went. Cutting outs from 3 to an inning to 2, requiring slides at every base (even on a home run), and deciding whether you could steal bases or not halfway through the game. It felt a lot like when you&apos;re young, creating games with the neighborhood kids. It was a blast.
                   </p>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/slideballAfter.jpg' alt='After the game is over, we just spent a good 10 mins running around sliding'>
                   </aside>
                   <br />
+                  <h5 class='blogSubHeader'>What We Learned</h5>
+                  <br />
                   <p class='blogContent'>
-                    There were mishaps for sure, people knocking over the pools (due to the sheer speed a slip &#39;n slide launches you), slipping in the outfield, and kicks that somehow went backwards. For example: we, being adults now (sort of), were a little weary of our initial slide. However, after you learn the oh so important, NEVER SLIDE ON YOUR STOMACH AS AN ADULT, you&#39;re fine.
+                    There were mishaps for sure, people knocking over the pools (due to the sheer speed a slip &apos;n slide launches you), slipping in the outfield, and kicks that somehow went backwards. For example: we, being adults now (sort of), were a little weary of our initial slide. However, after you learn the oh so important, NEVER SLIDE ON YOUR STOMACH AS AN ADULT, you&apos;re fine.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -1226,11 +1352,11 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Following the game, we spent time just running between each of the bases sliding. I haven&#39;t felt that much like a kid in a long time. It was a great feeling, one I plan to try and recreate this coming weekend when we play slip &#39;n slide kickball. Let the good times roll...or slide in this case.
+                    Following the game, we spent time just running between each of the bases sliding. I haven&apos;t felt that much like a kid in a long time. It was a great feeling, one I plan to try and recreate this coming weekend when we play slip &apos;n slide kickball. Let the good times roll...or slide in this case.
                   </p>
                   <br />
                   <p class='blogContent'>
-                    If you have the time, I highly recommend giving this a try. It&#39;s a great way to get outside and have some fun.
+                    If you have the time, I highly recommend giving this a try. It&apos;s a great way to get outside and have some fun.
                   </p>
                   ",
     "catch" => "Remember, Adventure is Calling!",
@@ -1239,9 +1365,11 @@ function getAllCfstories() {
   $cfstories["trad-backpack"] = array(
     "img" => "img/blog/header/trees.jpg",
     "thumb" => "img/blog/thumb/treesThumb.jpg",
-    "title" => "It Isn&#39;t The Size Of Your Pack",
+    "title" => "It Isn&apos;t The Size Of Your Pack",
     "info" => "Why I don't use a tradtional backpack in the woods",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>A Major Problem</h5>
+                  <br />
+                  <p class='blogContent'>
                     A few years ago, I was walking to class and got caught in a torrential downpour. I had an important project in my backpack as well as my laptop. I sprinted into the nearest building and waited out the storm. Thankfully, my project wasn&#39t ruined and my laptop was ok. However, the experience was enough for me to spend money to ensure the safety of my belongings.
                   </p>
                   <br />
@@ -1252,6 +1380,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     I went home, got on Amazon, and bought a waterproof backpack from Overboard. Now, almost 4 years later, it&#39s still my go to backpack. I ride my bike to work a large amount of the time. It is not uncommon to get stuck in a downpour and my Overboard pack protects my belongings. What does this have to do with camping deep in the woods?
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Still My Favorite</h5>
                   <br />
                   <p class='blogContent'>
                     Well, the Overboard pack is still my choice of backpack, even when hiking. I know that it doesn&#39t have the internal frame that traditional packs have and doesn&#39t have all the bells and whistles that other packs have. For me though, it&#39s exactly what I need.
@@ -1269,6 +1399,8 @@ function getAllCfstories() {
                     I know that other packs are made of lighter weight materials but it&#39s not like my bag is heavy, at just about 3 lbs. For far less than a typical pack I get IP66 protection and while that means it&#39s not completely waterproof it performs more than satisfactory. It has a pocket on each side as well as an internal pocket and has various loops to clip items to it on the outside. I am always looking for an upgraded pack that is extremely light and waterproof at the same time, but I rarely find any that offer what I&#39m looking for. If they do, they are often quite expensive and don&#39t offer a large enough improvement to justify the cost.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>What I Thought I Wanted</h5>
+                  <br />
                   <p class='blogContent'>
                     For awhile, I really wanted the 35L Sea to Summit Hydraulic Pack. I thought it would be my new go to pack. It has 5L more than my current pack and is completely waterproof. There was a great sale so I picked it up. I tried packing all the things I had packed in my 30L pack and found it to be more difficult. Maybe it&#39s the way space is used in the Sea to Summit versus the Overboard. Possibly it was because of the difference in shape, the rectangular Overboard versus the cylindrical Sea to Summit. I&#39m not sure why it didn&#39t fit as much. This was the bag I had wanted for a few months and when I got it I was disappointed. So for now I will continue to use my Overboard pack.
                   </p>
@@ -1281,7 +1413,9 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/riverThumb.jpg",
     "title" => "Best Water Filtration",
     "info" => "The best portable water filtration",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>LifeStraw vs. Sawyer</h5>
+                  <br />
+                  <p class='blogContent'>
                     The Sawyer Mini is worth every bit of the $20 I spent on it. It&#39s lightweight, portable, and doesn&#39t take up a lot of room in your pack. I remember seeing the LifeStraw and thinking, while it&#39s a great idea for emergency situations it seems very limited. You would have to lean down near the water and sip from the stream. You have no way of transferring water to a water bottle for later drinking.
                   </p>
                   <br />
@@ -1293,6 +1427,8 @@ function getAllCfstories() {
                     I suppose you could fill your bottles and sip from them, but this seems ineffective as now your bottles are contaminated. The other option, is water filtration tablets. I&#39ve tried these before and while they&#39re effective, they can leave the water tasting...less than ideal.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Small but Mighty</h5>
+                  <br />
                   <p class='blogContent'>
                     Then there is the Sawyer Mini. The compact water filtration system that cleans water effectively and doesn&#39t leave the water tasting terrible. It comes with a foldable water pouch so you can collect water from the stream.
                   </p>
@@ -1300,6 +1436,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     From there you screw on the Sawyer and either squeeze the water out of the pouch into your water bottle or you can drink it from the Sawyer. Another benefit of the Sawyer is it can be attached inline to a Camelbak. I haven&#39t personally done this, because I don&#39t have a Camelbak but it is fairly straightforward to do from what I&#39ve seen online.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Field Testing</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/sawyerMini.jpg' alt='Cleaning dirty water will keep you alive'>
@@ -1329,6 +1467,8 @@ function getAllCfstories() {
                     This past weekend, a friend and I headed up to the Cohutta Mountains in Northwest Georgia to hike the Cohutta Mountain Loop. It was absolutely gorgeous out there. We parked at the Three Forks Trailhead and headed out on the East Cowpen trail. My friend had a running watch to measure our distance traveled as well as elevation changes throughout the trip. We started at an elevation of 3,200 ft. and began to descend into the Cohutta Wilderness.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Water, More Important Than Gold</h5>
+                  <br />
                   <p class='blogContent'>
                     What we didn&#39t know when we started off on the trail was the lack of water that would be available on the trail we took. I had read some reviews of the area and some stories from the specific loop we were planning on doing and all the pictures were of people down by a river. What I didn&#39t realize was that the first time we&#39d see a river on the trail we took in would be when we got to the Jacks River after hiking just under 8 miles and dropping 2,000 ft. in elevation.
                   </p>
@@ -1341,9 +1481,13 @@ function getAllCfstories() {
                     We had some water but I drink a lot and when we got down to the river after those 8 miles, I drank 4 bottles of water immediately and then another 4 when I got to camp. We used the Sawyer Mini for water filtration. It is definitely one of the best purchases I&#39ve ever made, it&#39s ultra portable and cleans the water effectively.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Wade in the Water</h5>
+                  <br />
                   <p class='blogContent'>
                     We then had to wade our way through the stream a couple of times to get to an open area to make camp. Slipping my feet into the cold water stream water after a good day of hiking was one of the more refreshing feelings I&#39ve had. The area we found was right on the river bank, just far enough back to have dry, solid ground but still right on the river. We set up the camp, started a fire, and ate dinner. It was so peaceful out there. The sound of the river lulled me to sleep, well that is until 5 mins after closing my eyes when nature called. All that water I guzzled to get rehydrated was ready to be set free. I must have woken up 4-5 times that night.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Waterfalls</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/cohuttaMe.jpg' alt='Me being goofy down by the falls'>
@@ -1353,13 +1497,19 @@ function getAllCfstories() {
                     The next morning, we packed up camp and headed down to see the Jack&#39s River Falls. The hike down to the Falls was great. As we weaved our way around the river down we started to hear the thundering sound of a waterfall. The falls were beautiful, we just stopped and stared at them for awhile, neither of us wanting to move on. We pushed further to try and get different views of the natural beauty that was before us. After having our fill, who am I kidding I could still be there staring at them, we headed out on the trail back toward our car. We were at an elevation of 1,200 ft. now and were dreading the climb back.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Elevation Changes the Game</h5>
+                  <br />
                   <p class='blogContent'>
                     The trail back was definitely painful, 2,000 ft. increase in 8 miles. We would boo out loud whenever the trail dropped in elevation for more than a few steps knowing that we would have to climb it again. The most frustrating thing was not the elevation increases, but that we thought there would be water on this trail. We quickly realized we were wrong and we would need to conserve water as we watched the trail we were on and the river part ways. We did stop for lunch at an area that clearly fed into the river, however, it had been dried up to mostly mud at this time of year.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Recommendation for Next Time</h5>
+                  <br />
                   <p class='blogContent'>
                     If I was to do another hike in this area, which I would definitely not be opposed to, I would take the Jack&#39s River Trail the whole way. The lack of water on the trail we took was definitely a detriment to us staying an extra night out there. If we were take a trail that stayed on or close to the river the whole way we definitely would have stayed longer. Oh well, you live and you learn right? All in all we descended 2,000 ft. and ascended that same amount, as well as hiking a total of 20 miles. Definitely not a bad way to spend a Memorial Day weekend.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>A Cold Beer Heals the Soul</h5>
                   <br />
                   <p class='blogContent'>
                     We stayed in Atlanta Sunday night so we would be fresh driving home the next day. That post backpacking shower is one of the best things that this life has to offer. After getting cleaned up, we went out for dinner at the Brick Store Pub in Decatur. Their beer selection was exactly what was needed after hiking 20 miles in 2 days. I don&#39t know if it was the best beer I&#39ve ever had but it definitely tasted like it.
@@ -1373,9 +1523,13 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/juniperSwimHoleThumb.jpg",
     "title" => "Juniper Springs",
     "info" => "Ocala National Forest, FL",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Temperatures Soar in Florida</h5>
+                  <br />
+                  <p class='blogContent'>
                     Down here in Florida, it&#39s already in the 90&#39s even in early May. Those temperatures can make camping a lot more uncomfortable. Add the daily afternoon thunderstorm and you can see why most don&#39t camp in Florida in the summer. Despite that my wife and I joined another married couple and headed out for one last camping trip in Florida before it&#39s unbearable to camp until September. It was an amazing time, the weather wasn&#39t too hot and the thunderstorms subsided for a sunny weekend.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Glamping</h5>
                   <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/juniperTent.jpg' alt='Our 6 persion mansion'>
@@ -1384,6 +1538,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     When we arrived Saturday morning, we set up our 6 person mansion of a tent that we shared for the night. You would never lug this thing into the backcountry, but it was every bit of car camping luxury. It was definitely interesting to be able to actually stand up at all, let alone fully upright while in the tent. My little 2 person tent barely lets me kneel.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Relaxation at the Springs</h5>
                   <br />
                   <p class='blogContent'>
                     After setting up our camp and tent we headed out for a short hike. The water around Juniper Springs, is gorgeous and crystal clear. We didn&#39t venture onto the Florida Trail which goes right near Juniper Spring, due to it not having much shade and it was already high 80s. We stuck to the short nature trails around the campground and the swimming area. While on our short hike, we snapped some shots of a few turtles sunbathing. It was a lazy Saturday for us and for all of nature. We made our way to the springs for a dip in the chilly spring waters. It felt amazing once we got in, but boy that initial descent into the water is painful.
@@ -1398,7 +1554,7 @@ function getAllCfstories() {
                   </p>
                   <br />
                   <p class='blogContent'>
-                    Sunday, my wife and I took another short hike in the morning and even got to see a deer 10 ft ahead of us before she scurried into the woods. I love relaxing weekends like these. The fresh air and sunny skies are exactly what I need. Out in the peace and quiet you can gather your thoughts and let go of the things that seem so important in your daily life. I think that&#39s the real beauty of the outdoors, they allow you to forget what you deem important and focus on what truly is: your friends, family, and of course having a little fun.
+                    Sunday, my wife and I took another short hike in the morning and even got to see a deer 10 ft ahead of us before it scurried into the woods. I love relaxing weekends like these. The fresh air and sunny skies are exactly what I need. Out in the peace and quiet you can gather your thoughts and let go of the things that seem so important in your daily life. I think that&#39s the real beauty of the outdoors, they allow you to forget what you deem important and focus on what truly is: your friends, family, and of course having a little fun.
                   </p>
                   <br />
                   ",
@@ -1410,9 +1566,13 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/fixedBladeThumb.jpg",
     "title" => "Choosing A Fixed Blade Knife",
     "info" => "How to choose a fixed blade knife",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>A Recommendation</h5>
+                  <br />
+                  <p class='blogContent'>
                     There are so many fixed blade knives out there. I know there are as many opinions about which knife is best than there is knives in the world. However, in my opinion I think the one that makes the most sense for the money is the Schrade SCHF26. I wanted something that was quality and would last but wouldn&#39t break the bank. At only $34 on Amazon, the price is excellent and the quality is wonderful as well.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>What to Look For</h5>
                   <br />
                   <p class='blogContent'>
                     First, I would like to suggest the types of things you should look for in a knife:
@@ -1438,9 +1598,13 @@ function getAllCfstories() {
                     </dl>
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>The Military Shortlist</h5>
+                  <br />
                   <p class='blogContent'>
                     All the knives I looked into were full-tang. I did a large amount of looking around before deciding upon the SCHF26. I originally thought I would go with the KA-BAR US Marine Corp, the Ontario 499 Air Force, or the SOG Seal Pup Elite. All are great knives, however, when I held them in my hand they just didn&#39t find feel quite right. I have large hands, so it is important to me to have a handle that is long enough. The KA-BAR and the Seal Pup just felt a little short in my hand for comfort. The Ontario had similar specs as the KA-BAR but was difficult to find locally so I ended up passing on it.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>The New Shortlist</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/blades.jpg' alt='Some of your choices'>
@@ -1454,6 +1618,8 @@ function getAllCfstories() {
                     I pulled the trigger and ordered the SCHF26. I love it. The grip has a rubbery feel, it feels like it wouldn&#39t slip out of my hand even if I was doing something in the rain. It has a spine that is a quarter inch thick and flat. It has a sharp point and is a single edge blade. The weight distribution just felt right in my hands. It was a length I liked by staying just under 11&#34 and had a large handle at 5.4&#34. I&#39m very happy with my purchase, needless to say.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Last Thoughts</h5>
+                  <br />
                   <p class='blogContent'>
                     For selecting your own knife, there are many that will work. I was splitting hairs comparing many knives, many of which I didn&#39t list. People get very opinionated about which knife is best, and that&#39s fine, we are all passionate about different things. I just think that as long as it is a knife that is full-tang, the right size, the right shape, and made of a good material you will be fine. Often, picking a knife is best done by placing it in your hand and determining if it passes the initial gut test. Good luck picking out a knife and if you have questions or comments, feel free to leave them below!
                   </p>
@@ -1466,8 +1632,10 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/graytonBeachThumb.jpg",
     "title" => "Grayton Beach",
     "info" => "Santa Rosa Beach, FL",
-    "section" => "<p class='blogContent'>
-                    My wife and I packed up Tuesday night and headed to the beach house a few hours from home, our stuff loaded up in the car and bikes secured on the trunk bike rack. I say secured but what I mean is we thought they were secured. I learned two valuable lessons this past Tuesday, don&#39t skimp on a bike rack and make sure you&#39ve double and triple checked that you&#39ve installed it correctly. We were in such a hurry and it was the first time we had used our bike rack that I didn&#39t place the side straps in the position they needed to be. It was probably not best to try a new bike rack out for the first time on a multi-hour interstate trip...I guess I learned three valuable lessons then.
+    "section" => "<h5 class='blogSubHeader'>Valuable Lessons</h5>
+                  <br />
+                  <p class='blogContent'>
+                    My wife and I packed up Tuesday night and headed to a beach house a few hours from home, our stuff loaded up in the car and bikes secured on the trunk bike rack. I say secured but what I mean is we thought they were secured. I learned two valuable lessons this past Tuesday, don&#39t skimp on a bike rack and make sure you&#39ve double and triple checked that you&#39ve installed it correctly. We were in such a hurry and it was the first time we had used our bike rack that I didn&#39t place the side straps in the position they needed to be. It was probably not best to try a new bike rack out for the first time on a multi-hour interstate trip...I guess I learned three valuable lessons then.
                   </p>
                   <br />
                   <aside class='asideRight asideLandscape'>
@@ -1475,19 +1643,23 @@ function getAllCfstories() {
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Anyway, we were on the interstate for 30 mins and everything seemed to be fine, I had been keeping a constant eye on the bikes to make sure they weren&#39t wobbling. Then not more than a minute later, we drove over a dip in the road. It was enough of a bounce to cause the lower bar to swing closed and caused the bikes to swing down toward the road. I immediately pulled over to the shoulder and inspected the bikes. Thankfully the only damage was that on my wife&#39s new bike (when I say new I mean one day old) the front tire had dragged on the asphalt and burned a hole in the tire and tube. It definitely could&#39ve been worse. We reattached the bikes and drove back the 30 mins home, put the bikes inside and headed out again. That was all the excitement we had this trip.
+                    We were on the interstate for 30 mins and everything seemed to be fine, I had been keeping a constant eye on the bikes to make sure they weren&#39t wobbling. Then not more than a minute later, we drove over a dip in the road. It was enough of a bounce to cause the lower bar to swing closed and caused the bikes to swing down toward the road. I immediately pulled over to the shoulder and inspected the bikes. Thankfully the only damage was that on my wife&#39s new bike (when I say new I mean one day old) the front tire had dragged on the asphalt and burned a hole in the tire and tube. It definitely could&#39ve been worse. We reattached the bikes and drove back the 30 mins home, put the bikes inside and headed out again. That was all the excitement we had this trip.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Relaxation After Terror</h5>
                   <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/graytonWater.jpg' alt='Serene water during the bike ride'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    Though I didn&#39t go camping in Grayton it was still a wonderful trip spent on some of the most beautiful beaches in the world. It was the week leading up to my brother&#39s wedding, and my family and I spent 5 days in a house 30 ft. from the beginning of the dunes. Being landlocked for the last several years has made me appreciate the time I get on the ocean. Lakes and springs just don&#39t cut it for me compared to the beach, not sure why maybe it&#39s because I grew up on the white, sugar sand beaches of the Gulf Coast of Florida.
+                    Though I didn&#39t go camping in Grayton it was still a wonderful trip spent on some of the most beautiful beaches in the world. It was the week leading up to my brother&#39s wedding, and my family and I spent 5 days in a house 30 ft. from the beginning of the dunes. Being landlocked for the last several years has made me appreciate the time I get on the ocean. Swimming in lakes and springs just don&#39t cut it for me compared to the beach. I&apos;m not sure why. Maybe it&#39s because I grew up on the white, sugar sand beaches of the Gulf Coast of Florida.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader headerClearContent'>The Emerald Coast</h5>
+                  <br />
                   <p class='blogContent'>
-                    We had family and friends come in from all over to relax for the week leading up to the wedding with us. Our days were spent lounging on the sand and swimming in the crystal clear water. The sunsets, as you can see, are second to none here on the Emerald Coast.
+                    We had family and friends come in from all over to relax for the week leading up to the wedding with us. Our days were spent lounging on the sand and swimming in the crystal clear water. The sunsets are second to none here on the Emerald Coast.
                   </p>
                   <br />
                   <p class='blogContent'>
@@ -1506,7 +1678,9 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/scaleThumb.jpg",
     "title" => "The 3 Day Spring Backpack",
     "info" => "How to pack a 3 day pack for Spring",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Always Prepared for Adventure</h5>
+                  <br />
+                  <p class='blogContent'>
                     I always have my bag packed, when it&#39s time to go I don&#39t spend time thinking about what I need. I take things out to wash and clean after a trip and then immediately place them back in the pack. I carry a 30 liter pack, I&#39m always looking for ways to lower the weight and hopefully get down to a 20 liter pack.
                   </p>
                   <br />
@@ -1522,6 +1696,8 @@ function getAllCfstories() {
                     Today, I thought I would give you a glimpse into my 3 season pack. I would take this pack for a trip that was up to 5 days long. I look for things that pack down small and are lightweight but still provide the necessary protection.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader headerClearContent'>Where I Buy</h5>
+                  <br />
                   <p class='blogContent'>
                     I typically look for deals on gear and equipment so I can get the most for my money. Most of the things I&#39ve bought were from Sierra Trading Post, Moosejaw, and Amazon. Though I&#39m always looking for a deal I&#39m not afraid to spend the extra money on quality products that will last a long time.
                   </p>
@@ -1529,6 +1705,8 @@ function getAllCfstories() {
                   <p class='blogContent'>
                     Frugality is not the same as being cheap. People who are cheap want to spend the least amount possible on that purchase. The problem is the product often breaks down quicker and needs to be replaced causing you to spend more in the long run. Frugal people want to spend the least amount for the best quality for a product that will last the longest.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>The List</h5>
                   <br />
                   <p class='blogContent'>
                     <dl class='campfireList'>
@@ -1541,10 +1719,10 @@ function getAllCfstories() {
                             <dt>Klymit Insulated Static V Sleeping Pad</dt>
                             <dt>REI Half Dome 2 Plus Tent</dt>
                             <dt>REI Half Dome 2 Plus Footprint</dt>
-                            <dt>50&#39 Paracord</dt>
+                            <dt>50&#39 of Paracord</dt>
                             <dt>UCO Stormproof Match Kit</dt>
                             <dt>Magnesium/Flint Fire Starter (for emergencies)</dt>
-                            <Sawyer SP128 Mini Water Filtration System</dt>
+                            <dt>Sawyer SP128 Mini Water Filtration System</dt>
                               <dd>This has a 16 oz reusable water pouch</dd>
                             <dt>Timbuk2 Clear Flexito Toiletry Kit - Small, inside (all travel sizes):</dt>
                               <dd>3 oz bottle of camp soap</dd>
@@ -1572,24 +1750,24 @@ function getAllCfstories() {
                               <dd>Almonds/Trail mix</dd>
                             <dt>Black Diamond Spot Headlamp</dt>
                             <dt>Emergency Rain Poncho</dt>
-                            <dt>The North Face Quince Down Jacket (packs into it&#39s own pocket and doubles as a pillow)</dt>
+                            <dt>The North Face Quince Down Jacket</dt>
                             <dt>Keffiyeh (a lightweight head covering similar to a bandana but larger, great for protecting from the sun)</dt>
                             <dt>Attached to the outside of my pack:</dt>
                               <dd>Emergency whistle (attached to my shoulder strap of my bag)</dd>
                               <dd>Compass and Map (outside pocket)</dd>
                               <dd>Lightweight Nike running hat</dd>
-                              <dd>The Deuce of Spades and a bag of tp (Lightweight Trowel. Hey, nature calls out in the wild)</dd>
+                              <dd>The Deuce of Spades(Lightweight Trowel. Hey, nature calls out in the wild) and a bag of toilet paper</dd>
                               <dd>2 24 oz reusable water bottles</dd>
+                              <dd>3L Camelbak Water Bladder</dd>
                             <dt>Things on my person but not in my pack:</dt>
                               <dd>Schrade SCHF26 Fixed Blade Knife</dd>
                               <dd>Wallet</dd>
                               <dd>Phone</dd>
-                              <dd>Nikon D40 Camera (not the top of the line but gets the job done)</dd>
                               <dd>Ex Officio boxers</dd>
                               <dd>Dri-fit shirt</dd>
                               <dd>Shorts</dd>
                               <dd>Icebreaker Multisport Light Micro Socks</dd>
-                              <dd>Nike Free Trainer (Definitely not traditional hiking shoe/boot but because my pack is light I can wear more comfortable shoes and not worry about the need for ankle support)</dd>
+                              <dd>Nike Pegasus (Definitely not traditional hiking boot but because my pack is light I can wear more comfortable shoes and not worry about the need for ankle support)</dd>
                             <dt>When it&#39s cooler out I include:</dt>
                               <dd>Columbia Omni-heat half-zip pullover</dd>
                               <dd>Beanie</dd>
@@ -1610,21 +1788,35 @@ function getAllCfstories() {
     "thumb" => "img/blog/thumb/clearwaterOcalaLakeThumb.jpg",
     "title" => "Clearwater Lake",
     "info" => "Ocala National Forest, FL",
-    "section" => "<p class='blogContent'>
+    "section" => "<h5 class='blogSubHeader'>Leave Your Stress at the Office</h5>
+                  <br />
+                  <p class='blogContent'>
                     Getting away from it all is one of the best things you can do sometimes. When the stresses of modern day life become too much, sometimes getting out into the wilderness can be just what the doctor ordered. You come back refreshed and renewed and that&#39s exactly what happened to me this past weekend. Some friends and I got away to the Ocala National Forest for a little car camping.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Setting Up Camp</h5>
                   <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/clearwaterOcalaTent.jpg' alt='Campground, my tent'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    When we arrived Friday evening it was already dark (which is always frustrating to set up a tent in) and rain was threatening. Thankfully the rain held off and we were able to get our tents up and fire going. We reheated some baked ziti that one of the friends had made and froze for our dinner. This turned out to be one of the nastiest meals I&#39ve had. Thankfully, when you&#39re hungry you just don&#39t care. The wood was a little wet and smoked a large amount because of that. This caused the ziti to have a smoked flavor that did not complement it. Between the four of us, we emptied about ⅓ of a container of parmesan on to the pasta (it was the only thing that seemed to neutralize the smoky flavor). The next few hours were us sitting around the fire sharing stories, cracking open a few beers, and of course, poking fun at the friend&#39s terribly executed dinner. We headed to bed but didn&#39t realize that we had a snorer amongst us. How I wish I would&#39ve grabbed ear plugs before bed. A night of tossing and turning attempting to block the noise was ahead of me.
+                    When we arrived Friday evening it was already dark (which is always frustrating to set up a tent in) and rain was threatening. Thankfully the rain held off and we were able to get our tents up and fire going.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>A Terrible Dinner</h5>
+                  <br />
+                  <p class='blogContent'>
+                    We reheated some baked ziti that one of the friends had made and froze for our dinner. This turned out to be one of the nastiest meals I&#39ve had. Thankfully, when you&#39re hungry you just don&#39t care. The wood was a little wet and smoked a large amount because of that. This caused the ziti to have a smoked flavor that did not complement it. Between the four of us, we emptied about ⅓ of a container of parmesan on to the pasta (it was the only thing that seemed to neutralize the smoky flavor). The next few hours were us sitting around the fire sharing stories, cracking open a few beers, and of course, poking fun at the friend&#39s terribly executed dinner. We headed to bed but didn&#39t realize that we had a snorer amongst us. How I wish I would&#39ve grabbed ear plugs before bed. A night of tossing and turning attempting to block the noise was ahead of me.
+                  </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Early Morning Hikes</h5>
                   <br />
                   <p class='blogContent'>
                     Saturday morning I woke up early and went for a hike by myself around the lake. Everything was still in the forest except for a group of 4 deer who didn&#39t seem to care too much about me. They crossed the trail a few hundred feet ahead of me looking for breakfast. It was a peaceful time to relax and be alone with my thoughts. The beauty of nature always makes me contemplate what&#39s necessary in life. As I came back from my morning hike the whole campsite began to wake up and get their day started. I took another mid-morning hike with one of my friends. It was a great time to just hang out with him and catch up on life. The rest of the day was spent lounging around the campsite and throwing the football down by the lake.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>Glow-in-the-Dark Camping</h5>
                   <br />
                   <p class='blogContent'>
                     That night, we met a group who definitely knew how to have a good time. They were celebrating a milestone, one of the guy&#39s 60th birthday. It was 4 friends and their families. Each had the exact same Jeep just in a different color. They had neon shirts, neon painted croquet balls, led string lights everywhere all of which corresponded to the color of their Jeep. They had black lights hooked up to their Jeeps to accentuate all the neon colors.
@@ -1654,6 +1846,8 @@ function getAllCfstories() {
                     Welcome to the very first Campfire Story here at Mount McKinney! This is an exciting time for me.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>Introducing John, Founder of Mount McKinney LLC</h5>
+                  <br />
                   <aside class='asideRight asideLandscape'>
                     <img src='../img/blog/aside/destinBeach.jpg' alt='Beaches at Destin, FL'>
                   </aside>
@@ -1666,13 +1860,17 @@ function getAllCfstories() {
                     I grew up on the Panhandle of Florida with some of the world&#39s most beautiful beaches. At a young age, I fell in love with the outdoors. I remember spending hours pretending I was a spy or a soldier with the other boys my age in the woods around our neighborhood. As I got older, my fascination with the outdoors only grew. I bike to work just to get outside more, kayak when I can on the weekends, and take walks on local trails. I&#39m most at home outside the walls of my house.
                   </p>
                   <br />
+                  <h5 class='blogSubHeader'>What is a Campfire Story?</h5>
+                  <br />
                   <aside class='asideLeft asideLandscape'>
                     <img src='../img/blog/aside/banksTahoe.jpg' alt='Lake Tahoe with Banks'>
                   </aside>
                   <br />
                   <p class='blogContent'>
-                    As for the <a href='http://mountmckinney.com/campfirestories/'>Campfire Stories</a>, I will be bringing you tales from my time spent in the great outdoors. This could cover anything from backpacking in Denali, road trips to the Smokey Mountains, beach camping on the Gulf of Mexico, or even just a beautiful trail that I take with my lovely wife. I look forward to sharing these adventures with all of you. If you have a suggestion for where my next adventure should be, then I would love to hear your thoughts! Drop me an email or comment on my posts anytime.
+                    As for the <a href='http://mountmckinney.com/campfirestories/'>Campfire Stories</a>, I will be bringing you tales from my time spent in the great outdoors. This could cover anything from backpacking in Denali, road trips to the Smoky Mountains, beach camping on the Gulf of Mexico, or even just a beautiful trail that I take with my lovely wife. I look forward to sharing these adventures with all of you. If you have a suggestion for where my next adventure should be, then I would love to hear your thoughts! Drop me an email or comment on my posts anytime.
                   </p>
+                  <br />
+                  <h5 class='blogSubHeader'>My Recommendations</h5>
                   <br />
                   <p class='blogContent'>
                     If I am going to purchase something to use in the backcountry, I have to make sure I get the best product for the money. This is what I promise you, that when I give you a recommendation on what fixed blade knife to buy, how to survive a bear attack, or what food to eat on the trail know that it comes after a countless hours of research. You can think of my articles as a summary of opinions. Instead of you taking time to read all about what product, say a sleeping bag, to buy, I have done that for you.

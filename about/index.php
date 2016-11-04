@@ -10,7 +10,7 @@ require_once("../inc/config.php");
 ?>
 <div class="wrapper">
     <div class="about">
-      <h4>About Us</h4>
+      <h4>About</h4>
       <div class="aboutMePic">
         <img src="<?php echo BASE_URL;?>img/contactPicMe.jpg">
       </div>
@@ -30,14 +30,13 @@ require_once("../inc/config.php");
           <p>
             You can the full list of the services we provide on the <a href="<?php echo BASE_URL;?>services/">Services</a> page. You can find some of the work we&apos;ve done in the past on the <a href="<?php echo BASE_URL;?>portfolio/">Portfolio</a> page. We look forward to working with you!
           </p>
-          <br>
-          <br>
           <p>
             In addition to hiring Mount McKinney LLC to build or update your website, you should check out our <a href="<?php echo BASE_URL;?>campfirestories/">Campfire Stories</a>! To learn more about these entertaining masterpieces of literary prowess, take a seat around the <a href="<?php echo BASE_URL;?>campfirestories/#campfire">Campfire</a>.
           </p>
           <p>
             If you would like to learn more about John as a person, feel free to read <a href="<?php echo BASE_URL;?>campfire/?story=about-me">Who Am I?</a> As well as connecting with him on <a href="http://instagram.com/mountmckinney" class="social">Instagram</a>!
           </p>
+          <br />
       </div>
    </div>
    <?php include(ROOT_PATH.'inc/contactIcons.php') ?>

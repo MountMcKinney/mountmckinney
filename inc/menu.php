@@ -15,6 +15,7 @@
         <a href="<?php echo BASE_URL; ?>portfolio/"><li><img src="<?php echo BASE_URL; ?>img/menu/computerIcon.svg" alt="Portfolio Icon"  class="menuIcons" />Portfolio</li></a>
         <a href="<?php echo BASE_URL; ?>services/"><li><img src="<?php echo BASE_URL; ?>img/menu/gearIcon.svg" alt="Gear Icon"  class="menuIcons" />Services</li></a>
         <a href="<?php echo BASE_URL; ?>campfirestories/"><li><img src="<?php echo BASE_URL; ?>img/menu/campfireIcon.svg" alt="Campfire Icon"  class="menuIcons" />Campfire Stories</li></a>
+        <!-- <a href="http://store.mountmckinney.com" target="_blank"><li><img src="<?php echo BASE_URL; ?>img/menu/shoppingCart.svg" alt="Store Icon"  class="menuIcons" />Store</li></a> -->
         <a href="<?php echo BASE_URL; ?>about/"><li><img src="<?php echo BASE_URL; ?>img/menu/aboutIcon.svg" alt="About Icon"  class="menuIcons" />About</li></a>
       </ul>
   </div>
@@ -26,6 +27,7 @@
     <a href="<?php echo BASE_URL; ?>portfolio/"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/computerIcon.svg" alt="Portfolio Icon"  class="menuIcons" /><br/>Portfolio</li></a>
     <a href="<?php echo BASE_URL; ?>services/"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/gearIcon.svg" alt="Gear Icon"  class="menuIcons" /><br/>Services</li></a>
     <a href="<?php echo BASE_URL; ?>campfirestories/"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/campfireIcon.svg" alt="Campfire Icon"  class="menuIcons" /><br/>Campfire Stories</li></a>
+    <!-- <a href="http://store.mountmckinney.com" target="_blank"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/shoppingCart.svg" alt="Store Icon"  class="menuIcons" /><br/>Store</li></a> -->
     <a href="<?php echo BASE_URL; ?>about/"><li class="menuHover"><img src="<?php echo BASE_URL; ?>img/menu/aboutIcon.svg" alt="About Icon"  class="menuIcons" /><br/>About</li></a>
   </ul>
 </div>

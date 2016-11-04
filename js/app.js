@@ -4,6 +4,11 @@
 // This causes the Mount McKinney name and text to fade in
 $('.title').hide().delay(100).fadeIn(2500);
 
+// This causes the menu hover to slide down slowly from the top
+// $('.menuHover').hover(function(){
+//   $(this).addClass('.menuOnHover');
+// });
+
 //This is for creating a pop up form upon clicking a Contact Us button
 $('.contactPopUp').click(function(){
   $('.popupForm').fadeIn(1200).addClass('displayPopup').removeClass('popupForm');
@@ -109,3 +114,12 @@ $( function() {
       track: true
     });
   } );
+
+// This creates the collapsible accordion text for Fine Print and FAQs
+
+$( function() {
+  $('#accordion').accordion({
+    collapsible: true,
+    active: false
+  });
+} );

@@ -1,0 +1,13 @@
+Things to do:
+-Create a checklist of questions for clients
+-Create FAQs
+-Finalize services
+-Create a website report card
+-Figure out what to charge for each tier
+-Finish shop layout
+-Change the scrollbars (jQuery)
+-Change the menuHover animation
+-Create list of reasons to go with each package for Development & Design as well as Monthly Support Plans
+-Get rid of Wordpress-services and replace it with a "full list of services" button on the Services page and then make the full list an accordion
+-Add referral bonus
+-Add prepay discount
