@@ -96,7 +96,7 @@ $services["web-development"] = array(
                       </div>
                     </div>
                     <div class='supportPlan recommendedPlan plusPlan'>
-                      <h3 class='plus'>Plus</h3>
+                      <h3 class='plus'>Premier</h3>
                       <h1 class='price'>$4-6k</h1>
                       <h5>Great for: bloggers, freelancers, etc.</h5>
                       <ul>
@@ -106,13 +106,13 @@ $services["web-development"] = array(
                         <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring</li>
                         <li title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Daily Server Backups</li>
                         <li class='altRow' title='Mount McKinney will run a weekly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Weekly Security Scans</li>
-                        <li title='Mount McKinney will set up a cache on your WordPress site and monitor the cache monthly to maintain high performance.'>Cache Setup & Monthly Monitoring</li>
-                        <li class='altRow' title='This discount applies to web development, web design, logo design, WordPress fixes, and quick fixes.'>5% Discount on Project Rate</li>
+                        <li title='Mount McKinney will set up a cache on your WordPress site.'>Cache Setup</li>
+                        <li class='altRow' title='This discount applies to web development, web design, logo design, and WordPress fixes.'>5% Discount on Hourly Rate</li>
                         <li title='These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*</li>
                         <li class='altRow' title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme</li>
                       </ul>
                       <div class='planButton plusPlanButton'>
-                        <a href='http://localhost/store/#!/Monthly-WordPress-Support-Plus/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
+                        <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
                       </div>
                     </div>
                     <div class='supportPlan vipPlan'>
@@ -126,8 +126,8 @@ $services["web-development"] = array(
                         <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring</li>
                         <li class='altRow' title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Daily Server Backups</li>
                         <li title='Mount McKinney will run a daily security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Daily Security Scans</li>
-                        <li class='altRow' title='Mount McKinney will set up a cache on your WordPress site and monitor the cache weekly to maintain high performance.'>Cache Setup & Weekly Monitoring</li>
-                        <li title='This discount applies to web development, web design, logo design, WordPress fixes, and quick fixes.'>10% Discount on Project Rate</li>
+                        <li class='altRow' title='Mount McKinney will set up a cache on your WordPress site.'>Cache Setup</li>
+                        <li title='This discount applies to web development, web design, logo design, and WordPress fixes.'>10% Discount on Hourly Rate</li>
                         <li class='altRow' title='These quick fixes cannot be combined to form a large project.'>7 Quick Fixes Included*</li>
                         <li title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme</li>
                       </ul>
@@ -164,17 +164,24 @@ $services["web-development"] = array(
                  <p class='serviceContent'>
                    Are you ready to get rid of your technical headaches? Check out our packages below to learn more!
                  </p>
+                 <br />
+                 <p class='serviceContent'>
+                   Mount McKinney&apos;s Monthly Care Plans come in 3 flavors: Basic, Premier, & VIP.
+                </p>
+                 <br />
                  <div class='planPage'>
                    <div class='plans'>
                      <div class='supportPlan basicPlan'>
                        <h3 class='basic'>Basic</h3>
                        <h1 class='price'>$39<span class='smallText'>/mo</span></h1>
-                       <h5>Great for: bloggers</h5>
-                       <ul>
-                         <li class='altRow' title='Mount McKinney guarantees to respond within 24 hours.'>Amazing Customer Support!</li>
+                       <h5 title='You are trying to decide if this is a viable career or just need a little help.'>Who this plan is for</h5>
+                       <ul class='dynamicDesktopContent'>
+                         <li class='altRow' title='Support will respond within 24 hours. Mount McKinney is all about amazing customer support!'>Awesome Customer Support</li>
                          <li title='Mount McKinney will respond to your questions, concerns, and requests via email.'>Email Support</li>
-                         <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 30 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>30 Minute Uptime Monitoring</li>
-                         <li title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Weekly Server Backups</li>
+                         <li class='altRow' title='Mount McKinney&apos;s Basic Plan does not provide any Site Analytics data'>No Analytics Reporting</li>
+                         <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 30 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>30 Minute Uptime Monitoring</li>
+                         <li class='altRow' title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Weekly Server Backups</li>
+                         <li title='Mount McKinney&apos;s Basic Plan does not provide support for hosting transfers. We can still help you, it will just be an additional fee.'>No Access to Hosting Transfer Help</li>
                          <li class='altRow' title='Mount McKinney will run a monthly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Monthly Security Scans</li>
                          <li title='The Basic plan does not provide a discount on Mount McKinney&apos;s rate for working on projects.'>No Discount on Projects</li>
                          <li class='altRow' title='These quick fixes cannot be combined to form a large project.'>2 Quick Fixes Included*</li>
@@ -184,33 +191,37 @@ $services["web-development"] = array(
                        </div>
                      </div>
                      <div class='supportPlan recommendedPlan plusPlan'>
-                       <h3 class='plus'>Plus</h3>
+                       <h3 class='plus'>Premier</h3>
                        <h1 class='price'>$79<span class='smallText'>/mo</span></h1>
-                       <h5>Great for: bloggers, freelancers, etc.</h5>
-                       <ul>
-                         <li title='Mount McKinney guarantees to respond within 8 hours'>Amazing Customer Support!</li>
+                       <h5 title='You are more serious about doing business online. Also ninjas, this is perfect for ninjas.'>Who this plan is for</h5>
+                       <ul class='dynamicDesktopContent'>
+                         <li title='Support will respond within 10 hours. Mount McKinney is all about amazing customer support!'>Priority Customer Support</li>
                          <li class='altRow' title='You will have access to a chat portal to receive live help.'>Email/Chat Support</li>
-                         <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring</li>
-                         <li class='altRow' title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Daily Server Backups</li>
+                         <li title='Mount McKinney will provide a weekly report of your site&apos;s visitors.'>Weekly Analytics Report</li>
+                         <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring</li>
+                         <li title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Daily Server Backups</li>
+                         <li class='altRow' title='Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.'>Hosting Transfer Help</li>
                          <li title='Mount McKinney will run a weekly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Weekly Security Scans</li>
-                         <li class='altRow' title='This discount applies to web development, web design, logo design, WordPress fixes, and quick fixes.'>5% Discount on Project Rate</li>
+                         <li class='altRow' title='This discount applies to web development, web design, logo design, WordPress fixes, and quick fixes.'>5% Discount on Hourly Rate</li>
                          <li title='These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*</li>
                        </ul>
                        <div class='planButton plusPlanButton'>
-                         <a href='http://localhost/store/#!/Monthly-WordPress-Support-Plus/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
+                         <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
                        </div>
                      </div>
                      <div class='supportPlan vipPlan'>
                        <h3 class='vip'>VIP</h3>
                        <h1 class='price'>$109<span class='smallText'>/mo</span></h1>
-                       <h5>Great for: bloggers, freelancers, etc.</h5>
-                       <ul>
+                       <h5 title='you are a celebrity, rock star, or anyone who is looking to never lift a finger toward their WordPress again.'>Who this plan is for</h5>
+                       <ul class='dynamicDesktopContent'>
                          <li class='altRow' title='Mount McKinney guarantees to respond within 4 hours'>Amazing Customer Support!</li>
                          <li title='You will have access to a chat portal to receive live help. You will also be able to schedule phone support.'>Email/Chat/Phone Support</li>
-                         <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring</li>
-                         <li title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Daily Server Backups</li>
+                         <li class='altRow' title='Mount McKinney will provide a weekly report of your site&apos;s visitors.'>Weekly Analytics Report</li>
+                         <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring</li>
+                         <li class='altRow' title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens, coffee on your computer perhaps, you will still have the important files from your website, even if you are down a computer and a latte.'>Daily Server Backups</li>
+                         <li title='Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.'>Hosting Transfer Help</li>
                          <li class='altRow' title='Mount McKinney will run a daily security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Daily Security Scans</li>
-                         <li title='This discount applies to web development, web design, logo design, WordPress fixes, and quick fixes.'>10% Discount on Project Rate</li>
+                         <li title='This discount applies to web development, web design, logo design, and WordPress fixes.'>10% Discount on Hourly Rate</li>
                          <li class='altRow' title='These quick fixes cannot be combined to form a large project.'>7 Quick Fixes Included*</li>
                        </ul>
                        <div class='planButton vipPlanButton'>
@@ -244,73 +255,344 @@ $services["web-development"] = array(
                   </p>
                   <br />
                   <p class='serviceContent'>
-                    You know what else shouldn&apos;t be a pain? Getting in touch with someone to help you with your WordPress issue. Here at Mount McKinney we take your time very seriously. To demonstrate this, even our Basic plan guarantees you will be responded to within 24 hours (often much earlier)!
+                    You know what else shouldn&apos;t be a pain? Getting in touch with someone to help you with your WordPress issue. Here at Mount McKinney, even our Basic plan guarantees you will be responded to within 24 hours (often much earlier)!
+                  </p>
+                  <br />
+                  <p class='serviceContent'>
+                    Mount McKinney&apos;s Monthly Care Plans come in 3 flavors: Basic, Premier, & VIP.
                   </p>
                   <br />
                   <div class='planPage'>
                     <div class='plans'>
                       <div class='supportPlan basicPlan'>
                         <h3 class='basic'>Basic</h3>
-                        <h1 class='price' title='Great for: Go getters just getting started, hustlers, and starter bloggers. Need a little bit of help? We got you, boo.'>$39<span class='smallText'>/mo</span></h1>
-                        <ul>
-                          <li class='altRow' title='Support will respond within 24 hours. Mount McKinney is all about amazing customer support!'>Awesome Customer Support</li>
-                          <li title='Mount McKinney will respond to your questions, concerns, and requests via email.'>Email Support</li>
-                          <li class='altRow' title='Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.'>WordPress Core Updating</li>
-                          <li title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating</li>
-                          <li class='altRow' title='Mount McKinney&apos;s Basic Plan does not provide any Site Analytics data'>No Analytics Reporting</li>
-                          <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 30 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>30 Minute Uptime Monitoring</li>
-                          <li class='altRow' title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Weekly Server Backups</li>
-                          <li title='Mount McKinney&apos;s Basic Plan does not provide support for hosting transfers. We can still help you, it will just be an additional fee.'>No Access to Hosting Transfer Help</li>
-                          <li class='altRow' title='Mount McKinney will run a monthly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Monthly Security Scans</li>
-                          <li title='Mount McKinney will set up a cache on your WordPress site.'>Cache Setup</li>
-                          <li class='altRow' title='The Basic plan does not provide a discount on Mount McKinney&apos;s rate for working on projects.'>No Discount on Projects</li>
-                          <li title='These quick fixes cannot be combined to form a large project.'>2 Quick Fixes Included*</li>
-                          <li class='altRow' title='The Basic plan does not provide access to the WordPress Virtue theme by Kadence Themes.'>No Access to Virtue Theme</li>
+                        <a href='http://localhost/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=0'>
+                          <h1 class='price'>$39<span class='smallText'>/mo</span></h1>
+                        </a>
+                        <h5 class='dynamicDesktopContent' title='Great for those deciding if this is a viable career option and those who do this as a side hustle. Also, those that just need a little help.'>Who this plan is for</h5>
+                        <ul class='dynamicDesktopContent'>
+                          <li class='altRow' title='Support will respond within 24 hours. Mount McKinney is all about amazing customer support!'>Awesome Customer Support<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will respond to your questions, concerns, and requests via email. Catch us on a good day and we may even talk about your hopes and dreams!'>Email Support<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.'>WordPress Core Updating<span class='ui-icon ui-icon-help'></li>
+                          <li title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney&apos;s Basic Plan does not provide any Site Analytics data'>No Analytics Reporting<span class='ui-icon ui-icon-help'></li>
+                          <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 30 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>30 Minute Uptime Monitoring<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Weekly Server Backups<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney&apos;s Basic Plan does not provide support for hosting transfers. We can still help you, it will just be an additional fee.'>No Access to Hosting Transfer Help<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will run a monthly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Monthly Security Scans<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will set up a cache on your WordPress site.'>Cache Setup<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='The Basic plan does not provide a discount on Mount McKinney&apos;s rate for working on projects.'>No Discount on Projects<span class='ui-icon ui-icon-help'></li>
+                          <li title='These quick fixes cannot be combined to form a large project.'>2 Quick Fixes Included*<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='The Basic plan does not provide access to the WordPress Virtue theme by Kadence Themes.'>No Access to Virtue Theme<span class='ui-icon ui-icon-help'></li>
                         </ul>
-                        <div class='planButton basicPlanButton'>
-                          <a href='http://localhost/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=0'>Sign Me Up!</a>
+                        <div id='basicAccordion' class='dynamicMobileContent'>
+                          <h5 class='dynamicMobileContent moreInfo'>Who this plan is for</h5>
+                            <div>
+                              <p>
+                                Great for those deciding if this is a viable career option and those who do this as a side hustle. Also, those that just need a little help.
+                              </p>
+                            </div>
+                            <h6 class='altRow'>Awesome Customer Support</h6>
+                              <div>
+                                <p>
+                                  Support will respond within 24 hours. Mount McKinney is all about amazing customer support!
+                                </p>
+                              </div>
+                            <h6>Email Support</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will respond to your questions, concerns, and requests via email. Catch us on a good day and we may even talk about your hopes and dreams!
+                                </p>
+                              </div>
+                            <h6 class='altRow'>WordPress Core Updating</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.
+                                </p>
+                              </div>
+                            <h6>Plugin & Theme Updating</h6>
+                              <div>
+                                <p>
+                                  We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>No Analytics Reporting</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney&apos;s Basic Plan does not provide any Site Analytics data.
+                                </p>
+                              </div>
+                            <h6>30 Minute Uptime Monitoring</h6>
+                              <div>
+                                <p>
+                                  Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 30 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Weekly Server Backups</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.
+                                </p>
+                              </div>
+                            <h6>No Access to Hosting Transfer Help</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney&apos;s Basic Plan does not provide support for hosting transfers. We can still help you, it will just be an additional fee.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Monthly Security Scans</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will run a monthly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.
+                                </p>
+                              </div>
+                            <h6>Cache Setup</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will set up a cache on your WordPress site.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>No Discount on Projects</h6>
+                              <div>
+                                <p>
+                                  The Basic plan does not provide a discount on Mount McKinney&apos;s rate for working on projects.
+                                </p>
+                              </div>
+                            <h6>2 Quick Fixes Included*</h6>
+                              <div>
+                                <p>
+                                  These quick fixes cannot be combined to form a large project.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>No Access to Virtue Theme</h6>
+                              <div>
+                                <p>
+                                  The Basic plan does not provide access to the WordPress Virtue theme by Kadence Themes.
+                                </p>
+                              </div>
+                          </div>
+                          <div class='planButton basicPlanButton'>
+                            <a href='http://localhost/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=0'>Sign Me Up!</a>
+                          </div>
                         </div>
-                      </div>
                       <div class='supportPlan recommendedPlan plusPlan'>
-                        <h3 class='plus'>Plus</h3>
-                        <h1 class='price' title='Our most popular choice! Great for: professional bloggers, freelancers, '>$79<span class='smallText'>/mo</span></h1>
-                        <ul>
-                          <li title='Support will respond within 10 hours. Mount McKinney is all about amazing customer support!'>Priority Customer Support</li>
-                          <li class='altRow' title='You will have access to a chat portal to receive live help.'>Email/Chat Support</li>
-                          <li title='Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.'>WordPress Core Updating</li>
-                          <li class='altRow' title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating</li>
-                          <li title='Mount McKinney will provide a weekly report of your site&apos;s visitors.'>Weekly Analytics Report</li>
-                          <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring</li>
-                          <li title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Daily Server Backups</li>
-                          <li class='altRow' title='Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.'>Hosting Transfer Help</li>
-                          <li title='Mount McKinney will run a weekly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Weekly Security Scans</li>
-                          <li class='altRow' title='Mount McKinney will set up a cache on your WordPress site and monitor the cache monthly to maintain high performance.'>Cache Setup & Monthly Monitoring</li>
-                          <li title='This discount applies to projects specific to WordPress.'>5% Discount on Project Rate</li>
-                          <li class='altRow' title='These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*</li>
-                          <li title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme</li>
+                        <h3 class='plus'>Premier</h3>
+                        <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>
+                          <h1 class='price'>$79<span class='smallText'>/mo</span></h1>
+                        </a>
+                        <h5 class='dynamicDesktopContent' title='Great for professional bloggers, freelancers, and those getting serious about doing business online. Also ninjas, this is perfect for ninjas.'>Who this plan is for</h5>
+                        <ul class='dynamicDesktopContent'>
+                          <li title='Support will respond within 10 hours. Mount McKinney is all about amazing customer support!'>Priority Customer Support<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='You will have access to a chat portal to receive live help. Catch us on a good day and we may even talk about your hopes and dreams!'>Email/Chat Support<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.'>WordPress Core Updating<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will provide a weekly report of your site&apos;s visitors.'>Weekly Analytics Report<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>5 Minute Uptime Monitoring<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Daily Server Backups<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.'>Hosting Transfer Help<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will run a weekly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Weekly Security Scans<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will set up a cache on your WordPress site'>Cache Setup<span class='ui-icon ui-icon-help'></li>
+                          <li title='This discount applies to web development, web design, logo design, and WordPress fixes.'>5% Discount on Hourly Rate<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*<span class='ui-icon ui-icon-help'></li>
+                          <li title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme<span class='ui-icon ui-icon-help'></li>
                         </ul>
+                        <div id='plusAccordion' class='dynamicMobileContent'>
+                          <h5 class='dynamicMobileContent moreInfo'>Who this plan is for</h5>
+                            <div>
+                              <p>
+                                Great for professional bloggers, freelancers, and those getting serious about doing business online. Also ninjas, this is perfect for ninjas.
+                              </p>
+                            </div>
+                            <h6 class='altRow'>Priority Customer Support</h6>
+                              <div>
+                                <p>
+                                  Support will respond within 10 hours. Mount McKinney is all about amazing customer support!
+                                </p>
+                              </div>
+                            <h6>Email/Chat Support</h6>
+                              <div>
+                                <p>
+                                  You will have access to a chat portal to receive live help. Catch us on a good day and we may even talk about your hopes and dreams!
+                                </p>
+                              </div>
+                            <h6 class='altRow'>WordPress Core Updating</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.
+                                </p>
+                              </div>
+                            <h6>Plugin & Theme Updating</h6>
+                              <div>
+                                <p>
+                                  We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Weekly Analytics Report</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will provide a weekly report of your site&apos;s visitors.
+                                </p>
+                              </div>
+                            <h6>5 Minute Uptime Monitoring</h6>
+                              <div>
+                                <p>
+                                  Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every 5 minutes to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Daily Server Backups</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.
+                                </p>
+                              </div>
+                            <h6>Hosting Transfer Help</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Weekly Security Scans</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will run a weekly security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.
+                                </p>
+                              </div>
+                            <h6>Cache Setup</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will set up a cache on your WordPress site.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>No Discount on Projects</h6>
+                              <div>
+                                <p>
+                                  This discount applies to web development, web design, logo design, and WordPress fixes.'>5% Discount on Hourly Rate</li>
+                                </p>
+                              </div>
+                            <h6>2 Quick Fixes Included*</h6>
+                              <div>
+                                <p>
+                                  These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*
+                                </p>
+                              </div>
+                            <h6 class='altRow'>No Access to Virtue Theme</h6>
+                              <div>
+                                <p>
+                                  You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme</li>
+                                </p>
+                              </div>
+                        </div>
                         <div class='planButton plusPlanButton'>
-                          <a href='http://localhost/store/#!/Monthly-WordPress-Support-Plus/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
+                          <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
                         </div>
                       </div>
                       <div class='supportPlan vipPlan'>
                         <h3 class='vip'>VIP</h3>
-                        <h1 class='price' title='Great for: professional bloggers, small to medium size business owners, entrepreneurs, '>$109<span class='smallText'>/mo</span></h1>
-                        <ul>
-                          <li class='altRow' title='Support will respond within 4 hours. Mount McKinney is all about amazing customer support!'>VIP Support</li>
-                          <li title='You will have access to a chat portal to receive live help. You will also be able to schedule phone support.'>Email/Chat/Phone Support</li>
-                          <li class='altRow' title='Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.'>WordPress Core Updating</li>
-                          <li title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating</li>
-                          <li class='altRow' title='Mount McKinney will do more than just provide a report of your site&apos;s visitors. We will go over that with you and provide recommendations to help increase traffic!'>Weekly Analytics Report + Analysis</li>
-                          <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring</li>
-                          <li class='altRow' title='Mount McKinney will backup your database on a weekly basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Daily Server Backups</li>
-                          <li title='Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.'>Hosting Transfer Help</li>
-                          <li class='altRow' title='Mount McKinney will run a daily security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Daily Security Scans</li>
-                          <li title='Mount McKinney will set up a cache on your WordPress site and monitor the cache weekly to maintain high performance.'>Cache Setup & Weekly Monitoring</li>
-                          <li class='altRow' title='This discount applies to projects specific to WordPress.'>10% Discount on Project Rate</li>
-                          <li title='These quick fixes cannot be combined to form a large project.'>7 Quick Fixes Included*</li>
-                          <li class='altRow' title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme</li>
+                        <a href='http://localhost/store/#!/Monthly-WordPress-Support-VIP/p/73472845/category=0&forcescroll=true'>
+                          <h1 class='price'>$109<span class='smallText'>/mo</span></h1>
+                        </a>
+                        <h5 class='dynamicDesktopContent' title='Great for small business owners, rock stars, and anyone looking to never lift a finger to fix their WordPress again.'>Who this plan is for<span class='ui-icon ui-icon-help'></h5>
+                        <ul class='dynamicDesktopContent'>
+                          <li class='altRow' title='Support will respond within 4 hours. Mount McKinney is all about amazing customer support!'>VIP Support<span class='ui-icon ui-icon-help'></span></li>
+                          <li title='You will have access to a chat portal to receive live help. You will also be able to schedule phone support. Catch us on a good day and we may even talk about your hopes and dreams!'>Email/Chat/Phone Support<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.'>WordPress Core Updating<span class='ui-icon ui-icon-help'></li>
+                          <li title='We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.'>Plugin & Theme Updating<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will do more than just provide a report of your site&apos;s visitors. We will go over that with you and provide recommendations to help increase traffic!'>Weekly Analytics Report + Analysis<span class='ui-icon ui-icon-help'></li>
+                          <li title='Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.'>1 Minute Uptime Monitoring<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.'>Daily Server Backups<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.'>Hosting Transfer Help<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='Mount McKinney will run a daily security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.'>Daily Security Scans<span class='ui-icon ui-icon-help'></li>
+                          <li title='Mount McKinney will set up a cache on your WordPress site.'>Cache Setup<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='This discount applies to web development, web design, logo design, and WordPress fixes.'>10% Discount on Hourly Rate<span class='ui-icon ui-icon-help'></li>
+                          <li title='These quick fixes cannot be combined to form a large project.'>7 Quick Fixes Included*<span class='ui-icon ui-icon-help'></li>
+                          <li class='altRow' title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme<span class='ui-icon ui-icon-help'></li>
                         </ul>
+                        <div id='vipAccordion' class='dynamicMobileContent'>
+                          <h5 class='dynamicMobileContent moreInfo'>Who this plan is for</h5>
+                            <div>
+                              <p>
+                                Great for small business owners, rock stars, and anyone looking to never lift a finger to fix their WordPress again.
+                              </p>
+                            </div>
+                            <h6 class='altRow'>VIP Support</h6>
+                              <div>
+                                <p>
+                                  Support will respond within 4 hours. Mount McKinney is all about amazing customer support!
+                                </p>
+                              </div>
+                            <h6>Email/Chat/Phone Support</h6>
+                              <div>
+                                <p>
+                                  You will have access to a chat portal to receive live help. You will also be able to schedule phone support. Catch us on a good day and we may even talk about your hopes and dreams!
+                                </p>
+                              </div>
+                            <h6 class='altRow'>WordPress Core Updating</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will ensure your WordPress stays up to date with the latest stable releases. We will test to ensure it will not affect your plugins prior to updating.
+                                </p>
+                              </div>
+                            <h6>Plugin & Theme Updating</h6>
+                              <div>
+                                <p>
+                                  We will ensure your plugins are up to date and secure. If a plugin is a known security concern or causes slow downs, Mount McKinney can suggest alternatives.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Weekly Analytics Report + Analysis</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will do more than just provide a report of your site&apos;s visitors. We will go over that with you and provide recommendations to help increase traffic!
+                                </p>
+                              </div>
+                            <h6>1 Minute Uptime Monitoring</h6>
+                              <div>
+                                <p>
+                                  Is your site up and running right now? Are you sure? How do you know? Mount McKinney&apos;s Uptime Monitoring service will check every minute to ensure it&apos;s still up. If for some reason it does go down, we will alert you and can investigate the cause.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Daily Server Backups</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will backup your database on a daily basis to ensure that if something catastrophic happens you&apos;ll have your site back up and running in no time.
+                                </p>
+                              </div>
+                            <h6>Hosting Transfer Help</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will provide support to help you navigate the frustrations of transferring from one hosting service to another.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Daily Security Scans</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will run a daily security check-up to ensure nothing malicious is living on your site. If there is, we will work to eradicate it.
+                                </p>
+                              </div>
+                            <h6>Cache Setup</h6>
+                              <div>
+                                <p>
+                                  Mount McKinney will set up a cache on your WordPress site.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>10% Discount on Hourly Rate</h6>
+                              <div>
+                                <p>
+                                  This discount applies to web development, web design, logo design, and WordPress fixes.
+                                </p>
+                              </div>
+                            <h6>7 Quick Fixes Included*</h6>
+                              <div>
+                                <p>
+                                  These quick fixes cannot be combined to form a large project.
+                                </p>
+                              </div>
+                            <h6 class='altRow'>Free Access to Virtue Theme</h6>
+                              <div>
+                                <p>
+                                  You will have access to the beautiful Virtue Theme by Kadence Themes.
+                                </p>
+                              </div>
+                        </div>
                         <div class='planButton vipPlanButton'>
                           <a href='http://localhost/store/#!/Monthly-WordPress-Support-VIP/p/73472845/category=0&forcescroll=true'>Sign Me Up!</a>
                         </div>

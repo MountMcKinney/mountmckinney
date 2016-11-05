@@ -111,7 +111,9 @@ $(document).ready(function () {
 // To create a popup that appears when someone hovers over text with the title attribute
 $( function() {
     $( document ).tooltip({
-      track: true
+      track: true,
+      position: { my: "left+15 center", at: "right center", collision: 'none'},
+      hide: false
     });
   } );
 
@@ -120,6 +122,31 @@ $( function() {
 $( function() {
   $('#accordion').accordion({
     collapsible: true,
-    active: false
+    active: false,
+    heightStyle: "content"
+  });
+} );
+
+$( function() {
+  $('#basicAccordion').accordion({
+    collapsible: true,
+    active: false,
+    heightStyle: "content"
+  });
+} );
+
+$( function() {
+  $('#plusAccordion').accordion({
+    collapsible: true,
+    active: false,
+    heightStyle: "content"
+  });
+} );
+
+$( function() {
+  $('#vipAccordion').accordion({
+    collapsible: true,
+    active: false,
+    heightStyle: "content"
   });
 } );
