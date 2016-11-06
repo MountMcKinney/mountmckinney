@@ -714,7 +714,7 @@ ul.details {
   padding-bottom: 50px;
 }
 
-.dynamicDesktopContent {
+.dynamicDesktopContent, .dynamicText {
   display: none;
 }
 
@@ -733,8 +733,11 @@ ul.details {
   border: 1px solid #FF4081;
 }
 
-.ui-icon {
+.ui-icon-help {
   vertical-align: super;
+  font-size: .7rem;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .supportPlan {
@@ -1309,6 +1312,10 @@ td {
 
   .dynamicDesktopContent {
     display: block;
+  }
+
+  .dynamicText {
+    display: inline;
   }
 }
 
