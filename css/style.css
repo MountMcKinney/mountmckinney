@@ -407,7 +407,8 @@ body {
   line-height:1.5;
 }
 
-.about a:link, .about a:visited, .campfireStoriesHeader a:link, .campfireStoriesHeader a:visited {
+.about a:link, .about a:visited,
+.campfireStoriesHeader a:link, .campfireStoriesHeader a:visited {
   color: #f9b701;
 }
 
@@ -723,7 +724,7 @@ ul.details {
   border: 1px solid #00ff7f;
 }
 
-#plusAccordion .ui-state-active {
+#premierAccordion .ui-state-active {
   background: #1e90ff;
   border: 1px solid #1e90ff;
 }
@@ -740,7 +741,7 @@ ul.details {
   font-weight: bold;
 }
 
-.supportPlan {
+.supportPlan, .logoPlan {
   border-bottom: none;
   display: inline-block;
   max-width: 700px;
@@ -759,12 +760,12 @@ ul.details {
   border-bottom: none;
 }
 
-.supportPlan h3 {
+.supportPlan h3, .logoPlan h3 {
   color: #ffffff;
   font-size: 2.5rem;
 }
 
-.supportPlan h5 {
+.supportPlan h5, .logoPlan h5 {
   color: #ffffff;
   font-size: 1.14rem;
   padding: 10px 0;
@@ -774,7 +775,7 @@ ul.details {
   background: #263238;
 }
 
-.plusPlan h5 {
+.premierPlan h5, .logoPlan h5 {
   background: #f9b701;
 }
 
@@ -790,13 +791,17 @@ ul.details {
   background: #00ff7f;
 }
 
-.plus {
+.premier {
   background-color: #f9b701;
   line-height: 2.75;
 }
 
-.plusPlan h1 {
+.premierPlan h1 {
   background-color: #1e90ff;
+}
+
+.logoPlan h1 {
+  background-color: #2638a2;
 }
 
 .vip {
@@ -842,12 +847,16 @@ ul.details {
   background: #00ff7f;
 }
 
-.plusPlanButton {
+.premierPlanButton {
   background: #1e90ff;
 }
 
 .vipPlanButton {
   background: #FF4081;
+}
+
+.logoPlanButton {
+  background: #2638a2;
 }
 
 .serviceStore {
@@ -878,7 +887,7 @@ ul.details {
   line-height: 1.5;
 }
 
-#accordion .ui-state-active {
+#accordion .ui-state-active, #logoAccordion .ui-state-active {
   background: #f9b701;
   border: 1px solid #f9b701;
 }

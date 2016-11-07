@@ -60,7 +60,7 @@ $cfstories = getCfstoriesSubset($start,$end);
           If not ghost stories, what will sorts of stories will be told? How about tales of adventure with hints of comedy and wit? Adventures so intriguing you&apos;ll be on the edge of your seat while reading them, and if you&apos;re standing, you&apos;ll find a chair just to be on the edge of your seat. There may be the occasional tall tale from time to time in there as well, but isn&apos;t embelishment what turns a good story into a great one?
         </p>
         <p>
-          From time to time a wandering hiker will drop by to provide a tale from their journeys. Are you an outdoorsy person with a tale to weave for all of us? If so, send us an <a href="mailto:john@mountmckinney.com">email</a>, fill out the <a class="typeform-share link" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact form</a>, or send us a <a href="http://www.pigeongram.com/" target="_blank">Carrier Pigeon</a>. Bonus points and free s&apos;mores for using that last one.
+          From time to time a wandering hiker will drop by to provide a tale from their journeys. Are you an outdoorsy person with a tale to weave for all of us? If so, send us an <a href="mailto:info@support.mountmckinney.com">email</a>, fill out the <a class="typeform-share link" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact form</a>, or send us a <a href="http://www.pigeongram.com/" target="_blank">Carrier Pigeon</a>. Bonus points and free s&apos;mores for using that last one.
         </p>
         <p>
           We hope this all sounds great to you, we&apos;re certainly excited! Be sure to subscribe so you don&apos;t miss anything good!

@@ -64,7 +64,7 @@ require_once("../inc/config.php");
                     <li class="trainingFeatures">In-person Client demos</li>
                     <li class="trainingFeatures">Want to book an onsite training?</li>
                     <li class="trainingFeatures">
-                      <a href="mailto:john@mountmckinney.com" id="bookTime">Send John an email</a>
+                      <a href="mailto:info@support.mountmckinney.com" id="bookTime">Send John an email</a>
                     </li>
                   </ul>
               </td>

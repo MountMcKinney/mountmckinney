@@ -128,6 +128,14 @@ $( function() {
 } );
 
 $( function() {
+  $('#logoAccordion').accordion({
+    collapsible: true,
+    active: false,
+    heightStyle: "content"
+  });
+} );
+
+$( function() {
   $('#basicAccordion').accordion({
     collapsible: true,
     active: false,
@@ -136,7 +144,7 @@ $( function() {
 } );
 
 $( function() {
-  $('#plusAccordion').accordion({
+  $('#premierAccordion').accordion({
     collapsible: true,
     active: false,
     heightStyle: "content"

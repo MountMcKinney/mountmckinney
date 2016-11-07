@@ -52,19 +52,17 @@ $services["web-development"] = array(
                 </p>
                 <br />
                 <p class='serviceContent'>
-                  We build websites in <strong>WordPress</strong>, <strong>Squarespace</strong>, <strong>Wix</strong>, or whatever platform suits your needs. The benefit of building a site in these platforms is that they are quick to create and easier to maintain.
+                  We build websites in whatever platform suits your needs including <strong>WordPress</strong>, <strong>Squarespace</strong>, <strong>Wix</strong>. The benefit of building a site in these types platforms is that they are quick to create and easier to maintain.
                 </p>
                 <br />
                 <p class='serviceContent'>
-                  These platforms do have their limitations though. That&apos;s why Mount McKinney also builds <strong>custom websites</strong> to fit your needs and your exact specifications because we know that one size fits all, does&apos;t always fit.
+                  These platforms do have their limitations though. That&apos;s why Mount McKinney also builds <strong>custom websites</strong> to fit your needs and exact specifications because we know that one size fits all, does&apos;t always fit.
                 </p>
-                <br />
-                <br />
                 <br />
                 <br />
                 <br />
                 <p class='serviceContent'>
-                  Whether you need to share your cooking adventures via a blog, a portfolio to show off your wedding photography, or a full e-commerce site to sell your custom clothing line we can help bring your ideas to life.
+                  Whether you need a blog to share your cooking adventures, a portfolio to show off your wedding photography, or a full e-commerce site to sell your custom clothing line we can help bring your ideas to life. Mount McKinney will do everything in our power to help you and your business reach your peak!
                 </p>
                 <br />
                 <p class='serviceContent'>
@@ -95,8 +93,8 @@ $services["web-development"] = array(
                         <a href='http://localhost/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=0'>Sign Me Up!</a>
                       </div>
                     </div>
-                    <div class='supportPlan recommendedPlan plusPlan'>
-                      <h3 class='plus'>Premier</h3>
+                    <div class='supportPlan recommendedPlan premierPlan'>
+                      <h3 class='premier'>premierPlan</h3>
                       <h1 class='price'>$4-6k</h1>
                       <h5>Great for: bloggers, freelancers, etc.</h5>
                       <ul>
@@ -111,7 +109,7 @@ $services["web-development"] = array(
                         <li title='These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*</li>
                         <li class='altRow' title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme</li>
                       </ul>
-                      <div class='planButton plusPlanButton'>
+                      <div class='planButton premierPlanButton'>
                         <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
                       </div>
                     </div>
@@ -274,8 +272,8 @@ $services["web-development"] = array(
                          <a href='http://localhost/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=0'>Sign Me Up!</a>
                        </div>
                      </div>
-                     <div class='supportPlan recommendedPlan plusPlan'>
-                       <h3 class='plus'>Premier</h3>
+                     <div class='supportPlan recommendedPlan premierPlan'>
+                       <h3 class='premier'>Premier</h3>
                        <h1 class='price'>$99<span class='smallText'>/mo</span></h1>
                        <h5 class='dynamicDesktopContent' title='Great for professional bloggers, freelancers, and those getting serious about doing business online. Also ninjas, this is perfect for ninjas.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                        <ul class='dynamicDesktopContent'>
@@ -291,7 +289,7 @@ $services["web-development"] = array(
                          <li class='altRow' title='These quick fixes cannot be combined to form a large project.'>4 Quick Fixes Included*<span class='ui-icon-help'> ?</span></li>
                          <li title='Mount McKinney can provide help creating email accounts.'>Email Creation Support<span class='ui-icon-help'> ?</span></li>
                        </ul>
-                       <div id='plusAccordion' class='dynamicMobileContent'>
+                       <div id='premierAccordion' class='dynamicMobileContent'>
                          <h5 class='dynamicMobileContent moreInfo'>Who this plan is for</h5>
                            <div>
                              <p>
@@ -365,7 +363,7 @@ $services["web-development"] = array(
                                </p>
                              </div>
                        </div>
-                       <div class='planButton plusPlanButton'>
+                       <div class='planButton premierPlanButton'>
                          <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
                        </div>
                      </div>
@@ -639,8 +637,8 @@ $services["web-development"] = array(
                             <a href='http://localhost/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=0'>Sign Me Up!</a>
                           </div>
                         </div>
-                      <div class='supportPlan recommendedPlan plusPlan'>
-                        <h3 class='plus'>Premier</h3>
+                      <div class='supportPlan recommendedPlan premierPlan'>
+                        <h3 class='premier'>Premier</h3>
                         <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>
                           <h1 class='price'>$79<span class='smallText'>/mo</span></h1>
                         </a>
@@ -662,7 +660,7 @@ $services["web-development"] = array(
                           <li class='altRow' title='You will have access to the beautiful Virtue Theme by Kadence Themes.'>Free Access to Virtue Theme<span class='ui-icon-help'> ?</span></li>
                           <li title='Mount McKinney can provide help creating email accounts.'>Email Creation Support<span class='ui-icon-help'> ?</span></li>
                         </ul>
-                        <div id='plusAccordion' class='dynamicMobileContent'>
+                        <div id='premierAccordion' class='dynamicMobileContent'>
                           <h5 class='dynamicMobileContent moreInfo'>Who this plan is for</h5>
                             <div>
                               <p>
@@ -760,7 +758,7 @@ $services["web-development"] = array(
                                 </p>
                               </div>
                         </div>
-                        <div class='planButton plusPlanButton'>
+                        <div class='planButton premierPlanButton'>
                           <a href='http://localhost/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=0&forcescroll=true'>Sign Me Up!</a>
                         </div>
                       </div>
@@ -919,187 +917,7 @@ $services["web-development"] = array(
                     </div>
                   </div>
                   "
-  );
-  // $services["marketing-automation"] = array(
-  //   "thumb" => "img/services/marketingAutomation.svg",
-  //   "title" => "Marketing Automation",
-  //   "popup" => "Marketing automation is a great tool that will allow you to generate more leads and revenue by engaging your prospects and customers more often. This is all done by letting the computer do the work, not you.",
-  //   "section" => "<p class='serviceContent'>
-  //                   Whether you have heard of marketing automation doesn&apos;t really matter. Most of you don&apos;t care how it does x, y, and z. You care that it will generate more revenue for you. You care that it will keep your customers happy which in turn means they will be more likely to be a return customer.
-  //                   We understand that, so all we say here is that you will love that you are able to reach out to customers and prospects more often without having to do nearly as much work.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent clearContent'>
-  //                   If you ever do want to geek out with us about how the system works, we are happy to explain it.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                   Are you ready learn more about how automating your marketing will help your business? Let us know below and we&apos;ll reach out shortly!
-  //                   <div class='servicesContact'>
-  //                     <a class='typeform-share button' href='https://mountmckinney.typeform.com/to/IUHF6N' data-mode='1' target='_blank'>Create My Logo!</a>
-  //                   </div>
-  //                 </p>
-  //                 "
-  // );
-  // $services["wordpress-support"] = array(
-  //   "thumb" => "img/services/wordpressMaintenance.svg",
-  //   "title" => "WordPress Support",
-  //   "popup" => "Does your WordPress blog or website need a little TLC? Mount McKinney can provide a wide-range of services. A full list of WordPress services can be found here.",
-  //   "section" => "<p class='serviceContent'>
-  //                   What would you rather focus on, fixing technical issues in Wordpress or growing your business? Thought so.
-  //                   <br />
-  //                   Let Mount McKinney take care of your Wordpress issues so you can get back to focusing on what you do best!
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                   Can't figure out why that plugin won't work? Migrating from one hosting platform to another? Site running slow?
-  //                   <br />
-  //                   Mount McKinney can help with all this and more! Check out what services we provide below!
-  //                 </p>
-  //                 <ul class='wordpressServiceList'>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=monthly-support'."' title='Do you have a WordPress blog or website and need help managing it? Mount McKinney provides this service in 3 options, click here to learn more about them!'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/monthlySupport.svg'."'>
-  //                     <figcaption>Monthly Support Plans</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=wordpress-maintenance'."' title='WordPress site running slow? Getting errors when trying to update a plugin? We can fix that!'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/wordpressMaintenance.svg'."'>
-  //                     <figcaption>WordPress Maintenance</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=wordpress-design'."' title='When&apos;s the last time you changed your WordPress theme? Doing so can seem like a huge undertaking to make sure everything looks good after the transition. So, why not let Mount McKinney take care of it for you?'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/wordpressDesign.svg'."'>
-  //                     <figcaption>WordPress Site Design</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=wordpress-setup'."' title='New to blogging or just new to WordPress? Mount McKinney can set you up with everything you need to get started blogging on this powerful platform! We even have partnerships with marketers who are happy to help you get more readers.'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/wordpressSetup.svg'."'>
-  //                     <figcaption>WordPress Setup</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=wordpress-update'."' title='Did you know that keeping WordPress up to date is essential to maintaining the security of your site? We can make sure errors are handled quickly and the process is seamless.'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/wordpressUpdate.svg'."'>
-  //                     <figcaption>WordPress Update</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=website-uptime-monitoring'."' title='Do you know when your site goes down? Mount McKinney can update you within a few minutes of your site going down so we can act quickly to fix the issue.'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/websiteUptimeMonitoring.svg'."'>
-  //                     <figcaption>Uptime Monitoring</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=website-security-scan'."' title='Do you have any malware living on your site? We can find out for you!'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/websiteSecurityScan.svg'."'>
-  //                     <figcaption>WordPress Site Scan</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=website-analytics'."' title='Do you know how many views your site is getting? Do your pages load slowly? How&apos;s your SEO? These are all things we can help with!'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/websiteAnalytics.svg'."'>
-  //                     <figcaption>WordPress Site Analytics</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=database-backups'."' title='When&apos;s the last time you backed up your website data to an external hard drive? We recommend doing so frequently to avoid losing anything.'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/database.svg'."'>
-  //                     <figcaption>Database Backups</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'wordpress/?wordpress-service=hosting-transfers'."' title='Does your website keep going down? Is it feeling slow? Just ready for a new server hosting platform? If so, Mount McKinney is happy to take care of this process for you to make it as painless as possible for you. We can also make recommendations for good hosts.'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/hostingTransfers.svg'."'>
-  //                     <figcaption>Site Hosting Transfers</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'service/?service=logo-design'."' title='Don&apos;t have a logo yet or your current logo feel out of date? Mount McKinney can work with you to create something special, just for you!'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/logoDesign.svg'."'>
-  //                     <figcaption>Logo Design</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                  <li>
-  //                   <a href='".BASE_URL.'service/?service=quick-fix'."' title='Do you just need a quick fix on your website like fixing a plugin that won&apos;t update, changing some colors on your site, updating your theme, or backing up your database? If it&apos;s a small project under 30 mins then a quick fix is perfect for you.'>
-  //                   <figure>
-  //                     <img class='wordpressImg' src='".BASE_URL.'img/services/quickFix.svg'."'>
-  //                     <figcaption>Quick Fix</figcaption>
-  //                   </figure>
-  //                   </a>
-  //                  </li>
-  //                 </ul>
-  //                 "
-  // );
-  // $services["site-security"] = array(
-  //   "thumb" => "img/services/websiteSecurityScan.svg",
-  //   "title" => "Site Security",
-  //   "section" => "<p class='serviceContent'>
-  //                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent clearContent'>
-  //                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                 </p>
-  //                 "
-  //  );
-  // $services["wordpress-setup"] = array(
-  //   "thumb" => "img/services/wordpressSetup.svg",
-  //   "title" => "Wordpress Setup",
-  //   "section" => "<p class='serviceContent'>
-  //                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent clearContent'>
-  //                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='serviceContent'>
-  //                 </p>
-  //                 "
-  //  );
+   );
    $services["logo-design"] = array(
      "thumb" => "img/services/logoDesign.svg",
      "title" => "Logo Design",
@@ -1114,41 +932,68 @@ $services["web-development"] = array(
                    <br />
                    <p class='serviceContent'>
                      Are you ready to have a logo worth admiring? Let us know below and we&apos;ll reach out shortly!
-                     <div class='servicesContact'>
-                       <a class='typeform-share button' href='https://mountmckinney.typeform.com/to/IUHF6N' data-mode='1' target='_blank'>Create My Logo!</a>
-                     </div>
                    </p>
+                    <div class='planPage'>
+                      <div class='plans'>
+                        <div class='logoPlan'>
+                          <h3 class='premier'>Logo Design</h3>
+                          <h1 class='price'>$250</h1>
+                          <div id='logoAccordion'>
+                            <h6>Custom Logo Design</h6>
+                            <div>
+                              <p>
+                                Mount McKinney will work with you to create a beautiful logo that will represent your brand well for years to come.
+                              </p>
+                            </div>
+                          </div>
+                          <div class='planButton logoPlanButton'>
+                            <a href='https://mountmckinney.typeform.com/to/IUHF6N' data-mode='1' target='_blank'>Create My Logo!</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                    "
    );
    $services["quick-fix"] = array(
      "thumb" => "img/services/quickFix.svg",
      "title" => "Quick Fixes",
-     "popup" => "Do you just need a quick fix on your website like fixing a plugin that won&apos;t update, changing some colors on your site, updating your theme, or backing up your database? If it&apos;s a small project under 30 mins then a quick fix is perfect for you.",
+     "popup" => "Do you just need a quick fix on your website like fixing a plugin that won&apos;t update, changing some colors on your site, updating your theme, or creating email addresses? If it&apos;s a small project under 30 mins then a quick fix is perfect for you.",
      "section" => "<p class='serviceContent'>
-                      Do you just need a quick fix on your website like fixing a plugin that won&apos;t update, changing some colors on your site, updating your theme, or backing up your database? If it&apos;s a small project under 30 mins then a quick fix is perfect for you.
+                      Quick fixes are projects we determine will take <strong>30 minutes or less</strong>. Each quick fix is for only one small project. For example: creating an email account, fixing errors, and providing a security scan are 3 separate quick fixes. If you need multiple fixes done on your site, please <a href='https://mountmckinney.typeform.com/to/IUHF6N' data-mode='1' target='_blank'>contact us</a> for a custom quote.
                    </p>
                    <br />
                    <p class='serviceContent clearContent'>
-                      Quick fixes are things Mount McKinney determines will take about <strong>30 minutes or less</strong> to resolve. Each quick fix is for only one small project. Meaning creating an email account, fixing errors, and providing a security scan are 3 separate quick fixes. If you need multiple fixes done on your site, please contact us for a custom quote.
+                      Quick fixes are always paid in advance. Payment is collected via PayPal or credit card. Please ensure the information you provide when purchasing a quick fix is the correct and the easiest to get in touch with you so we can resolve your project as fast as possible.
                    </p>
                    <br />
                    <p class='serviceContent clearContent'>
-                      If you have questions about whether something is a quick fix or not, you can always shoot us a quick email. <strong>Examples of quick fixes</strong> include updating plugins or themes, fixing a MailChimp issue, changing color schemes or fonts, creating email accounts, and scanning your website for security issues.
-                   </p>
-                   <br />
-                   <p class='serviceContent'>
-                      Quick fixes are always paid in advance. Payment is collected via PayPal or credit card. Please ensure the information you provide when purchasing a quick fix is the easiest to get in touch with you so we can take care of your issues as fast as possible.
+                      See below for examples of quick fixes. If you have questions about whether something is a quick fix or not, you can always shoot us a quick <a href='mailto:info@support.mountmckinney.com?Subject=What%27s%20a%20Quick%20Fix%3F'>email</a>.
                    </p>
                    <br />
                    <p class='serviceContent'>
                       If for any reason we deem the project as not being a quick fix or are unable to resolve your issue, Mount McKinney will refund your money immediately. If it is a situation where we deem the fix will take longer than 30 minutes we will reach out with a quote for you.
                    </p>
-                   <br />
-                   <p class='serviceContent'>
-                      <div class='serviceStore'>
-                       <a href='http://localhost/store/#!/Monthly-WordPress-Support-VIP/p/73472845/category=0&forcescroll=true'>I Need A Quick Fix</a>
-                      </div>
-                   </p>
+                   <div class='planPage'>
+                     <div class='plans'>
+                       <div class='logoPlan'>
+                         <h3 class='premier'>Quick Fix</h3>
+                         <h1 class='price'>$45</h1>
+                         <h5>Examples of Possible Quick Fixes</h5>
+                         <ul>
+                           <li class='altRow'>Amazing Customer Support!</li>
+                           <li>Updating Plugins/Themes</li>
+                           <li>Fixing a MailChimp Issue</li>
+                           <li>Changing Color Schemes</li>
+                           <li>Changing Fonts</li>
+                           <li>Creating Email Accounts</li>
+                           <li>Website Security Scans</li>
+                         </ul>
+                         <div class='planButton logoPlanButton'>
+                           <a href='http://localhost/store/#!/Monthly-WordPress-Support-VIP/p/73472845/category=0&forcescroll=true'>I Need A Quick Fix</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
                    "
    );
   //  $services["wordpress-update"] = array(
