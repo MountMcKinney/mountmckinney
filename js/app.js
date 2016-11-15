@@ -151,10 +151,22 @@ $( function() {
   });
 } );
 
-$( function() {
+$(function() {
   $('#vipAccordion').accordion({
     collapsible: true,
     active: false,
     heightStyle: "content"
   });
 } );
+
+// This will change the price model based on the toggle switch
+$(".rightOptionDiv").hide();
+$("#switchCheck").change(function(){
+  if($("#switchCheck").prop("checked")) {
+    $(".leftOptionDiv").hide();
+    $(".rightOptionDiv").show();
+  } else {
+    $(".leftOptionDiv").show();
+    $(".rightOptionDiv").hide();
+  }
+});

@@ -6,10 +6,11 @@
 	.st0{fill:none;}
 	.st1{fill:#2F2F2F;}
 	.st2{fill:#B7B7B7;}
-	.st3{fill:#FF4081;}
-	.st4{fill:#00FF7F;}
-	.st5{fill:#545454;}
-	.st6{fill:#1E90FF;}
+	.st3{fill:#CCCCCC;}
+	.st4{fill:#F9B701;}
+	.st5{fill:#2638A2;}
+	.st6{fill:#263238;}
+	.st7{fill:#545454;}
 </style>
 <g id="Computer">
 	<g>
@@ -26,26 +27,85 @@
 		</g>
 		<circle class="st2" cx="526.8" cy="365.1" r="8.6"/>
 		<rect x="79" y="25" class="st3" width="482" height="315"/>
+		<rect x="100.8" y="44.3" class="st4" width="438.4" height="60.2"/>
+		<rect x="100.8" y="144.4" class="st5" width="144.9" height="105.3"/>
+		<rect x="100.8" y="118.2" class="st6" width="438.4" height="10.7"/>
+		<rect x="100.9" y="264.5" class="st6" width="438.4" height="10.7"/>
+		<rect x="100.9" y="288.3" class="st6" width="438.4" height="10.7"/>
+		<rect x="100.9" y="313.3" class="st6" width="438.4" height="10.7"/>
+		<g>
+			<rect x="265.7" y="144.1" class="st6" width="273.5" height="11.1"/>
+			<rect x="265.7" y="174.5" class="st6" width="273.5" height="11.1"/>
+			<rect x="265.7" y="206.7" class="st6" width="273.5" height="11.1"/>
+			<rect x="265.7" y="238.9" class="st6" width="273.5" height="11.1"/>
+		</g>
 	</g>
 </g>
-<g id="Layer_3">
+<g id="Isolation_Mode">
 	<g>
+		<g id="Layer_2">
+			<g>
+				<g>
+					<path class="st1" d="M41.7,477.6h74.7c6.6,0,12-5.4,12-12V300.3c0-6.6-5.4-12-12-12H41.7c-6.6,0-12,5.4-12,12v165.3
+						C29.7,472.2,35.1,477.6,41.7,477.6z"/>
+					<rect x="37.7" y="302.3" class="st3" width="82.7" height="152.5"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<rect x="40.2" y="303.8" class="st4" width="77.3" height="20.4"/>
+			<rect x="40.2" y="344.8" class="st5" width="77.3" height="50"/>
+			<rect x="40.2" y="334.3" class="st6" width="77.3" height="3.6"/>
+			<rect x="40.2" y="445.4" class="st6" width="77.3" height="3.6"/>
+			<g>
+				<rect x="40.2" y="402.1" class="st6" width="77.3" height="3.8"/>
+				<rect x="40.2" y="412.4" class="st6" width="77.3" height="3.8"/>
+				<rect x="40.2" y="423.3" class="st6" width="77.3" height="3.8"/>
+				<rect x="40.2" y="434.2" class="st6" width="77.3" height="3.8"/>
+			</g>
+			<g>
+				<rect x="43.3" y="310.1" class="st6" width="7.3" height="1.1"/>
+				<rect x="43.3" y="313.4" class="st6" width="7.3" height="1.1"/>
+				<rect x="43.3" y="316.6" class="st6" width="7.3" height="1.1"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g id="Layer_3">
 		<g>
 			<g>
-				<path class="st1" d="M464.3,477.6h156c6.6,0,12-5.4,12-12V261.4c0-6.6-5.4-12-12-12h-156c-6.6,0-12,5.4-12,12v204.2
-					C452.3,472.2,457.7,477.6,464.3,477.6z"/>
+				<g>
+					<path class="st1" d="M464.3,477.6h156c6.6,0,12-5.4,12-12V261.4c0-6.6-5.4-12-12-12h-156c-6.6,0-12,5.4-12,12v204.2
+						C452.3,472.2,457.7,477.6,464.3,477.6z"/>
+				</g>
+				<rect x="460.3" y="263.9" class="st3" width="164" height="190"/>
 			</g>
-			<rect x="460.3" y="263.9" class="st4" width="164" height="190"/>
+			<circle class="st7" cx="542.3" cy="465.3" r="7.3"/>
 		</g>
-		<circle class="st5" cx="542.3" cy="465.3" r="7.3"/>
 	</g>
-</g>
-<g id="Layer_2">
 	<g>
+		<rect x="463.5" y="266.2" class="st4" width="157.6" height="25"/>
+		<rect x="463.5" y="311.7" class="st5" width="60.2" height="43.7"/>
+		<rect x="463.5" y="297" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="363.5" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="374.6" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="386.1" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="399" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="409.6" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="421.6" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="433.6" class="st6" width="157.6" height="4.4"/>
+		<rect x="463.5" y="444.1" class="st6" width="157.6" height="4.4"/>
 		<g>
-			<path class="st1" d="M41.7,477.6h74.7c6.6,0,12-5.4,12-12V300.3c0-6.6-5.4-12-12-12H41.7c-6.6,0-12,5.4-12,12v165.3
-				C29.7,472.2,35.1,477.6,41.7,477.6z"/>
-			<rect x="37.7" y="302.3" class="st6" width="82.7" height="152.5"/>
+			<rect x="533.7" y="311.6" class="st6" width="87.4" height="4.6"/>
+			<rect x="533.7" y="324.2" class="st6" width="87.4" height="4.6"/>
+			<rect x="533.7" y="337.6" class="st6" width="87.4" height="4.6"/>
+			<rect x="533.7" y="351" class="st6" width="87.4" height="4.6"/>
+		</g>
+		<g>
+			<rect x="468.7" y="274" class="st6" width="12.4" height="1.4"/>
+			<rect x="468.7" y="278" class="st6" width="12.4" height="1.4"/>
+			<rect x="468.7" y="282" class="st6" width="12.4" height="1.4"/>
 		</g>
 	</g>
 </g>

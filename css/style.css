@@ -183,6 +183,17 @@ strong {
   max-width: 100%;
 }
 
+.reportCardPopupButton {
+  position: fixed;
+  z-index: 185;
+  font-family: 'Quicksand', serif;
+  border: 3px solid #2638a2;
+  padding: 30px;
+  background: #ffffff;
+  right: 20px;
+  text-align: center;
+}
+
 .typeform-share.button {
   float: none !important;
   display: inline-block !important;
@@ -194,15 +205,10 @@ strong {
   border: none !important;
 }
 
-.contactPopupButton a:link, .contactPopupButton a:hover, .contactPopupButton a:visited,
-.homeContactPopupButton a:link, .homeContactPopupButton a:hover, .homeContactPopupButton a:visited {
+.contactPopupButton a:link, .contactPopupButton a:visited, .contactPopupButton a:hover,
+.homeContactPopupButton a:link, .homeContactPopupButton a:visited, .homeContactPopupButton a:hover {
   background: #2638a2 !important;
 }
-
-/*.subscribePopupButton a:link, .subscribePopupButton a:hover, .subscribePopupButton a:visited,
-.subscribeButton a:link, .subscribeButton a:hover, .subscribeButton a:visited {
-  background: #f9b701 !important;
-}*/
 
 /*---------Pagination---------*/
 
@@ -211,7 +217,7 @@ strong {
   margin: 20px 0 50px;
 }
 
-.pagination a:hover, .pagination a:visited, .pagination a:link {
+.pagination a:visited, .pagination a:link, .pagination a:hover {
   background-color: #263238;
   color: white;
   padding: 1rem;
@@ -363,7 +369,8 @@ body {
   display: none;
 }
 
-.topStory a:link, .topStory a:visited, .topStory a:hover, a.sharpLink:link, a.sharpLink:visited, a.sharpLink:hover {
+.topStory a:link, .topStory a:visited, .topStory a:hover,
+a.sharpLink:link, a.sharpLink:visited, a.sharpLink:hover {
   color: #f9b701;
 }
 
@@ -577,9 +584,10 @@ ul.details {
   font-size: 1.1rem;
 }
 
-.blogContent a:link, .blogContent a:hover, .blogContent a:visited,
-.serviceContent a:link, .serviceContent a:hover, .serviceContent a:visited,
-.finePrint a:link, .finePrint a:hover, .finePrint a:visited {
+.blogContent a:link, .blogContent a:visited, .blogContent a:hover,
+.serviceContent a:link, .serviceContent a:visited, .serviceContent a:hover,
+.finePrint a:link, .finePrint a:visited, .finePrint a:hover,
+.faqLink a:link, .faqLink a:visited, .faqLink a:hover {
   color: #f9b701;
 }
 
@@ -819,9 +827,17 @@ ul.details {
   text-align: center;
   border-radius: 50%;
   line-height: 180px;
-  margin: 25px auto;
   font-size: 3.5rem;
+  margin: 25px auto;
   font-family: 'Poiret One', cursive;
+}
+
+.rightOptionDiv {
+  font-size: 2.6rem;
+}
+
+.leftOptionDiv {
+  font-size: 3.5rem;
 }
 
 .smallText {
@@ -864,7 +880,7 @@ ul.details {
   padding-top: 40px;
 }
 
-.serviceStore a:link, .serviceStore a:hover, .serviceStore a:visited {
+.serviceStore a:link, .serviceStore a:visited, .serviceStore a:hover {
   background: #2638a2;
   font-size: 1.4rem;
   color: #ffffff;
@@ -872,16 +888,44 @@ ul.details {
   font-family: 'Quicksand', 'Cinzel', sans-serif;
 }
 
-.finePrint {
-  margin-top: 140px;
+.finePrint, .faq {
   font-family: 'Quicksand', sans-serif;
 }
 
-.finePrint h6 {
+.faq {
+  margin-top: 50px;
+}
+
+.inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+}
+
+.faq li {
+  margin: .25rem 0;
+}
+
+a.toggle {
+  width: 100%;
+  display: block;
+  border: 1px solid #c5c5c5;
+  background: #f6f6f6;
+  color: #263238 !important;
+  padding: .75em;
+  border-radius: 0.15em;
+  transition: background .3s ease;
+}
+
+.finePrint {
+  margin-top: 140px;
+}
+
+.finePrint h6, .faq h6 {
   text-align: left;
 }
 
-.finePrint p {
+.finePrint p, .faq p {
   font-size: 1rem !important;
   text-align: left;
   line-height: 1.5;
@@ -895,10 +939,6 @@ ul.details {
 .ui-state-focus {
   outline: none;
 }
-
-/*.ui-accordion .ui-accordion-content {
-  padding: 0 2.2em !important;
-}*/
 
 .wordpressServiceList {
   padding-top: 30px;
@@ -937,6 +977,72 @@ ul.details {
   position: absolute;
   left: -999em;
 }
+
+/*---------Toggle Switches---------*/
+
+.toggleSwitch {
+  height:60px;
+  margin: 100px auto 10px;
+  position:Relative;
+  width:340px;
+}
+
+.rightOption, .leftOption{
+  float:left;
+  text-align:center;
+  width: 170px;
+  line-height:60px;
+  font-size:1.5rem;
+  transition:all 0.2s linear;
+  font-family:'Quicksand';
+}
+
+.leftOption{
+  color: #ffffff;
+  background: #2638a2;
+}
+
+.rightOption{
+  color:#808080;
+  background: #d3d3d3;
+}
+
+.slider{
+  height:60px;
+  width:170px;
+  position:absolute;
+  left:0;
+  top:0;
+  transition: all 0.3s ease-out;
+}
+
+.checkbox {
+  display:none;
+}
+
+.toggleLabel {
+  display:block;
+  position:absolute;
+  z-index:999;
+  height:100%;
+  width:100%;
+  cursor:pointer;
+}
+
+#switchCheck:checked ~ .slider {
+  left:170px;
+}
+
+#switchCheck:checked ~ .leftOption {
+  color:#808080;
+  background: #d3d3d3;
+}
+
+#switchCheck:checked ~ .rightOption {
+  color:white;
+  background:#2638a2;
+}
+
 
 /*---------SharpSpring Training---------*/
 
@@ -1077,17 +1183,30 @@ td {
     clear: both;
   }
 
-  /*.portfolioImages img {
-    height:171px;
-    max-width:304px;
-  }*/
-
   .homeHeader h1, .about h4 {
     font-size: 2rem;
   }
 
   .homeHeader p {
     font-size: .8rem;
+  }
+
+  .toggleSwitch {
+    width:240px;
+  }
+
+  .rightOption, .leftOption {
+    width: 120px;
+  }
+
+  .slider {
+    width:120px;
+  }
+
+  #monthlyWordpressCheck:checked ~ .slider,
+  #monthlyCheck:checked ~ .slider,
+  #websiteCheck:checked ~ .slider {
+    left:120px;
   }
 }
 
@@ -1128,7 +1247,6 @@ td {
   }
 
   .about img {
-    /*float: left;*/
     width: 100%;
   }
 

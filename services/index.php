@@ -10,6 +10,7 @@ $services = getAllServices();
   $pageTitle="Services";
   include(ROOT_PATH."inc/header.php");
   include(ROOT_PATH."inc/contactFormPopup.php");
+  // include(ROOT_PATH."inc/reportCard.php");
 ?>
     <div class="wrapper">
       <div class="services">
@@ -17,7 +18,7 @@ $services = getAllServices();
         <div class="servicesList">
           <div class="servicesInfo">
             <p>
-              Do you need a new website or a re-design? How about a new logo? Maybe you are just having a small technical issue that you would just cannot figure out. Or do you need someone to handle the technical areas of your Wordpress site so that you can get back to focusing on your business.
+              Does your website need work? How about a new logo? Maybe you are just having a small technical issue that you would just cannot figure out. We offer these services as well as handling the technical areas of your Wordpress site. All these services focus on letting us do what we do best, so that you can get back to focusing on your business.
             </p>
             <ul class="servicesImages">
               <?php foreach($services as $service) {
