@@ -12,7 +12,7 @@ require_once("inc/config.php");
 </div>
   <div class="homeHeader">
       <h1 class='title'>Mount McKinney</h1>
-      <p class='title'>Websites Designed to Help You Reach Your Peak</p>
+      <p class='title'>Web Services Designed to Help You Reach Your Peak</p>
 </div>
 <div class="homeContactPopupButton">
   <a class="typeform-share button" href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">CONTACT US</a>

@@ -1,13 +1,12 @@
 Now to do:
--Create list of reasons to go with each package for Development & Design
--Add referral bonus
 -Add meta tags with descriptions
--Set up MailChimp & start sending out monthly newsletters (promote these on FB, Instagram, Twitter)
 -Change the menuHover animation where it will roll the background color down slowly from the top
 -Finish shop layout
 
 Soon to do:
+-Set up MailChimp & start sending out monthly newsletters (promote these on FB, Instagram, Twitter)
 -Change the scrollbars (jQuery)
 -Add a click outside mobile menu, closes mobile menu
 -Create a popup for complementary site report card
 -Decide whether I will offer SharpSpring help as a service & whether I will sell access to SharpSpring as a service
+-Change Website plan page to a form for people to select options

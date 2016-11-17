@@ -15,13 +15,13 @@ require_once("../inc/config.php");
         <h6>Why Mount McKinney?</h6>
         <div>
           <p>
-            So glad you asked! We created a page specifically for that very question. <a href='http://localhost/why-us'>Why Us?</a>
+            So glad you asked! We created a page specifically for that very question. <a href="<?php echo BASE_URL; ?>why-us/">Why Us?</a>
           </p>
         </div>
         <h6 class="altRow">How much does a website cost?</h6>
         <div>
           <p>
-            The short answer: Our prices vary depending on your needs. We would never give you a quote without talking to you and figuring out the specifics. However, based on prior experience we do have ballpark ranges on our <a href='http://localhost/service/?service=web-development'>Web Development & Design</a> page.
+            The short answer: Our prices vary depending on your needs. We would never give you a quote without talking to you and figuring out the specifics. However, based on prior experience we do have ballpark ranges on our <a href="<?php echo BASE_URL; ?>service/?service=web-development">Web Development & Design</a> page.
             <br/ >
             <br/ >
             The long answer: To truly find what it will cost, we need to have a conversation with you. We are all about relationships here at Mount McKinney and we need to find out what functionality you need in a site, what the site&apos;s purpose is, etc. After speaking with you we can work on a firm quote taking into account your specific situation and needs.
@@ -45,13 +45,13 @@ require_once("../inc/config.php");
             Worst of all, they likely won&apos;t be responsive. <strong>Mount McKinney is all about relationships</strong>. We want to forge a lasting relationship with you your peak! As such, we respond to emails quickly even if it is just to let you know that we need a few hours to respond. We don&apos;t &quot;go dark&quot; on you. Ever.
           </p>
         </div>
-        <h6 class="altRow">What if I want to make changes?</h6>
+        <h6 class="altRow">What if I want to make changes during the site&apos;s development?</h6>
         <div>
           <p>
             Changes to the site are to be expected. Sometimes when you see something actually on screen it doesn&apos;t come across like you imagined. That&apos;s why Mount McKinney is happy to make changes to your site throughout development or even after go-live.
             <br/>
             <br/>
-            <strong>Small changes</strong> such as choosing different fonts, different colors, etc. are no cost. You can let us know you would like those changed and we will either make the change immediately or show you a side-by-side comparison of the original to the proposed changes so you can make an informed choice about what to go with.
+            <strong>Small changes</strong> such as choosing different fonts, different colors, etc. are no cost. You can let us know what you would like to have changed and we will either make the change immediately or show you a side-by-side comparison of the original to the proposed changes so you can make an informed choice about what to go with. We extend this as a courtesy but ask that you don&apos;t abuse it. We want you to have something you like but also need to manage our time. If your requests become too frequent we will let you know.
             <br/>
             <br/>
             <strong>Major changes</strong> such as adding an entire new page, adding functionality like a blog or a shop, etc. will require an add-on quote. We will never do work without getting your approval on this new quote first. If you need something added, you can let us know and we will be happy to send a quote to you.
@@ -60,13 +60,17 @@ require_once("../inc/config.php");
         <h6>Will my website work on mobile devices?</h6>
         <div>
           <p>
-            Yes! We use all current design principals. One of which is responsive design where content will automatically resize based on the screen size.
+            Yes! We use all current design principals. One current principal is responsive design where content will automatically resize based on the screen size.
           </p>
         </div>
-        <h6 class="altRow">Do you offer copywriting or photography services?</h6>
+        <h6 class="altRow">Who provides the copy and images for the site? Do you offer copywriting or photography services?</h6>
         <div>
           <p>
-            At this time we don&apos;t offer either directly. However, we do have a network of highly skilled creative associates who we can connect you with.
+            You are responsible for providing the copy (basically, the words on a site) and the images for the site.
+          </p>
+          <br />
+          <p>
+            At this time we don&apos;t offer either copywriting or photography directly. However, we do have a network of highly skilled creative associates who we can connect you with if you are in need of help.
           </p>
         </div>
         <h6>How does payment work?</h6>
@@ -75,7 +79,7 @@ require_once("../inc/config.php");
             Payment is different depending on the service provided. For most web development & design and logo design are typically paid with a 50% deposit. Upon completion of the site, the other 50% is due before we officially hand over any files. A large project will require a 40% deposit, another 30% will be due at the halfway point of the project, and the last 30% will be due upon completion.
             <br>
             <br>
-            Our <a href="http://localhost/service/?service=quick-fix">Quick Fixes</a>, <a href="http://localhost/service/?service=care-plan">Monthly Website Care Plans</a>, and <a href="http://localhost/service/?service=wordpress-care-plan">Monthly WordPress Care Plans</a> are paid in advance.
+            Our <a href="<?php echo BASE_URL; ?>service/?service=quick-fix">Quick Fixes</a>, <a href="<?php echo BASE_URL; ?>service/?service=care-plan">Monthly Website Care Plans</a>, and <a href="<?php echo BASE_URL; ?>service/?service=wordpress-care-plan">Monthly WordPress Care Plans</a> are paid in advance.
           </p>
         </div>
         <h6 class="altRow">Do you offer a referral bonus?</h6>
@@ -120,7 +124,7 @@ require_once("../inc/config.php");
         <h6>Do you provide site maintenance and updates?</h6>
         <div>
           <p>
-            We do! We have a couple of monthly plans to suit your needs. We have <a href="http://localhost/service/?service=wordpress-care-plan">Monthly WordPress Care Plans</a> to handle the specific needs of WordPress users. Our <a href="http://localhost/service/?service=care-plan">Monthly Website Care Plans</a> are perfect if you have a site not on WordPress.
+            We do! We have a couple of monthly plans to suit your needs. We have <a href="<?php echo BASE_URL; ?>service/?service=wordpress-care-plan">Monthly WordPress Care Plans</a> to handle the specific needs of WordPress users. Our <a href="<?php echo BASE_URL; ?>service/?service=care-plan">Monthly Website Care Plans</a> are perfect if you have a site not on WordPress.
           </p>
         </div>
         <h6 class="altRow">We recently had our site redesigned and just need some minor things changed. Can you provide that service?</h6>
@@ -129,18 +133,18 @@ require_once("../inc/config.php");
             Definitely! We can provide you a custom quote if you fill out the <a href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact Us</a> form. We look forward to working with you!
           </p>
         </div>
-        <h6>What&apos;s a Quick Fix?</h6>
-        <div>
-          <p>
-            Quick Fixes are defined as jobs that Mount McKinney determines will take 30 mins or less. You cannot stack multiple small jobs to make a large project.
-          </p>
-        </div>
-        <h6 class="altRow">Platforms Covered</h6>
+        <h6 class="altRow">What platforms do we create and maintain websites on?</h6>
         <div>
           <p>
             Platforms supported: Squarespace, Drupal, Weebly, Wix, Joomla, Shopify, Blogger, Tumblr, and even custom built sites.
             <br />
-            Is your site built on something not listed? <a href=''>Contact us</a> to find out if we can maintain it for you!
+            Is your site built on something not listed? <a href=''>Contact us</a> to find out if we can help!
+          </p>
+        </div>
+        <h6>What&apos;s a Quick Fix?</h6>
+        <div>
+          <p>
+            Quick Fixes are defined as jobs that Mount McKinney determines will take 30 mins or less. You cannot stack multiple small jobs to make a large project.
           </p>
         </div>
       </div>
