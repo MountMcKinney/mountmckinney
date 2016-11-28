@@ -1,15 +1,15 @@
 <?php
 
-  function displayCampfireFeatured($topStory){
-    //build HTML output here
-    $output = "";
-    $output .= '<a href="'.BASE_URL.'campfire/?story='.$topStory["story"].'">';
-    $output .= '<img src="'.BASE_URL.$topStory["img"] .'" alt="'.$topStory["info"].'class="topStoryImg">';
-    $output .= "<h1 class='topStoryCaption'>".$topStory["title"]."</h1>";
-    $output .= '</a>';
-
-    return $output;
-  }
+  // function displayCampfireFeatured($topStory){
+  //   //build HTML output here
+  //   $output = "";
+  //   $output .= '<a href="'.BASE_URL.'campfire/?story='.$topStory["story"].'">';
+  //   $output .= '<img src="'.BASE_URL.$topStory["img"] .'" alt="'.$topStory["info"].'class="topStoryImg">';
+  //   $output .= "<h1 class='topStoryCaption'>".$topStory["title"]."</h1>";
+  //   $output .= '</a>';
+  //
+  //   return $output;
+  // }
 
   function displayCampfireHtml($cfstory){
     //build HTML output here
@@ -61,94 +61,72 @@ function getCfstoriesSubset($positionStart, $positionEnd) {
 
 function getAllCfstories() {
   $cfstories = array();
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "date" => "November 16th, 2016"
-  //  );
-  // $cfstories["southern-charm"] = array(
-  //   "img" => "img/blog/header/savannahSouthernCharm.jpg",
-  //   "thumb" => "img/blog/thumb/savannahSouthernCharmThumb.jpg",
-  //   "title" => "Southern Charm",
-  //   "info" => "Get Out And Live!",
-  //   "section" => "<p class='blogContent'>
-  //
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideRight asideLandscape'>
-  //                   <img src='../img/blog/aside/paris.jpg' alt='A Paris Sunset'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent clearContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <aside class='asideLeft asideLandscape'>
-  //                   <img src='../img/blog/aside/italianCountrysideAside2.jpg' alt='The Italian Countryside'>
-  //                 </aside>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 <br />
-  //                 <p class='blogContent'>
-  //                 </p>
-  //                 ",
-  //   "catch" => "Remember, Adventure is Calling!",
-  //   "date" => "November 9th, 2016"
-  //  );
+  $cfstories["painful-mountain-climbs"] = array(
+    "img" => "img/blog/header/croaghPatrickHeader.jpg",
+    "thumb" => "img/blog/thumb/croaghPatrickHeaderThumb.jpg",
+    "title" => "Painful Mountain Climbs",
+    "info" => "The beautiful Croagh Patrick",
+    "section" => "<h5 class='blogSubHeader'>Giant Castles & Estates</h5>
+                  <br />
+                  <p class='blogContent'>
+                    After moonwalking in Ireland, we headed north to Westport. Along our path, our first stop was Ashford Castle. My wife&apos;s ancestor was a gardener at Ashford. Set on Lough Corrib, this large castle turned into a hotel resort has gorgeous sprawling gardens, a falconry school (which I learned was a thing), a golf course, and a number of beautiful trails. The gardens alone are worth the stop as you head north from Galway.
+                  </p>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/ashfordCastleGardens.jpg' alt='The gardens at Ashford Castle'>
+                  </aside>
+                  <br />
+                  <h5 class='blogSubHeader'>Irish Beer & Music</h5>
+                  <br />
+                  <p class='blogContent clearContent'>
+                    After our relaxing lunch break at Ashford, we made our way to Westport. This small city, an hour and a half north of Galway, was a wonderful place to stay a few nights. Small enough to walk around but big enough to not do so within 30 mins like some places we&apos;ve stayed. After grabbing dinner we made our way to the famous Matt Mulloy&apos;s to listen to traditional Irish music. We figured since we would be getting there about an hour before the music was to start, we wouldn&apos;t have trouble getting a seat...boy were we wrong. The place was packed with no real place to even stand. So instead we moved down a few doors to another pub on the same street that had far less foot traffic.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Grabbing a seat at a table just a table away from where they&apos;d be playing we couldn&apos;t have asked for better seats or a more fun atmosphere. We first shared a table with two ladies who had come to Ireland from the States but had made no plans. They were just going from town to town figuring out what to do as they got there. They were essentially vagabonds and as much as I love being spontaneous, I do like having at least a rough idea of a few things to see. I&apos;ve done travel like that in the States but don&apos;t think I could do so in a place with as much to see as Ireland. After they left, we had 2 German men join our table. They were in love with the music, clapping and singing along (not well but who cares). We, like everyone else, thoroughly enjoyed the beer and the music.
+                  </p>
+                  <br />
+                  <aside class='asideLeft asidePortrait'>
+                    <img src='../img/blog/aside/ridiculousRockPath.jpg' alt='The path up the Croagh Patrick was anything but easy'>
+                  </aside>
+                  <br />
+                  <h5 class='blogSubHeader'>Trudging Up a Mountain</h5>
+                  <br />
+                  <p class='blogContent'>
+                    After a rather uneventful day of traveling and Irish music, our next day was far different. We climbed the Croagh Patrick, a 764 meter tall mountain just outside of Westport. Named for St. Patrick who would make this trek every year to spend Lent on top of the mountain. This excruciating climb is not for the feint of heart. I found the trail difficult almost from the beginning. The climb up is more of an exercise in continuing to trudge on despite being exhausted. 45 minutes into steep hiking the trail leveled off, if only just briefly. After about 10 minutes of level walking, the trail took a sharp turn up the mountain. The steepness of the beginning was nothing compared to this final climb. The climb up was difficult less so because of how steep it was and more so because the &quot;trail&quot; was a bunch of rocks on top of each other. With almost every step, you slide backward. Never have I felt the adage, two steps forward one step back more. This constant slide made the trail that much more exhausting.
+                  </p>
+                  <br />
+                  <p class='blogContent'>
+                    Finally, the top was in sight. At the top of the Croagh Patrick you have an incredible view of the surrounding area. Mountains to the south, a large bay to the north, the view was 100% worth it. At the top of the mountain is St. Patrick&apos;s Chapel. A small chapel (big considering it&apos;s at the top of a difficult mountain climb) built to commemorate the place St. Patrick spent so many Lents.
+                  </p>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <h5 class='blogSubHeader'>Croagh Patrick on Hard Mode</h5>
+                  <br />
+                  <aside class='asideRight asideLandscape'>
+                    <img src='../img/blog/aside/croaghPatrickShoeless.jpg' alt='A man climbed the Croagh Patrick barefoot while we were there.'>
+                  </aside>
+                  <br />
+                  <p class='blogContent'>
+                    I have done few things as draining as the Croagh Patrick. What&apos;s truly amazing is that some people do this entire trail barefoot. I can&apos;t imagine how much more painful that climb would be without shoes.
+                  </p>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <h5 class='blogSubHeader'>The Final Night in Westport</h5>
+                  <br />
+                  <p class='blogContent'>
+                    The climb down the mountain was...a tad scary at points. As you took a step the rocks would slide beneath you. Thankfully, I never felt in danger of tumbling down the mountain, just more an uneasy feeling of not having a sure footing. After reaching the bottom, we looked back at the mountain we had climbed feeling accomplished...and exhausted. Our evening was again spent walking around the charming Westport exploring the waterfront area. After a long day of hiking, we turned in a little early ready to begin our next trip, Connemara National Park.
+                  </p>
+                  ",
+    "catch" => "Remember, Adventure is Calling!",
+    "date" => "November 9th, 2016"
+   );
   $cfstories["moon-walking-in-ireland"] = array(
     "img" => "img/blog/header/burren.jpg",
     "thumb" => "img/blog/thumb/burrenThumb.jpg",

@@ -349,7 +349,7 @@ $services["web-development"] = array(
                       <p>
                         Platforms supported: Squarespace, Drupal, Weebly, Wix, Joomla, Shopify, Blogger, Tumblr, and even custom built sites.
                         <br />
-                        Is your site built on something not listed? <a href=''>Contact us</a> to find out if we can maintain it for you!
+                        Is your site built on something not listed? <a class='typeform-share link' href='https://mountmckinney.typeform.com/to/IUHF6N' data-mode='1' target='_blank'>Contact us</a> to find out if we can maintain it for you!
                       </p>
                     </div>
                     <h6>Need More Answers?</h6>
@@ -377,10 +377,6 @@ $services["web-development"] = array(
                  <p class='serviceContent'>
                    Are you ready to get rid of your technical headaches? Check out our packages below (Basic, Premier, & VIP) to learn more! If you have a WordPress site, make sure to check out our <a href='http://mountmckinney.com/service/?service=wordpress-care-plan'>Monthly WordPress Care Plans</a>!
                  </p>
-                 <br />
-                 <p class='serviceContent'>
-                   We offer a free 2 months for signing up for a year!
-                 </p>
                  <div>
                    <div class='toggleSwitch'>
                      <input type='checkbox' id='switchCheck' class='checkbox'>
@@ -388,6 +384,7 @@ $services["web-development"] = array(
                      <div class='leftOption'>Monthly</div>
                      <div class='rightOption'>Yearly</div>
                      <div class='slider'></div>
+                     <h6 class='toggleDescription'>2 Months Free for All Yearly Subscriptions</h6>
                    </div>
                  </div>
 
@@ -395,10 +392,12 @@ $services["web-development"] = array(
                    <div class='plans'>
                      <div class='supportPlan basicPlan'>
                        <h3 class='basic'>Basic</h3>
-                       <a href='http://mountmckinney.com/store/#!/Monthly-Website-Support-Basic/p/74707735/category=21497750'>
-                        <h1 class='price rightOptionDiv'>$600<span class='smallText'>/yr</span></h1>
+                       <a class='leftOptionDiv' href='http://store.mountmckinney.com/#!/Monthly-Website-Support-Basic/p/74707735/category=21497750'>
                         <h1 class='price leftOptionDiv'>$60<span class='smallText'>/mo</span></h1>
                        </a>
+                       <h6 class='slashPricing rightOptionDiv'>Before Discount: <strike>$720/yr</strike></h6>
+                       <h1 class='price rightOptionDiv'>$50<span class='smallText'>/mo</span></h1>
+                       <h6 class='slashPricing rightOptionDiv'>After Discount: $600/yr</h6>
                        <h5 class='dynamicDesktopContent' title='Great for those who don&t need much, just a little help now and then.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                        <ul class='dynamicDesktopContent'>
                          <li class='altRow' title='Support will respond within 24 hours. Mount McKinney is all about amazing customer support!'>Response within 24 hours<span class='ui-icon-help'> ?</span></li>
@@ -488,13 +487,17 @@ $services["web-development"] = array(
                              </div>
                        </div>
                        <div class='planButton basicPlanButton'>
-                         <a href='http://mountmckinney.com/store/#!/Monthly-Website-Support-Basic/p/74707735/category=21497750'>Sign Me Up!</a>
+                         <a href='http://store.mountmckinney.com/#!/Monthly-Website-Support-Basic/p/74707735/category=21497750'>Sign Me Up!</a>
                        </div>
                      </div>
                      <div class='supportPlan recommendedPlan premierPlan'>
                        <h3 class='premier'>Premier</h3>
-                       <h1 class='price rightOptionDiv'>$1,000<span class='smallText'>/yr</span></h1>
-                       <h1 class='price leftOptionDiv'>$100<span class='smallText'>/mo</span></h1>
+                       <a class='leftOptionDiv' href='http://store.mountmckinney.com/#!/Monthly-Website-Support-Basic/p/74707735/category=21497750'>
+                        <h1 class='price leftOptionDiv'>$100<span class='smallText'>/mo</span></h1>
+                       </a>
+                       <h6 class='slashPricing rightOptionDiv'>Before Discount: <strike>$1,200/yr</strike></h6>
+                       <h1 class='price rightOptionDiv'>$83<span class='smallText'>/mo</span></h1>
+                       <h6 class='slashPricing rightOptionDiv'>After Discount: $1,000/yr</h6>
                        <h5 class='dynamicDesktopContent' title='Great for professional bloggers, freelancers, and those getting serious about doing business online. Also ninjas, this is perfect for ninjas.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                        <ul class='dynamicDesktopContent'>
                          <li title='Support will respond within 10 hours. Mount McKinney is all about amazing customer support!'>Response within 10 hours<span class='ui-icon-help'> ?</span></li>
@@ -584,13 +587,17 @@ $services["web-development"] = array(
                              </div>
                        </div>
                        <div class='planButton premierPlanButton'>
-                         <a href='http://mountmckinney.com/store/#!/Monthly-Website-Support-Premier/p/74707734/category=21497750'>Sign Me Up!</a>
+                         <a href='http://store.mountmckinney.com/#!/Monthly-Website-Support-Premier/p/74707734/category=21497750'>Sign Me Up!</a>
                        </div>
                      </div>
                      <div class='supportPlan vipPlan'>
                        <h3 class='vip'>VIP</h3>
-                       <h1 class='price rightOptionDiv'>$1,300<span class='smallText'>/yr</span></h1>
-                       <h1 class='price leftOptionDiv'>$130<span class='smallText'>/mo</span></h1>
+                       <a class='leftOptionDiv' href='http://store.mountmckinney.com/#!/Monthly-Website-Support-Basic/p/74707735/category=21497750'>
+                        <h1 class='price leftOptionDiv'>$130<span class='smallText'>/mo</span></h1>
+                       </a>
+                       <h6 class='slashPricing rightOptionDiv'>Before Discount: <strike>$1,560/yr</strike></h6>
+                       <h1 class='price rightOptionDiv'>$108<span class='smallText'>/mo</span></h1>
+                       <h6 class='slashPricing rightOptionDiv'>After Discount: $1,300/yr</h6>
                        <h5 class='dynamicDesktopContent' title='Great for small business owners, rock stars, and full-time freelancers. Basically, those too busy to want to lift a finger to fix their WordPress ever again.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                        <ul class='dynamicDesktopContent'>
                          <li class='altRow' title='Support will respond within 4 hours. Mount McKinney is all about amazing customer support!'>Response within 4 hours<span class='ui-icon-help'> ?</span></li>
@@ -680,7 +687,7 @@ $services["web-development"] = array(
                              </div>
                        </div>
                        <div class='planButton vipPlanButton'>
-                         <a href='http://mountmckinney.com/store/#!/Monthly-Website-Support-VIP/p/74707733/category=21497750'>Sign Me Up!</a>
+                         <a href='http://store.mountmckinney.com/#!/Monthly-Website-Support-VIP/p/74707733/category=21497750'>Sign Me Up!</a>
                        </div>
                      </div>
                    </div>
@@ -702,7 +709,7 @@ $services["web-development"] = array(
                        <p>
                          Platforms supported: Squarespace, Drupal, Weebly, Wix, Joomla, Shopify, Blogger, Tumblr, and even custom built sites.
                          <br />
-                         Is your site built on something not listed? <a href=''>Contact us</a> to find out if we can maintain it for you!
+                         Is your site built on something not listed? <a class='typeform-share link' href='https://mountmckinney.typeform.com/to/IUHF6N' data-mode='1' target='_blank'>Contact us</a> to find out if we can maintain it for you!
                        </p>
                      </div>
                      <h6>Need More Answers?</h6>
@@ -728,7 +735,7 @@ $services["web-development"] = array(
                   </p>
                   <br />
                   <p class='serviceContent'>
-                    Mount McKinney&apos;s Monthly Care Plans come in 3 flavors: Basic, Premier, & VIP. We offer a free 2 months for signing up for a year!
+                    Mount McKinney&apos;s Monthly Care Plans come in 3 flavors: Basic, Premier, & VIP.
                   </p>
                   <div>
                     <div class='toggleSwitch'>
@@ -737,6 +744,7 @@ $services["web-development"] = array(
                       <div class='leftOption'>Monthly</div>
                       <div class='rightOption'>Yearly</div>
                       <div class='slider'></div>
+                      <h6 class='toggleDescription'>2 Months Free for All Yearly Subscriptions</h6>
                     </div>
                   </div>
 
@@ -744,10 +752,12 @@ $services["web-development"] = array(
                     <div class='plans'>
                       <div class='supportPlan basicPlan'>
                         <h3 class='basic'>Basic</h3>
-                        <a href='http://mountmckinney.com/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=21262075'>
-                          <h1 class='price rightOptionDiv'>$400<span class='smallText'>/yr</span></h1>
+                        <a class='leftOptionDiv' href='http://store.mountmckinney.com/#!/Monthly-WordPress-Support-Basic/p/73472710/category=21262075'>
                           <h1 class='price leftOptionDiv'>$40<span class='smallText'>/mo</span></h1>
                         </a>
+                        <h6 class='slashPricing rightOptionDiv'>Before Discount: <strike>$480/yr</strike></h6>
+                        <h1 class='price rightOptionDiv'>$34<span class='smallText'>/mo</span></h1>
+                        <h6 class='slashPricing rightOptionDiv'>After Discount: $400/yr</h6>
                         <h5 class='dynamicDesktopContent' title='Great for those who don&t need much, just a little help now and then.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                         <ul class='dynamicDesktopContent'>
                           <li class='altRow' title='Support will respond within 24 hours. Mount McKinney is all about amazing customer support!'>Response within 24 hours<span class='ui-icon-help'> ?</span></li>
@@ -865,15 +875,17 @@ $services["web-development"] = array(
                               </div>
                           </div>
                           <div class='planButton basicPlanButton'>
-                            <a href='http://mountmckinney.com/store/#!/Monthly-WordPress-Support-Basic/p/73472710/category=21262075'>Sign Me Up!</a>
+                            <a href='http://store.mountmckinney.com/#!/Monthly-WordPress-Support-Basic/p/73472710/category=21262075'>Sign Me Up!</a>
                           </div>
                         </div>
                       <div class='supportPlan recommendedPlan premierPlan'>
                         <h3 class='premier'>Premier</h3>
-                        <a href='http://mountmckinney.com/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=21262075'>
-                          <h1 class='price rightOptionDiv'>$800<span class='smallText'>/yr</span></h1>
+                        <a class='leftOptionDiv' href='http://store.mountmckinney.com/#!/Monthly-WordPress-Support-Premier/p/73472844/category=21262075'>
                           <h1 class='price leftOptionDiv'>$80<span class='smallText'>/mo</span></h1>
                         </a>
+                        <h6 class='slashPricing rightOptionDiv'>Before Discount: <strike>$960/yr</strike></h6>
+                        <h1 class='price rightOptionDiv'>$67<span class='smallText'>/mo</span></h1>
+                        <h6 class='slashPricing rightOptionDiv'>After Discount: $800/yr</h6>
                         <h5 class='dynamicDesktopContent' title='Great for professional bloggers, freelancers, and those getting serious about doing business online. Also ninjas, this is perfect for ninjas.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                         <ul class='dynamicDesktopContent'>
                           <li title='Support will respond within 10 hours. Mount McKinney is all about amazing customer support!'>Response within 10 hours<span class='ui-icon-help'> ?</span></li>
@@ -991,15 +1003,17 @@ $services["web-development"] = array(
                               </div>
                         </div>
                         <div class='planButton premierPlanButton'>
-                          <a href='http://mountmckinney.com/store/#!/Monthly-WordPress-Support-Premier/p/73472844/category=21262075'>Sign Me Up!</a>
+                          <a href='http://store.mountmckinney.com/#!/Monthly-WordPress-Support-Premier/p/73472844/category=21262075'>Sign Me Up!</a>
                         </div>
                       </div>
                       <div class='supportPlan vipPlan'>
                         <h3 class='vip'>VIP</h3>
-                        <a href='http://mountmckinney.com/store/#!/Monthly-WordPress-Support-VIP/p/73472845/category=21262075'>
-                          <h1 class='price rightOptionDiv'>$1,100<span class='smallText'>/yr</span></h1>
+                        <a class='leftOptionDiv' href='http://store.mountmckinney.com/#!/Monthly-WordPress-Support-VIP/p/73472845/category=21262075'>
                           <h1 class='price leftOptionDiv'>$110<span class='smallText'>/mo</span></h1>
                         </a>
+                        <h6 class='slashPricing rightOptionDiv'>Before Discount: <strike>$1,320/yr</strike></h6>
+                        <h1 class='price rightOptionDiv'>$92<span class='smallText'>/mo</span></h1>
+                        <h6 class='slashPricing rightOptionDiv'>After Discount: $1,100/yr</h6>
                         <h5 class='dynamicDesktopContent' title='Great for small business owners, rock stars, and full-time freelancers. Basically, those too busy to want to lift a finger to fix their WordPress ever again.'>Who this plan is for<span class='ui-icon-help'> ?</span></h5>
                         <ul class='dynamicDesktopContent'>
                           <li class='altRow' title='Support will respond within 4 hours. Mount McKinney is all about amazing customer support!'>Response within 4 hours<span class='ui-icon-help'> ?</span></span></li>
@@ -1117,7 +1131,7 @@ $services["web-development"] = array(
                               </div>
                         </div>
                         <div class='planButton vipPlanButton'>
-                          <a href='http://mountmckinney.com/store/#!/Monthly-WordPress-Support-VIP/p/73472845/category=21262075'>Sign Me Up!</a>
+                          <a href='http://store.mountmckinney.com/#!/Monthly-WordPress-Support-VIP/p/73472845/category=21262075'>Sign Me Up!</a>
                         </div>
                       </div>
                     </div>
@@ -1159,8 +1173,8 @@ $services["web-development"] = array(
                      First impressions are everything. Your logo is the first thing people will see about your company. Making it of the upmost importance.
                    </p>
                    <br />
-                   <p class='serviceContent clearContent'>
-                     Mount McKinney would love to create a <strong>beautiful</strong> logo to fit your <strong>custom</strong> needs. We work with you to craft a logo that will encapsulate your company&apos;s vision.
+                   <p class='serviceContent'>
+                     Mount McKinney would love to create a <strong>beautiful</strong> logo to fit your needs. We work with you to craft a logo that will encapsulate your company&apos;s vision.
                    </p>
                    <br />
                    <p class='serviceContent'>
@@ -1170,18 +1184,25 @@ $services["web-development"] = array(
                       <div class='plans'>
                         <div class='logoPlan'>
                           <h3 class='premier'>Logo Design</h3>
-                          <h1 class='price'>$250</h1>
+                          <h6 class='slashPricing'>Prices Starting at:</h6>
+                          <h1 class='price'>Varies</h1>
                           <div id='logoAccordion'>
                             <h6>Custom Logo Design</h6>
                             <div>
                               <p>
-                                Mount McKinney will work with you to create a beautiful logo that will represent your brand well for years to come.
+                                Mount McKinney will take the time to get to know you, your business, and who your clients are. We will work with you to create a beautiful logo that will represent your brand well for years to come.
                               </p>
                             </div>
-                            <h6 class='altRow'>Custom Logo Design</h6>
+                            <h6 class='altRow'>3 Rounds of Major Revisions Included</h6>
                             <div>
                               <p>
-                                Mount McKinney will work with you to create a beautiful logo that will represent your brand well for years to come.
+                                Mount McKinney always includes 3 rounds of major revisions after the initial planning phase when we get into the development of the logo. What happens if we need more than 3? We handle that on a case by case basis.
+                              <br/>
+                              <br/>
+                                An example of a major revision would be moving photos and text around the page. This type of revision changes the layout of the logo which is laid out using certain proportions and guidelines.
+                              <br/>
+                              <br/>
+                                A minor revision may be changing the shade of green we use on your font (unless it causes us to make other major color changes).
                               </p>
                             </div>
                           </div>
@@ -1229,7 +1250,7 @@ $services["web-development"] = array(
                            <li class='altRow'>Fixing a MailChimp Issue</li>
                          </ul>
                          <div class='planButton logoPlanButton'>
-                           <a target='_blank' href='http://mountmckinney.com/store/#!/Quick-Fix/p/74367497/category=21593294'>I Need A Quick Fix</a>
+                           <a target='_blank' href='http://store.mountmckinney.com/#!/Quick-Fix/p/74367497/category=21593294'>I Need A Quick Fix</a>
                          </div>
                        </div>
                      </div>

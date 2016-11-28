@@ -93,7 +93,7 @@ strong {
 
 .homeHeader {
   text-transform: uppercase;
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', sans-serif;
   color: #263238;
   width: 100%;
   position: fixed;
@@ -133,7 +133,7 @@ strong {
 }
 
 .homeHeader h1 {
-  font-family: 'Cinzel', 'Vast Shadow', 'TrajanPro3-Regular', 'Quicksand', serif;
+  font-family: 'Cinzel', 'Vast Shadow', 'TrajanPro3-Regular', 'Quicksand', sans-serif;
   font-size: 4rem;
 }
 
@@ -141,7 +141,7 @@ strong {
   font-size: 1.6rem;
   line-height: 40px;
   text-align: center;
-  font-family: 'Quicksand', 'Cinzel', serif;
+  font-family: 'Quicksand', 'Cinzel', sans-serif;
 }
 
 .homeFooter {
@@ -166,14 +166,14 @@ strong {
   right: 60px;
 }
 
-.homeContactPopupButton {
+/*.homeContactPopupButton {
   position: absolute;
   left: 0;
   right: 0;
-  top: 32%;
+  top: 250px;
   margin: auto;
   max-width: 100%;
-}
+}*/
 
 .subscribeButtonFooter {
   position: static;
@@ -186,7 +186,7 @@ strong {
 .reportCardPopupButton {
   position: fixed;
   z-index: 185;
-  font-family: 'Quicksand', serif;
+  font-family: 'Quicksand', sans-serif;
   border: 3px solid #2638a2;
   padding: 30px;
   background: #ffffff;
@@ -470,7 +470,7 @@ ul.details {
 
 .blogSubHeader {
   font-size: 1.5rem;
-  font-family: 'Quicksand', serif;
+  font-family: 'Quicksand', sans-serif;
   color: #2638a2;
 }
 
@@ -702,7 +702,7 @@ ul.details {
 .ui-tooltip {
   max-width: 300px;
   font-size: 1rem;
-  font-family: 'Quicksand', 'Cinzel', serif;
+  font-family: 'Quicksand', 'Cinzel', sans-serif;
   padding: 10px;
   background: #ffffff;
   margin: 40px;
@@ -809,7 +809,7 @@ ul.details {
 }
 
 .logoPlan h1 {
-  background-color: #2638a2;
+  background-color: #263238;
 }
 
 .vip {
@@ -832,11 +832,11 @@ ul.details {
   font-family: 'Poiret One', cursive;
 }
 
-.rightOptionDiv {
-  font-size: 2.6rem;
+.slashPricing {
+  font-size: 1.4rem;
 }
 
-.leftOptionDiv {
+h1.leftOptionDiv, h1.rightOptionDiv {
   font-size: 3.5rem;
 }
 
@@ -872,7 +872,7 @@ ul.details {
 }
 
 .logoPlanButton {
-  background: #2638a2;
+  background: #263238;
 }
 
 .serviceStore {
@@ -978,13 +978,34 @@ a.toggle {
   left: -999em;
 }
 
+.why-us {
+  margin: 70px auto;
+}
+
+.why-us li {
+  margin: 80px auto;
+}
+
+.why-us h5 {
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
 /*---------Toggle Switches---------*/
 
 .toggleSwitch {
   height:60px;
-  margin: 100px auto 10px;
+  margin: 100px auto 40px;
   position:Relative;
   width:340px;
+}
+
+.toggleDescription {
+  font-size: 1rem;
+  text-align: center;
+  margin: auto;
+  line-height: 40px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .rightOption, .leftOption{
@@ -1282,7 +1303,7 @@ td {
     color: #fff;
     text-align:center;
     text-transform:uppercase;
-    font-family: 'Quicksand', 'Cinzel', serif;
+    font-family: 'Quicksand', 'Cinzel', sans-serif;
   }
 
   .menu li {
@@ -1298,12 +1319,12 @@ td {
     text-align: center;
     font-size: 5rem;
     line-height: 75px;
-    font-family: 'Cinzel', 'Vast Shadow', 'TrajanPro3-Regular', 'Quicksand', serif;
+    font-family: 'Cinzel', 'Vast Shadow', 'TrajanPro3-Regular', 'Quicksand', sans-serif;
   }
 
   .homeHeader p {
     text-align: center;
-    font-family: 'Quicksand', 'Cinzel', serif;
+    font-family: 'Quicksand', 'Cinzel', sans-serif;
     font-size: 2em;
     line-height: 50px;
   }
@@ -1411,7 +1432,7 @@ td {
       display: block;
       text-align: center;
       text-transform: uppercase;
-      font-family: 'Cinzel', serif;
+      font-family: 'Cinzel', sans-serif;
     }
 
   .mobileMenu a:hover {

@@ -133,7 +133,7 @@ require_once("../inc/config.php");
             Definitely! We can provide you a custom quote if you fill out the <a href="https://mountmckinney.typeform.com/to/IUHF6N" data-mode="1" target="_blank">Contact Us</a> form. We look forward to working with you!
           </p>
         </div>
-        <h6 class="altRow">What platforms do we create and maintain websites on?</h6>
+        <h6>What platforms do we create and maintain websites on?</h6>
         <div>
           <p>
             Platforms supported: Squarespace, Drupal, Weebly, Wix, Joomla, Shopify, Blogger, Tumblr, and even custom built sites.
@@ -141,7 +141,7 @@ require_once("../inc/config.php");
             Is your site built on something not listed? <a href=''>Contact us</a> to find out if we can help!
           </p>
         </div>
-        <h6>What&apos;s a Quick Fix?</h6>
+        <h6 class="altRow">What&apos;s a Quick Fix?</h6>
         <div>
           <p>
             Quick Fixes are defined as jobs that Mount McKinney determines will take 30 mins or less. You cannot stack multiple small jobs to make a large project.
